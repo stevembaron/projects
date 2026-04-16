@@ -1,20 +1,33 @@
-# Utah Permit Practice
+# Frusins Weather
 
-A static practice quiz app for the Utah learner permit written knowledge test.
+![GitHub Pages Deploy](https://github.com/stevembaron/frusins-weather/actions/workflows/deploy-pages.yml/badge.svg)
 
-## What It Does
+A modern, light-themed weather dashboard for four saved locations, powered by Open-Meteo (no API key required).
 
-- Runs a 50-question practice test with a 40-correct passing target.
-- Offers quick 10-question drills and a focused trouble-spots mode.
-- Explains every correct and incorrect answer immediately.
-- Saves missed questions in `localStorage` so they can be retried.
-- Uses facts from the official Utah Driver License Division learner permit page and the 2025-2026 Utah Driver Handbook.
+Live site: [https://stevembaron.github.io/frusins-weather/](https://stevembaron.github.io/frusins-weather/)
 
-## Sources
+## Features
 
-- [Utah DLD Learner Permit](https://dld.utah.gov/learner-permit/)
-- [Utah Driver Handbook 2025-2026](https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf)
+- Primary location picker with saved default (`localStorage`)
+- Live current conditions for all four locations
+- 5-day forecast cards for the selected primary location
+- Side-by-side comparison cards across all locations
+- 24-hour temperature comparison chart
+- 24-hour precipitation timeline for the primary location
 
-## Run Locally
+## Run locally
 
-Open `index.html` directly in a browser.
+This is a static web app.
+
+1. Open `index.html` directly in your browser, or
+2. Serve the folder with any static server (example):
+
+```bash
+python3 -m http.server 8080
+```
+
+Then visit `http://localhost:8080`.
+
+## Deploy
+
+This repo includes a GitHub Actions workflow that deploys the site to GitHub Pages on every push to `main`.
