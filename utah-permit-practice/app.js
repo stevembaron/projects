@@ -5,6 +5,22 @@ const SOURCES = {
   handbook: "Utah Driver Handbook 2025-2026",
 };
 
+const CAT_REACTIONS = [
+  "Patty has entered review mode. Tiny clipboard, huge expectations.",
+  "Close, but the cat is gently requesting a re-read.",
+  "The whiskers say: almost, but Utah says otherwise.",
+  "A noble attempt. The cat accepts your offering and points at the explanation.",
+  "Not quite. Patty is not mad, just extremely invested.",
+  "The answer took the scenic route. Let’s bring it back to the handbook.",
+  "A small miss. The cat has seen worse parking.",
+  "Patty blinked twice. That means check the rule and try again.",
+];
+
+const CAT_IMAGE = {
+  src: "assets/patty-review.svg",
+  alt: "A tabby cat looking serious about permit test review",
+};
+
 const QUESTION_BANK = [
   {
     id: "permit-age",
@@ -738,9 +754,18 @@ function chooseAnswer(index) {
     addMiss(question.id);
   }
 
+  const catReaction = CAT_REACTIONS[(session.answered + session.index) % CAT_REACTIONS.length];
+  const wrongFeedback = `
+    <div class="cat-reaction">
+      <img src="${CAT_IMAGE.src}" alt="${CAT_IMAGE.alt}" />
+      <p>${catReaction}</p>
+    </div>
+  `;
+
   elements.feedback.className = `feedback ${isCorrect ? "good" : "bad"}`;
   elements.feedback.innerHTML = `
     <strong>${isCorrect ? "Correct." : "Not this one."}</strong>
+    ${isCorrect ? "" : wrongFeedback}
     ${question.explain}
     <div class="fine-print">Source: ${question.source}</div>
   `;

@@ -292,6 +292,35 @@ select {
   margin-bottom: 6px;
 }
 
+.cat-reaction {
+  display: grid;
+  grid-template-columns: minmax(110px, 190px) minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  margin: 10px 0 14px;
+  padding: 10px;
+  border: 1px solid rgba(182, 63, 53, 0.24);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.52);
+}
+
+.cat-reaction img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(101, 113, 111, 0.22);
+  background: #f8efe0;
+}
+
+.cat-reaction p {
+  margin: 0;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.25;
+}
+
 .feedback.good {
   border-color: #99cdbb;
   background: var(--green-soft);
@@ -367,5 +396,13 @@ select {
 
   .quiz-actions > button {
     flex: 1;
+  }
+
+  .cat-reaction {
+    grid-template-columns: 1fr;
+  }
+
+  .cat-reaction img {
+    max-height: 210px;
   }
 }
