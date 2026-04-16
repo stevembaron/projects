@@ -16,10 +16,19 @@ const CAT_REACTIONS = [
   "Polly blinked twice. That means check the rule and try again.",
 ];
 
-const CAT_IMAGE = {
-  src: "assets/polly-review.svg",
-  alt: "A tabby cat looking serious about permit test review",
-};
+const POLLY_IMAGES = [
+  "DSC_0188.jpg",
+  "DSC_3705.jpg",
+  "IMG_1146.jpg",
+  "IMG_1945.jpg",
+  "IMG_2261.jpg",
+  "IMG_2934.jpg",
+  "IMG_3274.jpg",
+  "IMG_9073.jpg",
+].map((filename) => ({
+  src: `assets/${filename}`,
+  alt: "Polly the tabby cat looking serious about permit test review",
+}));
 
 const QUESTION_BANK = [
   {
@@ -755,9 +764,10 @@ function chooseAnswer(index) {
   }
 
   const catReaction = CAT_REACTIONS[(session.answered + session.index) % CAT_REACTIONS.length];
+  const pollyImage = POLLY_IMAGES[(session.answered * 3 + session.index) % POLLY_IMAGES.length];
   const wrongFeedback = `
     <div class="cat-reaction">
-      <img src="${CAT_IMAGE.src}" alt="${CAT_IMAGE.alt}" />
+      <img src="${pollyImage.src}" alt="${pollyImage.alt}" />
       <p>${catReaction}</p>
     </div>
   `;
