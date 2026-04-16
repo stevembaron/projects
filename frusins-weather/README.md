@@ -1,10 +1,10 @@
 # Frusins Weather
 
-![GitHub Pages Deploy](https://github.com/stevembaron/frusins-weather/actions/workflows/deploy-pages.yml/badge.svg)
+![GitHub Pages Deploy](https://github.com/stevembaron/projects/actions/workflows/deploy-pages.yml/badge.svg)
 
 A modern, light-themed weather dashboard for four saved locations, powered by Open-Meteo (no API key required).
 
-Live site: [https://stevembaron.github.io/frusins-weather/frusins-weather/](https://stevembaron.github.io/frusins-weather/frusins-weather/)
+Live site: [https://stevembaron.github.io/projects/frusins-weather/](https://stevembaron.github.io/projects/frusins-weather/)
 
 ## Features
 

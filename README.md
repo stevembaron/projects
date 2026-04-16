@@ -9,9 +9,9 @@ This repository publishes small static apps with each app in its own folder.
 
 ## Published URLs
 
-- Directory page: <https://stevembaron.github.io/frusins-weather/>
-- Frusins Weather: <https://stevembaron.github.io/frusins-weather/frusins-weather/>
-- Utah Permit Practice: <https://stevembaron.github.io/frusins-weather/utah-permit-practice/>
+- Directory page: <https://stevembaron.github.io/projects/>
+- Frusins Weather: <https://stevembaron.github.io/projects/frusins-weather/>
+- Utah Permit Practice: <https://stevembaron.github.io/projects/utah-permit-practice/>
 
 ## Structure Rule
 
