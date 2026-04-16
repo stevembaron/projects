@@ -1,33 +1,18 @@
-# Frusins Weather
+# Web Apps
 
-![GitHub Pages Deploy](https://github.com/stevembaron/frusins-weather/actions/workflows/deploy-pages.yml/badge.svg)
+This repository publishes small static apps with each app in its own folder.
 
-A modern, light-themed weather dashboard for four saved locations, powered by Open-Meteo (no API key required).
+## Apps
 
-Live site: [https://stevembaron.github.io/frusins-weather/](https://stevembaron.github.io/frusins-weather/)
+- [Frusins Weather](frusins-weather/)
+- [Utah Permit Practice](utah-permit-practice/)
 
-## Features
+## Published URLs
 
-- Primary location picker with saved default (`localStorage`)
-- Live current conditions for all four locations
-- 5-day forecast cards for the selected primary location
-- Side-by-side comparison cards across all locations
-- 24-hour temperature comparison chart
-- 24-hour precipitation timeline for the primary location
+- Directory page: <https://stevembaron.github.io/frusins-weather/>
+- Frusins Weather: <https://stevembaron.github.io/frusins-weather/frusins-weather/>
+- Utah Permit Practice: <https://stevembaron.github.io/frusins-weather/utah-permit-practice/>
 
-## Run locally
+## Structure Rule
 
-This is a static web app.
-
-1. Open `index.html` directly in your browser, or
-2. Serve the folder with any static server (example):
-
-```bash
-python3 -m http.server 8080
-```
-
-Then visit `http://localhost:8080`.
-
-## Deploy
-
-This repo includes a GitHub Actions workflow that deploys the site to GitHub Pages on every push to `main`.
+Keep the repository root as the directory page. New apps should be added as sibling folders at the root.
