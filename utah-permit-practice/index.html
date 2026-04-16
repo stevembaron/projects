@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utah Permit Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="quiz-stage" aria-labelledby="appTitle">
+        <div class="intro-panel">
+          <div>
+            <p class="eyebrow">Utah learner permit practice</p>
+            <h1 id="appTitle">Pass it clean.</h1>
+            <p class="lede">
+              50-question exam mode, quick drills, and instant explanations based on Utah DLD's
+              2025-2026 Driver Handbook and learner permit rules.
+            </p>
+          </div>
+          <img
+            src="https://cdn.pixabay.com/photo/2021/02/20/08/51/utah-6032690_1280.jpg"
+            alt="A Utah road leading toward snowy mountains"
+          />
+        </div>
+
+        <aside class="score-panel" aria-label="Quiz setup and progress">
+          <div class="stat-strip">
+            <div>
+              <span id="answeredCount">0</span>
+              <small>answered</small>
+            </div>
+            <div>
+              <span id="correctCount">0</span>
+              <small>correct</small>
+            </div>
+            <div>
+              <span id="streakCount">0</span>
+              <small>streak</small>
+            </div>
+          </div>
+          <label for="modeSelect">Practice mode</label>
+          <select id="modeSelect">
+            <option value="exam">50-question test</option>
+            <option value="quick">Quick 10</option>
+            <option value="weak">Trouble spots</option>
+          </select>
+          <button class="primary-btn" id="startBtn" type="button">Start fresh</button>
+          <button class="ghost-btn" id="missedBtn" type="button">Retry missed</button>
+          <p id="modeNote" class="fine-print"></p>
+        </aside>
+      </section>
+
+      <section class="quiz-card" aria-live="polite">
+        <div class="quiz-topline">
+          <span id="categoryPill" class="pill">Ready</span>
+          <span id="questionProgress">Choose a mode to begin.</span>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <div id="progressBar"></div>
+        </div>
+        <h2 id="questionText">Let’s get the one question back.</h2>
+        <div id="answers" class="answer-grid"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <div class="quiz-actions">
+          <button class="ghost-btn" id="skipBtn" type="button">Skip</button>
+          <button class="primary-btn" id="nextBtn" type="button" disabled>Next</button>
+        </div>
+      </section>
+
+      <section class="review-grid">
+        <article>
+          <h2>Today’s Focus</h2>
+          <div id="focusList" class="focus-list"></div>
+        </article>
+        <article>
+          <h2>Source Check</h2>
+          <p>
+            Sources: Utah DLD
+            <a href="https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf" target="_blank" rel="noreferrer"
+              >2025-2026 Driver Handbook</a
+            >
+            and
+            <a href="https://dld.utah.gov/learner-permit/" target="_blank" rel="noreferrer">Learner Permit page</a>.
+          </p>
+          <p class="fine-print">
+            This is practice, not a copy of the state test. The explanations point back to the official
+            Utah material so the habits match what she’ll be tested on.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
