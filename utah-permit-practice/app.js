@@ -6,18 +6,18 @@ const SOURCES = {
 };
 
 const CAT_REACTIONS = [
-  "Patty has entered review mode. Tiny clipboard, huge expectations.",
+  "Polly has entered review mode. Tiny clipboard, huge expectations.",
   "Close, but the cat is gently requesting a re-read.",
   "The whiskers say: almost, but Utah says otherwise.",
   "A noble attempt. The cat accepts your offering and points at the explanation.",
-  "Not quite. Patty is not mad, just extremely invested.",
+  "Not quite. Polly is not mad, just extremely invested.",
   "The answer took the scenic route. Let’s bring it back to the handbook.",
   "A small miss. The cat has seen worse parking.",
-  "Patty blinked twice. That means check the rule and try again.",
+  "Polly blinked twice. That means check the rule and try again.",
 ];
 
 const CAT_IMAGE = {
-  src: "assets/patty-review.svg",
+  src: "assets/polly-review.svg",
   alt: "A tabby cat looking serious about permit test review",
 };
 
