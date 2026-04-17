@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-live="polite">
+        <div class="hero-copy">
+          <p class="kicker" id="stationName">Perrys Hollow Rd</p>
+          <h1 id="temperature">--</h1>
+          <p class="condition" id="condition">Reading the sky at home...</p>
+          <div class="hero-actions">
+            <button id="refreshButton" type="button">Refresh</button>
+            <span id="updatedAt">Waiting for live data</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary-band" aria-label="Current weather summary">
+        <article>
+          <span>Feels Like</span>
+          <strong id="feelsLike">--</strong>
+        </article>
+        <article>
+          <span>Humidity</span>
+          <strong id="humidity">--</strong>
+        </article>
+        <article>
+          <span>Pressure</span>
+          <strong id="pressure">--</strong>
+        </article>
+        <article>
+          <span>Today</span>
+          <strong id="todayRain">--</strong>
+        </article>
+      </section>
+
+      <section class="sky-grid" aria-label="Detailed readings">
+        <article class="feature-panel">
+          <div>
+            <p class="kicker">Light</p>
+            <h2 id="lightMood">--</h2>
+            <p id="lightDetail">Solar and brightness readings will appear here.</p>
+          </div>
+          <div class="sun-meter" aria-hidden="true">
+            <div id="sunFill"></div>
+          </div>
+        </article>
+
+        <article class="feature-panel rain-panel">
+          <div>
+            <p class="kicker">Precipitation</p>
+            <h2 id="rainMood">--</h2>
+            <p id="rainDetail">Rain totals will appear here.</p>
+          </div>
+          <div class="rain-lines" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </article>
+      </section>
+
+      <section class="reading-list" aria-label="All readings">
+        <div class="section-heading">
+          <p class="kicker">Station 63486</p>
+          <h2>Right Now At Home</h2>
+        </div>
+        <div class="readings" id="readings"></div>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
