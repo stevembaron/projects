@@ -1,0 +1,94 @@
+{
+  "keywords": [
+    "ski",
+    "skis",
+    "binding",
+    "bindings",
+    "boot",
+    "boots",
+    "goggle",
+    "goggles",
+    "helmet",
+    "jacket",
+    "pants",
+    "pole",
+    "poles",
+    "beacon",
+    "avalanche",
+    "touring",
+    "powder",
+    "all-mountain",
+    "shell",
+    "insulated"
+  ],
+  "exclude_keywords": [
+    "water ski",
+    "waterski",
+    "wakeboard",
+    "kid",
+    "kids",
+    "kid's",
+    "kids'",
+    "junior",
+    "youth",
+    "grom",
+    "groms",
+    "boys",
+    "girls",
+    "nordic",
+    "cross country",
+    "cross-country",
+    "xc ski",
+    "xc skis",
+    "classic ski",
+    "classic skis",
+    "skate ski",
+    "skate skis"
+  ],
+  "min_discount_percent": 20,
+  "max_results_per_source": 30,
+  "sources": [
+    {
+      "name": "Sierra skis",
+      "url": "https://www.sierra.com/s~skis/activities~d~14342/sports-and-games~d~14656/snow-sports~d~14343/skis~d~9694/",
+      "enabled": true,
+      "reader_fallback": true
+    },
+    {
+      "name": "Evo skis price ascending",
+      "url": "https://www.evo.com/shop/ski/skis/mens/unisex/womens/online/store_salt-lake-city/s_price-asc",
+      "enabled": true,
+      "reader_fallback": true,
+      "max_results_per_source": 80
+    },
+    {
+      "name": "CampSaver backcountry skis",
+      "url": "https://www.campsaver.com/backcountry-skis.html?_iv_sort=lowest-price",
+      "enabled": true
+    },
+    {
+      "name": "J Skis Secret Stash",
+      "url": "https://jskis.com/collections/secret-stash",
+      "enabled": true,
+      "reader_fallback": true,
+      "keywords": [],
+      "exclude_keywords": [
+        "single ski",
+        "single skis",
+        "single left",
+        "single right",
+        "left single",
+        "right single"
+      ]
+    },
+    {
+      "name": "The Gear Room skis price ascending",
+      "url": "https://thegearroom.com/collections/skis?sort_by=price-ascending&filter.v.price.gte=&filter.v.price.lte=",
+      "enabled": true,
+      "reader_fallback": true,
+      "ignore_sold_out": true,
+      "keywords": [],
+      "shopify_products_json": "https://thegearroom.com/collections/skis/products.json"
+    }
+  ]
+}

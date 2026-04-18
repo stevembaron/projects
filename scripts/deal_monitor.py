@@ -1,0 +1,794 @@
+#!/usr/bin/env python3
+"""
+Ski gear deal monitor.
+
+This intentionally uses only the Python standard library so it can run from a
+plain local checkout or a scheduled Codex automation without dependency setup.
+"""
+
+from __future__ import annotations
+
+import argparse
+import html
+import json
+import re
+import sys
+import time
+from dataclasses import asdict, dataclass
+from datetime import datetime, timezone
+from html.parser import HTMLParser
+from pathlib import Path
+from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.parse import quote, urljoin, urlparse, urlunparse
+from urllib.request import Request, urlopen
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_CONFIG = ROOT / "config" / "deal_sources.json"
+DATA_DIR = ROOT / "data"
+JSON_OUTPUT = DATA_DIR / "deals.json"
+HTML_OUTPUT = DATA_DIR / "deals.html"
+MD_OUTPUT = DATA_DIR / "deal_report.md"
+WEB_DIR = ROOT / "ski-deals"
+WEB_OUTPUT = WEB_DIR / "index.html"
+
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/123.0 Safari/537.36 SkiDealMonitor/1.0"
+)
+REQUEST_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+}
+
+PRICE_RE = re.compile(r"\$\s?([0-9]{1,4}(?:,[0-9]{3})?(?:\.[0-9]{2})?)")
+SPACE_RE = re.compile(r"\s+")
+MARKDOWN_LINK_RE = re.compile(r"\[(?P<label>[^\]]+)\]\((?P<url>https?://[^)]+)\)")
+MARKDOWN_IMAGE_LINK_RE = re.compile(
+    r"\[\!\[Image\s+\d+:?\s*(?P<title>[^\]]*)\]\((?P<img>[^)]+)\)(?P<tail>[^\]]*?)\]\((?P<url>https?://[^)]+)\)",
+    re.DOTALL,
+)
+JSON_LD_RE = re.compile(
+    r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+    re.IGNORECASE | re.DOTALL,
+)
+REMIX_CONTEXT_RE = re.compile(r"window\.__remixContext\s*=\s*(\{.*?\});__remixContext\.p", re.DOTALL)
+BLOCK_PATTERNS = [
+    "before we continue",
+    "human challenge",
+    "captcha",
+    "access denied",
+    "forbidden",
+    "verify you are human",
+    "unusual traffic",
+    "attention required",
+    "sorry, you have been blocked",
+    "something went wrong",
+    "looking to shop",
+    "awswaf",
+    "challenge.js",
+    "max challenge attempts exceeded",
+    "javascript is disabled",
+    "request blocked",
+    "cloudfront",
+]
+
+
+@dataclass
+class Deal:
+    title: str
+    url: str
+    source: str
+    current_price: float
+    original_price: float | None
+    discount_percent: float | None
+    savings: float | None
+    score: float
+    found_at: str
+
+
+@dataclass
+class SourceError:
+    source: str
+    url: str
+    error: str
+
+
+class LinkTextParser(HTMLParser):
+    def __init__(self, base_url: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.base_url = base_url
+        self.links: list[dict[str, str]] = []
+        self._active_href: str | None = None
+        self._text_parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "a":
+            return
+        attr_map = {key.lower(): value for key, value in attrs if value}
+        href = attr_map.get("href")
+        if href:
+            self._active_href = urljoin(self.base_url, href)
+            self._text_parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self._active_href:
+            self._text_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() != "a" or not self._active_href:
+            return
+        text = clean_text(" ".join(self._text_parts))
+        if text:
+            self.links.append({"url": self._active_href, "text": text})
+        self._active_href = None
+        self._text_parts = []
+
+
+def clean_text(value: str) -> str:
+    return SPACE_RE.sub(" ", html.unescape(value)).strip()
+
+
+def money(value: str | int | float | None) -> float | None:
+    if value is None:
+        return None
+    match = re.search(r"[0-9][0-9,]*(?:\.[0-9]+)?", str(value))
+    if not match:
+        return None
+    try:
+        return round(float(match.group(0).replace(",", "")), 2)
+    except ValueError:
+        return None
+
+
+def fetch(url: str, timeout: int = 25) -> str:
+    request = Request(url, headers=REQUEST_HEADERS)
+    with urlopen(request, timeout=timeout) as response:
+        charset = response.headers.get_content_charset() or "utf-8"
+        return response.read().decode(charset, errors="replace")
+
+
+def reader_url(url: str) -> str:
+    return f"https://r.jina.ai/http://r.jina.ai/http://{quote(url, safe='')}"
+
+
+def reader_url_variants(url: str) -> list[str]:
+    variants = [url]
+    parsed = urlparse(url)
+    if parsed.scheme == "https":
+        variants.append(urlunparse(parsed._replace(scheme="http")))
+    return [reader_url(variant) for variant in variants]
+
+
+def fetch_reader_target(url: str, timeout: int = 45) -> str:
+    last_error: Exception | None = None
+    last_block: str | None = None
+    for candidate in reader_url_variants(url):
+        try:
+            markup = fetch(candidate, timeout=timeout)
+        except (HTTPError, URLError, TimeoutError, OSError) as error:
+            last_error = error
+            continue
+        blocked = block_reason(markup)
+        if not blocked:
+            return markup
+        last_block = blocked
+
+    if last_block:
+        raise OSError(last_block)
+    if last_error:
+        raise last_error
+    raise OSError("Reader fallback failed")
+
+
+def block_reason(markup: str) -> str | None:
+    sample = clean_text(markup[:15000]).lower()
+    for pattern in BLOCK_PATTERNS:
+        if pattern in sample:
+            return f"Blocked by retailer anti-bot page: {pattern}"
+    return None
+
+
+def load_config(path: Path) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def keyword_allowed(title: str, keywords: list[str], excludes: list[str]) -> bool:
+    lowered = title.lower()
+    if any(excluded.lower() in lowered for excluded in excludes):
+        return False
+    return not keywords or any(keyword.lower() in lowered for keyword in keywords)
+
+
+def flatten_json_ld(item: Any) -> list[dict[str, Any]]:
+    if isinstance(item, list):
+        flattened: list[dict[str, Any]] = []
+        for child in item:
+            flattened.extend(flatten_json_ld(child))
+        return flattened
+    if not isinstance(item, dict):
+        return []
+
+    nodes: list[dict[str, Any]] = []
+    item_type = item.get("@type")
+    types = item_type if isinstance(item_type, list) else [item_type]
+    if any(str(kind).lower() == "product" for kind in types):
+        nodes.append(item)
+
+    graph = item.get("@graph")
+    if graph:
+        nodes.extend(flatten_json_ld(graph))
+
+    for key in ("itemListElement", "offers", "mainEntity", "hasVariant"):
+        if key in item:
+            nodes.extend(flatten_json_ld(item[key]))
+
+    if "item" in item:
+        nodes.extend(flatten_json_ld(item["item"]))
+
+    return nodes
+
+
+def json_ld_candidates(markup: str, base_url: str, source_name: str, found_at: str) -> list[Deal]:
+    deals: list[Deal] = []
+    for match in JSON_LD_RE.finditer(markup):
+        raw = clean_text(match.group(1))
+        try:
+            payload = json.loads(raw)
+        except json.JSONDecodeError:
+            continue
+
+        for product in flatten_json_ld(payload):
+            title = clean_text(str(product.get("name", "")))
+            if not title:
+                continue
+
+            offers = product.get("offers", {})
+            offer = offers[0] if isinstance(offers, list) and offers else offers
+            offer = offer if isinstance(offer, dict) else {}
+
+            current = money(offer.get("price") or product.get("price"))
+            price_spec = offer.get("priceSpecification")
+            price_spec_price = price_spec.get("price") if isinstance(price_spec, dict) else None
+            original = money(offer.get("highPrice") or price_spec_price)
+            url = offer.get("url") or product.get("url") or base_url
+            if current:
+                deals.append(make_deal(title, urljoin(base_url, str(url)), source_name, current, original, found_at))
+    return deals
+
+
+def remix_candidates(markup: str, base_url: str, source_name: str, found_at: str) -> list[Deal]:
+    match = REMIX_CONTEXT_RE.search(markup)
+    if not match:
+        return []
+
+    try:
+        payload = json.loads(match.group(1))
+    except json.JSONDecodeError:
+        return []
+
+    loader_data = payload.get("state", {}).get("loaderData", {})
+    deals: list[Deal] = []
+    for route_data in loader_data.values():
+        collection = route_data.get("collection") if isinstance(route_data, dict) else None
+        products = collection.get("products", {}).get("nodes", []) if isinstance(collection, dict) else []
+        for product in products:
+            deals.extend(product_variant_deals(product, base_url, source_name, found_at))
+    return deals
+
+
+def shopify_products_json_candidates(
+    payload_text: str,
+    base_url: str,
+    source_name: str,
+    found_at: str,
+    ignore_sold_out: bool = True,
+) -> list[Deal]:
+    try:
+        payload = json.loads(payload_text)
+    except json.JSONDecodeError:
+        return []
+
+    deals: list[Deal] = []
+    for product in payload.get("products", []):
+        title = clean_text(str(product.get("title", "")))
+        handle = product.get("handle")
+        if not title or not handle:
+            continue
+
+        product_url = urljoin(base_url, f"/products/{handle}")
+        for variant in product.get("variants", []):
+            if ignore_sold_out and not variant.get("available", True):
+                continue
+
+            current = money(variant.get("price"))
+            if current is None:
+                continue
+
+            original = money(variant.get("compare_at_price"))
+            variant_title = clean_text(str(variant.get("title") or ""))
+            deal_title = title if variant_title in ("", "Default Title") else f"{title} - {variant_title}"
+            deals.append(make_deal(deal_title, product_url, source_name, current, original, found_at))
+
+    return deals
+
+
+def product_variant_deals(product: dict[str, Any], base_url: str, source_name: str, found_at: str) -> list[Deal]:
+    title = clean_text(str(product.get("title", "")))
+    handle = product.get("handle")
+    if not title or not handle:
+        return []
+
+    product_url = urljoin(base_url, f"/products/{handle}")
+    variants = product.get("variants", {}).get("nodes", [])
+    deals: list[Deal] = []
+    for variant in variants:
+        if not variant.get("availableForSale", True):
+            continue
+
+        current = money(variant.get("price", {}).get("amount"))
+        if current is None:
+            continue
+
+        original = money((variant.get("compareAtPrice") or {}).get("amount"))
+        variant_title = clean_text(str(variant.get("title") or ""))
+        deal_title = title if variant_title in ("", "Default Title") else f"{title} - {variant_title}"
+        deals.append(make_deal(deal_title, product_url, source_name, current, original, found_at))
+    return deals
+
+
+def link_candidates(markup: str, base_url: str, source_name: str, found_at: str) -> list[Deal]:
+    parser = LinkTextParser(base_url)
+    parser.feed(markup)
+    deals: list[Deal] = []
+
+    for link in parser.links:
+        prices = [money(match.group(1)) for match in PRICE_RE.finditer(link["text"])]
+        prices = [price for price in prices if price is not None]
+        if not prices:
+            continue
+
+        current = min(prices)
+        original = max(prices) if len(prices) > 1 and max(prices) > current else None
+        title = PRICE_RE.sub("", link["text"])
+        title = clean_text(re.sub(r"\b(now|sale|was|reg|regular|from|save)\b", " ", title, flags=re.I))
+        if len(title) < 8:
+            continue
+        deals.append(make_deal(title, link["url"], source_name, current, original, found_at))
+
+    return deals
+
+
+def markdown_candidates(markdown: str, base_url: str, source_name: str, found_at: str) -> list[Deal]:
+    if "Markdown Content:" in markdown:
+        markdown = markdown.split("Markdown Content:", 1)[1]
+
+    deals = markdown_image_candidates(markdown, source_name, found_at)
+    deals.extend(markdown_sierra_sequence_candidates(markdown, source_name, found_at))
+    return deals
+
+
+def markdown_image_candidates(markdown: str, source_name: str, found_at: str) -> list[Deal]:
+    deals: list[Deal] = []
+    matches = list(MARKDOWN_IMAGE_LINK_RE.finditer(markdown))
+    for index, match in enumerate(matches):
+        url = match.group("url")
+        if not is_product_url(url):
+            continue
+
+        title = clean_markdown_title(f"{match.group('title')} {match.group('tail')}")
+        if not title:
+            title = title_from_sierra_image(match.group("img"))
+        if not title or len(title) < 8:
+            continue
+
+        next_start = matches[index + 1].start() if index + 1 < len(matches) else min(len(markdown), match.end() + 800)
+        block = markdown[match.start() : next_start]
+        prices = extract_prices(block)
+        if not prices:
+            continue
+
+        compare_at = re.search(r"Compare At\s+\$\s?([0-9,]+(?:\.[0-9]{2})?)", block, re.I)
+        current, original = choose_prices(prices)
+        if compare_at:
+            original = money(compare_at.group(1))
+        deals.append(make_deal(title, url, source_name, current, original, found_at))
+    return deals
+
+
+def markdown_sierra_sequence_candidates(markdown: str, source_name: str, found_at: str) -> list[Deal]:
+    deals: list[Deal] = []
+    matches = list(MARKDOWN_LINK_RE.finditer(markdown))
+
+    for index, match in enumerate(matches):
+        label = match.group("label")
+        url = match.group("url")
+        if "sierra.com" not in url or "~p~" not in url:
+            continue
+
+        next_start = matches[index + 1].start() if index + 1 < len(matches) else min(len(markdown), match.end() + 500)
+        block = markdown[match.end() : next_start]
+        title = clean_markdown_title(label)
+        if title.lower().startswith("image"):
+            img_match = re.search(r"https://[^)]+/([^/~]+(?:-[^/~]+)*)~p~", match.group(0))
+            title = img_match.group(1).replace("-", " ").title() if img_match else ""
+
+        prices = extract_prices(block)
+        if not title or not prices:
+            continue
+
+        current = prices[0]
+        original_match = re.search(r"Compare At\s+\$\s?([0-9,]+(?:\.[0-9]{2})?)", block, re.I)
+        original = money(original_match.group(1)) if original_match else (prices[1] if len(prices) > 1 else None)
+        deals.append(make_deal(title, url, source_name, current, original, found_at))
+
+    return deals
+
+
+def extract_prices(value: str) -> list[float]:
+    prices = [money(match.group(1)) for match in PRICE_RE.finditer(value)]
+    return [price for price in prices if price is not None]
+
+
+def choose_prices(prices: list[float]) -> tuple[float, float | None]:
+    if len(prices) == 1:
+        return prices[0], None
+    current = min(prices)
+    original = max(prices)
+    return current, original if original > current else None
+
+
+def clean_markdown_title(value: str) -> str:
+    value = re.sub(r"!\[[^\]]*\]\([^)]+\)", " ", value)
+    value = re.sub(r"\b(Image|Sale|Compare|View Selections)\b", " ", value, flags=re.I)
+    value = PRICE_RE.sub(" ", value)
+    value = re.sub(r"\b(Sale\s*-\s*)\b", " ", value, flags=re.I)
+    return collapse_repeated_title(clean_text(value))
+
+
+def collapse_repeated_title(value: str) -> str:
+    parts = value.split()
+    if len(parts) % 2:
+        return collapse_repeated_prefix(parts, value)
+    midpoint = len(parts) // 2
+    if parts[:midpoint] == parts[midpoint:]:
+        return " ".join(parts[:midpoint])
+    return collapse_repeated_prefix(parts, value)
+
+
+def collapse_repeated_prefix(parts: list[str], fallback: str) -> str:
+    max_prefix = len(parts) // 2
+    for size in range(max_prefix, 2, -1):
+        if parts[:size] == parts[size : size * 2]:
+            return " ".join(parts[:size] + parts[size * 2 :])
+    return fallback
+
+
+def title_from_sierra_image(image_url: str) -> str:
+    filename = image_url.rsplit("/", 1)[-1]
+    slug = filename.split("~p~", 1)[0]
+    slug = re.sub(r"-in-[a-z0-9-]+$", "", slug, flags=re.I)
+    return clean_text(slug.replace("-", " ")).title()
+
+
+def is_product_url(url: str) -> bool:
+    if "sierra.com" in url:
+        return "~p~" in url
+    if "evo.com" in url:
+        return "static.evo.com" not in url and "/shop/" not in url
+    if "campsaver.com" in url:
+        return True
+    return url.startswith("http")
+
+
+def make_deal(
+    title: str,
+    url: str,
+    source: str,
+    current: float,
+    original: float | None,
+    found_at: str,
+) -> Deal:
+    discount = None
+    savings = None
+    if original and original > current:
+        savings = round(original - current, 2)
+        discount = round((savings / original) * 100, 1)
+
+    score = current_score(current, discount, savings)
+    return Deal(
+        title=title[:180],
+        url=url,
+        source=source,
+        current_price=current,
+        original_price=original,
+        discount_percent=discount,
+        savings=savings,
+        score=score,
+        found_at=found_at,
+    )
+
+
+def current_score(current: float, discount: float | None, savings: float | None) -> float:
+    discount_score = discount or 0
+    savings_score = min((savings or 0) / 4, 35)
+    price_score = max(0, 20 - min(current / 50, 20))
+    return round(discount_score + savings_score + price_score, 2)
+
+
+def dedupe(deals: list[Deal]) -> list[Deal]:
+    best: dict[str, Deal] = {}
+    for deal in deals:
+        key = re.sub(r"[^a-z0-9]+", "", f"{deal.title.lower()}-{deal.current_price}")
+        existing = best.get(key)
+        if not existing or deal.score > existing.score:
+            best[key] = deal
+    return list(best.values())
+
+
+def filter_and_sort(deals: list[Deal], config: dict[str, Any]) -> list[Deal]:
+    keywords = config.get("keywords", [])
+    excludes = config.get("exclude_keywords", [])
+    min_discount = float(config.get("min_discount_percent", 0) or 0)
+
+    filtered = []
+    for deal in dedupe(deals):
+        if not keyword_allowed(deal.title, keywords, excludes):
+            continue
+        if deal.discount_percent is not None and deal.discount_percent < min_discount:
+            continue
+        filtered.append(deal)
+
+    return sorted(filtered, key=lambda item: (item.score, item.discount_percent or 0, item.savings or 0), reverse=True)
+
+
+def scan(config: dict[str, Any]) -> tuple[list[Deal], list[SourceError]]:
+    found_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    all_deals: list[Deal] = []
+    errors: list[SourceError] = []
+    for source in config.get("sources", []):
+        if not source.get("enabled", True):
+            continue
+
+        source_name = source.get("name") or source.get("url")
+        url = source.get("url")
+        if not url:
+            continue
+
+        markup = ""
+        source_filter_config = merged_filter_config(config, source)
+        per_source_limit = int(source_filter_config.get("max_results_per_source", 30) or 30)
+
+        try:
+            markup = fetch(url)
+            blocked = block_reason(markup)
+            if blocked:
+                if not source.get("reader_fallback"):
+                    errors.append(SourceError(source_name, url, blocked))
+                    continue
+                markup = fetch_reader_target(source.get("reader_url") or url, timeout=45)
+                blocked = block_reason(markup)
+                if blocked:
+                    errors.append(SourceError(source_name, url, blocked))
+                    continue
+            candidates = json_ld_candidates(markup, url, source_name, found_at)
+            candidates.extend(remix_candidates(markup, url, source_name, found_at))
+            if source.get("shopify_products_json"):
+                candidates.extend(
+                    shopify_products_json_candidates(
+                        fetch(source["shopify_products_json"], timeout=30),
+                        url,
+                        source_name,
+                        found_at,
+                        bool(source.get("ignore_sold_out", True)),
+                    )
+                )
+            candidates.extend(link_candidates(markup, url, source_name, found_at))
+            candidates.extend(markdown_candidates(markup, url, source_name, found_at))
+            if not candidates and source.get("reader_fallback"):
+                markup = fetch_reader_target(source.get("reader_url") or url, timeout=45)
+                candidates = markdown_candidates(markup, url, source_name, found_at)
+                candidates.extend(link_candidates(markup, url, source_name, found_at))
+            all_deals.extend(filter_and_sort(candidates, source_filter_config)[:per_source_limit])
+            time.sleep(float(source.get("delay_seconds", 1.2)))
+        except (HTTPError, URLError, TimeoutError, OSError) as error:
+            if source.get("reader_fallback"):
+                try:
+                    candidates = []
+                    if source.get("shopify_products_json"):
+                        candidates.extend(
+                            shopify_products_json_candidates(
+                                fetch(source["shopify_products_json"], timeout=30),
+                                url,
+                                source_name,
+                                found_at,
+                                bool(source.get("ignore_sold_out", True)),
+                            )
+                        )
+                    if candidates:
+                        all_deals.extend(filter_and_sort(candidates, source_filter_config)[:per_source_limit])
+                        time.sleep(float(source.get("delay_seconds", 1.2)))
+                        continue
+                    markup = fetch_reader_target(source.get("reader_url") or url, timeout=45)
+                    blocked = block_reason(markup)
+                    if blocked:
+                        errors.append(SourceError(source_name, url, blocked))
+                        continue
+                    candidates = markdown_candidates(markup, url, source_name, found_at)
+                    candidates.extend(link_candidates(markup, url, source_name, found_at))
+                    all_deals.extend(filter_and_sort(candidates, source_filter_config)[:per_source_limit])
+                    time.sleep(float(source.get("delay_seconds", 1.2)))
+                    continue
+                except (HTTPError, URLError, TimeoutError, OSError) as fallback_error:
+                    errors.append(SourceError(source_name, url, f"{error}; reader fallback failed: {fallback_error}"))
+                    continue
+            errors.append(SourceError(source_name, url, str(error)))
+
+    return rank_deals(dedupe(all_deals)), errors
+
+
+def merged_filter_config(config: dict[str, Any], source: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(config)
+    for key in ("keywords", "exclude_keywords", "min_discount_percent", "max_results_per_source"):
+        if key in source:
+            if key == "exclude_keywords":
+                merged[key] = list(config.get(key, [])) + list(source.get(key, []))
+            else:
+                merged[key] = source[key]
+    return merged
+
+
+def rank_deals(deals: list[Deal]) -> list[Deal]:
+    return sorted(deals, key=lambda item: (item.score, item.discount_percent or 0, item.savings or 0), reverse=True)
+
+
+def write_outputs(deals: list[Deal], errors: list[SourceError], config: dict[str, Any]) -> None:
+    DATA_DIR.mkdir(exist_ok=True)
+    WEB_DIR.mkdir(exist_ok=True)
+    generated_at = datetime.now().astimezone().isoformat(timespec="seconds")
+    payload = {
+        "generated_at": generated_at,
+        "deal_count": len(deals),
+        "sources_checked": len([source for source in config.get("sources", []) if source.get("enabled", True)]),
+        "deals": [asdict(deal) for deal in deals],
+        "errors": [asdict(error) for error in errors],
+    }
+
+    JSON_OUTPUT.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    MD_OUTPUT.write_text(render_markdown(payload), encoding="utf-8")
+    html_output = render_html(payload)
+    HTML_OUTPUT.write_text(html_output, encoding="utf-8")
+    WEB_OUTPUT.write_text(html_output, encoding="utf-8")
+
+
+def render_markdown(payload: dict[str, Any]) -> str:
+    lines = [
+        "# Ski Gear Deals",
+        "",
+        f"Generated: {payload['generated_at']}",
+        f"Deals found: {payload['deal_count']}",
+        "",
+    ]
+
+    if not payload["deals"]:
+        lines.append("No matching deals found. Add or enable more sources in `config/deal_sources.json`.")
+    else:
+        for index, deal in enumerate(payload["deals"][:25], start=1):
+            discount = f" ({deal['discount_percent']}% off)" if deal["discount_percent"] else ""
+            original = f" was ${deal['original_price']:.2f}" if deal["original_price"] else ""
+            lines.extend(
+                [
+                    f"{index}. [{deal['title']}]({deal['url']})",
+                    f"   ${deal['current_price']:.2f}{original}{discount} - {deal['source']}",
+                    "",
+                ]
+            )
+
+    if payload["errors"]:
+        lines.extend(["", "## Source Errors", ""])
+        for error in payload["errors"]:
+            lines.append(f"- {error['source']}: {error['error']}")
+
+    return "\n".join(lines).strip() + "\n"
+
+
+def render_html(payload: dict[str, Any]) -> str:
+    cards = []
+    html_deals = sorted(payload["deals"], key=lambda deal: (deal["current_price"], -(deal["discount_percent"] or 0)))
+    for deal in html_deals:
+        original = f"<span class='was'>Was ${deal['original_price']:.2f}</span>" if deal["original_price"] else ""
+        discount = f"<span>{deal['discount_percent']}% off</span>" if deal["discount_percent"] else "<span>Price found</span>"
+        savings = f"<span>Save ${deal['savings']:.2f}</span>" if deal["savings"] else ""
+        cards.append(
+            f"""
+            <article class="deal">
+              <div>
+                <p class="source">{html.escape(deal['source'])}</p>
+                <h2><a href="{html.escape(deal['url'])}" target="_blank" rel="noreferrer">{html.escape(deal['title'])}</a></h2>
+              </div>
+              <div class="price">
+                <strong>${deal['current_price']:.2f}</strong>
+                {original}
+              </div>
+              <div class="badges">{discount}{savings}<span>Score {deal['score']:.0f}</span></div>
+            </article>
+            """
+        )
+
+    errors = "".join(
+        f"<li>{html.escape(error['source'])}: {html.escape(error['error'])}</li>" for error in payload["errors"]
+    )
+    empty = "<p class='empty'>No matching deals found. Add or enable sources in config/deal_sources.json.</p>"
+
+    return f"""<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ski Gear Deals</title>
+    <style>
+      :root {{ color-scheme: light; --ink:#16201c; --muted:#52645c; --line:#d8e0dc; --accent:#0d7c66; --hot:#b42318; --bg:#f7f8f5; }}
+      * {{ box-sizing: border-box; }}
+      body {{ margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }}
+      main {{ width: min(1060px, 100%); margin: 0 auto; padding: 32px 14px 56px; }}
+      header {{ display: flex; justify-content: space-between; gap: 18px; align-items: end; border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 18px; }}
+      h1 {{ margin: 0; font-size: 2rem; }}
+      h2 {{ margin: 0; font-size: 1.05rem; line-height: 1.35; }}
+      a {{ color: inherit; }}
+      .meta, .source, .was {{ color: var(--muted); }}
+      .deal {{ display: grid; grid-template-columns: 1fr auto; gap: 14px; padding: 16px 0; border-bottom: 1px solid var(--line); }}
+      .source {{ margin: 0 0 5px; font-size: .86rem; }}
+      .price {{ text-align: right; min-width: 120px; }}
+      .price strong {{ display: block; font-size: 1.45rem; color: var(--hot); }}
+      .was {{ display: block; text-decoration: line-through; }}
+      .badges {{ grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }}
+      .badges span {{ border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; background: white; }}
+      .empty {{ padding: 24px 0; color: var(--muted); }}
+      .errors {{ margin-top: 26px; border-top: 1px solid var(--line); padding-top: 16px; }}
+      @media (max-width: 620px) {{ header, .deal {{ display: block; }} .price {{ text-align: left; margin-top: 12px; }} }}
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>Ski Gear Deals</h1>
+          <p class="meta">Generated {html.escape(payload['generated_at'])}</p>
+        </div>
+        <p class="meta">{payload['deal_count']} deals from {payload['sources_checked']} enabled sources</p>
+      </header>
+      {''.join(cards) if cards else empty}
+      {"<section class='errors'><h2>Source errors</h2><ul>" + errors + "</ul></section>" if errors else ""}
+    </main>
+  </body>
+</html>
+"""
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Monitor configured URLs for ski gear deals.")
+    parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
+    args = parser.parse_args()
+
+    config = load_config(args.config)
+    deals, errors = scan(config)
+    write_outputs(deals, errors, config)
+
+    print(f"Checked {len([s for s in config.get('sources', []) if s.get('enabled', True)])} sources.")
+    print(f"Found {len(deals)} matching deals.")
+    print(f"Wrote {JSON_OUTPUT}")
+    print(f"Wrote {HTML_OUTPUT}")
+    print(f"Wrote {WEB_OUTPUT}")
+    print(f"Wrote {MD_OUTPUT}")
+    if errors:
+        print(f"{len(errors)} source(s) had errors.", file=sys.stderr)
+    return 0 if deals or not errors else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

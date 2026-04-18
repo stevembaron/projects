@@ -5,12 +5,14 @@ This repository publishes small static apps with each app in its own folder.
 ## Apps
 
 - [Frusins Weather](frusins-weather/)
+- [Ski Deals](ski-deals/)
 - [Utah Permit Practice](utah-permit-practice/)
 
 ## Published URLs
 
 - Directory page: <https://stevembaron.github.io/projects/>
 - Frusins Weather: <https://stevembaron.github.io/projects/frusins-weather/>
+- Ski Deals: <https://stevembaron.github.io/projects/ski-deals/>
 - Utah Permit Practice: <https://stevembaron.github.io/projects/utah-permit-practice/>
 
 ## Structure Rule
