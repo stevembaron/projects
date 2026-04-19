@@ -19,7 +19,7 @@ http://localhost:8081/whs-calendar/
 After GitHub Pages deploys, open:
 
 ```text
-https://stevembaron.github.io/projects/whs-calendar/
+https://stevembaron.github.io/projects/whs-calendar/index.html
 ```
 
 ## Google Calendar Setup
