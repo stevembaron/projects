@@ -28,7 +28,7 @@ const state = {
   accessToken: null,
 };
 
-const els = {
+const els = typeof document === "undefined" ? {} : {
   pdfInput: document.querySelector("#pdfInput"),
   fileName: document.querySelector("#fileName"),
   importStatus: document.querySelector("#importStatus"),
@@ -52,9 +52,11 @@ const els = {
   rangeLabel: document.querySelector("#rangeLabel"),
 };
 
-hydrateSettings();
-bindEvents();
-render();
+if (typeof document !== "undefined") {
+  hydrateSettings();
+  bindEvents();
+  render();
+}
 
 function bindEvents() {
   els.pdfInput.addEventListener("change", handlePdfUpload);
@@ -122,6 +124,7 @@ async function parsePdf(file) {
       .map((item) => ({
         text: normalizeText(item.str),
         x: item.transform[4],
+        rightX: item.transform[4] + (item.width || 0),
         centerX: item.transform[4] + (item.width || 0) / 2,
         y: item.transform[5],
       }))
@@ -133,7 +136,7 @@ async function parsePdf(file) {
   return events;
 }
 
-function parseCalendarPage(items, pageNumber) {
+export function parseCalendarPage(items, pageNumber) {
   const monthItem = items.find((item) => MONTHS.includes(item.text.toUpperCase()));
   const year = getPageYear(items);
   if (!monthItem || !year) return [];
@@ -146,36 +149,38 @@ function parseCalendarPage(items, pageNumber) {
       day: Number(item.text),
     }));
 
-  const rows = uniqueNumbers(dateItems.map((item) => Math.round(item.y))).sort((a, b) => b - a);
-  const cols = uniqueNumbers(dateItems.map((item) => Math.round(item.centerX))).sort((a, b) => a - b);
-  const rowBounds = makeBounds(rows, "descending");
-  const colBounds = makeBounds(cols, "ascending");
+  const grid = buildCalendarGrid(dateItems);
+  if (!grid) return [];
+
   const dateByCell = new Map();
 
   dateItems.forEach((item) => {
-    const row = indexForValue(item.y, rowBounds);
-    const col = indexForValue(item.centerX, colBounds);
+    const row = indexForValue(item.y, grid.rowBounds);
+    const col = indexForValue(item.centerX, grid.colBounds);
     if (row >= 0 && col >= 0) {
       dateByCell.set(`${row}:${col}`, item.day);
     }
   });
 
   const grouped = new Map();
-  items.forEach((item) => {
+  const eventItems = items.filter((item) => {
     const text = item.text.trim();
     const upper = text.toUpperCase();
-    if (MONTHS.includes(upper) || upper === "SUNDAY" || upper === "MONDAY" || upper === "TUESDAY" || upper === "WEDNESDAY" || upper === "THURSDAY" || upper === "FRIDAY" || upper === "SATURDAY") return;
-    if (/^\d{2}$/.test(text)) return;
-    if (item.y > 650 || item.y < 35) return;
+    if (MONTHS.includes(upper) || upper === "SUNDAY" || upper === "MONDAY" || upper === "TUESDAY" || upper === "WEDNESDAY" || upper === "THURSDAY" || upper === "FRIDAY" || upper === "SATURDAY") return false;
+    if (/^\d{2}$/.test(text)) return false;
+    if (item.y > 650 || item.y < 35) return false;
+    return true;
+  });
 
-    const row = indexForValue(item.y, rowBounds);
-    const col = indexForValue(item.centerX, colBounds);
+  groupVisualLines(eventItems, grid).forEach((line) => {
+    const row = indexForValue(line.y, grid.rowBounds);
+    const col = indexForValue(line.centerX, grid.colBounds);
     const day = dateByCell.get(`${row}:${col}`);
     if (!day) return;
 
     const key = `${year}-${pad(monthIndex + 1)}-${pad(day)}`;
     if (!grouped.has(key)) grouped.set(key, []);
-    grouped.get(key).push(item);
+    grouped.get(key).push(line);
   });
 
   return [...grouped.entries()].map(([date, group]) => {
@@ -232,18 +237,50 @@ function cleanTitle(text, timeText) {
   return withoutTime.replace(/\s+/g, " ").trim() || "WHS Event";
 }
 
-function parseTimeRange(text) {
-  const match = text.match(/\b(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?\s*[-–]\s*(\d{1,2})(?::(\d{2}))?\s*(AM|PM)\b/i);
-  if (!match) return null;
+export function parseTimeRange(text) {
+  const normalized = text.replace(/\s+/g, " ");
+  const rangeMatch = normalized.match(/\b(\d{1,2})(?::(\d{2}))?\s*(A\.?M\.?|P\.?M\.?)?\s*(?:-|–|to)\s*(\d{1,2})(?::(\d{2}))?\s*(A\.?M\.?|P\.?M\.?)?\b/i);
+  if (rangeMatch) {
+    const [, startHourRaw, startMinuteRaw, startPeriodRaw, endHourRaw, endMinuteRaw, endPeriodRaw] = rangeMatch;
+    const startHour = Number(startHourRaw);
+    const endHour = Number(endHourRaw);
+    const explicitStartPeriod = normalizePeriod(startPeriodRaw);
+    const explicitEndPeriod = normalizePeriod(endPeriodRaw);
+    const endPeriod = explicitEndPeriod || explicitStartPeriod;
+    if (!endPeriod) return null;
+    const startPeriod = explicitStartPeriod || inferStartPeriod(startHour, endHour, endPeriod);
+    return {
+      matchedText: rangeMatch[0],
+      start: toTimeValue(startHour, Number(startMinuteRaw || 0), startPeriod),
+      end: toTimeValue(endHour, Number(endMinuteRaw || 0), endPeriod),
+    };
+  }
 
-  const [, startHourRaw, startMinuteRaw, startPeriodRaw, endHourRaw, endMinuteRaw, endPeriodRaw] = match;
-  const endPeriod = endPeriodRaw.toUpperCase();
-  const startPeriod = (startPeriodRaw || endPeriod).toUpperCase();
+  const singleMatch = normalized.match(/\b(\d{1,2})(?::(\d{2}))?\s*(A\.?M\.?|P\.?M\.?)\b/i);
+  if (!singleMatch) return null;
+
+  const [, hourRaw, minuteRaw, periodRaw] = singleMatch;
+  const start = toTimeValue(Number(hourRaw), Number(minuteRaw || 0), normalizePeriod(periodRaw));
+  const [hour, minute] = start.split(":").map(Number);
+  const endDate = new Date(2000, 0, 1, hour, minute);
+  endDate.setHours(endDate.getHours() + 1);
+
   return {
-    matchedText: match[0],
-    start: toTimeValue(Number(startHourRaw), Number(startMinuteRaw || 0), startPeriod),
-    end: toTimeValue(Number(endHourRaw), Number(endMinuteRaw || 0), endPeriod),
+    matchedText: singleMatch[0],
+    start,
+    end: `${pad(endDate.getHours())}:${pad(endDate.getMinutes())}`,
   };
+}
+
+function normalizePeriod(period) {
+  return period ? period.replace(/\./g, "").toUpperCase() : "";
+}
+
+function inferStartPeriod(startHour, endHour, endPeriod) {
+  if (endPeriod === "AM") return "AM";
+  if (startHour === 12) return "PM";
+  if (endHour === 12 || startHour > endHour) return "AM";
+  return "PM";
 }
 
 function toTimeValue(hour, minute, period) {
@@ -256,23 +293,99 @@ function uniqueNumbers(numbers) {
   return [...new Set(numbers)];
 }
 
-function makeBounds(values, direction) {
-  if (!values.length) return [];
-  const bounds = values.map((value, index) => {
-    const previous = values[index - 1];
-    const next = values[index + 1];
-    if (direction === "ascending") {
-      return {
-        min: previous == null ? value - 170 : (previous + value) / 2,
-        max: next == null ? value + 170 : (value + next) / 2,
-      };
-    }
-    return {
-      min: next == null ? value - 90 : (value + next) / 2,
-      max: previous == null ? value + 70 : (previous + value) / 2,
-    };
+function buildCalendarGrid(dateItems) {
+  const rowAnchors = uniqueNumbers(dateItems.map((item) => Math.round(item.y))).sort((a, b) => b - a);
+  const colAnchors = uniqueNumbers(dateItems.map((item) => Math.round(item.rightX))).sort((a, b) => a - b);
+  if (!rowAnchors.length || colAnchors.length < 2) return null;
+
+  const cellWidth = median(differences(colAnchors)) || 194;
+  const rightInset = 8;
+  const gridRight = colAnchors[colAnchors.length - 1] + rightInset;
+  const gridLeft = gridRight - cellWidth * 7;
+  const colBounds = Array.from({ length: 7 }, (_, index) => ({
+    min: gridLeft + index * cellWidth,
+    max: gridLeft + (index + 1) * cellWidth,
+  }));
+
+  const rowTopInset = 22;
+  const rowBounds = rowAnchors.map((anchor, index) => {
+    const max = anchor + rowTopInset;
+    const nextAnchor = rowAnchors[index + 1];
+    const min = nextAnchor == null ? 35 : nextAnchor + rowTopInset;
+    return { min, max };
   });
-  return bounds;
+
+  return { colBounds, rowBounds, cellWidth };
+}
+
+function groupVisualLines(items, grid) {
+  const rows = new Map();
+  items.forEach((item) => {
+    const row = indexForValue(item.y, grid.rowBounds);
+    if (row < 0) return;
+    if (!rows.has(row)) rows.set(row, []);
+    rows.get(row).push(item);
+  });
+
+  const lines = [];
+  rows.forEach((rowItems) => {
+    const yGroups = [];
+    rowItems
+      .sort((a, b) => b.y - a.y || a.x - b.x)
+      .forEach((item) => {
+        const group = yGroups.find((candidate) => Math.abs(candidate.y - item.y) <= 4);
+        if (group) {
+          group.items.push(item);
+          group.y = average(group.items.map((candidate) => candidate.y));
+        } else {
+          yGroups.push({ y: item.y, items: [item] });
+        }
+      });
+
+    yGroups.forEach((group) => {
+      const byColumn = new Map();
+      group.items.forEach((item) => {
+        const col = indexForValue(item.centerX, grid.colBounds);
+        if (col < 0) return;
+        if (!byColumn.has(col)) byColumn.set(col, []);
+        byColumn.get(col).push(item);
+      });
+
+      byColumn.forEach((columnItems) => {
+        lines.push(makeLine(columnItems));
+      });
+    });
+  });
+
+  return lines;
+}
+
+function makeLine(items) {
+  const sorted = items.sort((a, b) => a.x - b.x);
+  const x = Math.min(...sorted.map((item) => item.x));
+  const rightX = Math.max(...sorted.map((item) => item.rightX));
+  return {
+    text: joinCalendarLines(sorted.map((item) => item.text)),
+    x,
+    rightX,
+    centerX: (x + rightX) / 2,
+    y: average(sorted.map((item) => item.y)),
+  };
+}
+
+function differences(values) {
+  return values.slice(1).map((value, index) => value - values[index]);
+}
+
+function median(values) {
+  const sorted = values.filter((value) => Number.isFinite(value) && value > 0).sort((a, b) => a - b);
+  if (!sorted.length) return 0;
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+}
+
+function average(values) {
+  return values.reduce((total, value) => total + value, 0) / values.length;
 }
 
 function indexForValue(value, bounds) {
@@ -646,6 +759,7 @@ function waitForGoogleScripts() {
 }
 
 function loadSettings() {
+  if (typeof localStorage === "undefined") return {};
   try {
     return JSON.parse(localStorage.getItem(SETTINGS_KEY)) || {};
   } catch {
@@ -654,6 +768,7 @@ function loadSettings() {
 }
 
 function loadEvents() {
+  if (typeof localStorage === "undefined") return [];
   try {
     return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
   } catch {
