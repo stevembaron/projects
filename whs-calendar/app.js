@@ -41,6 +41,12 @@ const els = typeof document === "undefined" ? {} : {
   syncButton: document.querySelector("#syncButton"),
   icsButton: document.querySelector("#icsButton"),
   googleImportButton: document.querySelector("#googleImportButton"),
+  scriptUrlInput: document.querySelector("#scriptUrlInput"),
+  scriptSecretInput: document.querySelector("#scriptSecretInput"),
+  autoPublishInput: document.querySelector("#autoPublishInput"),
+  savePublishButton: document.querySelector("#savePublishButton"),
+  publishButton: document.querySelector("#publishButton"),
+  publishStatus: document.querySelector("#publishStatus"),
   sampleButton: document.querySelector("#sampleButton"),
   clearButton: document.querySelector("#clearButton"),
   searchInput: document.querySelector("#searchInput"),
@@ -67,6 +73,8 @@ function bindEvents() {
   els.syncButton.addEventListener("click", syncSelectedEvents);
   els.icsButton.addEventListener("click", downloadIcs);
   els.googleImportButton.addEventListener("click", openGoogleImport);
+  els.savePublishButton.addEventListener("click", saveSettings);
+  els.publishButton.addEventListener("click", publishToAppsScript);
   els.sampleButton.addEventListener("click", render);
   els.clearButton.addEventListener("click", clearEvents);
   els.searchInput.addEventListener("input", () => {
@@ -108,6 +116,7 @@ async function handlePdfUpload(event) {
     saveEvents();
     els.importStatus.textContent = `Imported ${added} new event${added === 1 ? "" : "s"} and refreshed ${updated}.`;
     render();
+    if (els.autoPublishInput.checked) await publishToAppsScript();
   } catch (error) {
     console.error(error);
     els.importStatus.textContent = `Could not read this PDF: ${error.message}`;
@@ -543,6 +552,9 @@ function hydrateSettings() {
   const settings = loadSettings();
   els.clientIdInput.value = settings.clientId || "";
   els.calendarIdInput.value = settings.calendarId || "primary";
+  els.scriptUrlInput.value = settings.scriptUrl || "";
+  els.scriptSecretInput.value = settings.scriptSecret || "";
+  els.autoPublishInput.checked = Boolean(settings.autoPublish);
 }
 
 function saveSettings() {
@@ -551,12 +563,16 @@ function saveSettings() {
     JSON.stringify({
       clientId: els.clientIdInput.value.trim(),
       calendarId: els.calendarIdInput.value.trim() || "primary",
+      scriptUrl: els.scriptUrlInput.value.trim(),
+      scriptSecret: els.scriptSecretInput.value,
+      autoPublish: els.autoPublishInput.checked,
     }),
   );
   state.googleReady = false;
   state.tokenClient = null;
   state.accessToken = null;
   els.googleStatus.textContent = "Settings saved.";
+  els.publishStatus.textContent = els.scriptUrlInput.value.trim() ? "Auto publish settings saved." : "Auto publish is not configured.";
 }
 
 function chooseCalendar() {
@@ -733,6 +749,53 @@ function downloadIcs() {
 
 function openGoogleImport() {
   window.open("https://calendar.google.com/calendar/u/0/r/settings/export", "_blank", "noopener");
+}
+
+async function publishToAppsScript() {
+  saveSettings();
+  const settings = loadSettings();
+  const calendarId = els.calendarIdInput.value.trim() || settings.calendarId || "primary";
+
+  if (!state.events.length) {
+    els.publishStatus.textContent = "Upload a PDF before publishing.";
+    return;
+  }
+  if (!settings.scriptUrl || !settings.scriptSecret) {
+    els.publishStatus.textContent = "Add the Apps Script URL and publish secret first.";
+    return;
+  }
+
+  els.publishButton.disabled = true;
+  els.publishStatus.textContent = "Publishing WHS events...";
+
+  const payload = {
+    secret: settings.scriptSecret,
+    calendarId,
+    timezone: getLocalTimezone(),
+    events: state.events.map((eventItem) => ({
+      key: eventItem.key,
+      title: eventItem.title,
+      date: eventItem.date,
+      startTime: eventItem.startTime,
+      endTime: eventItem.endTime,
+      notes: eventItem.notes,
+    })),
+  };
+
+  try {
+    await fetch(settings.scriptUrl, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload),
+    });
+    els.publishStatus.textContent = "Published. Google may take a moment to show the replaced events.";
+  } catch (error) {
+    console.error(error);
+    els.publishStatus.textContent = "Publish failed. Check the Apps Script URL and deployment permissions.";
+  } finally {
+    els.publishButton.disabled = false;
+  }
 }
 
 function toIcsEvent(eventItem, timezone) {

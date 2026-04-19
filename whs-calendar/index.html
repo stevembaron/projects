@@ -70,6 +70,30 @@
             <button id="googleImportButton" class="secondary" type="button">Open Google Import</button>
           </div>
           <p id="googleStatus" class="status">Not connected.</p>
+
+          <div class="divider"></div>
+
+          <div>
+            <h2>Auto Publish</h2>
+            <p>Publish through a tiny Google Apps Script. New uploads replace the WHS events it previously created.</p>
+          </div>
+          <label>
+            Apps Script Web App URL
+            <input id="scriptUrlInput" type="url" autocomplete="off" placeholder="https://script.google.com/macros/s/.../exec" />
+          </label>
+          <label>
+            Publish Secret
+            <input id="scriptSecretInput" type="password" autocomplete="off" placeholder="Shared with your Apps Script" />
+          </label>
+          <label class="select-all">
+            <input id="autoPublishInput" type="checkbox" />
+            Auto publish after PDF import
+          </label>
+          <div class="button-row">
+            <button id="savePublishButton" type="button">Save Publish</button>
+            <button id="publishButton" class="secondary" type="button">Publish Changes</button>
+          </div>
+          <p id="publishStatus" class="status">Auto publish is not configured.</p>
         </aside>
 
         <section class="calendar-area">
@@ -125,6 +149,6 @@
       </article>
     </template>
 
-    <script type="module" src="app.js?v=ics-import-fix"></script>
+    <script type="module" src="app.js?v=auto-publish"></script>
   </body>
 </html>
