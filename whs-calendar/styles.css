@@ -1,0 +1,405 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f6f2;
+  --ink: #171b18;
+  --muted: #657069;
+  --line: #d6ddd5;
+  --panel: #ffffff;
+  --brand: #c91525;
+  --brand-dark: #8f0f1b;
+  --green: #1f6d59;
+  --gold: #d9ab27;
+  --shadow: 0 18px 45px rgba(31, 36, 32, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  min-height: 42px;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+  background: var(--brand-dark);
+}
+
+button.secondary {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+}
+
+button.secondary:hover,
+button.secondary:focus-visible {
+  border-color: var(--brand);
+  color: var(--brand-dark);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+main {
+  width: min(1360px, calc(100% - 28px));
+  margin: 0 auto;
+  padding: 28px 0 44px;
+}
+
+.masthead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: end;
+  padding: 36px 0 24px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--brand);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-size: clamp(2.2rem, 6vw, 5rem);
+  line-height: 0.96;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.lede {
+  max-width: 680px;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.5;
+}
+
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+
+.stat-strip span {
+  min-width: 116px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 14px;
+  background: #fff;
+  color: var(--muted);
+}
+
+.stat-strip strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.3rem;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 340px minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.panel,
+.calendar-area {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.controls {
+  position: sticky;
+  top: 18px;
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+}
+
+.controls p {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.file-drop {
+  display: grid;
+  gap: 6px;
+  border: 2px dashed #c7d2ca;
+  border-radius: 8px;
+  padding: 18px;
+  background: #f8faf7;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.file-drop span {
+  font-weight: 900;
+}
+
+.file-drop small,
+.status {
+  color: var(--muted);
+}
+
+.file-drop input {
+  display: none;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fff;
+  color: var(--ink);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.divider {
+  height: 1px;
+  background: var(--line);
+}
+
+.calendar-area {
+  min-height: 680px;
+  padding: 18px;
+}
+
+.toolbar {
+  display: grid;
+  grid-template-columns: minmax(180px, 420px) auto;
+  gap: 16px;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.select-all {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 42px;
+  color: var(--ink);
+}
+
+.select-all input,
+.event-select input {
+  width: auto;
+}
+
+.month-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 18px 0;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.month-tab {
+  flex: 0 0 auto;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+}
+
+.month-tab.active {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: #fff;
+}
+
+.event-list {
+  display: grid;
+  gap: 12px;
+}
+
+.empty-state {
+  display: grid;
+  place-items: center;
+  min-height: 390px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: auto 78px minmax(0, 1fr) 118px;
+  gap: 14px;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fff;
+}
+
+.event-select {
+  min-height: 74px;
+  align-items: center;
+}
+
+.date-box {
+  display: grid;
+  place-items: center;
+  min-height: 74px;
+  border-radius: 8px;
+  background: #f2f5f1;
+  color: var(--brand);
+  text-align: center;
+}
+
+.date-box span {
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.date-box strong {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.event-fields {
+  display: grid;
+  gap: 10px;
+}
+
+.title-input {
+  font-weight: 900;
+}
+
+.field-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 10px;
+}
+
+.event-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.sync-state {
+  min-height: 22px;
+  color: var(--green);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 980px) {
+  .masthead,
+  .workspace,
+  .toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    position: static;
+  }
+
+  .stat-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .event-card {
+    grid-template-columns: auto 70px minmax(0, 1fr);
+  }
+
+  .event-actions {
+    grid-column: 3;
+  }
+}
+
+@media (max-width: 640px) {
+  main {
+    width: min(100% - 18px, 1360px);
+    padding-top: 14px;
+  }
+
+  .button-row,
+  .field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .event-card {
+    grid-template-columns: auto minmax(58px, 64px) minmax(0, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .date-box {
+    min-height: 64px;
+  }
+
+  .event-actions {
+    grid-column: 1 / -1;
+  }
+}

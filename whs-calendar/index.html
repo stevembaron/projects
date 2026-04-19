@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WHS Calendar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://apis.google.com/js/api.js" async defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="masthead">
+        <div>
+          <p class="eyebrow">WHS Cheer</p>
+          <h1>Calendar Tracker</h1>
+          <p class="lede">Upload the WHS calendar PDF, review the events, and send selected dates to Google Calendar.</p>
+        </div>
+        <div class="stat-strip" aria-label="Calendar summary">
+          <span><strong id="eventCount">0</strong> events</span>
+          <span><strong id="syncedCount">0</strong> synced</span>
+          <span><strong id="rangeLabel">No PDF yet</strong></span>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Calendar tools">
+        <aside class="panel controls">
+          <div>
+            <h2>Import PDF</h2>
+            <p>New uploads merge into your saved list. Existing matching events are refreshed.</p>
+          </div>
+          <label class="file-drop" for="pdfInput">
+            <span>Choose WHS calendar PDF</span>
+            <small id="fileName">No file selected</small>
+            <input id="pdfInput" type="file" accept="application/pdf" />
+          </label>
+          <div class="button-row">
+            <button id="sampleButton" type="button">Refresh View</button>
+            <button id="clearButton" class="secondary" type="button">Clear Events</button>
+          </div>
+          <p id="importStatus" class="status">Waiting for a PDF upload.</p>
+
+          <div class="divider"></div>
+
+          <div>
+            <h2>Google Calendar</h2>
+            <p>Use a Google OAuth web client ID with the Calendar API enabled.</p>
+          </div>
+          <label>
+            OAuth Client ID
+            <input id="clientIdInput" type="text" autocomplete="off" placeholder="1234.apps.googleusercontent.com" />
+          </label>
+          <label>
+            Calendar ID
+            <input id="calendarIdInput" type="text" autocomplete="off" placeholder="primary" />
+          </label>
+          <label>
+            Pick Calendar
+            <select id="calendarSelect">
+              <option value="">Connect Google to load calendars</option>
+            </select>
+          </label>
+          <div class="button-row">
+            <button id="saveGoogleButton" type="button">Save Settings</button>
+            <button id="connectButton" class="secondary" type="button">Connect</button>
+          </div>
+          <button id="syncButton" type="button">Sync Selected Events</button>
+          <button id="icsButton" class="secondary" type="button">Download ICS</button>
+          <p id="googleStatus" class="status">Not connected.</p>
+        </aside>
+
+        <section class="calendar-area">
+          <div class="toolbar">
+            <div class="search-box">
+              <label for="searchInput">Search</label>
+              <input id="searchInput" type="search" placeholder="Practice, moratorium, camp..." />
+            </div>
+            <label class="select-all">
+              <input id="selectAllInput" type="checkbox" checked />
+              Select all visible
+            </label>
+          </div>
+
+          <div id="monthTabs" class="month-tabs" aria-label="Months"></div>
+          <div id="eventList" class="event-list" aria-live="polite"></div>
+        </section>
+      </section>
+    </main>
+
+    <template id="eventTemplate">
+      <article class="event-card">
+        <label class="event-select">
+          <input type="checkbox" />
+          <span class="sr-only">Select event</span>
+        </label>
+        <div class="date-box">
+          <span class="month"></span>
+          <strong class="day"></strong>
+        </div>
+        <div class="event-fields">
+          <input class="title-input" type="text" aria-label="Event title" />
+          <div class="field-grid">
+            <label>
+              Date
+              <input class="date-input" type="date" />
+            </label>
+            <label>
+              Start
+              <input class="start-input" type="time" />
+            </label>
+            <label>
+              End
+              <input class="end-input" type="time" />
+            </label>
+          </div>
+          <textarea class="notes-input" rows="2" aria-label="Notes"></textarea>
+        </div>
+        <div class="event-actions">
+          <span class="sync-state"></span>
+          <button class="delete-button secondary" type="button">Remove</button>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
