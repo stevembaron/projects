@@ -40,6 +40,7 @@ const els = typeof document === "undefined" ? {} : {
   connectButton: document.querySelector("#connectButton"),
   syncButton: document.querySelector("#syncButton"),
   icsButton: document.querySelector("#icsButton"),
+  googleImportButton: document.querySelector("#googleImportButton"),
   sampleButton: document.querySelector("#sampleButton"),
   clearButton: document.querySelector("#clearButton"),
   searchInput: document.querySelector("#searchInput"),
@@ -65,6 +66,7 @@ function bindEvents() {
   els.connectButton.addEventListener("click", connectGoogle);
   els.syncButton.addEventListener("click", syncSelectedEvents);
   els.icsButton.addEventListener("click", downloadIcs);
+  els.googleImportButton.addEventListener("click", openGoogleImport);
   els.sampleButton.addEventListener("click", render);
   els.clearButton.addEventListener("click", clearEvents);
   els.searchInput.addEventListener("input", () => {
@@ -707,24 +709,33 @@ function downloadIcs() {
     els.googleStatus.textContent = "Select at least one event for the ICS file.";
     return;
   }
+  const timezone = getLocalTimezone();
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
     "PRODID:-//WHS Calendar Tracker//EN",
     "CALSCALE:GREGORIAN",
-    ...selected.flatMap(toIcsEvent),
+    "METHOD:PUBLISH",
+    "X-WR-CALNAME:WHS Cheer Calendar",
+    `X-WR-TIMEZONE:${timezone}`,
+    ...selected.flatMap((eventItem) => toIcsEvent(eventItem, timezone)),
     "END:VCALENDAR",
   ];
-  const blob = new Blob([lines.join("\r\n")], { type: "text/calendar" });
+  const blob = new Blob([foldIcsLines(lines).join("\r\n")], { type: "text/calendar;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
   link.download = "whs-calendar-events.ics";
   link.click();
   URL.revokeObjectURL(url);
+  els.googleStatus.textContent = "Downloaded. Use Open Google Import, then choose the family calendar and select this .ics file.";
 }
 
-function toIcsEvent(eventItem) {
+function openGoogleImport() {
+  window.open("https://calendar.google.com/calendar/u/0/r/settings/export", "_blank", "noopener");
+}
+
+function toIcsEvent(eventItem, timezone) {
   const uid = `${eventItem.key.replace(/[^a-z0-9]/gi, "-")}@whs-calendar`;
   const stamp = formatIcsDateTime(new Date());
   const lines = ["BEGIN:VEVENT", `UID:${uid}`, `DTSTAMP:${stamp}`, `SUMMARY:${escapeIcs(eventItem.title)}`, `DESCRIPTION:${escapeIcs(eventItem.notes || "")}`];
@@ -732,8 +743,8 @@ function toIcsEvent(eventItem) {
   if (eventItem.startTime) {
     const endTime = eventItem.endTime || eventItem.startTime;
     const endDate = endTime <= eventItem.startTime ? addDays(eventItem.date, 1) : eventItem.date;
-    lines.push(`DTSTART:${eventItem.date.replaceAll("-", "")}T${eventItem.startTime.replace(":", "")}00`);
-    lines.push(`DTEND:${endDate.replaceAll("-", "")}T${endTime.replace(":", "")}00`);
+    lines.push(`DTSTART;TZID=${timezone}:${eventItem.date.replaceAll("-", "")}T${eventItem.startTime.replace(":", "")}00`);
+    lines.push(`DTEND;TZID=${timezone}:${endDate.replaceAll("-", "")}T${endTime.replace(":", "")}00`);
   } else {
     lines.push(`DTSTART;VALUE=DATE:${eventItem.date.replaceAll("-", "")}`);
     lines.push(`DTEND;VALUE=DATE:${addDays(eventItem.date, 1).replaceAll("-", "")}`);
@@ -808,8 +819,27 @@ function addDays(date, days) {
   return value.toISOString().slice(0, 10);
 }
 
+function getLocalTimezone() {
+  return Intl.DateTimeFormat().resolvedOptions().timeZone || "America/Denver";
+}
+
 function escapeIcs(value) {
   return String(value).replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/,/g, "\\,").replace(/;/g, "\\;");
+}
+
+function foldIcsLines(lines) {
+  return lines.flatMap((line) => {
+    if (line.length <= 74) return line;
+    const folded = [];
+    let remaining = line;
+    folded.push(remaining.slice(0, 74));
+    remaining = remaining.slice(74);
+    while (remaining.length) {
+      folded.push(` ${remaining.slice(0, 73)}`);
+      remaining = remaining.slice(73);
+    }
+    return folded;
+  });
 }
 
 function pad(value) {

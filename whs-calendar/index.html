@@ -65,7 +65,10 @@
             <button id="connectButton" class="secondary" type="button">Connect</button>
           </div>
           <button id="syncButton" type="button">Sync Selected Events</button>
-          <button id="icsButton" class="secondary" type="button">Download ICS</button>
+          <div class="button-row">
+            <button id="icsButton" class="secondary" type="button">Download ICS</button>
+            <button id="googleImportButton" class="secondary" type="button">Open Google Import</button>
+          </div>
           <p id="googleStatus" class="status">Not connected.</p>
         </aside>
 
@@ -122,6 +125,6 @@
       </article>
     </template>
 
-    <script type="module" src="app.js?v=b619eea"></script>
+    <script type="module" src="app.js?v=ics-import-fix"></script>
   </body>
 </html>
