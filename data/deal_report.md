@@ -1,12 +1,12 @@
 # Ski Gear Deals
 
-Generated: 2026-04-19T07:01:34-06:00
+Generated: 2026-04-20T07:01:05-06:00
 Deals found: 83
 
-1. [Dynastar M-Pro 99 W Skis - Women's Outlet: Final](https://www.evo.com/outlet/skis/dynastar-m-pro-99-w-womens)
+1. [Dynastar M-Pro 99 W Skis - Women's Outlet: Final](http://www.evo.com/outlet/skis/dynastar-m-pro-99-w-womens)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
 
-2. [Rossignol Rallybird 104 Ti Skis - Women's Outlet: Final](https://www.evo.com/outlet/skis/rossignol-rallybird-104-ti-womens)
+2. [Rossignol Rallybird 104 Ti Skis - Women's Outlet: Final](http://www.evo.com/outlet/skis/rossignol-rallybird-104-ti-womens)
    $199.99 was $849.95 (76.5% off) - Evo skis price ascending
 
 3. [Weston Skyline Ski x Haa Aani Alliance (1) List: ( 69%) Blazin' Deal](https://www.campsaver.com/weston-skyline-ski-x-haa-aani-alliance.html)
@@ -27,28 +27,28 @@ Deals found: 83
 8. [2 models G3 SEEKr R3 100 Skis List: ( 64%) Blazin' Deal](https://www.campsaver.com/g3-seekr-r3-100-skis.html)
    $374.40 was $1041.00 (64.0% off) - CampSaver backcountry skis
 
-9. [Peak Skis Peak 98 By Dav Skis 2025 Clearance](https://www.evo.com/skis/peak-98-by-dav)
+9. [Peak Skis Peak 98 By Dav Skis 2025 Clearance](http://www.evo.com/skis/peak-98-by-dav)
    $349.97 was $899.00 (61.1% off) - Evo skis price ascending
 
-10. [Armada ARW 94 Skis 2025](https://www.evo.com/skis/armada-arw-94)
+10. [Armada ARW 94 Skis 2025](http://www.evo.com/skis/armada-arw-94)
    $289.99 was $649.95 (55.4% off) - Evo skis price ascending
 
-11. [Faction Prodigy 2 Skis - Used Outlet:](https://www.evo.com/outlet/used/skis/faction-prodigy-2-2025)
+11. [Faction Prodigy 2 Skis - Used Outlet:](http://www.evo.com/outlet/used/skis/faction-prodigy-2-2025)
    $318.01 was $649.00 (51.0% off) - Evo skis price ascending
 
-12. [Lib Tech Libstick 88 Skis - Women's - Used Outlet:](https://www.evo.com/outlet/used/skis/lib-tech-libstick-88-womens)
+12. [Lib Tech Libstick 88 Skis - Women's - Used Outlet:](http://www.evo.com/outlet/used/skis/lib-tech-libstick-88-womens)
    $315.00 was $629.99 (50.0% off) - Evo skis price ascending
 
 13. [Weston Skyline Carbon Ski (2) List: ( 52%) Blazin' Deal](https://www.campsaver.com/weston-skyline-carbon-ski.html)
    $431.46 was $899.00 (52.0% off) - CampSaver backcountry skis
 
-14. [Rossignol Sender Free 92 Skis ​+ Xpress 11 Bindings 2026](https://www.evo.com/ski-binding-packages/rossignol-sender-free-92-skis-xpress-11-bindings)
+14. [Rossignol Sender Free 92 Skis ​+ Xpress 11 Bindings 2026](http://www.evo.com/ski-binding-packages/rossignol-sender-free-92-skis-xpress-11-bindings)
    $349.98 was $699.95 (50.0% off) - Evo skis price ascending
 
-15. [Rossignol Rallybird Soul 102 Skis - Women's - Used Outlet:](https://www.evo.com/outlet/used/skis/rossignol-rallybird-soul-102-womens)
+15. [Rossignol Rallybird Soul 102 Skis - Women's - Used Outlet:](http://www.evo.com/outlet/used/skis/rossignol-rallybird-soul-102-womens)
    $349.98 was $699.95 (50.0% off) - Evo skis price ascending
 
-16. [Rossignol Experience 78 Skis ​+ Xpress 10 Bindings 2026](https://www.evo.com/ski-binding-packages/rossignol-experience-78-skis-xpress-10-bindings)
+16. [Rossignol Experience 78 Skis ​+ Xpress 10 Bindings 2026](http://www.evo.com/ski-binding-packages/rossignol-experience-78-skis-xpress-10-bindings)
    $249.97 was $449.95 (44.4% off) - Evo skis price ascending
 
 17. [Faction Prodigy 2 - 165cm](https://thegearroom.com/products/faction-prodigy-2)
