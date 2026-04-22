@@ -44,7 +44,7 @@ main {
   padding: 32px;
   background:
     linear-gradient(180deg, rgba(9, 28, 20, 0.08), rgba(9, 28, 20, 0.74)),
-    url("https://commons.wikimedia.org/wiki/Special:FilePath/Salt%20Lake%20City%20skyline%20%282020%29%20from%20Ensign%20Peak.jpg") center 35% / cover;
+    url("https://horel.chpc.utah.edu/data/station_cameras/wbbw_cam/wbbw_cam_current.jpg") center / cover;
   color: #fff;
 }
 
