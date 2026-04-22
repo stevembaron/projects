@@ -51,7 +51,8 @@ function renderWeather(payload) {
   const feelsF = cToF(obs.heat_index);
   const dewF = cToF(obs.dew_point);
   const wetBulbF = cToF(obs.wet_bulb_temperature);
-  const pressureInHg = mbToInHg(obs.sea_level_pressure);
+  const normalizedBarometerInHg = mbToInHg(obs.sea_level_pressure);
+  const correctedBarometerInHg = mbToInHg(obs.barometric_pressure ?? obs.station_pressure);
   const stationPressureInHg = mbToInHg(obs.station_pressure);
   const elevationFeet = metersToFeet(payload.elevation);
   const rainNowIn = mmToIn(obs.precip);
@@ -66,7 +67,7 @@ function renderWeather(payload) {
   elements.updatedAt.textContent = `Updated ${formatDateTime(stationTime, payload.timezone)}`;
   elements.feelsLike.textContent = `${round(feelsF)}°F`;
   elements.humidity.textContent = `${round(obs.relative_humidity)}%`;
-  elements.pressure.textContent = `${fixed(pressureInHg, 2)} inHg`;
+  elements.pressure.textContent = `${fixed(normalizedBarometerInHg, 2)} inHg`;
   elements.todayRain.textContent = `${fixed(rainTodayIn, 2)} in`;
 
   elements.lightMood.textContent = lightMood(obs.solar_radiation, obs.uv);
@@ -82,7 +83,9 @@ function renderWeather(payload) {
   const readings = [
     ["Dew Point", `${round(dewF)}°F`, "Moisture in the air"],
     ["Wet Bulb", `${round(wetBulbF)}°F`, "Evaporative cooling point"],
-    ["Pressure Trend", titleCase(obs.pressure_trend), "Sea-level pressure trend"],
+    ["Pressure Trend", titleCase(obs.pressure_trend), "Trend of the normalized corrected barometer"],
+    ["Normalized Barometer", `${fixed(normalizedBarometerInHg, 2)} inHg`, "Sea-level corrected pressure"],
+    ["Corrected Station Barometer", `${fixed(correctedBarometerInHg, 2)} inHg`, "Corrected local barometer reading"],
     ["Station Pressure", `${fixed(stationPressureInHg, 2)} inHg`, "Raw pressure at elevation"],
     ["Rain Rate", `${fixed(rainNowIn, 2)} in`, "Current precipitation"],
     ["Yesterday", `${fixed(rainYesterdayIn, 2)} in`, "Local day total"],
