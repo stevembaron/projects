@@ -135,8 +135,8 @@ function rainMood(obs) {
 
 function lightningText(obs) {
   if (!obs.lightning_strike_last_epoch) return "No recent strike";
-  const when = new Date(obs.lightning_strike_last_epoch * 1000);
-  return `${round(kmToMi(obs.lightning_strike_last_distance))} mi, ${formatDateTime(when)}`;
+  const age = timeAgo(obs.lightning_strike_last_epoch);
+  return `${round(kmToMi(obs.lightning_strike_last_distance))} mi, ${age}`;
 }
 
 function cToF(value) {
@@ -173,6 +173,28 @@ function round(value) {
 
 function fixed(value, digits) {
   return Number.isFinite(value) ? Number(value).toFixed(digits) : "--";
+}
+
+function timeAgo(epochSeconds) {
+  if (!Number.isFinite(epochSeconds)) return "--";
+  const seconds = Math.max(0, Math.round(Date.now() / 1000 - epochSeconds));
+
+  if (seconds < 60) return "just now";
+
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return `${minutes}m ago`;
+
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) {
+    const remainderMinutes = minutes % 60;
+    if (remainderMinutes === 0) return `${hours}h ago`;
+    return `${hours}h ${remainderMinutes}m ago`;
+  }
+
+  const days = Math.floor(hours / 24);
+  const remainderHours = hours % 24;
+  if (remainderHours === 0) return `${days}d ago`;
+  return `${days}d ${remainderHours}h ago`;
 }
 
 function formatDateTime(date, timezone) {
