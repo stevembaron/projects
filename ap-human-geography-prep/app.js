@@ -522,7 +522,7 @@ const elements = {
   sourceList: document.getElementById("sourceList"),
 };
 
-let quizMode = "units";
+let quizMode = "scenarios";
 let currentQuestion = null;
 let stats = loadStats();
 let timedRound = null;
@@ -752,7 +752,9 @@ function finishTimedRound() {
 
 function startBossRound() {
   bossRound = {
-    questions: [...QUIZ_BANK.units, ...QUIZ_BANK.exam, ...QUIZ_BANK.skills].sort(() => Math.random() - 0.5).slice(0, 7),
+    questions: [...QUIZ_BANK.scenarios, ...QUIZ_BANK.models, ...QUIZ_BANK.reasoning]
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 7),
     index: 0,
     correct: 0,
     total: 7,
