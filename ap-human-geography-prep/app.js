@@ -282,197 +282,251 @@ const SOURCES = [
 ];
 
 const QUIZ_BANK = {
-  units: [
+  scenarios: [
     {
-      tag: "Units",
-      type: "Match the unit",
-      question: "Which unit includes the Green Revolution?",
-      answers: [
-        "Unit 3: Cultural Patterns and Processes",
-        "Unit 5: Agriculture and Rural Land-Use Patterns and Processes",
-        "Unit 6: Cities and Urban Land-Use Patterns and Processes",
-        "Unit 7: Industrial and Economic Development Patterns and Processes",
-      ],
+      tag: "Scenarios",
+      type: "Choose the concept",
+      question:
+        "A city's original location is best explained by its natural harbor, fresh water, and defensible coastline. Which concept fits best?",
+      answers: ["Site factors", "Situation factors", "Relocation diffusion", "Bid-rent theory"],
+      correct: 0,
+      explain:
+        "Site refers to the physical characteristics of a place, such as a natural harbor or water source.",
+    },
+    {
+      tag: "Scenarios",
+      type: "Choose the model",
+      question:
+        "A country has rapidly falling death rates, still-high birth rates, and very fast population growth. Which model stage does that pattern best match?",
+      answers: ["Demographic Transition Model Stage 1", "Stage 2", "Stage 3", "Stage 4"],
       correct: 1,
-      explain: "The Green Revolution is listed in Unit 5 on the official AP Human Geography course page.",
+      explain:
+        "Stage 2 is associated with falling death rates while birth rates remain high, producing rapid population growth.",
     },
     {
-      tag: "Units",
-      type: "Match the unit",
-      question: "Which unit focuses on maps, geospatial data, scale, and regions?",
-      answers: [
-        "Unit 1: Thinking Geographically",
-        "Unit 2: Population and Migration Patterns and Processes",
-        "Unit 4: Political Patterns and Processes",
-        "Unit 6: Cities and Urban Land-Use Patterns and Processes",
-      ],
-      correct: 0,
-      explain: "Unit 1 is the introductory tools-and-methods unit.",
-    },
-    {
-      tag: "Units",
-      type: "Match the unit",
-      question: "A question about unitary versus federal states belongs most directly to which unit?",
-      answers: ["Unit 2", "Unit 3", "Unit 4", "Unit 7"],
+      tag: "Scenarios",
+      type: "Choose the process",
+      question:
+        "A language spreads to a new region because migrants move there and bring it with them. Which diffusion process best fits?",
+      answers: ["Contagious diffusion", "Hierarchical diffusion", "Relocation diffusion", "Reverse hierarchical diffusion"],
       correct: 2,
-      explain: "Forms of government such as unitary and federal states are part of Unit 4.",
+      explain:
+        "Relocation diffusion happens when people move and carry cultural traits such as language or religion to a new place.",
     },
     {
-      tag: "Units",
-      type: "Match the unit",
-      question: "Which unit studies city infrastructure and urban design initiatives?",
-      answers: ["Unit 3", "Unit 4", "Unit 5", "Unit 6"],
-      correct: 3,
-      explain: "Those topics are listed under Unit 6 on the official course page.",
+      tag: "Scenarios",
+      type: "Choose the government form",
+      question:
+        "Most authority is concentrated in one central government, and regional governments have limited independent power. Which political structure is this?",
+      answers: ["Federal state", "Unitary state", "Multinational state", "Nation-state"],
+      correct: 1,
+      explain:
+        "A unitary state concentrates power in the national government rather than dividing it constitutionally across regions.",
     },
     {
-      tag: "Units",
-      type: "Match the unit",
-      question: "Which unit covers economic sectors and trade in the world economy?",
-      answers: ["Unit 1", "Unit 5", "Unit 7", "None of these"],
+      tag: "Scenarios",
+      type: "Choose the urban process",
+      question:
+        "Higher-income residents move into an older inner-city neighborhood, housing values rise, and some longtime residents are priced out. Which process best fits?",
+      answers: ["Suburbanization", "Gentrification", "Redistricting", "Agglomeration"],
+      correct: 1,
+      explain:
+        "Gentrification refers to reinvestment and rising prices in older neighborhoods, often with displacement effects.",
+    },
+    {
+      tag: "Scenarios",
+      type: "Choose the land-use model",
+      question:
+        "Farms closest to a large city focus on dairy and vegetables because those goods spoil quickly and transport costs matter. Which model best fits?",
+      answers: ["Demographic Transition Model", "Gravity model", "Von Thunen model", "Core-periphery model"],
       correct: 2,
-      explain: "Those are official Unit 7 topics.",
-    },
-    {
-      tag: "Units",
-      type: "Weighting check",
-      question: "Which unit has the smallest multiple-choice weighting range?",
-      answers: ["Unit 1", "Unit 2", "Unit 5", "Unit 7"],
-      correct: 0,
-      explain: "Unit 1 is weighted 8%–10%; Units 2–7 are each 12%–17%.",
+      explain:
+        "The von Thunen model predicts more intensive, perishable agriculture closer to the market.",
     },
   ],
-  exam: [
+  models: [
     {
-      tag: "Exam",
-      type: "Structure check",
-      question: "How many multiple-choice questions are on the AP Human Geography exam?",
-      answers: ["50", "60", "70", "80"],
-      correct: 1,
-      explain: "Section I has 60 multiple-choice questions.",
-    },
-    {
-      tag: "Exam",
-      type: "Structure check",
-      question: "How long is the full AP Human Geography exam?",
-      answers: ["2 hours", "2 hours 15 minutes", "2 hours 30 minutes", "3 hours"],
-      correct: 1,
-      explain: "The official assessment page lists 2 hours 15 minutes total.",
-    },
-    {
-      tag: "Exam",
-      type: "FRQ setup",
-      question: "Which free-response question includes two stimuli?",
-      answers: ["Question 1", "Question 2", "Question 3", "All three"],
-      correct: 2,
-      explain: "Question 3 includes two stimuli.",
-    },
-    {
-      tag: "Exam",
-      type: "FRQ setup",
-      question: "Which free-response question has no stimulus?",
-      answers: ["Question 1", "Question 2", "Question 3", "None of them"],
-      correct: 0,
-      explain: "Question 1 is the no-stimulus FRQ.",
-    },
-    {
-      tag: "Exam",
-      type: "Format",
-      question: "What is true about the 2026 AP Human Geography exam format?",
+      tag: "Models",
+      type: "Apply the concept",
+      question:
+        "Which example best matches the Green Revolution?",
       answers: [
-        "It is paper-only",
-        "It is oral only",
-        "It is fully digital in Bluebook",
-        "Only the FRQs are digital",
+        "Farmers switching from crops to tourism",
+        "Higher crop yields from improved seeds, irrigation, and fertilizer",
+        "A religion spreading from one city to nearby villages",
+        "Factories moving from cities to suburbs",
+      ],
+      correct: 1,
+      explain:
+        "The Green Revolution is associated with higher-yield seeds plus intensified use of irrigation, fertilizer, and related inputs.",
+    },
+    {
+      tag: "Models",
+      type: "Apply the concept",
+      question:
+        "Which pattern best fits bid-rent theory?",
+      answers: [
+        "Land values are highest near the central business district and decline outward",
+        "Birth rates fall first, then death rates fall later",
+        "Political power is evenly divided among neighborhoods",
+        "Agricultural output is always highest far from urban markets",
+      ],
+      correct: 0,
+      explain:
+        "Bid-rent theory explains why land closest to the CBD is usually most expensive because accessibility is high.",
+    },
+    {
+      tag: "Models",
+      type: "Apply the concept",
+      question:
+        "Which example best fits a federal state?",
+      answers: [
+        "Regional governments hold power delegated only temporarily by the center",
+        "Power is constitutionally shared between national and regional governments",
+        "A state includes multiple ethnic groups",
+        "One nation matches one state exactly",
+      ],
+      correct: 1,
+      explain:
+        "Federal systems divide authority between national and regional levels rather than concentrating it in one center.",
+    },
+    {
+      tag: "Models",
+      type: "Apply the concept",
+      question:
+        "Which job grouping belongs most directly to the tertiary sector?",
+      answers: [
+        "Mining and logging",
+        "Auto assembly and steel production",
+        "Banking, retail, and health care",
+        "Subsistence farming and herding",
       ],
       correct: 2,
-      explain: "The official AP Students assessment page says the exam is fully digital in Bluebook.",
+      explain:
+        "The tertiary sector is the service sector, including activities such as finance, retail, and health care.",
     },
     {
-      tag: "Exam",
-      type: "Timing",
-      question: "How much of the score comes from the free-response section?",
-      answers: ["25%", "40%", "50%", "60%"],
-      correct: 2,
-      explain: "Section II is worth 50% of the exam score.",
+      tag: "Models",
+      type: "Apply the concept",
+      question:
+        "A disease spreads quickly from person to person through close contact in neighboring locations. Which diffusion type best fits?",
+      answers: ["Contagious diffusion", "Relocation diffusion", "Hierarchical diffusion", "Stimulus diffusion"],
+      correct: 0,
+      explain:
+        "Contagious diffusion spreads rapidly through direct contact across nearby places or people.",
+    },
+    {
+      tag: "Models",
+      type: "Apply the concept",
+      question:
+        "Which example is mainly about situation rather than site?",
+      answers: [
+        "A city has fertile soil and a river",
+        "A city sits near major trade routes and a large market",
+        "A settlement has a protected bay",
+        "A village has nearby building stone",
+      ],
+      correct: 1,
+      explain:
+        "Situation refers to a place's relative location, including access to routes, markets, and surrounding places.",
     },
   ],
-  skills: [
+  reasoning: [
     {
-      tag: "Skills",
-      type: "Pick the skill",
-      question: "A prompt asks you to analyze a table and graph showing migration data. Which skill category is most direct?",
+      tag: "Reasoning",
+      type: "Best explanation",
+      question:
+        "A country adopts a policy intended to reduce family size because leaders are concerned about rapid population growth. Which claim best explains the policy goal?",
       answers: [
-        "Concepts and Processes",
-        "Spatial Relationships",
-        "Data Analysis",
-        "Scale Analysis",
+        "The state wants to increase the crude birth rate",
+        "The state wants to reduce the rate of natural increase",
+        "The state wants to encourage relocation diffusion",
+        "The state wants to increase suburbanization",
       ],
+      correct: 1,
+      explain:
+        "Population policies aimed at lowering births are generally trying to slow the rate of natural increase.",
+    },
+    {
+      tag: "Reasoning",
+      type: "Best explanation",
+      question:
+        "A country exports mostly raw materials and relies heavily on extracting natural resources. Which inference is strongest?",
+      answers: [
+        "Its economy is weighted toward the primary sector",
+        "Its economy is dominated by tertiary services",
+        "Its economy has fully deindustrialized",
+        "Its population is in Demographic Transition Model Stage 4",
+      ],
+      correct: 0,
+      explain:
+        "Extraction of raw materials belongs to the primary sector of the economy.",
+    },
+    {
+      tag: "Reasoning",
+      type: "Best explanation",
+      question:
+        "A former colony still uses the colonizer's language widely in government and education. Which broad explanation is most likely?",
+      answers: [
+        "Agricultural intensification",
+        "Historical diffusion shaped by colonialism",
+        "Bid-rent theory",
+        "Environmental determinism",
+      ],
+      correct: 1,
+      explain:
+        "The AP course explicitly connects cultural patterns to historical forces such as colonialism and trade.",
+    },
+    {
+      tag: "Reasoning",
+      type: "Best explanation",
+      question:
+        "A city's population grows rapidly after transportation networks improve and commuting becomes easier. Which process is most directly involved?",
+      answers: [
+        "Urbanization and suburbanization shaped by transportation change",
+        "Aging populations",
+        "Stimulus diffusion of religion",
+        "Devolution from the core state",
+      ],
+      correct: 0,
+      explain:
+        "The CED links urbanization and suburbanization to transportation and communication change.",
+    },
+    {
+      tag: "Reasoning",
+      type: "Best explanation",
+      question:
+        "A map shows high housing costs near the CBD and lower land values farther from the center. Which urban idea would best help explain the pattern?",
+      answers: ["Bid-rent theory", "Demographic momentum", "Relocation diffusion", "Nation-state"],
+      correct: 0,
+      explain:
+        "Bid-rent theory is used to explain why the most accessible central land often commands the highest price.",
+    },
+    {
+      tag: "Reasoning",
+      type: "Best explanation",
+      question:
+        "An FRQ asks you to compare local, regional, and global effects of migration. Which course skill are you most clearly using?",
+      answers: ["Data Analysis", "Source Analysis", "Scale Analysis", "Memorization"],
       correct: 2,
-      explain: "Skill Category 3 is about quantitative geographic data in tables, charts, graphs, maps, and infographics.",
-    },
-    {
-      tag: "Skills",
-      type: "Pick the skill",
-      question: "A prompt asks you to explain how a pattern changes from the local scale to the global scale. Which skill category fits best?",
-      answers: [
-        "Source Analysis",
-        "Scale Analysis",
-        "Concepts and Processes",
-        "Data Analysis",
-      ],
-      correct: 1,
-      explain: "Skill Category 5 focuses on using geographic scales to explain spatial relationships.",
-    },
-    {
-      tag: "Skills",
-      type: "Pick the skill",
-      question: "A prompt asks you to compare patterns shown in two maps and draw conclusions. Which skill category fits best?",
-      answers: [
-        "Spatial Relationships",
-        "Source Analysis",
-        "Concepts and Processes",
-        "Scale Analysis",
-      ],
-      correct: 1,
-      explain: "Comparing patterns across visual sources is a Source Analysis move.",
-    },
-    {
-      tag: "Skills",
-      type: "Pick the skill",
-      question: "A prompt asks you to explain a geographic model and compare it to another theory. Which skill category is most direct?",
-      answers: [
-        "Concepts and Processes",
-        "Source Analysis",
-        "Data Analysis",
-        "Scale Analysis",
-      ],
-      correct: 0,
-      explain: "Skill Category 1 centers on explaining and comparing concepts, processes, models, and theories.",
-    },
-    {
-      tag: "Skills",
-      type: "Pick the skill",
-      question: "A prompt asks you to explain why a spatial pattern appears in one region and not another. Which skill category is closest?",
-      answers: [
-        "Spatial Relationships",
-        "Data Analysis",
-        "Source Analysis",
-        "Concepts and Processes",
-      ],
-      correct: 0,
-      explain: "Skill Category 2 focuses on spatial patterns, networks, relationships, and outcomes in applied contexts.",
+      explain:
+        "Comparing effects across local, regional, and global levels is a scale-analysis move.",
     },
   ],
 };
 
-const MATCH_PAIRS = UNITS.flatMap((unit) =>
-  unit.officialTopics.slice(0, 2).map((topic) => ({
-    unitId: unit.id,
-    unitShort: unit.short,
-    topic,
-  })),
-);
+const MATCH_PAIRS = [
+  { concept: "Site", example: "A city begins at a natural harbor with fresh water and defensible terrain." },
+  { concept: "Situation", example: "A city grows because it lies near major trade routes and markets." },
+  { concept: "Relocation diffusion", example: "Migrants bring a religion or language to a new region." },
+  { concept: "Contagious diffusion", example: "A disease spreads rapidly through nearby contact." },
+  { concept: "Unitary state", example: "Most power is concentrated in the central government." },
+  { concept: "Federal state", example: "Power is shared between national and regional governments." },
+  { concept: "Green Revolution", example: "Higher crop yields come from improved seeds, irrigation, and fertilizer." },
+  { concept: "Von Thunen model", example: "Dairy and vegetables are located close to the urban market." },
+  { concept: "Bid-rent theory", example: "Land values are highest near the CBD and decline outward." },
+  { concept: "Gentrification", example: "Rising rents follow reinvestment in an older urban neighborhood." },
+];
 
 const BADGES = [
   { id: "starter", title: "Map Starter", detail: "Answer 5 total questions.", check: (stats) => stats.answered >= 5 },
@@ -480,7 +534,7 @@ const BADGES = [
   { id: "streak", title: "Spatial Streak", detail: "Reach a streak of 5.", check: (stats) => stats.bestStreak >= 5 },
   { id: "clock", title: "Clock Runner", detail: "Score 6 or more in a timed sprint.", check: (stats) => stats.timedBest >= 6 },
   { id: "boss", title: "Boss Battle Clear", detail: "Complete one boss round.", check: (stats) => stats.bossWins >= 1 },
-  { id: "cartographer", title: "Topic Cartographer", detail: "Complete one topic match round.", check: (stats) => stats.matchWins >= 1 },
+  { id: "connector", title: "Concept Connector", detail: "Complete one concept match round.", check: (stats) => stats.matchWins >= 1 },
 ];
 
 const elements = {
@@ -687,7 +741,7 @@ function updateScoreboard() {
 
 function renderTimedPanel() {
   if (!timedRound) {
-    elements.timedStatus.textContent = "Ready for a 90-second mixed sprint.";
+    elements.timedStatus.textContent = "Ready for a 90-second mixed sprint built from real AP Human Geography concepts.";
     elements.timedCountdown.textContent = "01:30";
     elements.timedScore.textContent = `Best: ${stats.timedBest}`;
     elements.timedStartBtn.disabled = false;
@@ -696,7 +750,7 @@ function renderTimedPanel() {
   }
 
   elements.timedStatus.textContent = timedRound.active
-    ? "Clock is live. Questions are pulled from units, exam structure, and skills."
+    ? "Clock is live. Focus on applying concepts, models, and geographic reasoning."
     : `Timed sprint complete. You scored ${timedRound.score}.`;
   elements.timedCountdown.textContent = formatSeconds(timedRound.secondsLeft);
   elements.timedScore.textContent = `Round: ${timedRound.score} | Best: ${stats.timedBest}`;
@@ -776,7 +830,7 @@ function startBossRound() {
 
 function renderBossPanel() {
   if (!bossRound) {
-    elements.bossStatus.textContent = "Seven mixed questions. Go for the clean clear.";
+    elements.bossStatus.textContent = "Seven applied questions. Go for the clean clear.";
     return;
   }
   if (bossRound.finished) {
@@ -895,10 +949,10 @@ function renderFrqs() {
 
 function resetMatchRound() {
   matchState = {
-    selectedUnitId: null,
+    selectedConcept: null,
     remaining: [...MATCH_PAIRS].sort(() => Math.random() - 0.5).slice(0, 6),
   };
-  elements.matchStatus.textContent = "Pick a unit, then match the official topic name to it.";
+  elements.matchStatus.textContent = "Pick a concept, then match the real-world example to it.";
   renderMatchGame();
 }
 
@@ -906,13 +960,15 @@ function renderMatchGame() {
   elements.matchUnitGrid.innerHTML = "";
   elements.matchTopicGrid.innerHTML = "";
 
-  UNITS.forEach((unit) => {
+  const concepts = [...new Set(matchState.remaining.map((pair) => pair.concept))].sort();
+
+  concepts.forEach((concept) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `mode-pill match-pill${matchState.selectedUnitId === unit.id ? " active" : ""}`;
-    button.textContent = unit.short;
+    button.className = `mode-pill match-pill${matchState.selectedConcept === concept ? " active" : ""}`;
+    button.textContent = concept;
     button.addEventListener("click", () => {
-      matchState.selectedUnitId = unit.id;
+      matchState.selectedConcept = concept;
       renderMatchGame();
     });
     elements.matchUnitGrid.append(button);
@@ -922,31 +978,30 @@ function renderMatchGame() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "answer-btn";
-    button.textContent = pair.topic;
+    button.textContent = pair.example;
     button.addEventListener("click", () => handleMatch(pair));
     elements.matchTopicGrid.append(button);
   });
 }
 
 function handleMatch(pair) {
-  if (!matchState.selectedUnitId) {
-    elements.matchStatus.textContent = "Choose a unit first.";
+  if (!matchState.selectedConcept) {
+    elements.matchStatus.textContent = "Choose a concept first.";
     return;
   }
 
-  if (pair.unitId === matchState.selectedUnitId) {
-    matchState.remaining = matchState.remaining.filter((entry) => entry.topic !== pair.topic);
-    elements.matchStatus.textContent = `Correct: ${pair.topic} belongs to ${pair.unitShort}.`;
+  if (pair.concept === matchState.selectedConcept) {
+    matchState.remaining = matchState.remaining.filter((entry) => entry.example !== pair.example);
+    elements.matchStatus.textContent = `Correct: that example fits ${pair.concept}.`;
   } else {
-    const wrongUnit = UNITS.find((unit) => unit.id === matchState.selectedUnitId);
-    elements.matchStatus.textContent = `Not quite. ${pair.topic} does not belong to ${wrongUnit.short}.`;
+    elements.matchStatus.textContent = `Not quite. That example does not fit ${matchState.selectedConcept}.`;
   }
 
   if (matchState.remaining.length === 0) {
     stats.matchWins += 1;
     saveStats();
     renderBadges();
-    elements.matchStatus.textContent = "Match round cleared. Every topic landed on the right unit.";
+    elements.matchStatus.textContent = "Match round cleared. Every concept landed on the right example.";
   }
 
   renderMatchGame();
@@ -954,13 +1009,13 @@ function handleMatch(pair) {
 
 function renderStudyMix() {
   elements.studyMix.innerHTML = "";
-  const selectedUnits = [...UNITS].sort(() => Math.random() - 0.5).slice(0, 3);
-  const randomSkill = SKILLS[Math.floor(Math.random() * SKILLS.length)];
+  const randomModes = Object.keys(QUIZ_BANK).sort(() => Math.random() - 0.5).slice(0, 3);
+  const randomPair = MATCH_PAIRS[Math.floor(Math.random() * MATCH_PAIRS.length)];
   const steps = [
-    `Spend 12 minutes on ${selectedUnits[0].title}, then say two official topics without looking.`,
-    `Run a sprint round and explain why the correct answers fit ${randomSkill.title}.`,
-    `Write one FRQ-style paragraph connecting ${selectedUnits[1].title} to one big idea.`,
-    `Close by naming the weight range and one official topic from ${selectedUnits[2].short}.`,
+    `Start with a ${randomModes[0]} round and say why each correct answer fits the scenario, not just what it is called.`,
+    `Do one timed sprint and watch for repeated concepts like diffusion, urbanization, migration, or development.`,
+    `Write one quick FRQ-style explanation that connects a real-world example to a model such as the demographic transition model, bid-rent theory, or von Thunen.`,
+    `Finish with a concept match round and explain why "${randomPair.example}" fits ${randomPair.concept}.`,
   ];
 
   steps.forEach((detail, index) => {
