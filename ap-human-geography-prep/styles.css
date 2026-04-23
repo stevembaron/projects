@@ -414,6 +414,16 @@ h3 {
   border: 1px solid rgba(212, 140, 40, 0.2);
 }
 
+.feedback strong {
+  display: block;
+  margin-bottom: var(--space-1);
+}
+
+.feedback span {
+  display: block;
+  line-height: 1.58;
+}
+
 .feedback.hidden {
   display: none;
 }
