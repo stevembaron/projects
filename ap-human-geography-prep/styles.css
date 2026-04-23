@@ -13,6 +13,12 @@
   --sky: #dbeff0;
   --mint: #d9efe7;
   --shadow: 0 24px 60px rgba(27, 41, 36, 0.14);
+  --space-1: 6px;
+  --space-2: 10px;
+  --space-3: 14px;
+  --space-4: 18px;
+  --space-5: 24px;
+  --space-6: 32px;
 }
 
 * {
@@ -77,9 +83,9 @@ button {
 .app-shell {
   width: min(1180px, calc(100% - 28px));
   margin: 0 auto;
-  padding: 22px 0 44px;
+  padding: var(--space-4) 0 var(--space-6);
   display: grid;
-  gap: 18px;
+  gap: var(--space-4);
 }
 
 .card {
@@ -88,13 +94,13 @@ button {
   border-radius: 0;
   box-shadow: var(--shadow);
   backdrop-filter: blur(8px);
-  padding: 22px;
+  padding: var(--space-5);
 }
 
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
-  gap: 18px;
+  gap: var(--space-4);
   align-items: stretch;
 }
 
@@ -103,7 +109,7 @@ button {
 .game-stack,
 .match-shell {
   display: grid;
-  gap: 14px;
+  gap: var(--space-3);
 }
 
 .eyebrow,
@@ -159,6 +165,13 @@ h3 {
   line-height: 1.58;
 }
 
+.lede,
+.section-note,
+.fine-print,
+.muted {
+  margin: 0;
+}
+
 .hero-actions,
 .quiz-actions,
 .pill-row,
@@ -168,7 +181,7 @@ h3 {
 .game-scoreline {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: var(--space-2);
   align-items: center;
 }
 
@@ -242,12 +255,12 @@ h3 {
 .frq-card,
 .study-step,
 .badge-card {
-  padding: 16px;
+  padding: var(--space-3);
 }
 
 .exam-panel {
   display: grid;
-  gap: 18px;
+  gap: var(--space-4);
 }
 
 .countdown {
@@ -261,7 +274,7 @@ h3 {
 
 .exam-facts {
   display: grid;
-  gap: 12px;
+  gap: var(--space-2);
   margin: 0;
 }
 
@@ -294,7 +307,7 @@ h3 {
 .review-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  gap: var(--space-4);
 }
 
 .mini-grid,
@@ -306,7 +319,7 @@ h3 {
 .match-unit-grid,
 .match-topic-grid {
   display: grid;
-  gap: 14px;
+  gap: var(--space-3);
 }
 
 .mini-grid {
@@ -346,7 +359,7 @@ h3 {
 
 .quiz-toolbar {
   justify-content: space-between;
-  margin-bottom: 18px;
+  margin-bottom: var(--space-4);
 }
 
 .mode-pill {
@@ -362,12 +375,12 @@ h3 {
 
 .quiz-card-shell {
   display: grid;
-  gap: 16px;
+  gap: var(--space-3);
 }
 
 .answer-grid {
   display: grid;
-  gap: 10px;
+  gap: var(--space-2);
 }
 
 .compact-grid {
@@ -396,7 +409,7 @@ h3 {
 
 .feedback {
   border-radius: 0;
-  padding: 16px;
+  padding: var(--space-3);
   background: rgba(255, 247, 232, 0.9);
   border: 1px solid rgba(212, 140, 40, 0.2);
 }
@@ -407,12 +420,17 @@ h3 {
 
 .game-stack,
 .badge-grid {
-  gap: 12px;
+  gap: var(--space-3);
 }
 
 .game-card {
   display: grid;
-  gap: 14px;
+  gap: var(--space-3);
+}
+
+.game-topline > div {
+  display: grid;
+  gap: var(--space-1);
 }
 
 .game-topline {
@@ -421,6 +439,7 @@ h3 {
 
 .game-scoreline {
   justify-content: space-between;
+  padding-block: var(--space-1);
 }
 
 .game-scoreline strong {
@@ -433,13 +452,13 @@ h3 {
 
 .game-question-head {
   display: grid;
-  gap: 8px;
-  margin-bottom: 12px;
+  gap: var(--space-1);
+  margin-bottom: var(--space-3);
 }
 
 .game-summary {
   display: grid;
-  gap: 6px;
+  gap: var(--space-1);
 }
 
 .badge-grid {
@@ -457,7 +476,7 @@ h3 {
 
 .unit-card header {
   display: grid;
-  gap: 8px;
+  gap: var(--space-1);
 }
 
 .unit-card p {
@@ -468,7 +487,7 @@ h3 {
 .section-card ul,
 .frq-card ul,
 .source-list {
-  margin: 12px 0 0;
+  margin: var(--space-2) 0 0;
   padding-left: 18px;
 }
 
@@ -526,17 +545,17 @@ h3 {
 
 .study-mix {
   display: grid;
-  gap: 12px;
+  gap: var(--space-3);
 }
 
 .study-step {
   display: grid;
-  gap: 4px;
+  gap: var(--space-1);
 }
 
 .source-list {
   display: grid;
-  gap: 12px;
+  gap: var(--space-3);
 }
 
 .source-list a {
@@ -554,7 +573,7 @@ h3 {
 @media (max-width: 640px) {
   .app-shell {
     width: min(100%, calc(100% - 18px));
-    padding-top: 10px;
+    padding-top: var(--space-2);
   }
 
   .card,
