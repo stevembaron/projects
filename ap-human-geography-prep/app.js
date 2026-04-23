@@ -50,27 +50,6 @@ const SKILLS = [
   },
 ];
 
-const EXAM_SECTIONS = [
-  {
-    title: "Section I: Multiple Choice",
-    chip: "60 questions | 1 hour | 50%",
-    points: [
-      "Includes both individual questions and set-based questions.",
-      "Can ask students to analyze concepts, processes, patterns, and relationships.",
-      "Can use maps, tables, charts, graphs, satellite images, and infographics as evidence.",
-    ],
-  },
-  {
-    title: "Section II: Free Response",
-    chip: "3 questions | 1 hour 15 minutes | 50%",
-    points: [
-      "Question 1 has no stimulus.",
-      "Question 2 uses one stimulus such as data, an image, or a map.",
-      "Question 3 uses two stimuli, and at least one FRQ assesses analysis across geographic scales.",
-    ],
-  },
-];
-
 const FRQ_CARDS = [
   {
     title: "FRQ 1",
@@ -211,46 +190,16 @@ const UNITS = [
 ];
 
 const FLASHCARDS = [
-  {
-    front: "Unit 1",
-    back: "Thinking Geographically is the smallest unit by exam weight and centers on maps, data, scale, and regions.",
-  },
-  {
-    front: "Unit 2",
-    back: "Population and Migration asks you to work with density, demographic change, policies, and migration effects.",
-  },
-  {
-    front: "Unit 3",
-    back: "Culture questions often connect diffusion, cultural landscapes, religion, language, colonialism, and globalization.",
-  },
-  {
-    front: "Unit 4",
-    back: "Political geography includes states, nations, borders, governance, sovereignty, and devolutionary pressures.",
-  },
-  {
-    front: "Unit 5",
-    back: "Agriculture and rural land use include origins of farming, diffusion, production regions, and the Green Revolution.",
-  },
-  {
-    front: "Unit 6",
-    back: "Cities and urban land use focus on urbanization, internal city structure, infrastructure, and sustainability.",
-  },
-  {
-    front: "Unit 7",
-    back: "Industrial and economic development covers industrialization, economic sectors, development theories, and trade.",
-  },
-  {
-    front: "MCQ",
-    back: "Section I has 60 multiple-choice questions, lasts 1 hour, and is worth 50% of the exam.",
-  },
-  {
-    front: "FRQ",
-    back: "Section II has 3 free-response questions, lasts 1 hour 15 minutes, and is worth 50% of the exam.",
-  },
-  {
-    front: "Digital format",
-    back: "The 2026 AP Human Geography exam is fully digital in the Bluebook app.",
-  },
+  { front: "Site", back: "Site explains a place using its physical characteristics such as water, terrain, or a natural harbor." },
+  { front: "Situation", back: "Situation explains a place by its relative location to routes, markets, neighbors, and other places." },
+  { front: "DTM Stage 2", back: "Death rates fall while birth rates stay high, so population grows quickly." },
+  { front: "Relocation diffusion", back: "A cultural trait spreads because people move and carry it to a new place." },
+  { front: "Contagious diffusion", back: "A trait spreads rapidly through close contact across nearby places or people." },
+  { front: "Unitary state", back: "Political power is concentrated mainly in the central government." },
+  { front: "Federal state", back: "Political power is shared between national and regional governments." },
+  { front: "Green Revolution", back: "Improved seeds, irrigation, and fertilizer raise crop yields in many regions." },
+  { front: "Bid-rent theory", back: "Land values are usually highest closest to the central business district." },
+  { front: "Gentrification", back: "Reinvestment in older urban neighborhoods often raises costs and can displace residents." },
 ];
 
 const SOURCES = [
@@ -542,7 +491,6 @@ const elements = {
   countdownLabel: document.getElementById("countdownLabel"),
   bigIdeaGrid: document.getElementById("bigIdeaGrid"),
   skillGrid: document.getElementById("skillGrid"),
-  examSectionGrid: document.getElementById("examSectionGrid"),
   quizModeRow: document.getElementById("quizModeRow"),
   quizProgress: document.getElementById("quizProgress"),
   quizScore: document.getElementById("quizScore"),
@@ -563,7 +511,6 @@ const elements = {
   bossQuestion: document.getElementById("bossQuestion"),
   bossStartBtn: document.getElementById("bossStartBtn"),
   badgeGrid: document.getElementById("badgeGrid"),
-  unitGrid: document.getElementById("unitGrid"),
   flashcardGrid: document.getElementById("flashcardGrid"),
   frqGrid: document.getElementById("frqGrid"),
   matchUnitGrid: document.getElementById("matchUnitGrid"),
@@ -587,9 +534,7 @@ function init() {
   renderCountdown();
   renderBigIdeas();
   renderSkills();
-  renderExamSections();
   renderQuizModes();
-  renderUnits();
   renderFlashcards();
   renderFrqs();
   renderBadges();
@@ -638,17 +583,6 @@ function renderSkills() {
     card.className = "mini-card";
     card.innerHTML = `<span class="chip">Skill ${skill.code}</span><strong>${skill.title}</strong><p>${skill.summary}</p>`;
     elements.skillGrid.append(card);
-  });
-}
-
-function renderExamSections() {
-  EXAM_SECTIONS.forEach((section) => {
-    const card = document.createElement("article");
-    card.className = "section-card";
-    card.innerHTML = `<span class="chip">${section.chip}</span><strong>${section.title}</strong><ul>${section.points
-      .map((point) => `<li>${point}</li>`)
-      .join("")}</ul>`;
-    elements.examSectionGrid.append(card);
   });
 }
 
@@ -886,28 +820,6 @@ function renderBadges() {
     card.className = `badge-card${unlocked ? " unlocked" : ""}`;
     card.innerHTML = `<span class="chip">${unlocked ? "Unlocked" : "Locked"}</span><strong>${badge.title}</strong><p>${badge.detail}</p>`;
     elements.badgeGrid.append(card);
-  });
-}
-
-function renderUnits() {
-  UNITS.forEach((unit) => {
-    const card = document.createElement("article");
-    card.className = "unit-card";
-    card.innerHTML = `
-      <header>
-        <div class="pill-row">
-          <span class="chip">${unit.short}</span>
-          <span class="chip">${unit.weight} MCQ</span>
-        </div>
-        <h3>${unit.title}</h3>
-        <p>${unit.summary}</p>
-      </header>
-      <strong>Course page summary</strong>
-      <ul>${unit.topics.map((topic) => `<li>${topic}</li>`).join("")}</ul>
-      <strong>Official topic names</strong>
-      <ul>${unit.officialTopics.map((topic) => `<li>${topic}</li>`).join("")}</ul>
-    `;
-    elements.unitGrid.append(card);
   });
 }
 
