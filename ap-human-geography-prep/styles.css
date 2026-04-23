@@ -85,7 +85,7 @@ button {
 .card {
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 26px;
+  border-radius: 0;
   box-shadow: var(--shadow);
   backdrop-filter: blur(8px);
   padding: 22px;
@@ -177,7 +177,7 @@ h3 {
 .mode-pill,
 .answer-btn {
   min-height: 46px;
-  border-radius: 999px;
+  border-radius: 0;
   padding: 11px 16px;
   transition:
     transform 0.18s ease,
@@ -230,7 +230,7 @@ h3 {
 .badge-card {
   background: var(--surface-strong);
   border: 1px solid var(--line);
-  border-radius: 22px;
+  border-radius: 0;
 }
 
 .exam-panel,
@@ -323,7 +323,7 @@ h3 {
   align-items: center;
   min-height: 30px;
   padding: 5px 10px;
-  border-radius: 999px;
+  border-radius: 0;
   font-size: 0.84rem;
   font-weight: 800;
 }
@@ -379,7 +379,7 @@ h3 {
   text-align: left;
   cursor: pointer;
   padding-inline: 18px;
-  border-radius: 18px;
+  border-radius: 0;
   min-height: 58px;
   font-weight: 700;
 }
@@ -395,7 +395,7 @@ h3 {
 }
 
 .feedback {
-  border-radius: 20px;
+  border-radius: 0;
   padding: 16px;
   background: rgba(255, 247, 232, 0.9);
   border: 1px solid rgba(212, 140, 40, 0.2);
@@ -482,7 +482,7 @@ h3 {
   cursor: pointer;
   perspective: 1000px;
   border: 1px solid var(--line);
-  border-radius: 22px;
+  border-radius: 0;
   background: var(--surface-strong);
 }
 
@@ -501,7 +501,7 @@ h3 {
 .flashcard-face {
   position: absolute;
   inset: 0;
-  border-radius: 18px;
+  border-radius: 0;
   backface-visibility: hidden;
   display: grid;
   align-content: space-between;
@@ -568,7 +568,7 @@ h3 {
   .study-step,
   .badge-card,
   .flashcard {
-    border-radius: 22px;
+    border-radius: 0;
   }
 
   .exam-facts div {
