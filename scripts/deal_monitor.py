@@ -369,6 +369,7 @@ def markdown_candidates(markdown: str, base_url: str, source_name: str, found_at
         markdown = markdown.split("Markdown Content:", 1)[1]
 
     deals = markdown_image_candidates(markdown, source_name, found_at)
+    deals.extend(markdown_evo_line_candidates(markdown, source_name, found_at))
     deals.extend(markdown_sierra_sequence_candidates(markdown, source_name, found_at))
     return deals
 
@@ -397,6 +398,31 @@ def markdown_image_candidates(markdown: str, source_name: str, found_at: str) ->
         current, original = choose_prices(prices)
         if compare_at:
             original = money(compare_at.group(1))
+        deals.append(make_deal(title, url, source_name, current, original, found_at))
+    return deals
+
+
+def markdown_evo_line_candidates(markdown: str, source_name: str, found_at: str) -> list[Deal]:
+    deals: list[Deal] = []
+    for line in markdown.splitlines():
+        if "https://www.evo.com/" not in line or "$" not in line:
+            continue
+
+        match = re.search(r"\]\((https?://www\.evo\.com/[^)\s]+)\)\s*$", line)
+        if not match:
+            continue
+
+        url = match.group(1)
+        if not is_product_url(url):
+            continue
+
+        content = line[1 : match.start()] if line.startswith("[") else line[: match.start()]
+        title = clean_markdown_title(content)
+        prices = extract_prices(content)
+        if not title or len(title) < 8 or not prices:
+            continue
+
+        current, original = choose_prices(prices)
         deals.append(make_deal(title, url, source_name, current, original, found_at))
     return deals
 
@@ -446,6 +472,7 @@ def choose_prices(prices: list[float]) -> tuple[float, float | None]:
 def clean_markdown_title(value: str) -> str:
     value = re.sub(r"!\[[^\]]*\]\([^)]+\)", " ", value)
     value = re.sub(r"\b(Image|Sale|Compare|View Selections)\b", " ", value, flags=re.I)
+    value = re.sub(r"\b(Outlet|Final|Sale|Orig)\b:?", " ", value, flags=re.I)
     value = PRICE_RE.sub(" ", value)
     value = re.sub(r"\b(Sale\s*-\s*)\b", " ", value, flags=re.I)
     return collapse_repeated_title(clean_text(value))
