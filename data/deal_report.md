@@ -1,34 +1,34 @@
 # Ski Gear Deals
 
-Generated: 2026-04-28T08:10:01-06:00
+Generated: 2026-04-29T07:03:04-06:00
 Deals found: 87
 
-1. [Rossignol Escaper 87 Skis - Women's 2025](https://www.evo.com/skis/rossignol-escaper-87-womens)
-   $94.99 was $742.00 (87.2% off) - Evo skis price ascending
-
-2. [Dynastar M-Pro 99 W Skis - Women's](https://www.evo.com/outlet/skis/dynastar-m-pro-99-w-womens)
+1. [Dynastar M-Pro 99 W Skis - Women's](https://www.evo.com/outlet/skis/dynastar-m-pro-99-w-womens)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
 
-3. [Rossignol Rallybird 104 Ti Skis - Women's](https://www.evo.com/outlet/skis/rossignol-rallybird-104-ti-womens)
+2. [Rossignol Rallybird 104 Ti Skis - Women's](https://www.evo.com/outlet/skis/rossignol-rallybird-104-ti-womens)
    $199.99 was $849.95 (76.5% off) - Evo skis price ascending
 
-4. [Weston Skyline Ski x Haa Aani Alliance (1) List: ( 69%) Blazin' Deal](https://www.campsaver.com/weston-skyline-ski-x-haa-aani-alliance.html)
+3. [Weston Skyline Ski x Haa Aani Alliance (1) List: ( 69%) Blazin' Deal](https://www.campsaver.com/weston-skyline-ski-x-haa-aani-alliance.html)
    $213.89 was $699.00 (69.4% off) - CampSaver backcountry skis
 
-5. [Zag Skis Adret 78 Alpine Touring Skis](https://www.sierra.com/zag-skis-adret-78-alpine-touring-skis~p~8tnux/?filterString=s~skis%2Factivities~d~14342%2Fsports-and-games~d~14656%2Fsnow-sports~d~14343%2Fskis~d~9694%2F)
+4. [Zag Skis Adret 78 Alpine Touring Skis](https://www.sierra.com/zag-skis-adret-78-alpine-touring-skis~p~8tnux/?filterString=s~skis%2Factivities~d~14342%2Fsports-and-games~d~14656%2Fsnow-sports~d~14343%2Fskis~d~9694%2F)
    $299.00 was $900.00 (66.8% off) - Sierra skis
 
-6. [Zag Skis Adret 85 Alpine Touring Skis For Women](https://www.sierra.com/zag-skis-adret-85-alpine-touring-skis-for-women~p~8tnuv/?filterString=s~skis%2Factivities~d~14342%2Fsports-and-games~d~14656%2Fsnow-sports~d~14343%2Fskis~d~9694%2F)
+5. [Zag Skis Adret 85 Alpine Touring Skis For Women](https://www.sierra.com/zag-skis-adret-85-alpine-touring-skis-for-women~p~8tnuv/?filterString=s~skis%2Factivities~d~14342%2Fsports-and-games~d~14656%2Fsnow-sports~d~14343%2Fskis~d~9694%2F)
    $299.00 was $900.00 (66.8% off) - Sierra skis
 
-7. [Zag Skis Slap 92 Alpine Skis For Women](https://www.sierra.com/zag-skis-slap-92-alpine-skis-for-women~p~8tnut/?filterString=s~skis%2Factivities~d~14342%2Fsports-and-games~d~14656%2Fsnow-sports~d~14343%2Fskis~d~9694%2F)
+6. [Zag Skis Slap 92 Alpine Skis For Women](https://www.sierra.com/zag-skis-slap-92-alpine-skis-for-women~p~8tnut/?filterString=s~skis%2Factivities~d~14342%2Fsports-and-games~d~14656%2Fsnow-sports~d~14343%2Fskis~d~9694%2F)
    $249.00 was $700.00 (64.4% off) - Sierra skis
 
-8. [2 models G3 FINDr FLX R3 94 Skis List: ( 64%) Blazin' Deal](https://www.campsaver.com/g3-findr-flx-r3-94-skis.html)
+7. [2 models G3 FINDr FLX R3 94 Skis List: ( 64%) Blazin' Deal](https://www.campsaver.com/g3-findr-flx-r3-94-skis.html)
    $237.60 was $662.00 (64.1% off) - CampSaver backcountry skis
 
-9. [K2 Mindbender 115 C Alliance Skis ​+ Marker Squire 11 Demo Bindings - Used Clearance](https://www.evo.com/outlet/used/ski-binding-packages/k2-mindbender-115-c-alliance-skis-marker-squire-11-demo-bindings)
+8. [K2 Mindbender 115 C Alliance Skis ​+ Marker Squire 11 Demo Bindings - Used Clearance](https://www.evo.com/outlet/used/ski-binding-packages/k2-mindbender-115-c-alliance-skis-marker-squire-11-demo-bindings)
    $309.97 was $849.95 (63.5% off) - Evo skis price ascending
+
+9. [Armada Reliance 92 Ti Skis ​+ Armada Strive 11 Demo Bindings - Used Clearance](https://www.evo.com/outlet/used/ski-binding-packages/armada-reliance-92-ti-skis-strive-11-demo-bindings)
+   $329.96 was $897.95 (63.3% off) - Evo skis price ascending
 
 10. [Zag Skis Ubac 89 Alpine Touring Skis For Women](https://www.sierra.com/zag-skis-ubac-89-alpine-touring-skis-for-women~p~8tnuk/?filterString=s~skis%2Factivities~d~14342%2Fsports-and-games~d~14656%2Fsnow-sports~d~14343%2Fskis~d~9694%2F)
    $299.00 was $800.00 (62.6% off) - Sierra skis
