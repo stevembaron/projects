@@ -2,19 +2,18 @@
 
 ## Act now
 
-- **Stio Eddy Shirt SS, Men's M — $39.67** ([Geartrade](https://geartrade.com/products/stio-eddy-shirt-ss-mens-1696242)): second day at yesterday's fresh 90-day low, exact M fit, well under the $100 cap — no further drop today, but it's still the floor price.
+Nothing clears the bar today — no fresh floor price with real urgency; the strongest fits are either flat for months or brushing your budget cap.
 
 ## Worth watching
 
-- **Rossignol Rallybird 94 Open, 156cm (family) — $389.97** ([Lone Pine](https://lonepinegearx.com/products/2025-rossignol-rallybird-94-open-34522)): second mention, watch-term brand, exact family fit, 44% off — flat since May with no confirmed floor; buy if it drops toward $300, last call after today.
-- **Black Diamond Helio Carbon 104, 160/166/172cm (family + you) — $399.00** ([The Gear Room](https://thegearroom.com/products/black-diamond-helio-carbon-104-skis)): second mention, rare dual-fit across both size sets, 58% off — flat since May, no rush, last call after today.
-- **Atomic Backland 85 W, 157cm (family) — $349.97** ([Evo](https://www.evo.com/products/289329-atomic-backland-85-w-skis-women-s-2025)): back in stock after selling out yesterday, exact family fit, 42% off — no price history yet, but the sellout shows it moves.
-- **Nordica Unleashed 90 Tree Skis 2024, 160cm (family) — $225.00** ([Evo](https://www.evo.com/products/242000-nordica-unleashed-90-tree-skis-2024)): second mention, exact family fit, in stock, 50% off, far under cap — flat, no urgency, last call after today.
-- **Majesty Havoc 110 Ti, 171cm (you) — $449.89** ([Lone Pine](https://lonepinegearx.com/products/2026-majesty-havoc-110-ti-1b5ea)): new pick, exact fit, 55% off — no price history to confirm a floor, and it's close to your $500 cap, so no rush.
+- **2026 Elan Ripstick 102 Black Edition, 168cm (you) — $479.99** ([Lone Pine](https://lonepinegearx.com/products/2026-elan-ripstick-102-black-edition-a858b)): new pick, watch-term brand, exact fit, 52% off — no price history yet and it's near your $500 cap, so no rush unless it drops further.
+- **2026 Majesty Havoc 110 Ti, 171cm (you) — $449.89** ([Lone Pine](https://lonepinegearx.com/products/2026-majesty-havoc-110-ti-1b5ea)): second day, exact fit, 55% off — still no trend data and close to cap, last call after today.
+- **Season Nexus Skis 2026, 158cm (family) — $299.98** ([Evo](https://www.evo.com/products/257155-season-nexus-skis-2026-used)): new pick, exact family fit, in stock, 60% off, well under cap — flat since May with no confirmed floor, but genuinely cheap if you want it now.
 
 ## Notes
 
 - CampSaver and J Skis Secret Stash blocked again today (403 Forbidden) — no data from either.
-- K2 Reckoner 102, 170cm ($359.99) is sitting at the *top* of its own 90-day range despite 60% framing — not a real deal, skipped; Fischer Pulse Pro and the Volkl Peregrine XT/Shine 76 pair are the same story.
-- Stio recurring picks stay retired, unchanged: Eddy LS $48.92, Skycrest $99.50, Divide Half Zip $42.67; Figment Jacket ($204.25) still over the $100 cap.
-- Also unchanged and fully retired, still fine buys: K2 Mindbender 96 C 2026 dual-fit pair ($419.97), the Evo Griffon-demo cluster (K2 Mindbender 96 C $303.99, Völkl M7 Mantra $389.99, K2 Reckoner 110 W $359.99), and Dynastar M-Pro 99 W ($119.99).
+- Retiring, unchanged, still fine buys if wanted: Black Diamond Helio Carbon 104 ($399, dual-fit 160/166/172cm), Rossignol Rallybird 94 Open ($389.97, 156cm, watch-term brand), Nordica Unleashed 90 Tree Skis 2024 ($225, 160cm family), Atomic Backland 85 W ($349.97, 157cm family, after several restock cycles).
+- Stio Eddy Shirt SS ($39.67, M) is now a third straight day at its 90-day low — dropping from Act now since nothing's new, but it's still the floor price if you want it. Other Stio recurring picks (Eddy LS $48.92, Skycrest $99.50, Divide Half Zip $42.67) stay retired; Figment Jacket ($204.25) is still over the $100 cap.
+- Nordica Santa Ana 102 W (watch-term brand) appeared at $339.99 but only in 179cm — fits neither your nor family sizes.
+- Skipped again: K2 Reckoner 102 ($359.99, 170cm) is still sitting at the top of its own 90-day range; the Volkl Peregrine XT/Shine 76 pair and Fischer Pulse Pro remain flat at their range highs despite ~40% off framing — not real deals.
