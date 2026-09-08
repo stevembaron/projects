@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-09-07T21:29:18+00:00
+Generated: 2026-09-08T14:36:45+00:00
 Deals found: 241
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -123,35 +123,35 @@ Deals found: 241
    Sizes: 170cm
 
 
-21. [Volkl Flair 79 Women’s Skis with Wideride 11 TCX Bindings - 163cm](https://www.eriksbikeshop.com/products/volkl-flair-79-womens-skis-with-wideride-11-tcx-bindings-2025-pr5a23041)
-   $299.99 was $799.99 (62.5% off) - ERIK'S downhill skis price ascending
-   Price trend: Same as prior day
-   Sizes: 163cm
-
-
-22. [2025 Zag Women's Slap 92 - 166cm / Blue/Pink / New](https://lonepinegearx.com/products/2025-zag-womens-slap-92-e0d32)
+21. [2025 Zag Women's Slap 92 - 166cm / Blue/Pink / New](https://lonepinegearx.com/products/2025-zag-womens-slap-92-e0d32)
    $299.95 was $780.00 (61.5% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 166cm
 
 
-23. [2024 Zag UBAC 95 - 170cm / Blue/Green/White / New](https://lonepinegearx.com/products/2024-zag-ubac-95-cea07)
+22. [2024 Zag UBAC 95 - 170cm / Blue/Green/White / New](https://lonepinegearx.com/products/2024-zag-ubac-95-cea07)
    $299.00 was $775.00 (61.4% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
 
 
-24. [2023 Zag UBAC 95 - 170cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f51c9)
+23. [2023 Zag UBAC 95 - 170cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f51c9)
    $299.95 was $775.00 (61.3% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
 
 
-25. [2023 Zag UBAC 95 - 158cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f0cf3)
+24. [2023 Zag UBAC 95 - 158cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f0cf3)
    $299.99 was $775.00 (61.3% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 158cm
 
+
+25. [Season Nexus Skis 2026 - Used](https://www.evo.com/products/257155-season-nexus-skis-2026-used)
+   $299.98 was $749.95 (60.0% off) - Evo skis price ascending
+   Price trend: Same as prior day
+   Sizes: 158 cm
+   Stock: In stock
 
 
 ## Source Errors
