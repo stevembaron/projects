@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T14:36:32+00:00",
-  "deal_count": 6,
+  "generated_at": "2026-09-08T21:07:01+00:00",
+  "deal_count": 5,
   "sources_checked": 1,
   "price_history_count": 452,
   "price_change_count": 1,
@@ -14,7 +14,7 @@
       "discount_percent": 72.0,
       "savings": 138.42,
       "score": 125.53,
-      "found_at": "2026-09-08T14:36:31+00:00",
+      "found_at": "2026-09-08T21:06:59+00:00",
       "sizes": [
         "M"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 61.0,
       "savings": 319.47,
       "score": 111.91,
-      "found_at": "2026-09-08T14:36:31+00:00",
+      "found_at": "2026-09-08T21:06:59+00:00",
       "sizes": [
         "M"
       ],
@@ -54,30 +54,6 @@
       "highest_price": 211.6
     },
     {
-      "title": "Stio Eddy Shirt SS - Men's",
-      "url": "https://geartrade.com/products/stio-eddy-shirt-ss-mens-1696242",
-      "source": "Geartrade Stio men's clothing",
-      "current_price": 39.67,
-      "original_price": 120.21,
-      "discount_percent": 67.0,
-      "savings": 80.54,
-      "score": 106.34,
-      "found_at": "2026-09-08T14:36:31+00:00",
-      "sizes": [
-        "M"
-      ],
-      "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/ab6a6c80-82d9-4c1a-91c1-509646342624.webp?v=1788797461&width=460",
-      "is_cached": false,
-      "previous_price": 39.67,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-06-27T11:47:36+00:00",
-      "lowest_price": 39.67,
-      "highest_price": 53.55
-    },
-    {
       "title": "Stio Eddy Shirt LS Shirt - Men's",
       "url": "https://geartrade.com/products/stio-eddy-shirt-ls-shirt-mens-1629203",
       "source": "Geartrade Stio men's clothing",
@@ -86,7 +62,7 @@
       "discount_percent": 62.0,
       "savings": 79.82,
       "score": 100.98,
-      "found_at": "2026-09-08T14:36:31+00:00",
+      "found_at": "2026-09-08T21:06:59+00:00",
       "sizes": [
         "S"
       ],
@@ -110,7 +86,7 @@
       "discount_percent": 50.0,
       "savings": 99.5,
       "score": 92.89,
-      "found_at": "2026-09-08T14:36:31+00:00",
+      "found_at": "2026-09-08T21:06:59+00:00",
       "sizes": [
         "M"
       ],
@@ -134,7 +110,7 @@
       "discount_percent": 52.0,
       "savings": 46.23,
       "score": 82.7,
-      "found_at": "2026-09-08T14:36:31+00:00",
+      "found_at": "2026-09-08T21:06:59+00:00",
       "sizes": [
         "S"
       ],
