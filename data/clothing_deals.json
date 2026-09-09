@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T14:38:53+00:00",
+  "generated_at": "2026-09-09T20:54:36+00:00",
   "deal_count": 5,
   "sources_checked": 1,
-  "price_history_count": 452,
+  "price_history_count": 455,
   "price_change_count": 0,
   "deals": [
     {
@@ -14,7 +14,7 @@
       "discount_percent": 72.0,
       "savings": 138.42,
       "score": 125.53,
-      "found_at": "2026-09-09T14:38:51+00:00",
+      "found_at": "2026-09-09T20:54:34+00:00",
       "sizes": [
         "M"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 61.0,
       "savings": 319.47,
       "score": 111.91,
-      "found_at": "2026-09-09T14:38:51+00:00",
+      "found_at": "2026-09-09T20:54:34+00:00",
       "sizes": [
         "M"
       ],
@@ -62,7 +62,7 @@
       "discount_percent": 62.0,
       "savings": 79.82,
       "score": 100.98,
-      "found_at": "2026-09-09T14:38:51+00:00",
+      "found_at": "2026-09-09T20:54:34+00:00",
       "sizes": [
         "S"
       ],
@@ -86,7 +86,7 @@
       "discount_percent": 50.0,
       "savings": 99.5,
       "score": 92.89,
-      "found_at": "2026-09-09T14:38:51+00:00",
+      "found_at": "2026-09-09T20:54:34+00:00",
       "sizes": [
         "M"
       ],
@@ -110,7 +110,7 @@
       "discount_percent": 52.0,
       "savings": 46.23,
       "score": 82.7,
-      "found_at": "2026-09-09T14:38:51+00:00",
+      "found_at": "2026-09-09T20:54:34+00:00",
       "sizes": [
         "S"
       ],
