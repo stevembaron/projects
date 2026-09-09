@@ -2,18 +2,19 @@
 
 ## Act now
 
-- **K2 Reckoner 110 W + Griffon 13 Demo, 156cm (family) — $359.99** ([Evo](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)): second day sitting at the bottom of its 90-day range ($359.99–$419.99), exact family fit, in stock, 66% off — a confirmed floor, not just a percentage.
+Nothing clears the bar today — no fresh floor prices or newly-tracked matches with real urgency; the two picks that did clear it these last two days have already had their two pitches and are retiring below.
 
 ## Worth watching
 
-- **Salomon Stance 88 W, 168cm (you) — $249.99** ([ERIK'S](https://www.eriksbikeshop.com/products/salomon-stance-88-womens-skis-2025-pr5a20595)): second mention, exact fit, 64% off, well under cap — still no price history, no rush.
-- **K2 Reckoner 102 W + Griffon 13 Demo, 170cm (you) — $359.99** ([Evo](https://www.evo.com/products/292795-k2-reckoner-102-w-skis-griffon-13-demo-ski-bindings-2025-used)): second mention, exact fit, 60% off — sibling Reckoner listings are trading at the top of their own ranges, so treat this as unconfirmed; buy if it drops toward $330.
-- **Völkl M7 Mantra + Griffon 13 Demo, 170cm (you) — $389.99** ([Evo](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)): new pick, exact fit, in stock, 66% off — no price history yet, no rush.
-- **Völkl Peregrine 82 + Lowride 12 TCX Demo, 172cm (you) — $439.99** ([Evo](https://www.evo.com/products/292784-volkl-peregrine-82-skis-lowride-12-tcx-demo-ski-bindings-2025-used)): new pick, newly tracked today, exact fit, in stock, 60% off — close to your cap, no trend data yet.
-- **Elan Element Sport w/ EL 9.0 Bindings, 160cm (family) / 168cm (you) — $239.99** ([ERIK'S](https://www.eriksbikeshop.com/products/elan-element-sport-skis-with-el-9-0-bindings-pr5a16794)): new pick, dual-fit, skis + bindings for well under half your cap — the 40% off has been flat for months so there's no urgency, just a solid budget option.
+- **Völkl M7 Mantra + Griffon 13 Demo, 170cm (you) — $389.99** ([Evo](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)): second mention, exact fit, in stock, 66% off — still no price history, no rush.
+- **Völkl Peregrine 82 + Lowride 12 TCX Demo, 172cm (you) — $439.99** ([Evo](https://www.evo.com/products/292784-volkl-peregrine-82-skis-lowride-12-tcx-demo-ski-bindings-2025-used)): second mention, exact fit, in stock, 60% off — close to your cap, still no trend data.
+- **K2 Mindbender 96 C + Griffon 13 Demo, 172cm (you) — $303.99** ([Evo](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)): new pick, exact fit, in stock, 68% off — no price history yet, but a real absolute price for your size.
+- **Elan Element Sport w/ EL 9.0 Bindings, 160cm (family) / 168cm (you) — $239.99** ([ERIK'S](https://www.eriksbikeshop.com/products/elan-element-sport-skis-with-el-9-0-bindings-pr5a16794)): second mention, dual-fit, skis + bindings for well under half your cap — the 40% off has been flat for months, no urgency, just a solid budget option.
+- **2025 Volkl Women's Secret 88, 170cm (you) — $389.99** ([Lone Pine](https://lonepinegearx.com/products/2025-volkl-womens-secret-88-f0bd9)): resurfacing pick, exact fit, 48% off — flat since June, no urgency.
 
 ## Notes
 
-- CampSaver and J Skis Secret Stash blocked again today (403 Forbidden) — no data from either.
-- Retiring after two unchanged pitches: Dynastar M-Pro 99 W, 154cm family ($119.99, in stock) and Stio Full-Zip Shacket M ($53.83, sitting at its 90-day floor) — both still genuinely good buys if you still want them.
-- Skipped: Black Crows Camox 168cm ($399.99, your size) and Salomon S/MAX N°10 XT W 170cm ($419.97, your size) are exact fits but sitting at the top of their own 90-day ranges — not real deals despite the discount framing.
+- Retiring after two unchanged pitches: K2 Reckoner 110 W + Griffon, 156cm family ($359.99, still sitting at the bottom of its 90-day range) and Stio Full-Zip Shacket M ($53.83, still at its 90-day floor) — both still genuinely good buys if you still want them.
+- Also dropping K2 Reckoner 102 W, 170cm ($359.99) and Salomon Stance 88 W, 168cm ($249.99) — unchanged since first flagged, and their triggers never fired.
+- J Skis Secret Stash blocked again today (403 Forbidden); CampSaver is back online.
+- Skipped: Black Crows Camox, 168cm ($399.99) and Salomon S/MAX N°10 XT W, 170cm ($419.97) remain at the top of their own 90-day ranges despite the discount framing — still not real deals.
