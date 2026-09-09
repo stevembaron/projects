@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-09-08T21:07:16+00:00
+Generated: 2026-09-09T14:39:05+00:00
 Deals found: 241
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -63,95 +63,95 @@ Deals found: 241
    Sizes: 168cm, 174cm
 
 
-11. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)
+11. [Völkl Peregrine 82 Skis + Lowride 13 FR Bindings 2025 - Used](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)
+   $369.99 was $1099.99 (66.4% off) - Evo skis price ascending
+   Price trend: Newly tracked
+   Sizes: 162 cm
+   Stock: In stock
+
+12. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)
    $369.99 was $1099.90 (66.4% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 169 cm
    Stock: In stock
 
-12. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
+13. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
    $314.99 was $899.00 (65.0% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 178 cm
    Stock: In stock
 
-13. [K2 Reckoner 110 W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)
+14. [K2 Reckoner 110 W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)
    $359.99 was $1049.90 (65.7% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 156 cm
    Stock: In stock
 
-14. [Völkl M7 Mantra Skis + Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)
+15. [Völkl M7 Mantra Skis + Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.94 (66.1% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 170 cm
    Stock: In stock
 
-15. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
+16. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.90 (66.1% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 165 cm
    Stock: In stock
 
-16. [Black Crows Camox Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292725-black-crows-camox-skis-griffon-13-demo-ski-bindings-2025-used)
+17. [Black Crows Camox Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292725-black-crows-camox-skis-griffon-13-demo-ski-bindings-2025-used)
    $399.99 was $1169.90 (65.8% off) - Evo skis price ascending
-   Price trend: Up $30.00 (8.1%) since prior day
+   Price trend: Same as prior day
    Sizes: 168 cm
    Stock: In stock
 
-17. [2025 Zag Harfang 86 - 170cm / Orange/Blue / New](https://lonepinegearx.com/products/2025-zag-harfang-86-fa09f)
+18. [2025 Zag Harfang 86 - 170cm / Orange/Blue / New](https://lonepinegearx.com/products/2025-zag-harfang-86-fa09f)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
 
 
-18. [2025 Zag Women's Harfang 86 - 155cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
+19. [2025 Zag Women's Harfang 86 - 155cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 155cm
 
 
-19. [2025 Zag Women's Harfang 86 - 162cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
+20. [2025 Zag Women's Harfang 86 - 162cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 162cm
 
 
-20. [2025 Zag Women's Harfang 86 - 170cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
+21. [2025 Zag Women's Harfang 86 - 170cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
 
 
-21. [2025 Zag Women's Slap 92 - 166cm / Blue/Pink / New](https://lonepinegearx.com/products/2025-zag-womens-slap-92-e0d32)
+22. [2025 Zag Women's Slap 92 - 166cm / Blue/Pink / New](https://lonepinegearx.com/products/2025-zag-womens-slap-92-e0d32)
    $299.95 was $780.00 (61.5% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 166cm
 
 
-22. [2024 Zag UBAC 95 - 170cm / Blue/Green/White / New](https://lonepinegearx.com/products/2024-zag-ubac-95-cea07)
+23. [2024 Zag UBAC 95 - 170cm / Blue/Green/White / New](https://lonepinegearx.com/products/2024-zag-ubac-95-cea07)
    $299.00 was $775.00 (61.4% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
 
 
-23. [2023 Zag UBAC 95 - 170cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f51c9)
+24. [2023 Zag UBAC 95 - 170cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f51c9)
    $299.95 was $775.00 (61.3% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
 
 
-24. [2023 Zag UBAC 95 - 158cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f0cf3)
+25. [2023 Zag UBAC 95 - 158cm / Blue/White / New](https://lonepinegearx.com/products/2023-zag-ubac-95-f0cf3)
    $299.99 was $775.00 (61.3% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 158cm
 
-
-25. [Season Nexus Skis 2026 - Used](https://www.evo.com/products/257155-season-nexus-skis-2026-used)
-   $299.98 was $749.95 (60.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
-   Sizes: 158 cm
-   Stock: In stock
 
 
 ## Source Errors
