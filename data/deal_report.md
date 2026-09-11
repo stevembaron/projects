@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-09-10T20:49:47+00:00
+Generated: 2026-09-11T14:29:55+00:00
 Deals found: 228
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -41,13 +41,13 @@ Deals found: 228
 
 7. [Völkl Secret 84 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292798-volkl-secret-84-skis-squire-11-demo-ski-bindings-2025-used)
    $299.99 was $879.94 (65.9% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 161 cm
    Stock: In stock
 
 8. [Armada ARV 100 Skis + Strive 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292582-armada-arv-100-skis-strive-13-demo-ski-bindings-2025-used)
    $329.99 was $979.90 (66.3% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 158 cm
    Stock: In stock
 
@@ -77,14 +77,14 @@ Deals found: 228
 
 13. [Völkl Blaze 94 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292724-volkl-blaze-94-skis-squire-11-demo-ski-bindings-2025-used)
    $319.99 was $929.94 (65.6% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 151 cm
    Stock: In stock
 
 14. [Völkl Peregrine 82 Skis + Lowride 13 FR Bindings 2025 - Used](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)
    $369.99 was $1099.99 (66.4% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 162 cm
+   Sizes: 172 cm
    Stock: In stock
 
 15. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)
