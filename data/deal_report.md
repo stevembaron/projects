@@ -1,7 +1,7 @@
 # Ski Gear Deals
 
-Generated: 2026-09-11T20:56:12+00:00
-Deals found: 228
+Generated: 2026-09-12T13:37:58+00:00
+Deals found: 230
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
@@ -11,7 +11,7 @@ Deals found: 228
 
 2. [K2 Mindbender 96 C W Skis - Women's 2025](https://www.evo.com/products/252237-k2-mindbender-96-c-w-skis-women-s-2025)
    $199.99 was $649.95 (69.2% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 172 cm
    Stock: In stock
 
@@ -120,7 +120,7 @@ Deals found: 228
 20. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.90 (66.1% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 165 cm
+   Sizes: 176 cm
    Stock: In stock
 
 21. [Black Crows Camox Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292725-black-crows-camox-skis-griffon-13-demo-ski-bindings-2025-used)
