@@ -1,7 +1,7 @@
 # Ski Gear Deals
 
-Generated: 2026-09-12T20:31:23+00:00
-Deals found: 230
+Generated: 2026-09-13T14:27:23+00:00
+Deals found: 246
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
@@ -17,7 +17,7 @@ Deals found: 230
 
 3. [Line Skis Vision 104 Skis 2025](https://www.evo.com/products/251651-line-skis-vision-104-skis-2025)
    $249.99 was $799.95 (68.7% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 178 cm
    Stock: In stock
 
@@ -156,4 +156,5 @@ Deals found: 230
 
 ## Source Errors
 
+- CampSaver backcountry skis: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
 - J Skis Secret Stash: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
