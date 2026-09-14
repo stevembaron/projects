@@ -2,19 +2,20 @@
 
 ## Act now
 
-- **Stio Full-Zip Shacket, Men's M — $53.83** ([Geartrade](https://geartrade.com/products/stio-full-zip-shacket-mens-1685510)): watch-term brand, exact fit, second day confirmed at its 90-day floor ($53.83–$85.50 range), feed live again today — well under your $100 cap. Still the pick if you haven't grabbed it.
+Nothing clears the bar today — no confirmed new lows or fresh watch-term hits; the items that fit are either past their two-pitch limit or sitting at the same storewide 40–44% markdown that's run since May.
 
 ## Worth watching
 
-- **Armada ARV 100 + Strive 13 Demo, 172cm (you) — $329.99** ([Evo](https://www.evo.com/products/292582-armada-arv-100-skis-strive-13-demo-ski-bindings-2025-used)): second mention, exact fit, in stock — treat the 66% off as bundled-demo-binding math, but $329.99 is a solid absolute price. Note: this listing now shows 172cm, not the 158cm noted yesterday.
-- **K2 Mindbender 96 C + Griffon 13 Demo, 172cm (you) — $303.99** ([Evo](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)): new, exact fit, in stock, same bundled-binding caveat — strong absolute price well under cap.
-- **Völkl Peregrine 82 + Lowride 12 TCX Demo, 172cm (you) — $439.99** ([Evo](https://www.evo.com/products/292784-volkl-peregrine-82-skis-lowride-12-tcx-demo-ski-bindings-2025-used)): second mention, exact fit, in stock, brushing your cap — buy only if you want it now, no confirmed floor yet.
-- **Salomon Stance 94, 168cm (you) — $319.99** ([Lone Pine](https://lonepinegearx.com/products/2025-salomon-stance-94-f7d1b)): new, exact fit, comfortably under cap — flat for 5 weeks, so no urgency, buy if you like it.
-- **Stio Divide Half Zip, S — $42.67** ([Geartrade](https://geartrade.com/products/stio-divide-half-zip-mens-1660860)): exact fit, cheap, flat since May — last call before I drop it.
+- **K2 Mindbender 96 C + Griffon 13 Demo, 172cm (you) — $303.99** ([Evo](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)): second mention, exact fit, in stock, strong price under cap; treat the 68% off as bundled-binding math, not a real signal.
+- **Salomon Stance 88 W, 168cm (you) — $249.99** ([ERIK'S](https://www.eriksbikeshop.com/products/salomon-stance-88-womens-skis-2025-pr5a20595)): new, exact fit, 64% off — deeper than ERIK'S usual 40% baseline, but flat since May with no history to confirm a floor. Buy if you like it.
+- **Majesty Havoc 110 Ti, 171cm (you) — $449.89** ([Lone Pine](https://lonepinegearx.com/products/2026-majesty-havoc-110-ti-1b5ea)): new, exact fit, 55% off — above Lone Pine's usual baseline, but brushing your cap with no history yet.
+- **Stio Full-Zip Shacket, M — $53.83** ([Geartrade](https://geartrade.com/products/stio-full-zip-shacket-mens-1685510)): confirmed 90-day floor, watch-term brand, exact fit, well under cap — third day pitched, last call.
+- **Armada ARV 100 + Strive 13 Demo, 172cm (you) — $329.99** ([Evo](https://www.evo.com/products/292582-armada-arv-100-skis-strive-13-demo-ski-bindings-2025-used)): third mention, exact fit, in stock, solid price — last call; listed size has flip-flopped between 158cm and 172cm, verify at checkout.
 
 ## Notes
 
-- Retiring after repeated flat pitches, still fine buys if wanted: K2 Reckoner 110W+Griffon Demo 156cm/family $359.99 (still at its 90-day low but unchanged for days), Völkl Peregrine 82+Lowride 13 FR 172cm/you $369.99.
-- Skip: Fischer Pulse Pro and Black Crows Camox+Griffon Demo (168cm/you) remain at the *top* of their own 90-day ranges despite discount tags; most of the ERIK'S/Lone Pine/Gear Room catalog is still a storewide 40–44% off markdown flat since May.
-- Watch-term hits, no size fit: Nordica Santa Ana 102 (179cm), Dynastar M-Pro 92W (178cm).
+- Retiring, still fine buys: Völkl Peregrine 82 + Lowride 12 TCX Demo 172cm/you $439.99 (third mention, no confirmed floor) and Stio Divide Half Zip S $42.67 (flat since May, last call was yesterday).
+- Skip: Black Crows Camox + Griffon Demo 168cm/you $399.99 sits at the top of its own 90-day range; Rossignol Rallybird 94 Open (watch-term, 156cm/family) has held the same 44% storewide markdown since May. Most of the ERIK'S/Lone Pine/Gear Room catalog is still flat 40–44% off since May.
+- Watch-term, no size fit: Nordica Santa Ana 102 (179cm), Dynastar M-Pro 92W (178cm).
+- Stio Figment Jacket is a genuine 90-day low ($196.91) but nearly double the $100 clothing cap — skipping.
 - CampSaver and J Skis both blocked again (403).
