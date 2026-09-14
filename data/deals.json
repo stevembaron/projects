@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T20:47:03+00:00",
-  "deal_count": 246,
+  "generated_at": "2026-09-14T16:23:34+00:00",
+  "deal_count": 248,
   "sources_checked": 7,
-  "price_history_count": 468,
+  "price_history_count": 474,
   "price_change_count": 0,
   "deals": [
     {
@@ -14,7 +14,7 @@
       "discount_percent": 82.9,
       "savings": 579.96,
       "score": 135.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "154 cm"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 69.2,
       "savings": 449.96,
       "score": 120.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -62,7 +62,7 @@
       "discount_percent": 68.0,
       "savings": 645.91,
       "score": 116.92,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -86,7 +86,7 @@
       "discount_percent": 68.0,
       "savings": 645.91,
       "score": 116.92,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "167 cm"
       ],
@@ -110,7 +110,7 @@
       "discount_percent": 67.0,
       "savings": 670.0,
       "score": 115.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162 cm"
       ],
@@ -134,7 +134,7 @@
       "discount_percent": 67.0,
       "savings": 669.91,
       "score": 115.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "176 cm"
       ],
@@ -158,7 +158,7 @@
       "discount_percent": 65.4,
       "savings": 510.05,
       "score": 115.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -182,7 +182,7 @@
       "discount_percent": 65.9,
       "savings": 579.95,
       "score": 114.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "161 cm"
       ],
@@ -206,9 +206,9 @@
       "discount_percent": 66.3,
       "savings": 649.91,
       "score": 114.7,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
-        "158 cm"
+        "172 cm"
       ],
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1347944.jpg?v=1788905297",
@@ -230,7 +230,7 @@
       "discount_percent": 66.7,
       "savings": 719.95,
       "score": 114.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -254,7 +254,7 @@
       "discount_percent": 65.5,
       "savings": 570.05,
       "score": 114.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -278,7 +278,7 @@
       "discount_percent": 64.3,
       "savings": 449.96,
       "score": 114.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "168cm",
         "174cm"
@@ -303,7 +303,7 @@
       "discount_percent": 65.6,
       "savings": 609.95,
       "score": 114.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "151 cm"
       ],
@@ -327,7 +327,7 @@
       "discount_percent": 66.4,
       "savings": 730.0,
       "score": 114.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -351,7 +351,7 @@
       "discount_percent": 66.4,
       "savings": 729.91,
       "score": 114.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "169 cm"
       ],
@@ -375,7 +375,7 @@
       "discount_percent": 65.0,
       "savings": 584.01,
       "score": 113.7,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "178 cm"
       ],
@@ -399,7 +399,7 @@
       "discount_percent": 65.7,
       "savings": 689.91,
       "score": 113.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -423,7 +423,7 @@
       "discount_percent": 66.1,
       "savings": 759.95,
       "score": 113.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -447,7 +447,7 @@
       "discount_percent": 66.1,
       "savings": 759.91,
       "score": 113.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "176 cm"
       ],
@@ -471,7 +471,7 @@
       "discount_percent": 65.8,
       "savings": 769.91,
       "score": 112.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "168 cm"
       ],
@@ -495,7 +495,7 @@
       "discount_percent": 62.8,
       "savings": 490.05,
       "score": 112.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -519,7 +519,7 @@
       "discount_percent": 62.8,
       "savings": 490.05,
       "score": 112.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "155cm"
       ],
@@ -543,7 +543,7 @@
       "discount_percent": 62.8,
       "savings": 490.05,
       "score": 112.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -567,7 +567,7 @@
       "discount_percent": 62.8,
       "savings": 490.05,
       "score": 112.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -591,7 +591,7 @@
       "discount_percent": 61.5,
       "savings": 480.05,
       "score": 110.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "166cm"
       ],
@@ -615,7 +615,7 @@
       "discount_percent": 61.4,
       "savings": 476.0,
       "score": 110.42,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -639,12 +639,12 @@
       "discount_percent": 61.3,
       "savings": 475.05,
       "score": 110.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
       "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1774557687772SA3CCAUS7CIXWPEFGKTQ.jpg?v=1778870766",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1774557687772SA3CCAUS7CIXWPEFGKTQ.jpg?v=1789346320",
       "is_cached": false,
       "previous_price": 299.95,
       "price_change": 0.0,
@@ -663,7 +663,7 @@
       "discount_percent": 61.3,
       "savings": 475.01,
       "score": 110.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "158cm"
       ],
@@ -687,7 +687,7 @@
       "discount_percent": 60.0,
       "savings": 449.97,
       "score": 109.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "158 cm"
       ],
@@ -711,7 +711,7 @@
       "discount_percent": 60.0,
       "savings": 510.0,
       "score": 108.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "179 cm"
       ],
@@ -735,7 +735,7 @@
       "discount_percent": 60.0,
       "savings": 539.91,
       "score": 107.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "177 cm"
       ],
@@ -759,7 +759,7 @@
       "discount_percent": 60.0,
       "savings": 539.91,
       "score": 107.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -783,7 +783,7 @@
       "discount_percent": 60.0,
       "savings": 568.95,
       "score": 107.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172cm"
       ],
@@ -807,7 +807,7 @@
       "discount_percent": 60.5,
       "savings": 659.95,
       "score": 106.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -831,7 +831,7 @@
       "discount_percent": 55.6,
       "savings": 250.02,
       "score": 106.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "152 cm"
       ],
@@ -855,7 +855,7 @@
       "discount_percent": 60.0,
       "savings": 660.0,
       "score": 106.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -879,7 +879,7 @@
       "discount_percent": 58.1,
       "savings": 479.05,
       "score": 106.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164cm"
       ],
@@ -903,7 +903,7 @@
       "discount_percent": 58.1,
       "savings": 479.05,
       "score": 106.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -927,7 +927,7 @@
       "discount_percent": 57.3,
       "savings": 429.96,
       "score": 105.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "168cm"
       ],
@@ -951,7 +951,7 @@
       "discount_percent": 57.7,
       "savings": 518.95,
       "score": 105.1,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -975,7 +975,7 @@
       "discount_percent": 57.8,
       "savings": 590.05,
       "score": 104.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -999,7 +999,7 @@
       "discount_percent": 56.5,
       "savings": 520.05,
       "score": 103.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164cm"
       ],
@@ -1023,7 +1023,7 @@
       "discount_percent": 56.5,
       "savings": 520.05,
       "score": 103.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1047,7 +1047,7 @@
       "discount_percent": 54.3,
       "savings": 434.0,
       "score": 102.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/HeadKoreTI104Skis_1.png?v=1789169616",
@@ -1069,7 +1069,7 @@
       "discount_percent": 54.8,
       "savings": 545.11,
       "score": 100.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "171cm"
       ],
@@ -1085,30 +1085,6 @@
       "highest_price": 449.89
     },
     {
-      "title": "Nordica Unleashed 90 Tree Skis 2024",
-      "url": "https://www.evo.com/products/242000-nordica-unleashed-90-tree-skis-2024",
-      "source": "Evo skis price ascending",
-      "current_price": 225.0,
-      "original_price": 449.99,
-      "discount_percent": 50.0,
-      "savings": 224.99,
-      "score": 100.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
-      "sizes": [
-        "160 cm"
-      ],
-      "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1053642.jpg?v=1767731312",
-      "is_cached": false,
-      "previous_price": 225.0,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-05-18T09:14:43-06:00",
-      "lowest_price": 225.0,
-      "highest_price": 225.0
-    },
-    {
       "title": "2026 Zag Slap 104 Lite w/ Zag Climbing Skins - 170cm / Blue/Orange / New",
       "url": "https://lonepinegearx.com/products/2026-zag-slap-104-lite-w-zag-climbing-skins-6c7af",
       "source": "Lone Pine new flat skis",
@@ -1117,7 +1093,7 @@
       "discount_percent": 54.5,
       "savings": 600.05,
       "score": 99.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1141,7 +1117,7 @@
       "discount_percent": 50.0,
       "savings": 350.06,
       "score": 98.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -1165,7 +1141,7 @@
       "discount_percent": 50.0,
       "savings": 350.0,
       "score": 98.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "155cm"
       ],
@@ -1189,7 +1165,7 @@
       "discount_percent": 50.0,
       "savings": 350.0,
       "score": 98.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -1213,7 +1189,7 @@
       "discount_percent": 49.2,
       "savings": 320.0,
       "score": 97.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -1237,7 +1213,7 @@
       "discount_percent": 49.2,
       "savings": 320.0,
       "score": 97.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -1261,7 +1237,7 @@
       "discount_percent": 49.2,
       "savings": 320.0,
       "score": 97.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1285,7 +1261,7 @@
       "discount_percent": 52.0,
       "savings": 520.0,
       "score": 97.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "168cm"
       ],
@@ -1309,7 +1285,7 @@
       "discount_percent": 50.0,
       "savings": 400.05,
       "score": 97.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -1333,7 +1309,7 @@
       "discount_percent": 50.0,
       "savings": 400.05,
       "score": 97.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164cm"
       ],
@@ -1357,7 +1333,7 @@
       "discount_percent": 50.0,
       "savings": 425.0,
       "score": 96.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/115143_0000_W_IMPULSE_104_TI_SKIS_NO_COLOR_01.webp?v=1777571487",
@@ -1379,7 +1355,7 @@
       "discount_percent": 48.4,
       "savings": 338.96,
       "score": 96.18,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -1403,7 +1379,7 @@
       "discount_percent": 49.9,
       "savings": 473.95,
       "score": 95.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "160cm"
       ],
@@ -1427,7 +1403,7 @@
       "discount_percent": 48.0,
       "savings": 360.0,
       "score": 95.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1451,7 +1427,7 @@
       "discount_percent": 48.0,
       "savings": 359.97,
       "score": 95.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "178 cm"
       ],
@@ -1475,7 +1451,7 @@
       "discount_percent": 47.8,
       "savings": 382.0,
       "score": 94.44,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172cm"
       ],
@@ -1499,7 +1475,7 @@
       "discount_percent": 44.5,
       "savings": 280.0,
       "score": 92.52,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy1_4_622cc43e-de09-4c56-8967-08edeef08fa1.png?v=1789172445",
@@ -1521,7 +1497,7 @@
       "discount_percent": 44.5,
       "savings": 280.0,
       "score": 92.52,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164",
         "178",
@@ -1540,28 +1516,26 @@
     },
     {
       "title": "Faction Prodigy 2",
-      "url": "https://thegearroom.com/products/faction-prodigy-2",
+      "url": "https://thegearroom.com/products/faction-prodigy-7",
       "source": "The Gear Room skis price ascending",
       "current_price": 378.0,
       "original_price": 679.0,
       "discount_percent": 44.3,
       "savings": 301.0,
       "score": 91.74,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
-        "165",
-        "171",
-        "177",
-        "183"
+        "183",
+        "189"
       ],
       "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy2_5.png?v=1771280061",
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy2_6.png?v=1789338923",
       "is_cached": false,
-      "previous_price": 378.0,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-05-18T09:14:43-06:00",
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-14T16:23:34+00:00",
       "lowest_price": 378.0,
       "highest_price": 378.0
     },
@@ -1574,7 +1548,7 @@
       "discount_percent": 44.3,
       "savings": 310.03,
       "score": 91.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -1598,7 +1572,7 @@
       "discount_percent": 42.0,
       "savings": 210.01,
       "score": 91.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "148",
         "164"
@@ -1615,6 +1589,28 @@
       "highest_price": 289.99
     },
     {
+      "title": "Faction Prodigy 3 - 164",
+      "url": "https://thegearroom.com/products/faction-prodigy-6",
+      "source": "The Gear Room skis price ascending",
+      "current_price": 433.0,
+      "original_price": 779.0,
+      "discount_percent": 44.4,
+      "savings": 346.0,
+      "score": 90.74,
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": null,
+      "stock_status": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy3_3_c3169a22-b967-4027-b1c8-035add461341.png?v=1789335786",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-14T16:23:34+00:00",
+      "lowest_price": 433.0,
+      "highest_price": 433.0
+    },
+    {
       "title": "Faction Prodigy 3 Capsule - 164",
       "url": "https://thegearroom.com/products/faction-prodigy-3-capsule",
       "source": "The Gear Room skis price ascending",
@@ -1623,7 +1619,7 @@
       "discount_percent": 44.4,
       "savings": 346.0,
       "score": 90.74,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy3Capusle-7.png?v=1771284957",
@@ -1645,7 +1641,7 @@
       "discount_percent": 44.4,
       "savings": 346.0,
       "score": 90.74,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172",
         "178",
@@ -1671,7 +1667,7 @@
       "discount_percent": 43.0,
       "savings": 290.01,
       "score": 90.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "157cm"
       ],
@@ -1695,7 +1691,7 @@
       "discount_percent": 43.0,
       "savings": 290.01,
       "score": 90.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "166cm"
       ],
@@ -1719,7 +1715,7 @@
       "discount_percent": 40.0,
       "savings": 160.0,
       "score": 90.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "146cm",
         "152cm",
@@ -1747,7 +1743,7 @@
       "discount_percent": 40.0,
       "savings": 160.0,
       "score": 90.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "155cm"
       ],
@@ -1771,7 +1767,7 @@
       "discount_percent": 44.4,
       "savings": 368.0,
       "score": 90.18,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "166",
         "183"
@@ -1796,7 +1792,7 @@
       "discount_percent": 44.4,
       "savings": 377.0,
       "score": 89.96,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156",
         "163"
@@ -1821,7 +1817,7 @@
       "discount_percent": 44.3,
       "savings": 372.0,
       "score": 89.96,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "155",
         "163",
@@ -1847,7 +1843,7 @@
       "discount_percent": 44.3,
       "savings": 372.0,
       "score": 89.96,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionDancer2Purple_4.png?v=1771281292",
@@ -1869,7 +1865,7 @@
       "discount_percent": 43.8,
       "savings": 350.0,
       "score": 89.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -1893,7 +1889,7 @@
       "discount_percent": 41.7,
       "savings": 250.02,
       "score": 89.7,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "165 cm"
       ],
@@ -1917,7 +1913,7 @@
       "discount_percent": 41.7,
       "savings": 250.02,
       "score": 89.7,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "157 cm"
       ],
@@ -1941,7 +1937,7 @@
       "discount_percent": 44.4,
       "savings": 390.0,
       "score": 89.62,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164",
         "172"
@@ -1966,7 +1962,7 @@
       "discount_percent": 44.4,
       "savings": 390.0,
       "score": 89.62,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionDancer3Orange-1.png?v=1771289055",
@@ -1988,7 +1984,7 @@
       "discount_percent": 40.0,
       "savings": 180.0,
       "score": 89.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "145cm",
         "150cm",
@@ -2017,7 +2013,7 @@
       "discount_percent": 40.0,
       "savings": 180.0,
       "score": 89.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "178cm"
       ],
@@ -2041,7 +2037,7 @@
       "discount_percent": 44.4,
       "savings": 395.0,
       "score": 89.52,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy4-6.png?v=1771285955",
@@ -2055,6 +2051,28 @@
       "highest_price": 494.0
     },
     {
+      "title": "DPS Carbon Kaizen 100 - 153",
+      "url": "https://thegearroom.com/products/dps-carbon-kaizen-100",
+      "source": "The Gear Room skis price ascending",
+      "current_price": 820.0,
+      "original_price": 1667.0,
+      "discount_percent": 50.8,
+      "savings": 847.0,
+      "score": 89.4,
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": null,
+      "stock_status": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/DPSCarbonKaizen100_3.png?v=1789400881",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-14T16:23:34+00:00",
+      "lowest_price": 820.0,
+      "highest_price": 820.0
+    },
+    {
       "title": "Armada Stranger 100 - 172",
       "url": "https://thegearroom.com/products/armada-stranger-100",
       "source": "The Gear Room skis price ascending",
@@ -2063,7 +2081,7 @@
       "discount_percent": 44.4,
       "savings": 400.01,
       "score": 89.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/ArmadaStranger100.png?v=1773351941",
@@ -2085,7 +2103,7 @@
       "discount_percent": 41.6,
       "savings": 270.0,
       "score": 89.02,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -2109,12 +2127,12 @@
       "discount_percent": 43.1,
       "savings": 345.01,
       "score": 89.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "158cm"
       ],
       "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1755619453871SGEUS5PX1GFZV959MKXU.png?v=1783137824",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1755619453871SGEUS5PX1GFZV959MKXU.png?v=1789334709",
       "is_cached": false,
       "previous_price": 454.99,
       "price_change": 0.0,
@@ -2133,12 +2151,12 @@
       "discount_percent": 43.1,
       "savings": 345.01,
       "score": 89.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "165cm"
       ],
       "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1755619453871SGEUS5PX1GFZV959MKXU.png?v=1783137824",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1755619453871SGEUS5PX1GFZV959MKXU.png?v=1789334709",
       "is_cached": false,
       "previous_price": 454.99,
       "price_change": 0.0,
@@ -2157,7 +2175,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "153cm",
         "167cm"
@@ -2182,7 +2200,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "160cm"
       ],
@@ -2206,7 +2224,7 @@
       "discount_percent": 40.0,
       "savings": 199.98,
       "score": 89.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -2230,7 +2248,7 @@
       "discount_percent": 44.4,
       "savings": 421.0,
       "score": 88.84,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "165",
         "172",
@@ -2258,7 +2276,7 @@
       "discount_percent": 40.0,
       "savings": 219.98,
       "score": 88.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "157cm",
         "164cm",
@@ -2285,7 +2303,7 @@
       "discount_percent": 40.0,
       "savings": 231.98,
       "score": 88.04,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "Silver / 150cm",
         "Silver / 167cm"
@@ -2310,7 +2328,7 @@
       "discount_percent": 40.0,
       "savings": 231.98,
       "score": 88.04,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "Black / 160cm",
         "Black / 167cm"
@@ -2335,7 +2353,7 @@
       "discount_percent": 44.0,
       "savings": 440.01,
       "score": 87.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "175",
         "185"
@@ -2360,7 +2378,7 @@
       "discount_percent": 40.0,
       "savings": 240.0,
       "score": 87.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "178cm"
       ],
@@ -2376,20 +2394,20 @@
       "highest_price": 359.99
     },
     {
-      "title": "Line Skis Pandora 92 Skis 2026",
-      "url": "https://www.evo.com/products/266168-line-skis-pandora-92-skis-2026",
+      "title": "Line Skis Chronic 94 Skis 2026",
+      "url": "https://www.evo.com/products/266174-line-skis-chronic-94-skis-2026",
       "source": "Evo skis price ascending",
       "current_price": 359.97,
       "original_price": 599.95,
       "discount_percent": 40.0,
       "savings": 239.98,
       "score": 87.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
-        "154 cm"
+        "178 cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1184454.jpg?v=1767736622",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1184433.jpg?v=1767736623",
       "is_cached": false,
       "previous_price": 359.97,
       "price_change": 0.0,
@@ -2400,20 +2418,20 @@
       "highest_price": 359.97
     },
     {
-      "title": "Line Skis Chronic 94 Skis 2026",
-      "url": "https://www.evo.com/products/266174-line-skis-chronic-94-skis-2026",
+      "title": "Line Skis Pandora 92 Skis 2026",
+      "url": "https://www.evo.com/products/266168-line-skis-pandora-92-skis-2026",
       "source": "Evo skis price ascending",
       "current_price": 359.97,
       "original_price": 599.95,
       "discount_percent": 40.0,
       "savings": 239.98,
       "score": 87.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
-        "171 cm"
+        "154 cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1184433.jpg?v=1767736623",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1184454.jpg?v=1767736622",
       "is_cached": false,
       "previous_price": 359.97,
       "price_change": 0.0,
@@ -2432,7 +2450,7 @@
       "discount_percent": 40.0,
       "savings": 239.98,
       "score": 87.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "149cm"
       ],
@@ -2456,7 +2474,7 @@
       "discount_percent": 40.0,
       "savings": 239.98,
       "score": 87.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "144cm"
       ],
@@ -2480,7 +2498,7 @@
       "discount_percent": 40.0,
       "savings": 239.98,
       "score": 87.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164cm",
         "171cm"
@@ -2505,7 +2523,7 @@
       "discount_percent": 40.0,
       "savings": 252.0,
       "score": 87.44,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "153cm",
         "160cm"
@@ -2530,7 +2548,7 @@
       "discount_percent": 40.1,
       "savings": 260.0,
       "score": 87.32,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -2554,7 +2572,7 @@
       "discount_percent": 40.0,
       "savings": 259.98,
       "score": 87.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "177 cm"
       ],
@@ -2578,7 +2596,7 @@
       "discount_percent": 40.0,
       "savings": 259.98,
       "score": 87.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "161cm",
         "168cm"
@@ -2603,7 +2621,7 @@
       "discount_percent": 40.0,
       "savings": 259.98,
       "score": 87.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "169cm"
       ],
@@ -2627,7 +2645,7 @@
       "discount_percent": 40.0,
       "savings": 269.98,
       "score": 86.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -2651,7 +2669,7 @@
       "discount_percent": 40.0,
       "savings": 269.98,
       "score": 86.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "169 cm"
       ],
@@ -2675,7 +2693,7 @@
       "discount_percent": 40.0,
       "savings": 269.98,
       "score": 86.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "169cm",
         "175cm",
@@ -2701,7 +2719,7 @@
       "discount_percent": 40.0,
       "savings": 269.98,
       "score": 86.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm",
         "169cm",
@@ -2728,7 +2746,7 @@
       "discount_percent": 40.0,
       "savings": 272.0,
       "score": 86.84,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "154cm",
         "161cm",
@@ -2755,7 +2773,7 @@
       "discount_percent": 40.0,
       "savings": 272.0,
       "score": 86.84,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "161cm"
       ],
@@ -2779,7 +2797,7 @@
       "discount_percent": 40.0,
       "savings": 272.0,
       "score": 86.84,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "155cm",
         "162cm"
@@ -2804,7 +2822,7 @@
       "discount_percent": 37.7,
       "savings": 180.95,
       "score": 86.72,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "169cm"
       ],
@@ -2828,7 +2846,7 @@
       "discount_percent": 40.0,
       "savings": 280.0,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "159cm",
         "166cm"
@@ -2853,7 +2871,7 @@
       "discount_percent": 40.0,
       "savings": 280.0,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "152cm",
         "159cm",
@@ -2879,7 +2897,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "176 cm"
       ],
@@ -2903,7 +2921,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -2927,7 +2945,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "154 cm"
       ],
@@ -2951,7 +2969,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm",
         "170cm"
@@ -2976,7 +2994,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "166cm"
       ],
@@ -3000,7 +3018,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "165cm",
         "172cm",
@@ -3026,7 +3044,7 @@
       "discount_percent": 40.0,
       "savings": 279.95,
       "score": 86.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "160cm",
         "166cm",
@@ -3052,7 +3070,7 @@
       "discount_percent": 42.6,
       "savings": 415.01,
       "score": 86.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3076,7 +3094,7 @@
       "discount_percent": 42.6,
       "savings": 415.01,
       "score": 86.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -3100,7 +3118,7 @@
       "discount_percent": 42.6,
       "savings": 415.01,
       "score": 86.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -3124,7 +3142,7 @@
       "discount_percent": 42.6,
       "savings": 415.01,
       "score": 86.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3148,7 +3166,7 @@
       "discount_percent": 37.0,
       "savings": 166.5,
       "score": 86.33,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1153661.jpg?v=1767735379",
@@ -3170,7 +3188,7 @@
       "discount_percent": 41.7,
       "savings": 375.01,
       "score": 86.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164cm"
       ],
@@ -3194,7 +3212,7 @@
       "discount_percent": 41.7,
       "savings": 375.01,
       "score": 86.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172cm"
       ],
@@ -3218,7 +3236,7 @@
       "discount_percent": 41.7,
       "savings": 375.01,
       "score": 86.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "165cm"
       ],
@@ -3242,7 +3260,7 @@
       "discount_percent": 41.7,
       "savings": 375.01,
       "score": 86.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172cm"
       ],
@@ -3266,7 +3284,7 @@
       "discount_percent": 41.2,
       "savings": 350.01,
       "score": 86.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "168cm"
       ],
@@ -3290,7 +3308,7 @@
       "discount_percent": 40.1,
       "savings": 300.01,
       "score": 86.12,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "Purple / 162cm",
         "Purple / 168cm",
@@ -3316,7 +3334,7 @@
       "discount_percent": 40.1,
       "savings": 300.0,
       "score": 86.12,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -3340,7 +3358,7 @@
       "discount_percent": 40.1,
       "savings": 300.0,
       "score": 86.12,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -3364,7 +3382,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -3388,7 +3406,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3412,7 +3430,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -3436,7 +3454,7 @@
       "discount_percent": 40.0,
       "savings": 299.98,
       "score": 86.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "158cm",
         "164cm"
@@ -3461,7 +3479,7 @@
       "discount_percent": 36.7,
       "savings": 164.96,
       "score": 86.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1155246.jpg?v=1767735447",
@@ -3483,7 +3501,7 @@
       "discount_percent": 40.0,
       "savings": 320.05,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3507,7 +3525,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -3531,7 +3549,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3555,7 +3573,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -3579,7 +3597,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -3603,7 +3621,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3627,7 +3645,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -3651,7 +3669,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -3675,7 +3693,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3699,7 +3717,7 @@
       "discount_percent": 38.6,
       "savings": 270.0,
       "score": 85.02,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "173 cm"
       ],
@@ -3723,7 +3741,7 @@
       "discount_percent": 38.6,
       "savings": 270.0,
       "score": 85.02,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -3747,7 +3765,7 @@
       "discount_percent": 38.6,
       "savings": 269.96,
       "score": 85.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -3771,7 +3789,7 @@
       "discount_percent": 35.0,
       "savings": 139.98,
       "score": 84.8,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "178 cm"
       ],
@@ -3795,12 +3813,12 @@
       "discount_percent": 39.0,
       "savings": 304.01,
       "score": 84.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "165cm"
       ],
       "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1778775814727HY2VNSM7BMS4GIAWR2XX.png?v=1788835018",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1778775814727HY2VNSM7BMS4GIAWR2XX.png?v=1789366641",
       "is_cached": false,
       "previous_price": 474.99,
       "price_change": 0.0,
@@ -3819,7 +3837,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -3843,7 +3861,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164cm"
       ],
@@ -3867,7 +3885,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172cm"
       ],
@@ -3891,7 +3909,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164cm"
       ],
@@ -3915,7 +3933,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172cm"
       ],
@@ -3939,7 +3957,7 @@
       "discount_percent": 40.0,
       "savings": 372.0,
       "score": 83.84,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -3963,7 +3981,7 @@
       "discount_percent": 40.0,
       "savings": 372.0,
       "score": 83.84,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3987,7 +4005,7 @@
       "discount_percent": 35.0,
       "savings": 192.48,
       "score": 82.85,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "177 cm"
       ],
@@ -4011,7 +4029,7 @@
       "discount_percent": 35.0,
       "savings": 192.48,
       "score": 82.85,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -4035,7 +4053,7 @@
       "discount_percent": 35.0,
       "savings": 209.98,
       "score": 82.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4059,7 +4077,7 @@
       "discount_percent": 35.0,
       "savings": 209.98,
       "score": 82.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "166cm"
       ],
@@ -4083,7 +4101,7 @@
       "discount_percent": 35.0,
       "savings": 244.98,
       "score": 80.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170cm"
       ],
@@ -4107,7 +4125,7 @@
       "discount_percent": 35.0,
       "savings": 262.48,
       "score": 80.25,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -4131,7 +4149,7 @@
       "discount_percent": 35.0,
       "savings": 262.48,
       "score": 80.25,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172cm"
       ],
@@ -4155,7 +4173,7 @@
       "discount_percent": 35.0,
       "savings": 262.48,
       "score": 80.25,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -4179,7 +4197,7 @@
       "discount_percent": 33.8,
       "savings": 220.0,
       "score": 80.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4203,7 +4221,7 @@
       "discount_percent": 33.8,
       "savings": 220.0,
       "score": 80.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "162cm"
       ],
@@ -4227,7 +4245,7 @@
       "discount_percent": 33.8,
       "savings": 219.96,
       "score": 80.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -4251,7 +4269,7 @@
       "discount_percent": 35.3,
       "savings": 300.01,
       "score": 79.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "167cm"
       ],
@@ -4275,7 +4293,7 @@
       "discount_percent": 34.9,
       "savings": 288.05,
       "score": 79.16,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "163cm"
       ],
@@ -4299,7 +4317,7 @@
       "discount_percent": 34.9,
       "savings": 288.05,
       "score": 79.16,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "168cm"
       ],
@@ -4315,6 +4333,50 @@
       "highest_price": 536.95
     },
     {
+      "title": "Faction Agent 3 - 164 / Ice Blue",
+      "url": "https://thegearroom.com/products/faction-agent-3",
+      "source": "The Gear Room skis price ascending",
+      "current_price": 570.0,
+      "original_price": 879.0,
+      "discount_percent": 35.2,
+      "savings": 309.0,
+      "score": 78.8,
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": null,
+      "stock_status": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionAgent3_13.png?v=1789336644",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-14T16:23:34+00:00",
+      "lowest_price": 570.0,
+      "highest_price": 570.0
+    },
+    {
+      "title": "Faction Agent 3 - 164 / Orange",
+      "url": "https://thegearroom.com/products/faction-agent-3",
+      "source": "The Gear Room skis price ascending",
+      "current_price": 570.0,
+      "original_price": 879.0,
+      "discount_percent": 35.2,
+      "savings": 309.0,
+      "score": 78.8,
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": null,
+      "stock_status": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionAgent3_13.png?v=1789336644",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-14T16:23:34+00:00",
+      "lowest_price": 570.0,
+      "highest_price": 570.0
+    },
+    {
       "title": "Armada ARW 88 Skis - Women's 2026",
       "url": "https://www.evo.com/products/267816-armada-arw-88-skis-women-s-2026",
       "source": "Evo skis price ascending",
@@ -4323,7 +4385,7 @@
       "discount_percent": 30.0,
       "savings": 150.0,
       "score": 78.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "161 cm"
       ],
@@ -4347,7 +4409,7 @@
       "discount_percent": 30.0,
       "savings": 150.0,
       "score": 78.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "171 cm"
       ],
@@ -4371,17 +4433,17 @@
       "discount_percent": 34.1,
       "savings": 290.04,
       "score": 77.9,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "153cm"
       ],
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/175562076149949ATDEEYX1GYUB6ZR7RS.png?v=1767917622",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 559.96,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-09-13T20:47:03+00:00",
       "lowest_price": 559.96,
       "highest_price": 559.96
@@ -4395,7 +4457,7 @@
       "discount_percent": 34.8,
       "savings": 330.5,
       "score": 77.41,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "182cm"
       ],
@@ -4419,7 +4481,7 @@
       "discount_percent": 30.0,
       "savings": 165.0,
       "score": 77.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -4443,7 +4505,7 @@
       "discount_percent": 30.0,
       "savings": 164.99,
       "score": 77.3,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "171 cm"
       ],
@@ -4467,7 +4529,7 @@
       "discount_percent": 30.0,
       "savings": 180.0,
       "score": 76.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164 cm"
       ],
@@ -4491,7 +4553,7 @@
       "discount_percent": 30.0,
       "savings": 180.0,
       "score": 76.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "158 cm"
       ],
@@ -4515,7 +4577,7 @@
       "discount_percent": 30.0,
       "savings": 180.0,
       "score": 76.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "166 cm"
       ],
@@ -4539,7 +4601,7 @@
       "discount_percent": 30.0,
       "savings": 180.0,
       "score": 76.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -4563,7 +4625,7 @@
       "discount_percent": 30.0,
       "savings": 179.99,
       "score": 76.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -4587,7 +4649,7 @@
       "discount_percent": 30.0,
       "savings": 188.7,
       "score": 76.19,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "171 cm"
       ],
@@ -4611,7 +4673,7 @@
       "discount_percent": 30.0,
       "savings": 189.0,
       "score": 76.18,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "160 cm"
       ],
@@ -4635,7 +4697,7 @@
       "discount_percent": 30.0,
       "savings": 120.0,
       "score": 74.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "164 cm"
       ],
@@ -4659,7 +4721,7 @@
       "discount_percent": 24.0,
       "savings": 107.99,
       "score": 64.16,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1159257.jpg?v=1767735605",
@@ -4681,7 +4743,7 @@
       "discount_percent": 20.8,
       "savings": 125.0,
       "score": 62.55,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "167",
         "173",
@@ -4707,7 +4769,7 @@
       "discount_percent": 20.0,
       "savings": 109.99,
       "score": 58.7,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -4723,6 +4785,31 @@
       "highest_price": 439.96
     },
     {
+      "title": "DPS Koala 103",
+      "url": "https://thegearroom.com/products/dps-koala-103",
+      "source": "The Gear Room skis price ascending",
+      "current_price": 932.0,
+      "original_price": 1195.0,
+      "discount_percent": 22.0,
+      "savings": 263.0,
+      "score": 58.36,
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": [
+        "168",
+        "184"
+      ],
+      "stock_status": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/DPSKoala103_3.png?v=1789401242",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-14T16:23:34+00:00",
+      "lowest_price": 932.0,
+      "highest_price": 932.0
+    },
+    {
       "title": "Armada ARV 88 Skis 2026",
       "url": "https://www.evo.com/products/267760-armada-arv-88-skis-2026",
       "source": "Evo skis price ascending",
@@ -4731,7 +4818,7 @@
       "discount_percent": 20.0,
       "savings": 99.99,
       "score": 57.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "171 cm"
       ],
@@ -4755,7 +4842,7 @@
       "discount_percent": 20.0,
       "savings": 99.99,
       "score": 57.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "153 cm"
       ],
@@ -4779,7 +4866,7 @@
       "discount_percent": 19.0,
       "savings": 81.98,
       "score": 52.51,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-weston-skyline-carbon-ski-blue-184-22-006-731-184v0-main.jpg",
@@ -4801,7 +4888,7 @@
       "discount_percent": 19.0,
       "savings": 71.14,
       "score": 50.72,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-g3-seekr-r3-100-skis-186cm-186cm-9134-main.jpg",
@@ -4823,7 +4910,7 @@
       "discount_percent": 12.3,
       "savings": 90.03,
       "score": 42.01,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-98-ti-skis-womens-168-cm-bd11514100001681-main.jpg",
@@ -4845,7 +4932,7 @@
       "discount_percent": 7.7,
       "savings": 40.0,
       "score": 28.1,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-95-skis-169-cm-bd11513800001691-main.jpg",
@@ -4867,7 +4954,7 @@
       "discount_percent": 5.0,
       "savings": 11.88,
       "score": 23.46,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-g3-findr-flx-r3-94-skis-187cm-187cm-9121-main.jpg",
@@ -4889,7 +4976,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 15.94,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-g3-findr-flx-r3-94-skis-187cm-187cm-9121-main.jpg",
@@ -4903,28 +4990,6 @@
       "highest_price": 203.15
     },
     {
-      "title": "K2 Thrilavut 85 - 170",
-      "url": "https://thegearroom.com/products/k2-thrilavut-85",
-      "source": "The Gear Room skis price ascending",
-      "current_price": 300.82,
-      "original_price": null,
-      "discount_percent": null,
-      "savings": null,
-      "score": 13.98,
-      "found_at": "2026-09-13T20:46:50+00:00",
-      "sizes": null,
-      "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/K2Thrilavut85.png?v=1765132387",
-      "is_cached": false,
-      "previous_price": 300.82,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-05-18T09:14:43-06:00",
-      "lowest_price": 300.82,
-      "highest_price": 300.82
-    },
-    {
       "title": "of G3 SEEKr R3 100 Skis",
       "url": "https://www.campsaver.com/g3-seekr-r3-100-skis.html \"G3 SEEKr R3 100 Skis\"",
       "source": "CampSaver backcountry skis",
@@ -4933,7 +4998,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 13.93,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-g3-seekr-r3-100-skis-186cm-186cm-9134-main.jpg",
@@ -4955,7 +5020,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 13.01,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-weston-skyline-carbon-ski-blue-184-22-006-731-184v0-main.jpg",
@@ -4977,7 +5042,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -5001,9 +5066,9 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
-        "153 cm"
+        "163 cm"
       ],
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1302405.jpg?v=1780506447",
@@ -5025,7 +5090,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "158 cm"
       ],
@@ -5049,7 +5114,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "178 cm"
       ],
@@ -5065,42 +5130,20 @@
       "highest_price": 399.95
     },
     {
-      "title": "Scott Pure Free 90 Skis, 2025 + Tyrolia AM 12 GW Bindings - Women's (168cm) - 168",
-      "url": "https://thegearroom.com/products/scott-pure-free-90-skis-tyrolia-am-12-gw-bindings-womens-168cm",
-      "source": "The Gear Room skis price ascending",
-      "current_price": 399.99,
-      "original_price": null,
-      "discount_percent": null,
-      "savings": null,
-      "score": 12.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
-      "sizes": null,
-      "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/Scott_Pure_Free_90_Skis_Tyrolia_AM_12_GW_Bindings-1.png?v=1768326108",
-      "is_cached": false,
-      "previous_price": 399.99,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-05-18T09:14:43-06:00",
-      "lowest_price": 399.99,
-      "highest_price": 399.99
-    },
-    {
-      "title": "Armada ARW 84 Skis - Women's 2027",
-      "url": "https://www.evo.com/products/280304-armada-arw-84-skis-2027",
+      "title": "Armada ARV 84 Madsteez Skis 2027",
+      "url": "https://www.evo.com/products/280298-armada-arv-84-madsteez-skis-2027",
       "source": "Evo skis price ascending",
       "current_price": 424.95,
       "original_price": 424.95,
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "157 cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1291587.jpg?v=1775845979",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1291533.jpg?v=1775845980",
       "is_cached": false,
       "previous_price": 424.95,
       "price_change": 0.0,
@@ -5111,20 +5154,20 @@
       "highest_price": 424.95
     },
     {
-      "title": "Armada ARV 84 Madsteez Skis 2027",
-      "url": "https://www.evo.com/products/280298-armada-arv-84-madsteez-skis-2027",
+      "title": "Armada ARW 84 Skis - Women's 2027",
+      "url": "https://www.evo.com/products/280304-armada-arw-84-skis-2027",
       "source": "Evo skis price ascending",
       "current_price": 424.95,
       "original_price": 424.95,
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "157 cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1291533.jpg?v=1775845980",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1291587.jpg?v=1775845979",
       "is_cached": false,
       "previous_price": 424.95,
       "price_change": 0.0,
@@ -5143,7 +5186,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "150 cm"
       ],
@@ -5167,7 +5210,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.42,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "157 cm"
       ],
@@ -5191,36 +5234,12 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "159 cm"
       ],
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1180756.jpg?v=1767736494",
-      "is_cached": false,
-      "previous_price": 449.95,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-05-18T09:14:43-06:00",
-      "lowest_price": 359.96,
-      "highest_price": 449.95
-    },
-    {
-      "title": "K2 Omen 85 Skis 2027",
-      "url": "https://www.evo.com/products/264796-k2-omen-85-skis-2026",
-      "source": "Evo skis price ascending",
-      "current_price": 449.95,
-      "original_price": 449.95,
-      "discount_percent": null,
-      "savings": null,
-      "score": 11.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
-      "sizes": [
-        "159 cm"
-      ],
-      "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1180743.jpg?v=1767736493",
       "is_cached": false,
       "previous_price": 449.95,
       "price_change": 0.0,
@@ -5239,7 +5258,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "177 cm"
       ],
@@ -5255,26 +5274,50 @@
       "highest_price": 449.95
     },
     {
-      "title": "Fischer Transalp 86 CTI Pro w/Skins - 169",
-      "url": "https://thegearroom.com/products/fischer-transalp-86-cti-pro-w-skins",
-      "source": "The Gear Room skis price ascending",
-      "current_price": 449.94,
-      "original_price": null,
+      "title": "K2 Omen 85 Skis 2027",
+      "url": "https://www.evo.com/products/264796-k2-omen-85-skis-2026",
+      "source": "Evo skis price ascending",
+      "current_price": 449.95,
+      "original_price": 449.95,
       "discount_percent": null,
       "savings": null,
       "score": 11.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
-      "sizes": null,
-      "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FischerTransalp86CTIPro.png?v=1765132387",
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": [
+        "159 cm"
+      ],
+      "stock_status": "in_stock",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1180743.jpg?v=1767736493",
       "is_cached": false,
-      "previous_price": 449.94,
+      "previous_price": 449.95,
       "price_change": 0.0,
       "price_change_percent": 0.0,
       "price_trend": "flat",
       "first_seen_at": "2026-05-18T09:14:43-06:00",
-      "lowest_price": 449.94,
-      "highest_price": 449.94
+      "lowest_price": 359.96,
+      "highest_price": 449.95
+    },
+    {
+      "title": "Season Primer Skis 2027",
+      "url": "https://www.evo.com/products/279737-season-primer-skis-2027",
+      "source": "Evo skis price ascending",
+      "current_price": 449.95,
+      "original_price": 449.95,
+      "discount_percent": null,
+      "savings": null,
+      "score": 11.0,
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": null,
+      "stock_status": "in_stock",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1335388.jpg?v=1786400015",
+      "is_cached": false,
+      "previous_price": 449.95,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
+      "first_seen_at": "2026-08-12T11:12:02+00:00",
+      "lowest_price": 449.95,
+      "highest_price": 449.95
     },
     {
       "title": "MASTERBLASTER \"FULL HOUSE\" BLEMISH",
@@ -5285,33 +5328,11 @@
       "discount_percent": null,
       "savings": null,
       "score": 10.02,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://jskis.com/cdn/shop/files/MASTERBLASTER_FullHouse_COLLECTION-PAGE_1bdcbd5c-5c72-45f3-a57c-d9580f9c99fd.png?v=1762439568&width=3840",
       "is_cached": true,
-      "previous_price": 499.0,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-05-18T09:14:43-06:00",
-      "lowest_price": 499.0,
-      "highest_price": 499.0
-    },
-    {
-      "title": "Dynastar M-Tour 90 Skis - (178cm) - 177",
-      "url": "https://thegearroom.com/products/dynastar-m-tour-90-skis-177cm",
-      "source": "The Gear Room skis price ascending",
-      "current_price": 499.0,
-      "original_price": null,
-      "discount_percent": null,
-      "savings": null,
-      "score": 10.02,
-      "found_at": "2026-09-13T20:46:50+00:00",
-      "sizes": null,
-      "stock_status": null,
-      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/Dynastar_M-Tour_90_Skis-1.png?v=1769557081",
-      "is_cached": false,
       "previous_price": 499.0,
       "price_change": 0.0,
       "price_change_percent": 0.0,
@@ -5329,7 +5350,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 10.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": [
         "156",
         "163",
@@ -5356,7 +5377,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 9.6,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-95-skis-169-cm-bd11513800001691-main.jpg",
@@ -5378,7 +5399,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 9.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/DynastarM-ProW92Skis_7.png?v=1787523145",
@@ -5400,7 +5421,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 7.2,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-98-ti-skis-175-cm-bd11514200001751-main.jpg",
@@ -5414,6 +5435,28 @@
       "highest_price": 639.96
     },
     {
+      "title": "Atomic Bent 100 - 186",
+      "url": "https://thegearroom.com/products/atomic-bent-100",
+      "source": "The Gear Room skis price ascending",
+      "current_price": 649.0,
+      "original_price": 649.0,
+      "discount_percent": null,
+      "savings": null,
+      "score": 7.02,
+      "found_at": "2026-09-14T16:23:21+00:00",
+      "sizes": null,
+      "stock_status": null,
+      "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/AtomicBent100.png?v=1789401967",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-14T16:23:34+00:00",
+      "lowest_price": 649.0,
+      "highest_price": 649.0
+    },
+    {
       "title": "ALLPLAY \"NIGHTLIFER\" BLEMISH",
       "url": "https://jskis.com/products/allplay-nightlifer-blemish?variant=41739536040023",
       "source": "J Skis Secret Stash",
@@ -5422,7 +5465,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 6.42,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://jskis.com/cdn/shop/files/ALLPLAY_Nightlifer_COLLECTION-PAGE_800e3d80-d55b-42f5-8013-23a509ad7c68.png?v=1762439659&width=3840",
@@ -5444,7 +5487,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 6.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-112-ti-skis-no-color-186-cm-bd11514500001861-main.jpg",
@@ -5466,7 +5509,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 6.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-104-ti-skis-womens-no-color-172-cm-bd11514300001721-main.jpg",
@@ -5488,7 +5531,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 5.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-98-ti-skis-womens-no-color-175-cm-bd11514100001751-main.jpg",
@@ -5510,7 +5553,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 5.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-98-ti-skis-no-color-189-cm-bd11514200001891-main.jpg",
@@ -5532,7 +5575,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 4.82,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://jskis.com/cdn/shop/files/FLIGHT_NeverSettle_COLLECTION-PAGE_27199cfa-efb6-40de-b07b-5440cb1a79b8.png?v=1773248980&width=3840",
@@ -5554,7 +5597,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 4.82,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://jskis.com/cdn/shop/files/FLIGHT_Playground_COLLECTION-PAGE_c821c87f-2f59-43a3-a2a8-d7ebd7a8fe2b.png?v=1762439423&width=3840",
@@ -5576,7 +5619,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 4.42,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://jskis.com/cdn/shop/files/MASTERBLASTER_Adapt_COLLECTION-PAGE_bda135aa-fe31-4a9e-9338-84e5cd9fceee.png?v=1762439859&width=3840",
@@ -5598,7 +5641,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 4.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-112-ti-skis-no-color-186-cm-bd11514500001861-main.jpg",
@@ -5620,7 +5663,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 4.4,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-104-ti-skis-womens-no-color-172-cm-bd11514300001721-main.jpg",
@@ -5642,7 +5685,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 3.5,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-88-skis-179-cm-bd11514700001791-main.jpg",
@@ -5664,7 +5707,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 2.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-112-ti-skis-no-color-186-cm-bd11514500001861-main.jpg",
@@ -5686,7 +5729,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 2.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-impulse-112-ti-skis-no-color-186-cm-bd11514500001861-main.jpg",
@@ -5708,7 +5751,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 2.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-102-skis-185-cm-bd11515000001851-main.jpg",
@@ -5730,7 +5773,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 1.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-108-skis-187-cm-bd11515200001871-main.jpg",
@@ -5752,7 +5795,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 0.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-88-skis-179-cm-bd11514700001791-main.jpg",
@@ -5774,7 +5817,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 0.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-102-skis-185-cm-bd11515000001851-main.jpg",
@@ -5796,7 +5839,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 0.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-helio-carbon-108-skis-187-cm-bd11515200001871-main.jpg",
@@ -5818,7 +5861,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 0.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-black-diamond-impulse-ti-98-skis-bd11515450181611-main.jpg",
@@ -5840,7 +5883,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 0.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-black-diamond-impulse-ti-104-skis-bd11515640511581-main.jpg",
@@ -5862,7 +5905,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 0.0,
-      "found_at": "2026-09-13T20:46:50+00:00",
+      "found_at": "2026-09-14T16:23:21+00:00",
       "sizes": null,
       "stock_status": null,
       "image_url": "https://www.campsaver.com/i/160-146-ffffff-q/opplanet-black-diamond-black-diamond-impulse-ti-112-skis-bd11515880011811-main.jpg",
