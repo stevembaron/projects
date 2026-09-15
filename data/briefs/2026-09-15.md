@@ -2,21 +2,19 @@
 
 ## Act now
 
-- **Atomic Bent 85 + M10 GW Bindings 2026, 170cm (you) — $329.95** ([Evo](https://www.evo.com/products/268050-atomic-bent-85-skis-m10-gw-bindings-2026)): down $110 vs yesterday, now at the floor of its 90-day range ($329.95–$439.96), in stock, exact fit, well under your $500 cap.
-- **Atomic Maverick 84 + M10 GW Bindings 2026, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/268044-atomic-maverick-84-skis-m10-gw-bindings-2026)): down $50 to a fresh 90-day low, in stock, exact fit, half your budget.
-- **Stio Full-Zip Shacket, Men's M — $50.67** ([Geartrade](https://geartrade.com/products/stio-full-zip-shacket-mens-1685510)): dropped another $3.16 to a new 90-day low, watch-term brand, exact fit, well under the $100 cap — fourth mention, but it keeps setting new lows.
+- **Atomic Maverick 84 + M10 GW Bindings, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/268044-atomic-maverick-84-skis-m10-gw-bindings-2026)): down $50 today to a fresh 90-day low ($299.95–$349.95), in stock, exact fit, barely over half your $500 cap.
+- **Atomic Bent 85 + M10 GW Bindings, 170cm (you) — $329.95** ([Evo](https://www.evo.com/products/268050-atomic-bent-85-skis-m10-gw-bindings-2026)): down $110 today to the floor of its 90-day range ($329.95–$439.96), in stock, exact fit.
+- **Dynastar M-Pro 99 W, 154cm (family) — $119.99** ([Evo](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)): watch-term brand, 83% off a 2022 model-year closeout, in stock, steady at this price for four months — a real clearance price on old stock, not an inflated-MSRP trick, and a fraction of your cap.
 
 ## Worth watching
 
-- **Elan Wildcat 78 Lite W / Wingman 78 Lite, 168cm (you) — $299.99 each** ([Wildcat](https://www.eriksbikeshop.com/products/elan-wildcat-78-lite-womens-skis-with-el9-0-bindings-2026-pr5a25397), [Wingman](https://www.eriksbikeshop.com/products/elan-wingman-78-lite-skis-with-el10-0-bindings-2026-pr5a25390)): both cut $25 today to new lows — buy if the price holds tomorrow, since a same-day cut across a whole line can be a short-lived promo.
-- **Elan Element 78, 168cm (you) / 160cm (family) — $317.99** ([men's](https://www.eriksbikeshop.com/products/elan-element-78-mens-skis-with-el-10-0-bindings-2026-pr5a25395)): down $26.50 to a new low, same wait-for-confirmation caveat.
-- **Elan Playmaker 87, 156cm (family) — $389.99** ([ERIK'S](https://www.eriksbikeshop.com/products/elan-playmaker-87-skis-with-el-10-0-bindings-2026-pr5a25396)): down $32.50 to a new low, exact family fit.
-- **Stio Terral Short M ($44.50) and Turpin Fleece Crew S ($39.50)** ([Terral](https://geartrade.com/products/stio-terral-short-mens-1724787), [Turpin](https://geartrade.com/products/stio-turpin-fleece-crew-mens-1724762)): both newly tracked today, watch-term brand, exact fit, cheap — no history yet, so only a real floor if the price repeats.
+- **Stio Full-Zip Shacket, M — $50.67** ([Geartrade](https://geartrade.com/products/stio-full-zip-shacket-mens-1685510)): sitting at its confirmed 90-day floor, watch-term, well under the $100 cap — price hasn't moved since it was last flagged, so this is the final call; buy if you still want it.
+- **Elan 78/87 line cut at ERIK'S** — Wildcat 78 Lite W & Wingman 78 Lite, [168cm](https://www.eriksbikeshop.com/products/elan-wildcat-78-lite-womens-skis-with-el9-0-bindings-2026-pr5a25397) (you) $299.99; [Element 78](https://www.eriksbikeshop.com/products/elan-element-78-mens-skis-with-el-10-0-bindings-2026-pr5a25395), 168cm (you)/160cm (family) $317.99; [Playmaker 87](https://www.eriksbikeshop.com/products/elan-playmaker-87-skis-with-el-10-0-bindings-2026-pr5a25396), 156cm (family) $389.99 — all cut $25–33 to new lows the same day. Buy if the cuts hold tomorrow; a same-day storewide drop can be a short-lived promo.
+- **Stio Turpin Fleece Crew, S — $39.50** ([Geartrade](https://geartrade.com/products/stio-turpin-fleece-crew-mens-1724762)): newly tracked today, watch-term, exact fit, cheap — no price history yet, so it's only a confirmed floor if it repeats.
+- **Salomon Stance 94, 168cm (you) — $319.99** ([Lone Pine](https://lonepinegearx.com/products/2025-salomon-stance-94-f7d1b)): 57% off versus the store's usual 40–44% baseline, exact fit — no urgency signal (price has been steady since early August), but a genuinely deeper cut than typical for this source.
+- **Majesty Havoc 110 Ti, 171cm (you) — $449.89** ([Lone Pine](https://lonepinegearx.com/products/2026-majesty-havoc-110-ti-1b5ea)): exact fit, 55% off, but brushing your cap with still no confirmed 90-day floor — buy only if you want it now.
 
 ## Notes
 
-- Retiring after repeated flat pitches, still fine buys: K2 Mindbender 96C + Griffon Demo 172cm/you $303.99, Armada ARV 100 + Strive Demo 172cm/you $329.99, Völkl Peregrine 82 + Lowride 13FR 172cm/you $369.99.
-- Skip: Rossignol Rallybird 94 Open (watch-term, 156cm/family) unchanged at the same 44% markdown since May; Black Crows Camox + Griffon Demo 168cm/you $399.99 still sits at the top of its own range.
-- Watch-term, no size fit: Dynastar M-Pro 92W (178cm), Nordica Santa Ana 102 (179cm).
-- Stio Figment Jacket is a real 90-day low ($196.91) but nearly double the $100 clothing cap — skipping.
-- CampSaver and J Skis blocked again (403).
+- Stio Terral Short (M, $44.50), flagged yesterday as newly tracked, is no longer listed — it moved fast or was delisted.
+- CampSaver and J Skis were both blocked again (403 errors) — no data from those sources today.
