@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T21:17:54+00:00",
-  "deal_count": 6,
+  "generated_at": "2026-09-16T15:00:34+00:00",
+  "deal_count": 7,
   "sources_checked": 1,
   "price_history_count": 485,
-  "price_change_count": 1,
+  "price_change_count": 0,
   "deals": [
     {
       "title": "Stio Full-Zip Shacket - Men's",
@@ -14,17 +14,17 @@
       "discount_percent": 73.0,
       "savings": 137.0,
       "score": 126.24,
-      "found_at": "2026-09-15T21:17:52+00:00",
+      "found_at": "2026-09-16T15:00:32+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/f8854326-13e1-4091-9f71-3e4f7ee70f78.webp?v=1789465647&width=460",
       "is_cached": false,
-      "previous_price": 53.83,
-      "price_change": -3.16,
-      "price_change_percent": -5.9,
-      "price_trend": "down",
+      "previous_price": 50.67,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-06-27T11:47:36+00:00",
       "lowest_price": 50.67,
       "highest_price": 85.5
@@ -38,7 +38,7 @@
       "discount_percent": 63.0,
       "savings": 335.28,
       "score": 114.06,
-      "found_at": "2026-09-15T21:17:52+00:00",
+      "found_at": "2026-09-16T15:00:32+00:00",
       "sizes": [
         "M"
       ],
@@ -62,7 +62,7 @@
       "discount_percent": 62.0,
       "savings": 79.82,
       "score": 100.98,
-      "found_at": "2026-09-15T21:17:52+00:00",
+      "found_at": "2026-09-16T15:00:32+00:00",
       "sizes": [
         "S"
       ],
@@ -86,7 +86,7 @@
       "discount_percent": 50.0,
       "savings": 99.5,
       "score": 92.89,
-      "found_at": "2026-09-15T21:17:52+00:00",
+      "found_at": "2026-09-16T15:00:32+00:00",
       "sizes": [
         "M"
       ],
@@ -110,7 +110,7 @@
       "discount_percent": 52.0,
       "savings": 46.23,
       "score": 82.7,
-      "found_at": "2026-09-15T21:17:52+00:00",
+      "found_at": "2026-09-16T15:00:32+00:00",
       "sizes": [
         "S"
       ],
@@ -126,6 +126,30 @@
       "highest_price": 42.67
     },
     {
+      "title": "Stio Terral Short - Men's",
+      "url": "https://geartrade.com/products/stio-terral-short-mens-1724787",
+      "source": "Geartrade Stio men's clothing",
+      "current_price": 44.5,
+      "original_price": 89.0,
+      "discount_percent": 50.0,
+      "savings": 44.5,
+      "score": 80.23,
+      "found_at": "2026-09-16T15:00:32+00:00",
+      "sizes": [
+        "M"
+      ],
+      "stock_status": null,
+      "image_url": "https://geartrade.com/cdn/shop/files/30668121-3a88-4b9e-9261-711fba0bad48.webp?v=1789496423&width=460",
+      "is_cached": false,
+      "previous_price": 44.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
+      "first_seen_at": "2026-09-15T15:03:27+00:00",
+      "lowest_price": 44.5,
+      "highest_price": 44.5
+    },
+    {
       "title": "Stio Turpin Fleece Crew - Men's",
       "url": "https://geartrade.com/products/stio-turpin-fleece-crew-mens-1724762",
       "source": "Geartrade Stio men's clothing",
@@ -134,17 +158,17 @@
       "discount_percent": 50.0,
       "savings": 39.5,
       "score": 79.09,
-      "found_at": "2026-09-15T21:17:52+00:00",
+      "found_at": "2026-09-16T15:00:32+00:00",
       "sizes": [
         "S"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/5a583e50-a667-481c-ac79-457fedce47c3.webp?v=1789487340&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 39.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-09-15T15:03:27+00:00",
       "lowest_price": 39.5,
       "highest_price": 39.5
