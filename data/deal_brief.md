@@ -2,19 +2,17 @@
 
 ## Act now
 
-- **Stio Turpin Fleece Crew, S — $39.50** ([Geartrade](https://geartrade.com/products/stio-turpin-fleece-crew-mens-1724762)): third day flat at this price — the floor held as flagged yesterday, confirming it's real. Watch-term brand, exact fit, half off, well under the $100 cap.
-- **Armada line cut at Evo, second day** — ARV 88 [171cm](https://www.evo.com/products/267760-armada-arv-88-skis-2026) (you) $299.95; BDOG 94 [172cm](https://www.evo.com/products/267825-armada-bdog-94-skis-2026) (you) / Edollo 91 [170cm](https://www.evo.com/products/267823-armada-edollo-91-skis-2026) (you) / Declivity 88C [160cm](https://www.evo.com/products/283998-armada-declivity-88-c-skis-2026) (family) $389.95; Reliance 82C [158cm](https://www.evo.com/products/284004-armada-reliance-82-c-skis-women-s-2026) (family) $359.95 — all still holding yesterday's fresh 90-day floors, in stock, exact fits, well under cap.
+- Nothing clears the bar today — the Armada Evo cut and Stio Turpin Fleece Crew already got their calls and haven't moved further since.
 
 ## Worth watching
 
-- **K2 Reckoner 110 W + Griffon 13 Demo, 156cm (family) — $359.99** ([Evo](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)): sitting at the floor of its 90-day range ($359.99–$419.99), in stock, exact fit — no fresh drop today, so no urgency beyond the price itself.
-- **Elan Ripstick 102 Black Edition, 168cm (you) — $479.99** ([Lone Pine](https://lonepinegearx.com/products/2026-elan-ripstick-102-black-edition-a858b)): second mention, watch-term, exact fit, but flat since June and only $20 under cap — last call unless it drops further.
-- **Völkl Peregrine 82 + Lowride 13 FR Demo, 172cm (you) — $369.99** ([Evo](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)): second mention, exact fit, in stock, still no confirmed floor beyond bundled-binding math.
-- **Salomon Stance 94, 168cm (you) — $319.99** ([Lone Pine](https://lonepinegearx.com/products/2025-salomon-stance-94-f7d1b)): second mention, 57% off vs. the store's usual 40–44% baseline, exact fit, but flat since August — no new urgency.
-- **Head Kore TI 104, Women's 156 — $365.00** ([The Gear Room](https://thegearroom.com/products/head-kore-ti-104-skis-womens)): best price across 2 stores, 54% off — but size isn't confirmed in the data (title says 156, a family fit); verify before buying.
+- **Armada line cut at Evo, final mention** — [ARV 88 171cm](https://www.evo.com/products/267760-armada-arv-88-skis-2026) (you) $299.95; [BDOG 94 172cm](https://www.evo.com/products/267825-armada-bdog-94-skis-2026) / [Edollo 91 170cm](https://www.evo.com/products/267823-armada-edollo-91-skis-2026) (you) / [Declivity 88C 160cm](https://www.evo.com/products/283998-armada-declivity-88-c-skis-2026) (family) $389.95; [Reliance 82C 158cm](https://www.evo.com/products/284004-armada-reliance-82-c-skis-women-s-2026) (family) $359.95 — still at their 90-day floors, in stock, exact fits, well under cap, unchanged since the initial cut. Buy today if you still want them; nothing suggests a further drop.
+- **K2 Reckoner 110 W + Griffon 13 Demo, 156cm (family) — $359.99** ([Evo](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)): second mention, sitting at the floor of its 90-day range ($359.99–$419.99), in stock — no fresh drop, so buy only if you're ready now.
+- **Black Diamond Impulse Ti 98, Women's 168cm (you) — $399.95** ([The Gear Room](https://thegearroom.com/products/black-diamond-impulse-ti-98-skis-womens)): newly tracked today, 50% off, exact fit — no price history yet to confirm this is a real floor rather than list price; watch for a repeat before trusting it.
+- **Stio Skycrest Insulated Snap Shirt, M — $99.50** ([Geartrade](https://geartrade.com/products/stio-skycrest-insulated-snap-shirt-mens-1694089)): watch-term brand, half off, exact fit, just squeaks under the $100 cap — flat since June so no urgency, but a solid price if you want it.
+- **Stio Eddy Shirt LS, S — $48.92** ([Geartrade](https://geartrade.com/products/stio-eddy-shirt-ls-shirt-mens-1629203)): watch-term brand, 62% off, exact fit, well under cap — flat since May with no trend data, but genuinely cheap.
 
 ## Notes
 
 - CampSaver and J Skis both blocked again today (403 Forbidden).
-- Dropping, already had their last call and unchanged: Stio Terral Short M $44.50 (three days flat), Armada ARV 100 172cm $329.99, Atomic Maven 93C 172cm $360.99, Majesty Havoc 110 Ti 171cm $449.89, Stio Full-Zip Shacket M $50.67.
-- Watch-term, no size fit: Nordica Santa Ana 102 (179cm), Dynastar M-Pro 92W (178cm). Rossignol Rallybird 94 Open (156cm, family) still flat at its 44% markdown since May — still a skip.
+- Dropping unchanged repeats that already had their calls: Elan Ripstick 102 Black Edition $479.99, Stio Turpin Fleece Crew $39.50, Völkl Peregrine 82 demo $369.99, Salomon Stance 94 $319.99 — all still listed, just no longer news.
