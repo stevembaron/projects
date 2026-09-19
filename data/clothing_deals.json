@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18T20:52:32+00:00",
+  "generated_at": "2026-09-19T13:56:19+00:00",
   "deal_count": 6,
   "sources_checked": 1,
   "price_history_count": 491,
-  "price_change_count": 0,
+  "price_change_count": 2,
   "deals": [
     {
       "title": "Stio Full-Zip Shacket - Men's",
@@ -14,7 +14,7 @@
       "discount_percent": 73.0,
       "savings": 137.0,
       "score": 126.24,
-      "found_at": "2026-09-18T20:52:30+00:00",
+      "found_at": "2026-09-19T13:56:17+00:00",
       "sizes": [
         "M"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 63.0,
       "savings": 335.28,
       "score": 114.06,
-      "found_at": "2026-09-18T20:52:30+00:00",
+      "found_at": "2026-09-19T13:56:17+00:00",
       "sizes": [
         "M"
       ],
@@ -57,48 +57,48 @@
       "title": "Stio Eddy Shirt LS Shirt - Men's",
       "url": "https://geartrade.com/products/stio-eddy-shirt-ls-shirt-mens-1629203",
       "source": "Geartrade Stio men's clothing",
-      "current_price": 48.92,
-      "original_price": 128.74,
-      "discount_percent": 62.0,
-      "savings": 79.82,
-      "score": 100.98,
-      "found_at": "2026-09-18T20:52:30+00:00",
+      "current_price": 46.34,
+      "original_price": 128.72,
+      "discount_percent": 64.0,
+      "savings": 82.38,
+      "score": 103.67,
+      "found_at": "2026-09-19T13:56:17+00:00",
       "sizes": [
         "S"
       ],
       "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/541d2a7b-a579-4a06-b719-928cac7c64e0.webp?v=1777239562&width=460",
+      "image_url": "https://geartrade.com/cdn/shop/files/541d2a7b-a579-4a06-b719-928cac7c64e0.webp?v=1789804832&width=460",
       "is_cached": false,
       "previous_price": 48.92,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
+      "price_change": -2.58,
+      "price_change_percent": -5.3,
+      "price_trend": "down",
       "first_seen_at": "2026-05-19T17:31:30-06:00",
-      "lowest_price": 48.92,
+      "lowest_price": 46.34,
       "highest_price": 48.92
     },
     {
       "title": "Stio Skycrest Insulated Snap Shirt - Men's",
       "url": "https://geartrade.com/products/stio-skycrest-insulated-snap-shirt-mens-1694089",
       "source": "Geartrade Stio men's clothing",
-      "current_price": 99.5,
+      "current_price": 95.52,
       "original_price": 199.0,
-      "discount_percent": 50.0,
-      "savings": 99.5,
-      "score": 92.89,
-      "found_at": "2026-09-18T20:52:30+00:00",
+      "discount_percent": 52.0,
+      "savings": 103.48,
+      "score": 95.96,
+      "found_at": "2026-09-19T13:56:17+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/b2d794df-d829-45e6-aaa8-741137458561.webp?v=1788456721&width=460",
+      "image_url": "https://geartrade.com/cdn/shop/files/b2d794df-d829-45e6-aaa8-741137458561.webp?v=1789817977&width=460",
       "is_cached": false,
       "previous_price": 99.5,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
+      "price_change": -3.98,
+      "price_change_percent": -4.0,
+      "price_trend": "down",
       "first_seen_at": "2026-06-27T11:47:36+00:00",
-      "lowest_price": 99.5,
+      "lowest_price": 95.52,
       "highest_price": 99.5
     },
     {
@@ -110,7 +110,7 @@
       "discount_percent": 52.0,
       "savings": 46.23,
       "score": 82.7,
-      "found_at": "2026-09-18T20:52:30+00:00",
+      "found_at": "2026-09-19T13:56:17+00:00",
       "sizes": [
         "S"
       ],
@@ -134,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 39.5,
       "score": 79.09,
-      "found_at": "2026-09-18T20:52:30+00:00",
+      "found_at": "2026-09-19T13:56:17+00:00",
       "sizes": [
         "S"
       ],
