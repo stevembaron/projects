@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T13:56:19+00:00",
+  "generated_at": "2026-09-19T20:36:47+00:00",
   "deal_count": 6,
   "sources_checked": 1,
   "price_history_count": 491,
-  "price_change_count": 2,
+  "price_change_count": 4,
   "deals": [
     {
       "title": "Stio Full-Zip Shacket - Men's",
@@ -14,7 +14,7 @@
       "discount_percent": 73.0,
       "savings": 137.0,
       "score": 126.24,
-      "found_at": "2026-09-19T13:56:17+00:00",
+      "found_at": "2026-09-19T20:36:45+00:00",
       "sizes": [
         "M"
       ],
@@ -33,24 +33,24 @@
       "title": "Stio Figment Jacket - Men's",
       "url": "https://geartrade.com/products/stio-figment-jacket-mens-1706265",
       "source": "Geartrade Stio men's clothing",
-      "current_price": 196.91,
-      "original_price": 532.19,
-      "discount_percent": 63.0,
-      "savings": 335.28,
-      "score": 114.06,
-      "found_at": "2026-09-19T13:56:17+00:00",
+      "current_price": 189.56,
+      "original_price": 526.56,
+      "discount_percent": 64.0,
+      "savings": 337.0,
+      "score": 115.21,
+      "found_at": "2026-09-19T20:36:45+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/2491fbc3-101b-455d-a7bb-75cce303d757.webp?v=1789210173&width=460",
+      "image_url": "https://geartrade.com/cdn/shop/files/2491fbc3-101b-455d-a7bb-75cce303d757.webp?v=1789849880&width=460",
       "is_cached": false,
       "previous_price": 196.91,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
+      "price_change": -7.35,
+      "price_change_percent": -3.7,
+      "price_trend": "down",
       "first_seen_at": "2026-08-06T12:20:50+00:00",
-      "lowest_price": 196.91,
+      "lowest_price": 189.56,
       "highest_price": 211.6
     },
     {
@@ -62,12 +62,12 @@
       "discount_percent": 64.0,
       "savings": 82.38,
       "score": 103.67,
-      "found_at": "2026-09-19T13:56:17+00:00",
+      "found_at": "2026-09-19T20:36:45+00:00",
       "sizes": [
         "S"
       ],
       "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/541d2a7b-a579-4a06-b719-928cac7c64e0.webp?v=1789804832&width=460",
+      "image_url": "https://geartrade.com/cdn/shop/files/541d2a7b-a579-4a06-b719-928cac7c64e0.webp?v=1789833703&width=460",
       "is_cached": false,
       "previous_price": 48.92,
       "price_change": -2.58,
@@ -86,7 +86,7 @@
       "discount_percent": 52.0,
       "savings": 103.48,
       "score": 95.96,
-      "found_at": "2026-09-19T13:56:17+00:00",
+      "found_at": "2026-09-19T20:36:45+00:00",
       "sizes": [
         "M"
       ],
@@ -105,24 +105,24 @@
       "title": "Stio Divide Half Zip - Men\u2019s",
       "url": "https://geartrade.com/products/stio-divide-half-zip-mens-1660860",
       "source": "Geartrade Stio men's clothing",
-      "current_price": 42.67,
-      "original_price": 88.9,
-      "discount_percent": 52.0,
-      "savings": 46.23,
-      "score": 82.7,
-      "found_at": "2026-09-19T13:56:17+00:00",
+      "current_price": 40.89,
+      "original_price": 88.89,
+      "discount_percent": 54.0,
+      "savings": 48.0,
+      "score": 85.18,
+      "found_at": "2026-09-19T20:36:45+00:00",
       "sizes": [
         "S"
       ],
       "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/dd076504-7cb9-4f14-9562-59c4e30ab950.webp?v=1777237524&width=460",
+      "image_url": "https://geartrade.com/cdn/shop/files/dd076504-7cb9-4f14-9562-59c4e30ab950.webp?v=1789827501&width=460",
       "is_cached": false,
       "previous_price": 42.67,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
+      "price_change": -1.78,
+      "price_change_percent": -4.2,
+      "price_trend": "down",
       "first_seen_at": "2026-05-19T17:31:30-06:00",
-      "lowest_price": 42.67,
+      "lowest_price": 40.89,
       "highest_price": 42.67
     },
     {
@@ -134,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 39.5,
       "score": 79.09,
-      "found_at": "2026-09-19T13:56:17+00:00",
+      "found_at": "2026-09-19T20:36:45+00:00",
       "sizes": [
         "S"
       ],
