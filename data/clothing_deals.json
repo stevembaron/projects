@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T20:36:47+00:00",
+  "generated_at": "2026-09-20T14:15:52+00:00",
   "deal_count": 6,
   "sources_checked": 1,
   "price_history_count": 491,
-  "price_change_count": 4,
+  "price_change_count": 0,
   "deals": [
     {
       "title": "Stio Full-Zip Shacket - Men's",
@@ -14,7 +14,7 @@
       "discount_percent": 73.0,
       "savings": 137.0,
       "score": 126.24,
-      "found_at": "2026-09-19T20:36:45+00:00",
+      "found_at": "2026-09-20T14:15:51+00:00",
       "sizes": [
         "M"
       ],
@@ -38,17 +38,17 @@
       "discount_percent": 64.0,
       "savings": 337.0,
       "score": 115.21,
-      "found_at": "2026-09-19T20:36:45+00:00",
+      "found_at": "2026-09-20T14:15:51+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/2491fbc3-101b-455d-a7bb-75cce303d757.webp?v=1789849880&width=460",
       "is_cached": false,
-      "previous_price": 196.91,
-      "price_change": -7.35,
-      "price_change_percent": -3.7,
-      "price_trend": "down",
+      "previous_price": 189.56,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-08-06T12:20:50+00:00",
       "lowest_price": 189.56,
       "highest_price": 211.6
@@ -62,17 +62,17 @@
       "discount_percent": 64.0,
       "savings": 82.38,
       "score": 103.67,
-      "found_at": "2026-09-19T20:36:45+00:00",
+      "found_at": "2026-09-20T14:15:51+00:00",
       "sizes": [
         "S"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/541d2a7b-a579-4a06-b719-928cac7c64e0.webp?v=1789833703&width=460",
       "is_cached": false,
-      "previous_price": 48.92,
-      "price_change": -2.58,
-      "price_change_percent": -5.3,
-      "price_trend": "down",
+      "previous_price": 46.34,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-05-19T17:31:30-06:00",
       "lowest_price": 46.34,
       "highest_price": 48.92
@@ -86,17 +86,17 @@
       "discount_percent": 52.0,
       "savings": 103.48,
       "score": 95.96,
-      "found_at": "2026-09-19T20:36:45+00:00",
+      "found_at": "2026-09-20T14:15:51+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/b2d794df-d829-45e6-aaa8-741137458561.webp?v=1789817977&width=460",
       "is_cached": false,
-      "previous_price": 99.5,
-      "price_change": -3.98,
-      "price_change_percent": -4.0,
-      "price_trend": "down",
+      "previous_price": 95.52,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-06-27T11:47:36+00:00",
       "lowest_price": 95.52,
       "highest_price": 99.5
@@ -110,17 +110,17 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-09-19T20:36:45+00:00",
+      "found_at": "2026-09-20T14:15:51+00:00",
       "sizes": [
         "S"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/dd076504-7cb9-4f14-9562-59c4e30ab950.webp?v=1789827501&width=460",
       "is_cached": false,
-      "previous_price": 42.67,
-      "price_change": -1.78,
-      "price_change_percent": -4.2,
-      "price_trend": "down",
+      "previous_price": 40.89,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-05-19T17:31:30-06:00",
       "lowest_price": 40.89,
       "highest_price": 42.67
@@ -134,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 39.5,
       "score": 79.09,
-      "found_at": "2026-09-19T20:36:45+00:00",
+      "found_at": "2026-09-20T14:15:51+00:00",
       "sizes": [
         "S"
       ],
