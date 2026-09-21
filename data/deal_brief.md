@@ -2,20 +2,20 @@
 
 ## Act now
 
-- **Elan Ripstick 102 Black Edition, 168cm (you) — $479.99** ([Lone Pine](https://lonepinegearx.com/products/2026-elan-ripstick-102-black-edition-a858b)): watch-term brand, exact fit, unchanged since June — confirmed 3-month floor, 52% off, just under your $500 cap. Second mention, good last call.
-- **Stio Turpin Fleece Crew, S — $39.50** ([Geartrade](https://geartrade.com/products/stio-turpin-fleece-crew-mens-1724762)): watch-term brand, exact fit, half off, well under the $100 cap — unchanged since first flagged yesterday, last call before it's background noise.
-- **Head Kore X 90, 156cm (family) — $379.00** ([Evo](https://www.evo.com/products/271198-head-kore-x-90-skis-2026)): flat at this exact price for 4 months — a genuine confirmed floor, 42% off, exact family fit, comfortably under cap.
+- **Head Kore X 90, 156cm (family) — $379.00** ([Evo](https://www.evo.com/products/271198-head-kore-x-90-skis-2026)): flat at this exact price for 4 months — confirmed floor, 42% off, exact family fit, well under cap. Second mention, last call before it fades into background noise.
+- **Season Nexus Skis 2026, 158cm (family) — $299.98** ([Evo](https://www.evo.com/products/257155-season-nexus-skis-2026-used)): unchanged since May — a real floor rather than a live drop, but 60% off, in stock, exact family fit, comfortably under cap. First mention.
 
 ## Worth watching
 
-- **K2 Mindbender 96 C + Griffon 13 Demo, 166cm (you) — $303.99** ([Evo](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)): steady near $304 for weeks, exact fit — bundled demo bindings inflate the 68% figure, buy if they suit you.
-- **Majesty Havoc 110 Ti, 171cm (you) — $449.89** ([Lone Pine](https://lonepinegearx.com/products/2026-majesty-havoc-110-ti-1b5ea)): exact fit, 55% off, unchanged for about a month — second mention, close to your cap so decide soon if you're interested.
-- **K2 Reckoner 110 W + Griffon 13 Demo, 156cm (family) — $359.99** ([Evo](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)): sitting at the low end of its 90-day range ($359.99–$419.99), exact fit — same demo-bundle caveat.
-- **Völkl Peregrine 82 + Lowride 13 FR, 172cm (you) — $369.99** ([Evo](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)): used/demo, 66% off, exact fit — buy if the bindings suit you as-is, no price history yet to confirm a floor.
-- **Armada ARV 88, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/267760-armada-arv-88-skis-2026)): at the floor of its 90-day range ($299.95–$399.96), exact fit, 40% off — solid price, no urgency.
+- **K2 Mindbender 96 C + Griffon 13 Demo, 166cm (you) — $303.99** ([Evo](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)): steady near $304 for weeks, exact fit — demo bindings inflate the 68% figure; buy if they suit you. Second mention.
+- **Völkl Peregrine 82 + Lowride 13 FR, 172cm (you) — $369.99** ([Evo](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)): used/demo, exact fit, unchanged — still no price history to confirm a floor. Second mention.
+- **Armada ARV 88, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/267760-armada-arv-88-skis-2026)): still at the floor of its 90-day range ($299.95–$399.96), exact fit, 40% off, no urgency. Second mention.
+- **Black Crows Camox + Griffon 13 Demo, 168cm (you) — $399.99** ([Evo](https://www.evo.com/products/292725-black-crows-camox-skis-griffon-13-demo-ski-bindings-2025-used)): exact fit, but sitting near the top of its own 90-day range ($369.99–$399.99) — wait for it to drop back toward $370.
+- **K2 Reckoner 102 W + Griffon 13 Demo, 170cm (you) — $359.99** ([Evo](https://www.evo.com/products/292795-k2-reckoner-102-w-skis-griffon-13-demo-ski-bindings-2025-used)): exact fit, in stock, no price history yet — demo bundle inflates the 60% figure but the net price is solid.
 
 ## Notes
 
-- New source failure: The Gear Room now returns 401 Unauthorized (previously reliable), alongside the ongoing CampSaver and J Skis 403 blocks — recent Gear Room favorites (Black Diamond Impulse Ti, Head Kore Ti 104) are likely just missing from today's feed, not sold out.
-- Retiring after two calls, all unchanged: Salomon Stance 88 (168cm, $249.99), Atomic Maverick 84 (171cm, $299.95), Armada ARV 100 + Strive 13 Demo (172cm, $329.99), Line Pandora 99 (170/156cm, $329.99) — still fine buys, just no longer news.
-- Stio Figment Jacket (M, $189.56) is a watch-term item but nearly 2x the $100 clothing cap — skipping.
+- Retiring after two calls, all unchanged: Elan Ripstick 102 (168cm, $479.99), Stio Turpin Fleece Crew (S, $39.50), Majesty Havoc 110 Ti (171cm, $449.89), K2 Reckoner 110 W (156cm family, $359.99), Atomic Maverick 84 (171cm, $299.95) — still fine buys, just no longer news.
+- No clothing clears the bar today: Stio Figment Jacket ($189.56) exceeds the $100 cap; the remaining Stio pieces are unchanged repeats already retired on prior days.
+- Watch-term brands only in stock at non-matching sizes: Nordica Santa Ana 102 (179cm) and Dynastar M-Pro 92 (178cm).
+- CampSaver and J Skis remain 403-blocked; The Gear Room is 401-blocked for a second day — recent Gear Room favorites are likely just missing from today's feed, not sold out.
