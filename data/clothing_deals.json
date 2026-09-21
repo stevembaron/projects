@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T20:46:29+00:00",
-  "deal_count": 6,
+  "generated_at": "2026-09-21T16:29:23+00:00",
+  "deal_count": 5,
   "sources_checked": 1,
   "price_history_count": 491,
   "price_change_count": 0,
@@ -14,7 +14,7 @@
       "discount_percent": 73.0,
       "savings": 137.0,
       "score": 126.24,
-      "found_at": "2026-09-20T20:46:27+00:00",
+      "found_at": "2026-09-21T16:29:21+00:00",
       "sizes": [
         "M"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 64.0,
       "savings": 337.0,
       "score": 115.21,
-      "found_at": "2026-09-20T20:46:27+00:00",
+      "found_at": "2026-09-21T16:29:21+00:00",
       "sizes": [
         "M"
       ],
@@ -62,7 +62,7 @@
       "discount_percent": 64.0,
       "savings": 82.38,
       "score": 103.67,
-      "found_at": "2026-09-20T20:46:27+00:00",
+      "found_at": "2026-09-21T16:29:21+00:00",
       "sizes": [
         "S"
       ],
@@ -78,30 +78,6 @@
       "highest_price": 48.92
     },
     {
-      "title": "Stio Skycrest Insulated Snap Shirt - Men's",
-      "url": "https://geartrade.com/products/stio-skycrest-insulated-snap-shirt-mens-1694089",
-      "source": "Geartrade Stio men's clothing",
-      "current_price": 95.52,
-      "original_price": 199.0,
-      "discount_percent": 52.0,
-      "savings": 103.48,
-      "score": 95.96,
-      "found_at": "2026-09-20T20:46:27+00:00",
-      "sizes": [
-        "M"
-      ],
-      "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/b2d794df-d829-45e6-aaa8-741137458561.webp?v=1789817977&width=460",
-      "is_cached": false,
-      "previous_price": 95.52,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-06-27T11:47:36+00:00",
-      "lowest_price": 95.52,
-      "highest_price": 99.5
-    },
-    {
       "title": "Stio Divide Half Zip - Men\u2019s",
       "url": "https://geartrade.com/products/stio-divide-half-zip-mens-1660860",
       "source": "Geartrade Stio men's clothing",
@@ -110,7 +86,7 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-09-20T20:46:27+00:00",
+      "found_at": "2026-09-21T16:29:21+00:00",
       "sizes": [
         "S"
       ],
@@ -134,7 +110,7 @@
       "discount_percent": 50.0,
       "savings": 39.5,
       "score": 79.09,
-      "found_at": "2026-09-20T20:46:27+00:00",
+      "found_at": "2026-09-21T16:29:21+00:00",
       "sizes": [
         "S"
       ],
