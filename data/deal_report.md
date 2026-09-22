@@ -1,7 +1,7 @@
 # Ski Gear Deals
 
-Generated: 2026-09-22T14:59:59+00:00
-Deals found: 252
+Generated: 2026-09-22T21:16:07+00:00
+Deals found: 247
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
@@ -78,7 +78,7 @@ Deals found: 252
 13. [Völkl Peregrine 82 Skis + Lowride 13 FR Bindings 2025 - Used](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)
    $369.99 was $1099.99 (66.4% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 177 cm
+   Sizes: 167 cm
    Stock: In stock
 
 14. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)
@@ -158,4 +158,3 @@ Deals found: 252
 
 - CampSaver backcountry skis: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
 - J Skis Secret Stash: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
-- The Gear Room skis price ascending: HTTP Error 401: Unauthorized; reader fallback failed: HTTP Error 401: Unauthorized
