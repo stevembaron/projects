@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-09-21T21:57:09+00:00
+Generated: 2026-09-22T14:59:59+00:00
 Deals found: 252
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -78,7 +78,7 @@ Deals found: 252
 13. [Völkl Peregrine 82 Skis + Lowride 13 FR Bindings 2025 - Used](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)
    $369.99 was $1099.99 (66.4% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 172 cm
+   Sizes: 177 cm
    Stock: In stock
 
 14. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)
@@ -123,34 +123,34 @@ Deals found: 252
    Sizes: 168 cm
    Stock: In stock
 
-21. [2025 Zag Harfang 86 - 170cm / Orange/Blue / New](https://lonepinegearx.com/products/2025-zag-harfang-86-fa09f)
+21. [Season Forma Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292738-season-forma-skis-griffon-13-demo-ski-bindings-2025-used)
+   $409.99 was $1199.90 (65.8% off) - Evo skis price ascending
+   Price trend: Up $10.00 (2.5%) since prior day
+   Sizes: 177 cm
+   Stock: In stock
+
+22. [2025 Zag Harfang 86 - 170cm / Orange/Blue / New](https://lonepinegearx.com/products/2025-zag-harfang-86-fa09f)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
 
 
-22. [2025 Zag Women's Harfang 86 - 155cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
+23. [2025 Zag Women's Harfang 86 - 155cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 155cm
 
 
-23. [2025 Zag Women's Harfang 86 - 162cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
+24. [2025 Zag Women's Harfang 86 - 162cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 162cm
 
 
-24. [2025 Zag Women's Harfang 86 - 170cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
+25. [2025 Zag Women's Harfang 86 - 170cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
    $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
    Price trend: Same as prior day
    Sizes: 170cm
-
-
-25. [2025 Zag Women's Slap 92 - 166cm / Blue/Pink / New](https://lonepinegearx.com/products/2025-zag-womens-slap-92-e0d32)
-   $299.95 was $780.00 (61.5% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 166cm
 
 
 
