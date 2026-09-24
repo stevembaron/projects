@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T21:28:08+00:00",
-  "deal_count": 5,
+  "generated_at": "2026-09-24T15:12:05+00:00",
+  "deal_count": 9,
   "sources_checked": 1,
-  "price_history_count": 510,
+  "price_history_count": 521,
   "price_change_count": 0,
   "deals": [
     {
@@ -14,7 +14,7 @@
       "discount_percent": 75.0,
       "savings": 142.5,
       "score": 129.05,
-      "found_at": "2026-09-23T21:28:06+00:00",
+      "found_at": "2026-09-24T15:12:03+00:00",
       "sizes": [
         "M"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 64.0,
       "savings": 337.0,
       "score": 115.21,
-      "found_at": "2026-09-23T21:28:06+00:00",
+      "found_at": "2026-09-24T15:12:03+00:00",
       "sizes": [
         "M"
       ],
@@ -62,7 +62,7 @@
       "discount_percent": 64.0,
       "savings": 82.38,
       "score": 103.67,
-      "found_at": "2026-09-23T21:28:06+00:00",
+      "found_at": "2026-09-24T15:12:03+00:00",
       "sizes": [
         "S"
       ],
@@ -86,7 +86,7 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-09-23T21:28:06+00:00",
+      "found_at": "2026-09-24T15:12:03+00:00",
       "sizes": [
         "S"
       ],
@@ -102,6 +102,54 @@
       "highest_price": 42.67
     },
     {
+      "title": "Stio Stio Alpin Lightweight Merino Polo SS - Men's",
+      "url": "https://geartrade.com/products/stio-alpin-lightweight-merino-polo-ss-mens-1723800",
+      "source": "Geartrade Stio men's clothing",
+      "current_price": 49.5,
+      "original_price": 99.0,
+      "discount_percent": 50.0,
+      "savings": 49.5,
+      "score": 81.39,
+      "found_at": "2026-09-24T15:12:03+00:00",
+      "sizes": [
+        "M"
+      ],
+      "stock_status": null,
+      "image_url": "https://geartrade.com/cdn/shop/files/f81c4df0-6d3b-4af6-b6d0-1caf18cf4411.webp?v=1790241790&width=460",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-24T15:12:05+00:00",
+      "lowest_price": 49.5,
+      "highest_price": 49.5
+    },
+    {
+      "title": "Stio Alpin Lightweight Merino Polo SS - Men's",
+      "url": "https://geartrade.com/products/stio-alpin-lightweight-merino-polo-ss-mens-1723780",
+      "source": "Geartrade Stio men's clothing",
+      "current_price": 49.5,
+      "original_price": 99.0,
+      "discount_percent": 50.0,
+      "savings": 49.5,
+      "score": 81.39,
+      "found_at": "2026-09-24T15:12:03+00:00",
+      "sizes": [
+        "M"
+      ],
+      "stock_status": null,
+      "image_url": "https://geartrade.com/cdn/shop/files/d3fd0644-6dbd-4eab-98fa-5381bf76181d.webp?v=1790241743&width=460",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-24T15:12:05+00:00",
+      "lowest_price": 49.5,
+      "highest_price": 49.5
+    },
+    {
       "title": "Stio Turpin Fleece Crew - Men's",
       "url": "https://geartrade.com/products/stio-turpin-fleece-crew-mens-1724762",
       "source": "Geartrade Stio men's clothing",
@@ -110,7 +158,7 @@
       "discount_percent": 50.0,
       "savings": 39.5,
       "score": 79.09,
-      "found_at": "2026-09-23T21:28:06+00:00",
+      "found_at": "2026-09-24T15:12:03+00:00",
       "sizes": [
         "S"
       ],
@@ -124,6 +172,54 @@
       "first_seen_at": "2026-09-15T15:03:27+00:00",
       "lowest_price": 39.5,
       "highest_price": 39.5
+    },
+    {
+      "title": "Stio Crester Polo SS - Men's",
+      "url": "https://geartrade.com/products/stio-crester-polo-ss-mens-1723544",
+      "source": "Geartrade Stio men's clothing",
+      "current_price": 37.5,
+      "original_price": 75.0,
+      "discount_percent": 50.0,
+      "savings": 37.5,
+      "score": 78.62,
+      "found_at": "2026-09-24T15:12:03+00:00",
+      "sizes": [
+        "M"
+      ],
+      "stock_status": null,
+      "image_url": "https://geartrade.com/cdn/shop/files/1ce08b47-7a73-40fb-8fc2-ca75a03c49cb.webp?v=1790242419&width=460",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-24T15:12:05+00:00",
+      "lowest_price": 37.5,
+      "highest_price": 37.5
+    },
+    {
+      "title": "Stio Divide Polo - Men's",
+      "url": "https://geartrade.com/products/stio-divide-polo-mens-1723551",
+      "source": "Geartrade Stio men's clothing",
+      "current_price": 29.5,
+      "original_price": 59.0,
+      "discount_percent": 50.0,
+      "savings": 29.5,
+      "score": 76.78,
+      "found_at": "2026-09-24T15:12:03+00:00",
+      "sizes": [
+        "M"
+      ],
+      "stock_status": null,
+      "image_url": "https://geartrade.com/cdn/shop/files/973b092b-33a9-4e16-a920-9b8f16292f9f.webp?v=1790242423&width=460",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-09-24T15:12:05+00:00",
+      "lowest_price": 29.5,
+      "highest_price": 29.5
     }
   ],
   "errors": []
