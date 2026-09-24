@@ -2,20 +2,21 @@
 
 ## Act now
 
-- **Atomic Maven 93 C, 172cm (you) — $324.89** ([Evo](https://www.evo.com/products/254131-atomic-maven-93-c-skis-women-s-2025)): new 90-day low today, down $36.10 vs yesterday, in stock, 54% off MSRP, exact fit. First mention.
-- **Stio Eddy Shirt LS, S — $46.34** ([Geartrade](https://geartrade.com/products/stio-eddy-shirt-ls-shirt-mens-1629203)): still sitting at the floor of its range ($46.34–$48.92), exact size, 64% off. Second mention, last call.
-- **Stio Divide Half Zip, S — $40.89** ([Geartrade](https://geartrade.com/products/stio-divide-half-zip-mens-1660860)): still at the confirmed floor ($40.89–$42.67), exact size, 54% off. Second mention, last call.
+- **K2 Reckoner 110 W + Griffon 13 Demo, 156cm (family) — $359.99** ([Evo](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)): confirmed floor of its range ($359.99–$419.99), in stock, exact family fit. Demo bindings inflate the "66% off" headline, but the floor price is real. First mention.
+- **Armada Declivity 88 C, 160cm (family) — $389.95** ([Evo](https://www.evo.com/products/283998-armada-declivity-88-c-skis-2026)): confirmed floor ($389.95–$454.95), in stock, exact family fit, 40% off. First mention.
+- **Armada ARV 88, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/267760-armada-arv-88-skis-2026)): confirmed floor ($299.95–$399.96), in stock, exact fit, $200 under your cap. First mention.
 
 ## Worth watching
 
-- **Dynastar M-Pro 99 W, 154cm (family) — $119.99** ([Evo](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)): demoted from Act now — still $580 off MSRP, in stock, exact family fit, but unchanged since May. Last call.
-- **Rossignol Rallybird 94, 156cm (family) — $389.97** ([Lone Pine](https://lonepinegearx.com/products/2025-rossignol-rallybird-94-open-34522)): watch-term brand, exact family fit, 44% off, flat since May — no tracked range to confirm a floor. Second mention, last call.
-- **Stio Alpin Lightweight Merino Polo SS, M — $49.50** ([Geartrade](https://geartrade.com/products/stio-alpin-lightweight-merino-polo-ss-mens-1723800)): newly tracked, watch-term brand, 50% off, well under the $100 cap; same price in a second color. First mention.
-- **Stio Crester Polo SS, M — $37.50** ([Geartrade](https://geartrade.com/products/stio-crester-polo-ss-mens-1723544)): newly tracked, watch-term brand, 50% off, exact size. First mention.
-- **Line Pandora 99, 156cm (family) / 170cm (you) — $329.99** ([Lone Pine](https://lonepinegearx.com/products/2026-line-pandora-99-b52a2)): rare double fit for both you and family, 49% off, unchanged for 4 months. Second mention, last call.
+- **Atomic Maven 93 C, 172cm (you) — $324.89** ([Evo](https://www.evo.com/products/254131-atomic-maven-93-c-skis-women-s-2025)): same 90-day low as yesterday, no further movement. Second mention, last call.
+- **Elan Element Sport, 160cm (family) / 168cm (you) — $239.99** ([ERIK'S](https://www.eriksbikeshop.com/products/elan-element-sport-skis-with-el-9-0-bindings-pr5a16794)): rare double fit for you and family, well under cap, but flat since May with no confirmed floor. First mention.
+- **Atomic Backland 80 UL, 170cm (you) — $495.00** ([The Gear Room](https://thegearroom.com/products/atomic-backland-80-ul-skis)): just appeared yesterday, exact fit, but only $5 under cap with no price history yet — wait for a drop. First mention.
+- **Stio Divide Polo, M — $29.50** ([Geartrade](https://geartrade.com/products/stio-divide-polo-mens-1723551)): watch-term brand, newly tracked, cheapest Stio piece today, exact size. First mention.
+- **Stio Alpin Merino Polo SS & Crester Polo SS, M — $49.50 / $37.50** ([Alpin](https://geartrade.com/products/stio-alpin-lightweight-merino-polo-ss-mens-1723800), [Crester](https://geartrade.com/products/stio-crester-polo-ss-mens-1723544)): watch-term, exact size, unchanged since yesterday. Second mention, last call.
 
 ## Notes
 
-- Retiring after two mentions, unchanged: Elan Wildcat 78 Lite (168cm you, $299.99), Elan Element 78 (160cm family / 168cm you, $317.99) — still fine buys, just no longer news.
+- Retiring after two unchanged mentions: Dynastar M-Pro 99 W (154cm family, $119.99), Rossignol Rallybird 94 (156cm family, $389.97), Line Pandora 99 (156cm family/170cm you, $329.99), Stio Eddy Shirt LS (S, $46.34), Stio Divide Half Zip (S, $40.89) — still fine buys, just no longer news.
+- A broader ~40%-off wave hit several Armada/Elan/Atomic models in your and family sizes this week (Maverick 84, Wingman 78 Lite, ARW 88, BDOG 94, Edollo 91, Playmaker 87 — $300–$390, several at confirmed floors); picked the two strongest above instead of listing near-duplicates.
 - Watch-term brands only in stock at non-matching sizes: Nordica Santa Ana 102 (179cm), Dynastar M-Pro 92 (178cm, used).
-- J Skis Secret Stash blocked again today (403 error) — missing, not just stale. Zag listings excluded per muted terms.
+- CampSaver and J Skis both blocked again today (403 errors) — missing, not stale. Zag listings excluded per muted terms.
