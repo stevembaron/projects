@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:28:48+00:00",
+  "generated_at": "2026-09-25T15:19:01+00:00",
   "deal_count": 8,
   "sources_checked": 1,
   "price_history_count": 525,
@@ -14,7 +14,7 @@
       "discount_percent": 75.0,
       "savings": 142.5,
       "score": 129.05,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "M"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 64.0,
       "savings": 82.38,
       "score": 103.67,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "S"
       ],
@@ -62,7 +62,7 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "S"
       ],
@@ -86,17 +86,17 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/f81c4df0-6d3b-4af6-b6d0-1caf18cf4411.webp?v=1790241790&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 49.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-09-24T15:12:05+00:00",
       "lowest_price": 49.5,
       "highest_price": 49.5
@@ -110,17 +110,17 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/d3fd0644-6dbd-4eab-98fa-5381bf76181d.webp?v=1790241743&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 49.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-09-24T15:12:05+00:00",
       "lowest_price": 49.5,
       "highest_price": 49.5
@@ -134,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 39.5,
       "score": 79.09,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "S"
       ],
@@ -158,17 +158,17 @@
       "discount_percent": 50.0,
       "savings": 37.5,
       "score": 78.62,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/1ce08b47-7a73-40fb-8fc2-ca75a03c49cb.webp?v=1790242419&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 37.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-09-24T15:12:05+00:00",
       "lowest_price": 37.5,
       "highest_price": 37.5
@@ -182,17 +182,17 @@
       "discount_percent": 50.0,
       "savings": 29.5,
       "score": 76.78,
-      "found_at": "2026-09-24T21:28:46+00:00",
+      "found_at": "2026-09-25T15:18:59+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/973b092b-33a9-4e16-a920-9b8f16292f9f.webp?v=1790242423&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 29.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-09-24T15:12:05+00:00",
       "lowest_price": 29.5,
       "highest_price": 29.5
