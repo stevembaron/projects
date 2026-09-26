@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T14:32:39+00:00",
+  "generated_at": "2026-09-26T21:06:55+00:00",
   "deal_count": 8,
   "sources_checked": 1,
-  "price_history_count": 529,
+  "price_history_count": 530,
   "price_change_count": 0,
   "deals": [
     {
@@ -14,7 +14,7 @@
       "discount_percent": 75.0,
       "savings": 142.5,
       "score": 129.05,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "M"
       ],
@@ -38,7 +38,7 @@
       "discount_percent": 64.0,
       "savings": 82.38,
       "score": 103.67,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "S"
       ],
@@ -62,7 +62,7 @@
       "discount_percent": 50.0,
       "savings": 144.5,
       "score": 102.11,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "M"
       ],
@@ -86,7 +86,7 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "S"
       ],
@@ -110,7 +110,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "M"
       ],
@@ -134,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "M"
       ],
@@ -158,7 +158,7 @@
       "discount_percent": 50.0,
       "savings": 37.5,
       "score": 78.62,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "M"
       ],
@@ -182,7 +182,7 @@
       "discount_percent": 50.0,
       "savings": 29.5,
       "score": 76.78,
-      "found_at": "2026-09-26T14:32:37+00:00",
+      "found_at": "2026-09-26T21:06:53+00:00",
       "sizes": [
         "M"
       ],
