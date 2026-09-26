@@ -2,21 +2,20 @@
 
 ## Act now
 
-- **Atomic Maverick 84 + M10 GW, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/268044-atomic-maverick-84-skis-m10-gw-bindings-2026)): confirmed floor of its range ($299.95–$349.95), in stock, exact fit, $200 under your cap. First mention.
-- **Armada BDOG 94, 172cm (you) — $389.95** ([Evo](https://www.evo.com/products/267825-armada-bdog-94-skis-2026)): confirmed floor ($389.95–$454.95), in stock, exact fit, 40% off — Armada's Edollo 91 (170cm, same price and floor) is the same deal in a different shape. First mention.
-- **Stio Full-Zip Shacket, M — $47.50** ([Geartrade](https://geartrade.com/products/stio-full-zip-shacket-mens-1685510)): still at its 90-day floor ($47.50–$85.50), exact size, 75% off retail. Second day at this price — last call before it drops out.
+- **Black Diamond Helio Carbon 104, 166cm & 172cm (you) — $399.00** ([The Gear Room](https://thegearroom.com/products/black-diamond-helio-carbon-104-skis-1)): dropped $200 today to a confirmed floor ($399–$599 over 90 days), brand new with tags, exact fit at both sizes — the real news today. No stock status listed, so call ahead.
+- **Atomic Maverick 84 + M10 GW, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/268044-atomic-maverick-84-skis-m10-gw-bindings-2026)): still at its confirmed floor ($299.95–$349.95), in stock, exact fit, $200 under your cap. Second mention.
+- **Armada BDOG 94, 172cm (you) — $389.95** ([Evo](https://www.evo.com/products/267825-armada-bdog-94-skis-2026)): still at its confirmed floor ($389.95–$454.95), in stock, exact fit — Armada's Edollo 91 (170cm, same price and floor) is the same deal in a different shape. Second mention.
 
 ## Worth watching
 
-- **Elan Ripstick 88 W (sidewall damage), 154cm (family) — $199.89** ([Lone Pine](https://lonepinegearx.com/products/2026-elan-ripstick-88-w-sidewall-damage-d0613)): watch-term brand, exact family fit, but a flawed unit with no price history — confirm the damage before buying. Second mention, last call.
-- **K2 Mindbender 96 C + Griffon 13 Demo, 166cm (you) — $303.99** ([Evo](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)): exact fit, 68% off, in stock, flat for a month with no confirmed floor — buy now if you want it. Second mention, last call.
-- **Salomon Stance 88 Women's, 168cm (you) — $249.99** ([ERIK'S](https://www.eriksbikeshop.com/products/salomon-stance-88-womens-skis-2025-pr5a20595)): exact fit, 64% off, steady since May with no tracked dip — fair price, but no urgency to move today.
-- **Völkl Peregrine 82 + Lowride 13 FR, 172cm (you) — $369.99** ([Evo](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)): exact fit, in stock, but the 66% off is inflated by bundled demo bindings — fair price, not exceptional.
-- **K2 Reckoner 102 + Griffon TCX Demo, 170cm (you) — $359.99** ([Evo](https://www.evo.com/products/292794-k2-reckoner-102-skis-griffon-13-demo-ski-bindings-2025-used)): exact fit, but currently sitting at the *top* of its 90-day range ($309.99–$359.99) — wait for it to slide back toward $310.
+- **Armada Reliance 82 C, 158cm (family) — $359.95** ([Evo](https://www.evo.com/products/284004-armada-reliance-82-c-skis-women-s-2026)): confirmed floor, in stock, exact family fit — as good as the picks above, just edged out for space. Buy if it fits.
+- **Atomic Bent 90, 166cm (you) — $329.95** ([Evo](https://www.evo.com/products/267991-atomic-bent-90-skis-2026)): confirmed floor, in stock, exact fit, $170 under cap — same story as the Reliance above.
+- **Salomon Stance 88 Women's, 168cm (you) — $249.99** ([ERIK'S](https://www.eriksbikeshop.com/products/salomon-stance-88-womens-skis-2025-pr5a20595)): exact fit, steady since May with no tracked dip — fair price, no urgency to move today. Second mention.
+- **Völkl Peregrine 82 + Lowride 13 FR, 172cm (you) — $369.99** ([Evo](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)): exact fit, in stock, but the 66% off is inflated by bundled demo bindings — fair price, not exceptional. Second mention, last call.
+- **K2 Reckoner 102 + Griffon TCX Demo, 170cm (you) — $359.99** ([Evo](https://www.evo.com/products/292794-k2-reckoner-102-skis-griffon-13-demo-ski-bindings-2025-used)): exact fit, but still sitting at the top of its 90-day range ($309.99–$359.99) — wait for it to slide back toward $310. Second mention.
 
 ## Notes
 
-- Retiring after two Act-now mentions, still a fine buy, just no longer news: Black Diamond Helio Carbon 104 (166cm & 172cm you, $399.00, confirmed floor), unchanged for a third day.
-- Watch-term brands only in stock at non-matching sizes: Dynastar M-Tour 90 (167cm, newly tracked, $174.99), Dynastar M-Pro 92 (178cm, used), Nordica Santa Ana 102 (179cm).
-- New Stio Skillet Stretch Down Shirt Jacket ($144.50, 50% off) is over your $100 clothing cap — excluded.
-- Same two source failures again today: CampSaver and J Skis Secret Stash both blocked with 403 errors — backcountry ski coverage still incomplete.
+- A broad ~40%-off wave continues across Armada/Atomic models (BDOG, Edollo, Reliance, Bent 90, Declivity, Playmaker) — same seasonal floor, not individually special.
+- Retiring, no longer news: Stio Full-Zip Shacket (M, $47.50, still at its floor but a third day flagged), Elan Ripstick 88 W sidewall-damage (154cm family, $199.89), K2 Mindbender 96 C + Griffon (166cm you, $303.99) — all unchanged, still fine buys if you want them.
+- Two repeat source failures: CampSaver and J Skis Secret Stash, both blocked with 403 errors again — backcountry ski coverage stays incomplete.
