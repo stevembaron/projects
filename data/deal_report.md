@@ -1,7 +1,7 @@
 # Ski Gear Deals
 
-Generated: 2026-09-27T21:18:44+00:00
-Deals found: 252
+Generated: 2026-09-28T18:11:24+00:00
+Deals found: 236
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
@@ -119,7 +119,7 @@ Deals found: 252
 
 20. [Black Crows Camox Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292725-black-crows-camox-skis-griffon-13-demo-ski-bindings-2025-used)
    $399.99 was $1169.90 (65.8% off) - Evo skis price ascending
-   Price trend: Up $30.00 (8.1%) since prior day
+   Price trend: Same as prior day
    Sizes: 168 cm
    Stock: In stock
 
@@ -147,14 +147,13 @@ Deals found: 252
    Sizes: 170cm
 
 
-25. [2025 Zag Women's Slap 92 - 166cm / Blue/Pink / New](https://lonepinegearx.com/products/2025-zag-womens-slap-92-e0d32)
-   $299.95 was $780.00 (61.5% off) - Lone Pine new flat skis
+25. [2024 Zag UBAC 95 - 170cm / Blue/Green/White / New](https://lonepinegearx.com/products/2024-zag-ubac-95-cea07)
+   $299.00 was $775.00 (61.4% off) - Lone Pine new flat skis
    Price trend: Same as prior day
-   Sizes: 166cm
+   Sizes: 170cm
 
 
 
 ## Source Errors
 
-- CampSaver backcountry skis: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
 - J Skis Secret Stash: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
