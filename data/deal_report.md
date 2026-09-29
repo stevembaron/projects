@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-09-28T23:14:16+00:00
+Generated: 2026-09-29T16:32:43+00:00
 Deals found: 236
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -15,16 +15,16 @@ Deals found: 236
    Sizes: 154cm
 
 
-3. [Season Nexus Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292768-season-nexus-skis-griffon-13-demo-ski-bindings-2025-used)
-   $303.99 was $949.90 (68.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
-   Sizes: 167 cm
-   Stock: In stock
-
-4. [K2 Mindbender 96 C Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)
+3. [K2 Mindbender 96 C Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)
    $303.99 was $949.90 (68.0% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 172 cm
+   Stock: In stock
+
+4. [Season Nexus Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292768-season-nexus-skis-griffon-13-demo-ski-bindings-2025-used)
+   $303.99 was $949.90 (68.0% off) - Evo skis price ascending
+   Price trend: Same as prior day
+   Sizes: 167 cm
    Stock: In stock
 
 5. [Völkl Peregrine 80 Skis + Lowride 12 TCX Bindings 2025 - Used](https://www.evo.com/products/254906-volkl-peregrine-80-skis-lowride-12-tcx-bindings-2025-used)
