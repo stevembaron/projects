@@ -2,20 +2,20 @@
 
 ## Act now
 
-- **Armada ARV 88, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/267760-armada-arv-88-skis-2026)): second day at its 90-day floor ($299.95–$399.96), in stock, 2026 model, exact fit, $200 under cap. Last pitch, so buy it or let it go.
-- **Black Diamond Helio Carbon 104, 166cm & 172cm (you) — $399.00** ([The Gear Room](https://thegearroom.com/products/black-diamond-helio-carbon-104-skis-1)): still at its floor ($399–$599 over 90 days, down $200 when it dropped), new with tags, exact fit in both sizes, $101 under cap. No stock status is listed, so confirm before ordering.
-- **Armada ARV 84, 157cm (family) — $239.95** ([Lone Pine](https://lonepinegearx.com/products/2026-armada-arv-84-c267d)): yesterday's trigger is met, since it held its price a second day. It's the cheapest listing across two stores, a 2026 model at 40% off, and an exact family fit. No price history yet, so the floor is unconfirmed.
+- **Atomic Bent 90, 166cm (you) — $329.95** ([Evo](https://www.evo.com/products/267991-atomic-bent-90-skis-2026)): at its 90-day floor ($329.95–$384.95), in stock, 2026 model, exact fit, $170 under cap. Lone Pine lists the same ski for $384.99, so Evo is $55 cheaper. First mention.
+- **Atomic Maverick 84 + M10 GW bindings, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/268044-atomic-maverick-84-skis-m10-gw-bindings-2026)): at its floor ($299.95–$349.95), in stock, 2026 model with bindings, exact fit, $200 under cap. First mention.
+- **Black Diamond Helio Carbon 104, 166cm & 172cm (you) — $399.00** ([The Gear Room](https://thegearroom.com/products/black-diamond-helio-carbon-104-skis-1)): still at its floor ($399–$599), down $200 when it dropped. New with tags, exact fit in both sizes, $101 under cap. Second pitch, and the last one. No stock status is listed, so confirm before ordering.
 
 ## Worth watching
 
-- **Elan Ripstick 94 W, 168cm (you) — $409.99** ([Lone Pine](https://lonepinegearx.com/products/2026-elan-ripstick-94-w-19597)): watch-term brand and exact fit, but still no history for the 45% off. Second mention; buy at $375 or below, otherwise drop it.
-- **Atomic Maven 93 C, 172cm (you) — $324.89** ([Evo](https://www.evo.com/products/254131-atomic-maven-93-c-skis-women-s-2025)): demoted after repeated pitches. It's unchanged at its floor ($324.89–$360.99), so it's a fine buy but no longer news. Act only if it falls below $300.
-- **Black Diamond Impulse Ti 98 W, 168cm (you) — $399.95** ([The Gear Room](https://thegearroom.com/products/black-diamond-impulse-ti-98-skis-womens-1)): unchanged, only 50% off list, no history. Buy below $350.
-- **Stio Divide Polo, M — $29.50 and Crester Polo, M — $37.50** ([Divide](https://geartrade.com/products/stio-divide-polo-mens-1723551), [Crester](https://geartrade.com/products/stio-crester-polo-ss-mens-1723544)): watch-term brand, exact size, well under the cap. Both are 50% off with no 90-day data, so a low can't be confirmed. Buy if they're still listed tomorrow.
-- **Elan Ripstick 88 W (sidewall damage), 154cm (family) — $199.89** ([Lone Pine](https://lonepinegearx.com/products/2026-elan-ripstick-88-w-sidewall-damage-d0613)): watch-term brand and exact family fit, but it's damaged and has no history. Buy only if the damage is confirmed cosmetic.
+- **Armada ARV 88, 171cm (you) — $299.95** ([Evo](https://www.evo.com/products/267760-armada-arv-88-skis-2026)): pitched twice and unchanged at its floor. Buy if you want it. I'll drop it unless it goes below $299.
+- **Faction Prodigy 2, 159cm (family) — $378.00** ([The Gear Room](https://thegearroom.com/products/faction-prodigy-10)): new with tags, exact family fit, but 44% off list with no history. Buy below $340.
+- **Faction La Machine 1, 156cm / 163cm (family only for 156) — $472.00** ([The Gear Room](https://thegearroom.com/products/faction-la-machine-2)): newly tracked today with no history. Buy below $400.
+- **Stio Divide Polo, M — $29.50** ([Geartrade](https://geartrade.com/products/stio-divide-polo-mens-1723551)): watch-term brand, exact size, far under cap. It's 50% off with no 90-day data, so I can't confirm a low. Buy if it's still listed tomorrow.
+- **Dynastar M-Pro 99 W, 154cm (family) — $119.99** ([Evo](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)): watch-term brand and exact family fit, but a 2022 model that has sat at this price since May. It's a standing option with no urgency.
 
 ## Notes
 
-- I've dropped the Stio Eddy Shirt LS and Divide Half Zip (S) after four unchanged days. They're still fine buys.
-- The Stio Skillet Stretch Down Shirt Jacket (M, $144.50) is over the $100 clothing cap.
-- J Skis Secret Stash is still returning 403, so backcountry coverage is incomplete.
+- Retired after repeated mentions with no change: Armada ARV 84 (157cm), Atomic Maven 93 C, Elan Ripstick 94 W and 88 W (damaged), Black Diamond Impulse Ti 98.
+- The Stio Skillet Down Shirt Jacket is over the $100 clothing cap.
+- CampSaver and J Skis returned 403 errors, so backcountry coverage is incomplete.
