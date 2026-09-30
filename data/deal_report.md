@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-09-29T22:12:43+00:00
+Generated: 2026-09-30T16:25:57+00:00
 Deals found: 264
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -15,16 +15,16 @@ Deals found: 264
    Sizes: 154cm
 
 
-3. [K2 Mindbender 96 C Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)
-   $303.99 was $949.90 (68.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
-   Sizes: 172 cm
-   Stock: In stock
-
-4. [Season Nexus Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292768-season-nexus-skis-griffon-13-demo-ski-bindings-2025-used)
+3. [Season Nexus Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292768-season-nexus-skis-griffon-13-demo-ski-bindings-2025-used)
    $303.99 was $949.90 (68.0% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 167 cm
+   Stock: In stock
+
+4. [K2 Mindbender 96 C Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)
+   $303.99 was $949.90 (68.0% off) - Evo skis price ascending
+   Price trend: Same as prior day
+   Sizes: 172 cm
    Stock: In stock
 
 5. [Völkl Peregrine 80 Skis + Lowride 12 TCX Bindings 2025 - Used](https://www.evo.com/products/254906-volkl-peregrine-80-skis-lowride-12-tcx-bindings-2025-used)
@@ -114,7 +114,7 @@ Deals found: 264
 19. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.90 (66.1% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 176 cm
+   Sizes: 165 cm
    Stock: In stock
 
 20. [Black Crows Camox Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292725-black-crows-camox-skis-griffon-13-demo-ski-bindings-2025-used)
