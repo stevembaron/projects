@@ -7,7 +7,7 @@ clothing-deals:
 	python3 scripts/deal_monitor.py --config config/clothing_deal_sources.json
 
 brief:
-	python3 scripts/deal_analyst.py
+	python3 scripts/deal_analyst.py --dry-run
 
 test:
 	python3 -m unittest discover tests

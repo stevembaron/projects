@@ -17,7 +17,7 @@ import deal_monitor  # noqa: E402
 
 
 def make_deal(title: str, source: str, price: float, category: str = "ski") -> dict:
-    return {"title": title, "source": source, "current_price": price, "category": category}
+    return {"title": title, "source": source, "current_price": price, "category": category, "sizes": ["168cm"], "price_scope": "exact", "stock_status": "in_stock", "condition": "new", "url": "https://example.com/" + source}
 
 
 class CrossStoreAnnotationsTest(unittest.TestCase):
@@ -27,7 +27,8 @@ class CrossStoreAnnotationsTest(unittest.TestCase):
         only = make_deal("Atomic Bent 100 Skis", "Evo", 399.0)
         notes = deal_monitor.cross_store_annotations([cheap, pricey, only])
 
-        self.assertEqual(notes[id(cheap)], {"best": True, "stores": 2})
+        self.assertTrue(notes[id(cheap)]["best"])
+        self.assertEqual(notes[id(cheap)]["stores"], 2)
         self.assertEqual(notes[id(pricey)]["best"], False)
         self.assertIn("Also at Lone Pine for $279.00", notes[id(pricey)]["note"])
         self.assertNotIn(id(only), notes)

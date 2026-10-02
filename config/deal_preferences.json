@@ -13,7 +13,9 @@
   "muted_urls": [],
   "my_ski_sizes": [
     166,
+    167,
     168,
+    169,
     170,
     171,
     172
@@ -34,5 +36,27 @@
   "max_prices": {
     "ski": 500,
     "clothing": 100
+  },
+  "schema_version": 2,
+  "watch_urls": [],
+  "owned_terms": [],
+  "owned_urls": [],
+  "shopping_intent": {
+    "ski": "exceptional_only",
+    "clothing": "exceptional_only"
+  },
+  "freshness": {
+    "act_now_hours": 24,
+    "hide_cached_after_hours": 72
+  },
+  "price_drop_thresholds": {
+    "ski": {
+      "amount": 25,
+      "percent": 10
+    },
+    "clothing": {
+      "amount": 10,
+      "percent": 15
+    }
   }
 }
