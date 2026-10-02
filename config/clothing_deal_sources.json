@@ -36,9 +36,11 @@
   "sources": [
     {
       "name": "Geartrade Stio men's clothing",
-      "url": "https://geartrade.com/search?q=stio&type=article%2Cpage%2Cproduct&options%5Bprefix%5D=last&sort_by=relevance&filter.v.option.size=S&filter.v.option.size=M&filter.p.m.global.Gender=Mens&filter.v.m.global.Condition=Excellent",
+      "url": "https://geartrade.com/search?q=stio&type=article%2Cpage%2Cproduct&options%5Bprefix%5D=last&sort_by=relevance&filter.v.option.size=S&filter.v.option.size=M&filter.p.m.global.Gender=Mens&filter.v.m.global.Condition=Excellent&filter.v.m.global.Condition=UnNew%20With%20Tags",
       "enabled": true,
-      "keywords": ["stio"]
+      "keywords": [
+        "stio"
+      ]
     }
   ]
 }
