@@ -13,6 +13,29 @@ const path=require('node:path');
    await page.goto(pathToFileURL(path.resolve('ski-deals/index.html')).href);
    await page.waitForSelector('#list article, #list .empty');
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'No horizontal overflow');
+   const skis=page.getByRole('button',{name:'Skis',exact:true});
+   const clothing=page.getByRole('button',{name:'Clothing',exact:true});
+   async function checkCategory(category){
+    assert.equal(await page.locator(`[data-category="${category}"]`).getAttribute('aria-pressed'),'true');
+    const displayed=await page.evaluate(()=>{
+     const data=JSON.parse(document.getElementById('gear-data').textContent).dataset;
+     return [...document.querySelectorAll('#list article')].map(el=>data.deals.find(d=>d.id===el.dataset.id).category);
+    });
+    assert.ok(displayed.length>0,'Category contains visible offers');
+    assert.ok(displayed.every(value=>value===category),'Only the selected category is shown');
+   }
+   assert.equal(await skis.getAttribute('aria-pressed'),'true','Skis are the default');
+   await page.getByRole('button',{name:'All deals',exact:true}).click();
+   await checkCategory('ski');
+   await clothing.click();await checkCategory('clothing');
+   await page.locator('.filters summary').click();
+   await page.getByRole('button',{name:'Reset filters',exact:true}).click();
+   await page.locator('.filters summary').click();
+   await checkCategory('clothing');
+   await page.reload();await checkCategory('ski');
+   await clothing.click();await checkCategory('clothing');
+   await skis.click();await checkCategory('ski');
+
    await page.getByRole('button',{name:'Preferences',exact:true}).click();
    assert.match(await page.locator('[name=my_ski_sizes]').inputValue(),/167/);
    assert.match(await page.locator('[name=my_ski_sizes]').inputValue(),/169/);

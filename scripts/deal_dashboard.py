@@ -23,8 +23,9 @@ def render_dashboard(payload, config):
 <title>Gear Deals | Your daily shortlist</title><link rel="stylesheet" href="../assets/deals.css"></head>
 <body><main>
 <header><div><p class="eyebrow">THE HOUSEHOLD GEAR WATCH</p><h1>Good gear. Better timing.</h1><p class="muted" id="freshness"></p></div><button id="openPreferences" class="secondary">Preferences</button></header>
+<nav aria-label="Gear category" id="categories" class="category-toggle"><button data-category="ski" aria-pressed="true">Skis</button><button data-category="clothing" aria-pressed="false">Clothing</button></nav>
 <div class="status" id="status" role="status"></div>
-<nav aria-label="Deal views" id="views"><button data-view="today" aria-pressed="true">Today</button><button data-view="me" aria-pressed="false">For me</button><button data-view="family" aria-pressed="false">Family</button><button data-view="clothing" aria-pressed="false">Clothing</button><button data-view="all" aria-pressed="false">All deals</button></nav>
+<nav aria-label="Deal views" id="views"><button data-view="today" aria-pressed="true">Today</button><button data-view="me" aria-pressed="false">For me</button><button data-view="family" aria-pressed="false">Family</button><button data-view="all" aria-pressed="false">All deals</button></nav>
 <section class="metrics" id="metrics" aria-label="Deal summary"></section>
 <section id="brief" class="brief-summary"></section>
 <section class="browse"><div class="browse-heading"><h2 id="listTitle">Today's shortlist</h2><span class="muted" id="count" aria-live="polite"></span></div>
