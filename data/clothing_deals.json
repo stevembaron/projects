@@ -1,10 +1,40 @@
 {
-  "generated_at": "2026-10-02T16:18:43+00:00",
-  "deal_count": 9,
+  "generated_at": "2026-10-02T22:11:37+00:00",
+  "deal_count": 10,
   "sources_checked": 1,
-  "price_history_count": 560,
+  "price_history_count": 803,
   "price_change_count": 0,
   "deals": [
+    {
+      "title": "Stio Environ Pant - Men's",
+      "url": "https://geartrade.com/products/stio-environ-pant-mens-1687321",
+      "source": "Geartrade Stio men's clothing",
+      "current_price": 129.89,
+      "original_price": 432.97,
+      "discount_percent": 70.0,
+      "savings": 303.08,
+      "score": 122.4,
+      "found_at": "2026-10-02T22:11:35+00:00",
+      "sizes": [
+        "M"
+      ],
+      "stock_status": null,
+      "image_url": "https://geartrade.com/cdn/shop/files/d4c308b3-d6c1-46ce-a5b9-dacdbc41968a.webp?v=1790969457&width=460",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-10-02T22:11:37+00:00",
+      "lowest_price": 129.89,
+      "highest_price": 129.89,
+      "variant_id": null,
+      "price_scope": "exact",
+      "condition": null,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 1,
+      "history_start": "2026-10-02"
+    },
     {
       "title": "Stio Skillet Stretch Down Shirt Jacket - Men's",
       "url": "https://geartrade.com/products/stio-skillet-stretch-down-shirt-jacket-mens-1726602",
@@ -14,7 +44,7 @@
       "discount_percent": 50.0,
       "savings": 144.5,
       "score": 102.11,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -31,8 +61,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -44,7 +74,7 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "S"
       ],
@@ -61,8 +91,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -74,7 +104,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -91,8 +121,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -104,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -121,8 +151,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -134,7 +164,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -151,8 +181,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -164,7 +194,7 @@
       "discount_percent": 45.0,
       "savings": 62.55,
       "score": 79.11,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -181,8 +211,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -194,7 +224,7 @@
       "discount_percent": 45.0,
       "savings": 62.55,
       "score": 79.11,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -211,8 +241,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -224,7 +254,7 @@
       "discount_percent": 50.0,
       "savings": 37.5,
       "score": 78.62,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -241,8 +271,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     },
     {
@@ -254,7 +284,7 @@
       "discount_percent": 50.0,
       "savings": 29.5,
       "score": 76.78,
-      "found_at": "2026-10-02T16:18:41+00:00",
+      "found_at": "2026-10-02T22:11:35+00:00",
       "sizes": [
         "M"
       ],
@@ -271,8 +301,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-02T16:18:43+00:00",
-      "observation_count": 2,
+      "last_verified_at": "2026-10-02T22:11:37+00:00",
+      "observation_count": 3,
       "history_start": "2026-10-02"
     }
   ],
