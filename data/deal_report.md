@@ -1,160 +1,159 @@
 # Ski Gear Deals
 
-Generated: 2026-10-01T22:39:00+00:00
-Deals found: 263
+Generated: 2026-10-02T16:18:57+00:00
+Deals found: 242
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 154 cm
    Stock: In stock
 
 2. [2026 Elan Ripstick 88 W *Sidewall Damage* - 154cm / Blue/Tan / New](https://lonepinegearx.com/products/2026-elan-ripstick-88-w-sidewall-damage-d0613)
    $199.89 was $649.99 (69.2% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 154cm
-
-
-3. [Season Nexus Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292768-season-nexus-skis-griffon-13-demo-ski-bindings-2025-used)
-   $303.99 was $949.90 (68.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
-   Sizes: 167 cm
    Stock: In stock
 
-4. [K2 Mindbender 96 C Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)
+3. [K2 Mindbender 96 C Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)
    $303.99 was $949.90 (68.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 172 cm
+   Stock: In stock
+
+4. [Season Nexus Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292768-season-nexus-skis-griffon-13-demo-ski-bindings-2025-used)
+   $303.99 was $949.90 (68.0% off) - Evo skis price ascending
+   Price trend: Newly tracked
+   Sizes: 167 cm
    Stock: In stock
 
 5. [Völkl Peregrine 80 Skis + Lowride 12 TCX Bindings 2025 - Used](https://www.evo.com/products/254906-volkl-peregrine-80-skis-lowride-12-tcx-bindings-2025-used)
    $329.99 was $999.99 (67.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 162 cm
    Stock: In stock
 
 6. [K2 Mindbender 106 C W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292744-k2-mindbender-106-c-w-skis-griffon-13-demo-ski-bindings-2025-used)
    $329.99 was $999.90 (67.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 176 cm
    Stock: In stock
 
-7. [2025 Zag Women's Harfang 86 *Floor Model* - 162cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-floor-model-08736)
-   $269.95 was $780.00 (65.4% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 162cm
-
-
-8. [Völkl Secret 84 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292798-volkl-secret-84-skis-squire-11-demo-ski-bindings-2025-used)
+7. [Völkl Secret 84 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292798-volkl-secret-84-skis-squire-11-demo-ski-bindings-2025-used)
    $299.99 was $879.94 (65.9% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 161 cm
    Stock: In stock
 
-9. [Armada ARV 100 Skis + Strive 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292582-armada-arv-100-skis-strive-13-demo-ski-bindings-2025-used)
+8. [Armada ARV 100 Skis + Strive 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292582-armada-arv-100-skis-strive-13-demo-ski-bindings-2025-used)
    $329.99 was $979.90 (66.3% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 179 cm
    Stock: In stock
 
-10. [Völkl Secret 96 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292799-volkl-secret-96-skis-squire-11-demo-ski-bindings-2025-used)
+9. [Völkl Secret 96 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292799-volkl-secret-96-skis-squire-11-demo-ski-bindings-2025-used)
    $359.99 was $1079.94 (66.7% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 163 cm
    Stock: In stock
 
-11. [2025 Zag Women's Slap 104 - 170cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-slap-104-bdd57)
-   $299.95 was $870.00 (65.5% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 170cm
-
-
-12. [Salomon Stance 88 Women’s Skis](https://www.eriksbikeshop.com/products/salomon-stance-88-womens-skis-2025-pr5a20595)
+10. [Salomon Stance 88 Women’s Skis - 168cm](https://www.eriksbikeshop.com/products/salomon-stance-88-womens-skis-2025-pr5a20595)
    $249.99 was $699.95 (64.3% off) - ERIK'S downhill skis price ascending
-   Price trend: Same as prior day
-   Sizes: 168cm, 174cm
+   Price trend: Newly tracked
+   Sizes: 168cm
+   Stock: In stock
 
-
-13. [Völkl Blaze 94 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292724-volkl-blaze-94-skis-squire-11-demo-ski-bindings-2025-used)
+11. [Völkl Blaze 94 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292724-volkl-blaze-94-skis-squire-11-demo-ski-bindings-2025-used)
    $319.99 was $929.94 (65.6% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 151 cm
    Stock: In stock
 
-14. [Völkl Peregrine 82 Skis + Lowride 13 FR Bindings 2025 - Used](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)
+12. [Völkl Peregrine 82 Skis + Lowride 13 FR Bindings 2025 - Used](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)
    $369.99 was $1099.99 (66.4% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 172 cm
    Stock: In stock
 
-15. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)
+13. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)
    $369.99 was $1099.90 (66.4% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 169 cm
    Stock: In stock
 
-16. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
+14. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
    $314.99 was $899.00 (65.0% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 178 cm
    Stock: In stock
 
-17. [K2 Reckoner 110 W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)
+15. [K2 Reckoner 110 W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292796-k2-reckoner-110-w-skis-griffon-13-demo-ski-bindings-2025-used)
    $359.99 was $1049.90 (65.7% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 156 cm
    Stock: In stock
 
-18. [Völkl M7 Mantra Skis + Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)
+16. [Völkl M7 Mantra Skis + Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.94 (66.1% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 170 cm
    Stock: In stock
 
-19. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
+17. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.90 (66.1% off) - Evo skis price ascending
-   Price trend: Same as prior day
+   Price trend: Newly tracked
    Sizes: 165 cm
    Stock: In stock
 
-20. [Black Crows Camox Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292725-black-crows-camox-skis-griffon-13-demo-ski-bindings-2025-used)
-   $399.99 was $1169.90 (65.8% off) - Evo skis price ascending
-   Price trend: Same as prior day
-   Sizes: 168 cm
+18. [Season Nexus Skis 2026 - Used](https://www.evo.com/products/257155-season-nexus-skis-2026-used)
+   $299.98 was $749.95 (60.0% off) - Evo skis price ascending
+   Price trend: Newly tracked
+   Sizes: 158 cm
    Stock: In stock
 
-21. [2025 Zag Harfang 86 - 170cm / Orange/Blue / New](https://lonepinegearx.com/products/2025-zag-harfang-86-fa09f)
-   $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 170cm
+19. [Nordica Santa Ana 102 Skis - Women's 2025](https://www.evo.com/products/253127-nordica-santa-ana-102-skis-women-s-2025)
+   $339.99 was $849.99 (60.0% off) - Evo skis price ascending
+   Price trend: Newly tracked
+   Sizes: 179 cm
+   Stock: In stock
 
+20. [K2 Reckoner 102 Skis + Marker Griffon TCX Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292794-k2-reckoner-102-skis-griffon-13-demo-ski-bindings-2025-used)
+   $359.99 was $899.90 (60.0% off) - Evo skis price ascending
+   Price trend: Newly tracked
+   Sizes: 170 cm
+   Stock: In stock
 
-22. [2025 Zag Women's Harfang 86 - 155cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
-   $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 155cm
+21. [K2 Reckoner 102 W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292795-k2-reckoner-102-w-skis-griffon-13-demo-ski-bindings-2025-used)
+   $359.99 was $899.90 (60.0% off) - Evo skis price ascending
+   Price trend: Newly tracked
+   Sizes: 170 cm
+   Stock: In stock
 
+22. [Nordica Unleashed 90 Skis 2025](https://www.evo.com/products/253222-nordica-unleashed-90-skis-2025)
+   $199.97 was $449.99 (55.6% off) - Evo skis price ascending
+   Price trend: Newly tracked
+   Sizes: 152 cm
+   Stock: In stock
 
-23. [2025 Zag Women's Harfang 86 - 162cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
-   $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 162cm
+23. [Scott Pure Free 90 Ti - Women's - Brand new-with tags / 154 / No Color](https://thegearroom.com/products/scott-pure-free-90-ti-womens)
+   $299.99 was $700.00 (57.1% off) - The Gear Room skis price ascending
+   Price trend: Newly tracked
 
+   Stock: In stock
 
-24. [2025 Zag Women's Harfang 86 - 170cm / Blue/Orange / New](https://lonepinegearx.com/products/2025-zag-womens-harfang-86-76f4e)
-   $289.95 was $780.00 (62.8% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 170cm
+24. [Scott Pure Free 90 Ti - Women's - Brand new-with tags / 160 / No Color](https://thegearroom.com/products/scott-pure-free-90-ti-womens)
+   $299.99 was $700.00 (57.1% off) - The Gear Room skis price ascending
+   Price trend: Newly tracked
 
+   Stock: In stock
 
-25. [2024 Zag UBAC 95 - 170cm / Blue/Green/White / New](https://lonepinegearx.com/products/2024-zag-ubac-95-cea07)
-   $299.00 was $775.00 (61.4% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 170cm
+25. [Scott Pure Free 90 Ti - Women's - Brand new-with tags / 168 / No Color](https://thegearroom.com/products/scott-pure-free-90-ti-womens)
+   $299.99 was $700.00 (57.1% off) - The Gear Room skis price ascending
+   Price trend: Newly tracked
 
+   Stock: In stock
 
 
 ## Source Errors
 
-- CampSaver backcountry skis: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
 - J Skis Secret Stash: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
