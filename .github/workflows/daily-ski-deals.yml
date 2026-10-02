@@ -1,62 +1,11 @@
 name: Update Daily Ski Deals
-
 on:
   workflow_dispatch:
-
 permissions:
   contents: write
   pages: write
   id-token: write
-
-concurrency:
-  group: daily-ski-deals
-  cancel-in-progress: false
-
 jobs:
-  update-report:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
-      - name: Make publish helper executable
-        run: chmod +x scripts/publish_generated_report.sh
-
-      - name: Run ski deal monitor
-        run: python3 scripts/deal_monitor.py
-
-      - name: Publish updated report
-        run: >
-          scripts/publish_generated_report.sh
-          "Update daily ski deals"
-          data/deal_report.md
-          data/deals.html
-          data/deals.json
-          data/price_history.json
-          data/evo_constructor_key.json
-          ski-deals/index.html
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
-        with:
-          enablement: true
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: .
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+  refresh:
+    uses: ./.github/workflows/external-daily-deals.yml
+    secrets: inherit

@@ -143,6 +143,12 @@ class Deal:
     first_seen_at: str | None = None
     lowest_price: float | None = None
     highest_price: float | None = None
+    variant_id: str | None = None
+    price_scope: str = "from"
+    condition: str | None = None
+    last_verified_at: str | None = None
+    observation_count: int = 0
+    history_start: str | None = None
 
 
 @dataclass
@@ -240,9 +246,20 @@ def first_image_from_fields(item: dict[str, Any], base_url: str, fields: tuple[s
 
 def fetch(url: str, timeout: int = 25) -> str:
     request = Request(url, headers=REQUEST_HEADERS)
-    with urlopen(request, timeout=timeout) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset, errors="replace")
+    for attempt in range(3):
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                charset = response.headers.get_content_charset() or "utf-8"
+                return response.read().decode(charset, errors="replace")
+        except HTTPError as error:
+            if error.code not in {429, 500, 502, 503, 504} or attempt == 2:
+                raise
+        except (URLError, TimeoutError):
+            if attempt == 2:
+                raise
+        time.sleep(2 ** attempt)
+    raise RuntimeError("Fetch retries exhausted")
+
 
 
 def reader_url(url: str) -> str:
@@ -429,7 +446,7 @@ def shopify_products_json_candidates(
         product_url = urljoin(base_url, f"/products/{handle}")
         product_image = image_url(product.get("image"), base_url) or image_url(product.get("images"), base_url)
         for variant in product.get("variants", []):
-            if ignore_sold_out and not variant.get("available", True):
+            if ignore_sold_out and variant.get("available") is False:
                 continue
 
             current = money(variant.get("price"))
@@ -454,6 +471,10 @@ def shopify_products_json_candidates(
                     original,
                     found_at,
                     sizes=[variant_size] if variant_size else None,
+                    variant_id=str(variant.get("id")) if variant.get("id") else None,
+                    price_scope="exact",
+                    stock_status="in_stock" if variant.get("available") is True else ("sold_out" if variant.get("available") is False else None),
+                    condition="new" if "new" in variant_text or "new" in required_tag_set else None,
                     image_url=image_url(variant.get("featured_image"), base_url) or product_image,
                 )
             )
@@ -570,7 +591,7 @@ def product_variant_deals(product: dict[str, Any], base_url: str, source_name: s
     variants = product.get("variants", {}).get("nodes", [])
     deals: list[Deal] = []
     for variant in variants:
-        if not variant.get("availableForSale", True):
+        if variant.get("availableForSale") is False:
             continue
 
         current = money(variant.get("price", {}).get("amount"))
@@ -580,7 +601,10 @@ def product_variant_deals(product: dict[str, Any], base_url: str, source_name: s
         original = money((variant.get("compareAtPrice") or {}).get("amount"))
         variant_title = normalize_shopify_variant_title(variant.get("title"))
         deal_title = title if variant_title in ("", "Default Title") else f"{title} - {variant_title}"
-        deals.append(make_deal(deal_title, product_url, source_name, current, original, found_at, image_url=product_image))
+        deals.append(make_deal(deal_title, product_url, source_name, current, original, found_at, image_url=product_image,
+            sizes=[shopify_variant_size_label(variant_title)] if shopify_variant_size_label(variant_title) else None,
+            variant_id=str(variant.get("id")) if variant.get("id") else None, price_scope="exact",
+            stock_status="in_stock" if variant.get("availableForSale") is True else None))
     return deals
 
 
@@ -697,6 +721,7 @@ def geartrade_search_candidates(markup: str, base_url: str, source_name: str, fo
                 original,
                 found_at,
                 sizes=sizes,
+                price_scope="exact",
                 image_url=image_url(image_match.group("src"), base_url) if image_match else None,
             )
         )
@@ -740,6 +765,7 @@ def evo_collection_candidates(markup: str, base_url: str, source_name: str, foun
                 original,
                 found_at,
                 sizes=sizes,
+                price_scope="exact",
                 stock_status=stock_status,
                 image_url=evo_meta_product_image(meta_products.get(handle), base_url),
             )
@@ -894,7 +920,8 @@ def evo_constructor_result_deal(item: Any, source_name: str, found_at: str) -> D
     if not url or current is None:
         return None
 
-    stock_status = "in_stock" if data.get("availability", False) else "sold_out"
+    available = data.get("availability")
+    stock_status = "in_stock" if available is True or str(available).lower() in {"true", "in_stock", "instock"} else ("sold_out" if available is False else None)
     sizes = [size] if evo_size_text(size) else None
     return make_deal(
         title,
@@ -1200,6 +1227,9 @@ def make_deal(
     stock_status: str | None = None,
     image_url: str | None = None,
     is_cached: bool = False,
+    variant_id: str | None = None,
+    price_scope: str = "from",
+    condition: str | None = None,
 ) -> Deal:
     discount = None
     savings = None
@@ -1222,6 +1252,10 @@ def make_deal(
         stock_status=stock_status,
         image_url=image_url,
         is_cached=is_cached,
+        variant_id=variant_id,
+        price_scope=price_scope,
+        condition=condition,
+        last_verified_at=None if is_cached else found_at,
     )
 
 
@@ -1246,54 +1280,21 @@ def split_size_variant(title: str) -> tuple[str, str | None]:
 
 
 def consolidate_size_variants(deals: list[Deal]) -> list[Deal]:
-    grouped: dict[tuple[str, str, str], list[tuple[Deal, str]]] = {}
-    passthrough: list[Deal] = []
+    # Each offer keeps its own price, size, stock and identity.
+    return dedupe(deals)
 
-    for deal in deals:
-        base_title, size = split_size_variant(deal.title)
-        if not size:
-            passthrough.append(deal)
-            continue
-        grouped.setdefault((deal.source, deal.url, base_title), []).append((deal, size))
-
-    consolidated = list(passthrough)
-    for (source, url, base_title), variants in grouped.items():
-        if len(variants) == 1:
-            consolidated.append(variants[0][0])
-            continue
-
-        best_current = min(deal.current_price for deal, _ in variants)
-        originals = [deal.original_price for deal, _ in variants if deal.original_price is not None]
-        best_original = max(originals) if originals else None
-        latest_found_at = max(deal.found_at for deal, _ in variants)
-        sizes = sorted({size for _, size in variants})
-        image = next((deal.image_url for deal, _ in variants if deal.image_url), None)
-        stock_status = next((deal.stock_status for deal, _ in variants if deal.stock_status), None)
-        consolidated.append(
-            make_deal(
-                base_title,
-                url,
-                source,
-                best_current,
-                best_original,
-                latest_found_at,
-                sizes=sizes,
-                stock_status=stock_status,
-                image_url=image,
-            )
-        )
-
-    return consolidated
 
 
 def dedupe(deals: list[Deal]) -> list[Deal]:
-    best: dict[str, Deal] = {}
+    from deal_rules import offer_key
+    best = {}
     for deal in deals:
-        key = re.sub(r"[^a-z0-9]+", "", f"{deal.title.lower()}-{deal.current_price}")
+        key = offer_key(deal)
         existing = best.get(key)
-        if not existing or deal.score > existing.score:
+        if existing is None or (deal.price_scope == 'exact', deal.stock_status == 'in_stock', not deal.is_cached) > (existing.price_scope == 'exact', existing.stock_status == 'in_stock', not existing.is_cached):
             best[key] = deal
     return list(best.values())
+
 
 
 def filter_and_sort(deals: list[Deal], config: dict[str, Any]) -> list[Deal]:
@@ -1309,26 +1310,12 @@ def filter_and_sort(deals: list[Deal], config: dict[str, Any]) -> list[Deal]:
             continue
         filtered.append(deal)
 
-    if config.get("sort_results_by") == "price_asc":
-        return sorted(
-            filtered,
-            key=lambda item: (
-                stock_sort_key(item.stock_status),
-                item.current_price,
-                -(item.discount_percent or 0),
-                -(item.savings or 0),
-            ),
-        )
-
-    return sorted(
-        filtered,
-        key=lambda item: (
-            stock_sort_key(item.stock_status),
-            -(item.score),
-            -(item.discount_percent or 0),
-            -(item.savings or 0),
-        ),
-    )
+    from deal_rules import enrich
+    prefs = load_preferences(PREFERENCES_CONFIG)
+    annotated = [dict(asdict(d), category='clothing' if config.get('json_output') == 'data/clothing_deals.json' else 'ski') for d in filtered]
+    enrich(annotated, prefs)
+    relevance = {id(d): meta['score'] for d, meta in zip(filtered, annotated)}
+    return sorted(filtered, key=lambda d: (stock_sort_key(d.stock_status), -relevance[id(d)], d.current_price))
 
 
 def scan(config: dict[str, Any]) -> tuple[list[Deal], list[SourceError]]:
@@ -1449,6 +1436,8 @@ def scan(config: dict[str, Any]) -> tuple[list[Deal], list[SourceError]]:
                     candidates = markdown_candidates(markup, url, source_name, found_at)
                     candidates.extend(link_candidates(markup, url, source_name, found_at))
                 candidates.extend(geartrade_search_candidates(markup, url, source_name, found_at))
+            if not candidates:
+                errors.append(SourceError(source_name, url, "No products parsed; availability is unverified"))
             all_deals.extend(filter_and_sort(candidates, source_filter_config)[:per_source_limit])
             time.sleep(float(source.get("delay_seconds", 1.2)))
         except (HTTPError, URLError, TimeoutError, OSError) as error:
@@ -1505,34 +1494,11 @@ def scan(config: dict[str, Any]) -> tuple[list[Deal], list[SourceError]]:
     return rank_deals(dedupe(all_deals)), errors
 
 
-def cached_source_deals(history: dict[str, Any], source_name: str, found_at: str, limit: int) -> list[Deal]:
-    items = history.get("items", {})
-    if not isinstance(items, dict):
-        return []
+def cached_source_deals(history, source_name, found_at, limit):
+    from deal_history import cached_deals
+    preferences = load_preferences(PREFERENCES_CONFIG)
+    return cached_deals(history, source_name, found_at, limit, preferences.get('freshness', {}).get('hide_cached_after_hours', 72))
 
-    cached: list[Deal] = []
-    for item in items.values():
-        if not isinstance(item, dict) or item.get("source") != source_name:
-            continue
-        title = clean_text(str(item.get("title") or ""))
-        url = clean_text(str(item.get("url") or ""))
-        current = money(item.get("current_price"))
-        if not title or not url or current is None:
-            continue
-        cached.append(
-            make_deal(
-                title,
-                url,
-                source_name,
-                current,
-                money(item.get("highest_price")),
-                found_at,
-                image_url=image_url(item.get("image_url")),
-                is_cached=True,
-            )
-        )
-
-    return rank_deals(cached)[:limit]
 
 
 def merged_filter_config(config: dict[str, Any], source: dict[str, Any]) -> dict[str, Any]:
@@ -1576,16 +1542,10 @@ def stock_label(status: str | None) -> str | None:
     return None
 
 
-def price_history_key(deal: Deal | dict[str, Any]) -> str:
-    source = str(deal["source"] if isinstance(deal, dict) else deal.source)
-    title = str(deal["title"] if isinstance(deal, dict) else deal.title)
-    url = str(deal["url"] if isinstance(deal, dict) else deal.url)
-    parsed = urlparse(url)
-    normalized_url = urlunparse(parsed._replace(query="", fragment="")).rstrip("/")
-    if normalized_url:
-        return f"{source}|{normalized_url}".lower()
-    normalized_title = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-    return f"{source}|{normalized_title}".lower()
+def price_history_key(deal):
+    from deal_rules import offer_key
+    return offer_key(deal)
+
 
 
 def load_price_history(path: Path) -> dict[str, Any]:
@@ -1671,68 +1631,10 @@ def latest_prior_observation(item: dict[str, Any], today: str) -> dict[str, Any]
     return max(prior, key=lambda observation: str(observation.get("date", ""))) if prior else None
 
 
-def annotate_and_update_price_history(deals: list[Deal], history_path: Path, generated_at: str) -> dict[str, Any]:
-    history = load_price_history(history_path)
-    items = history.setdefault("items", {})
-    today = generated_at[:10]
+def annotate_and_update_price_history(deals, history_path, generated_at):
+    from deal_history import update
+    return update(deals, history_path, generated_at)
 
-    for deal in deals:
-        key = price_history_key(deal)
-        existing = items.get(key) if isinstance(items.get(key), dict) else {}
-        if not deal.image_url and existing.get("image_url"):
-            deal.image_url = str(existing["image_url"])
-        previous = latest_prior_observation(existing, today)
-        if previous:
-            previous_price = money(previous.get("price"))
-            if previous_price is not None:
-                deal.previous_price = previous_price
-                deal.price_change = round(deal.current_price - previous_price, 2)
-                if previous_price:
-                    deal.price_change_percent = round((deal.price_change / previous_price) * 100, 1)
-                if deal.price_change < 0:
-                    deal.price_trend = "down"
-                elif deal.price_change > 0:
-                    deal.price_trend = "up"
-                else:
-                    deal.price_trend = "flat"
-        else:
-            deal.price_trend = "new"
-
-        observations = existing.get("observations")
-        if not isinstance(observations, list):
-            observations = []
-        observations = [
-            observation
-            for observation in observations
-            if isinstance(observation, dict) and str(observation.get("date", "")) != today
-        ]
-        observations.append({"date": today, "price": deal.current_price, "seen_at": generated_at})
-        observations = sorted(observations, key=lambda observation: str(observation.get("date", "")))[-90:]
-
-        first_seen_at = str(existing.get("first_seen_at") or generated_at)
-        deal.first_seen_at = first_seen_at
-        lowest = min([deal.current_price] + [price for price in [money(obs.get("price")) for obs in observations] if price is not None])
-        highest = max([deal.current_price] + [price for price in [money(obs.get("price")) for obs in observations] if price is not None])
-        deal.lowest_price = round(lowest, 2)
-        deal.highest_price = round(highest, 2)
-        items[key] = {
-            "title": deal.title,
-            "url": deal.url,
-            "source": deal.source,
-            "image_url": deal.image_url,
-            "first_seen_at": first_seen_at,
-            "last_seen_at": generated_at,
-            "current_price": deal.current_price,
-            "lowest_price": round(lowest, 2),
-            "highest_price": round(highest, 2),
-            "observations": observations,
-        }
-
-    history["generated_at"] = generated_at
-    history["tracked_count"] = len(items)
-    history_path.parent.mkdir(parents=True, exist_ok=True)
-    history_path.write_text(json.dumps(history, indent=2), encoding="utf-8")
-    return history
 
 
 def price_trend_label(deal: dict[str, Any]) -> str | None:
@@ -1801,39 +1703,15 @@ def trim_trailing_whitespace(value: str) -> str:
     return "\n".join(line.rstrip() for line in value.splitlines()) + "\n"
 
 
-def combined_tracker_payload(payload: dict[str, Any], config: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
-    if resolve_output_path(config.get("json_output"), JSON_OUTPUT) != JSON_OUTPUT:
-        return payload, config
+def combined_tracker_payload(payload, config):
+    from deal_dataset import build_dataset
+    if resolve_output_path(config.get('json_output'), JSON_OUTPUT) != JSON_OUTPUT:
+        return dict(payload, deals=[tag_deal_for_category(d, 'clothing') for d in payload.get('deals', [])]), config
+    combined = build_dataset(payload, load_json_payload(CLOTHING_JSON_OUTPUT), load_preferences(PREFERENCES_CONFIG),
+                             load_price_history(PRICE_HISTORY_OUTPUT))
+    (DATA_DIR / 'tracker.json').write_text(json.dumps(combined, indent=2) + '\n')
+    return combined, dict(config, report_title='Gear Deals')
 
-    clothing_payload = load_json_payload(resolve_output_path(config.get("combined_clothing_json"), CLOTHING_JSON_OUTPUT))
-    if not clothing_payload:
-        tagged = dict(payload)
-        tagged["deals"] = [tag_deal_for_category(deal, "ski") for deal in payload.get("deals", [])]
-        tagged["category_counts"] = {"ski": len(tagged["deals"]), "clothing": 0}
-        return tagged, config
-
-    ski_deals = [tag_deal_for_category(deal, "ski") for deal in payload.get("deals", [])]
-    clothing_deals = [tag_deal_for_category(deal, "clothing") for deal in clothing_payload.get("deals", [])]
-    combined = dict(payload)
-    combined["deals"] = ski_deals + clothing_deals
-    combined["deal_count"] = len(combined["deals"])
-    combined["category_counts"] = {"ski": len(ski_deals), "clothing": len(clothing_deals)}
-    combined["errors"] = list(payload.get("errors", [])) + [
-        dict(error, source=f"Clothing: {error.get('source', 'unknown')}")
-        for error in clothing_payload.get("errors", [])
-        if isinstance(error, dict)
-    ]
-    current_keys = {price_history_key(deal) for deal in combined["deals"]}
-    error_sources = {str(error.get("source", "")) for error in combined["errors"] if isinstance(error, dict)}
-    history = load_price_history(resolve_output_path(config.get("price_history_output"), PRICE_HISTORY_OUTPUT))
-    combined["disappeared_deals"] = recent_disappeared_deals(history, current_keys, error_sources, limit=10)
-    preferences = load_preferences(resolve_output_path(config.get("preferences"), PREFERENCES_CONFIG))
-    annotate_preferences(combined["deals"], preferences)
-    combined["preferences"] = preference_summary(preferences, combined["deals"])
-
-    html_config = dict(config)
-    html_config["report_title"] = "Gear Deals"
-    return combined, html_config
 
 
 def load_json_payload(path: Path) -> dict[str, Any] | None:
@@ -1917,90 +1795,31 @@ def buy_zone(deal: dict[str, Any]) -> tuple[str, str]:
     return "Fair deal", "zone-fair"
 
 
-def is_lowest_seen(deal: dict[str, Any]) -> bool:
-    price = money(deal.get("current_price"))
-    lowest = money(deal.get("lowest_price"))
-    highest = money(deal.get("highest_price"))
-    return price is not None and lowest is not None and highest is not None and highest > lowest and price <= lowest
+def is_lowest_seen(deal):
+    return bool(deal.get('is_lowest_seen'))
 
 
-def is_sweet_spot(deal: dict[str, Any]) -> bool:
-    price = money(deal.get("current_price")) or 0
-    discount = float(deal.get("discount_percent") or 0)
-    category = str(deal.get("category") or "ski")
-    stock_status = str(deal.get("stock_status") or "in_stock")
-    size_match = bool(deal.get("matches_my_size") or deal.get("matches_family_size") or category == "clothing")
-    max_price = 500 if category == "ski" else 100
-    return bool(
-        size_match
-        and price <= max_price
-        and discount >= 40
-        and stock_status != "sold_out"
-        and not deal.get("is_muted")
-    )
+
+def is_sweet_spot(deal):
+    return bool(deal.get('verified_fit') and deal.get('matches_preferences'))
 
 
-def deal_verdict(deal: dict[str, Any]) -> tuple[str, str]:
-    price = money(deal.get("current_price")) or 0
-    discount = float(deal.get("discount_percent") or 0)
-    trend = str(deal.get("price_trend") or "")
-    category = str(deal.get("category") or "ski")
 
-    if deal.get("is_muted"):
-        return "Muted", "verdict-muted"
-    if is_sweet_spot(deal) and (is_lowest_seen(deal) or trend == "down" or discount >= 55):
-        return "Buy now", "verdict-buy"
-    if deal.get("matches_my_size") or deal.get("matches_family_size"):
-        if category == "ski" and price <= 500 and discount >= 35:
-            return "Only if size is right", "verdict-size"
-        if category == "clothing" and price <= 100 and discount >= 25:
-            return "Only if size is right", "verdict-size"
-    if trend == "up":
-        return "Wait", "verdict-wait"
-    if discount < 30:
-        return "Wait", "verdict-wait"
-    return "Worth a look", "verdict-look"
+def deal_verdict(deal):
+    return (deal.get('verdict', 'Check details'), 'verdict-buy' if deal.get('act_now_eligible') else 'verdict-look')
 
 
-def duplicate_key(deal: dict[str, Any]) -> str:
-    title = str(deal.get("title") or "").lower()
-    title = re.sub(r"\b(?:19|20)\d{2}\b", " ", title)
-    title = re.sub(r"\b\d{2,3}(?:\.\d)?\s*cm\b", " ", title)
-    title = re.sub(r"\b\d{2,3}(?:\.\d)?\b", " ", title)
-    title = re.sub(r"\b(?:new|used|demo|open|skis?|womens?|mens?|unisex|flat|with|bindings?|cm)\b", " ", title)
-    title = re.sub(r"[^a-z0-9]+", " ", title)
-    words = [word for word in title.split() if len(word) > 1]
-    return " ".join(words[:6])
+
+def duplicate_key(deal):
+    from deal_rules import normalized_product
+    return normalized_product(deal)
 
 
-def cross_store_annotations(deals: list[dict[str, Any]]) -> dict[int, dict[str, Any]]:
-    """Flag the same product listed at multiple stores.
 
-    Returns, keyed by id(deal): {"best": True, "stores": N} for the cheapest
-    listing of a multi-store product, or {"best": False, "note": "Also at ..."}
-    pointing the other listings at the cheapest one.
-    """
-    groups: dict[str, list[dict[str, Any]]] = {}
-    for deal in deals:
-        key = duplicate_key(deal)
-        if len(key) >= 6:
-            groups.setdefault(f"{deal.get('category') or 'ski'}|{key}", []).append(deal)
+def cross_store_annotations(deals):
+    from deal_rules import comparisons
+    return comparisons(deals)
 
-    annotations: dict[int, dict[str, Any]] = {}
-    for group in groups.values():
-        sources = {str(item.get("source")) for item in group}
-        if len(sources) < 2:
-            continue
-        cheapest = min(group, key=lambda item: float(item["current_price"]))
-        for item in group:
-            if item is cheapest:
-                annotations[id(item)] = {"best": True, "stores": len(sources)}
-            else:
-                annotations[id(item)] = {
-                    "best": False,
-                    "note": f"Also at {cheapest.get('source')} for ${float(cheapest['current_price']):.2f}",
-                }
-    return annotations
 
 
 def deal_price_series(history_items: dict[str, Any], deal: dict[str, Any]) -> list[float]:
@@ -2112,54 +1931,16 @@ def preference_numbers(preferences: dict[str, Any], key: str) -> list[int]:
     return numbers
 
 
-def annotate_preferences(deals: list[dict[str, Any]], preferences: dict[str, Any]) -> None:
-    watch_terms = preference_terms(preferences, "watch_terms")
-    muted_terms = preference_terms(preferences, "muted_terms")
-    muted_urls = set(preference_terms(preferences, "muted_urls"))
-    my_ski_sizes = preference_numbers(preferences, "my_ski_sizes")
-    family_ski_sizes = preference_numbers(preferences, "family_ski_sizes")
-    if not my_ski_sizes and not family_ski_sizes:
-        my_ski_sizes = preference_numbers(preferences, "ski_sizes")
-    clothing_sizes = set(preference_terms(preferences, "clothing_sizes"))
-    max_prices = preferences.get("max_prices") if isinstance(preferences.get("max_prices"), dict) else {}
-
-    for deal in deals:
-        haystack = " ".join(
-            [
-                str(deal.get("title") or ""),
-                str(deal.get("source") or ""),
-                str(deal.get("url") or ""),
-            ]
-        ).lower()
-        category = str(deal.get("category") or "ski")
-        sizes = [str(size).lower() for size in deal.get("sizes") or []]
-        current_price = money(deal.get("current_price")) or 0
-        max_price = money(max_prices.get(category)) if isinstance(max_prices, dict) else None
-
-        deal["is_watchlist"] = any(term in haystack for term in watch_terms)
-        deal["is_muted"] = any(term in haystack for term in muted_terms) or str(deal.get("url") or "").lower() in muted_urls
-        deal["matches_my_size"] = matches_preferred_size(category, sizes, my_ski_sizes, clothing_sizes)
-        deal["matches_family_size"] = category != "clothing" and matches_preferred_size(category, sizes, family_ski_sizes, set())
-        deal["matches_size"] = bool(deal["matches_my_size"] or deal["matches_family_size"])
-        deal["matches_price"] = max_price is None or current_price <= max_price
-        deal["matches_preferences"] = bool(deal["is_watchlist"] or (deal["matches_size"] and deal["matches_price"]))
+def annotate_preferences(deals, preferences):
+    from deal_rules import enrich
+    enrich(deals, preferences)
 
 
-def matches_preferred_size(category: str, sizes: list[str], ski_sizes: list[int], clothing_sizes: set[str]) -> bool:
-    if not sizes:
-        return False
-    if category == "clothing":
-        return any(size in clothing_sizes for size in sizes)
-    if not ski_sizes:
-        return False
-    for size in sizes:
-        for number in re.findall(r"\d{2,3}", size):
-            try:
-                if int(number) in ski_sizes:
-                    return True
-            except ValueError:
-                continue
-    return False
+
+def matches_preferred_size(category, sizes, ski_sizes, clothing_sizes):
+    from deal_rules import size_match
+    return size_match(category, sizes, ski_sizes, clothing_sizes)
+
 
 
 def preference_summary(preferences: dict[str, Any], deals: list[dict[str, Any]]) -> dict[str, Any]:
@@ -2231,871 +2012,10 @@ def render_markdown(payload: dict[str, Any], config: dict[str, Any]) -> str:
     return "\n".join(lines).strip() + "\n"
 
 
-def render_html(payload: dict[str, Any], config: dict[str, Any]) -> str:
-    cards = []
-    show_category_filter = "category_counts" in payload or any("category" in deal for deal in payload.get("deals", []))
-    html_deals = sorted(
-        payload["deals"],
-        key=lambda deal: (
-            stock_sort_key(deal.get("stock_status")),
-            deal["current_price"],
-            1 if deal.get("is_muted") else 0,
-            0 if deal.get("is_watchlist") else 1,
-            -(deal["discount_percent"] or 0),
-        ),
-    )
-    source_counts: dict[str, int] = {}
-    for deal in html_deals:
-        source_counts[str(deal["source"])] = source_counts.get(str(deal["source"]), 0) + 1
-    category_counts = payload.get("category_counts") or {
-        "ski": sum(1 for deal in html_deals if deal.get("category", "ski") == "ski"),
-        "clothing": sum(1 for deal in html_deals if deal.get("category") == "clothing"),
-    }
-    image_count = sum(1 for deal in html_deals if deal.get("image_url"))
-    price_drop_count = sum(1 for deal in html_deals if deal.get("price_trend") == "down")
-    newly_tracked_deals = sorted(
-        [deal for deal in html_deals if deal.get("price_trend") == "new"],
-        key=lambda deal: (deal["current_price"], -(deal.get("discount_percent") or 0)),
-    )[:8]
-    disappeared_deals = payload.get("disappeared_deals") if isinstance(payload.get("disappeared_deals"), list) else []
-    preferences = payload.get("preferences") if isinstance(payload.get("preferences"), dict) else {}
-    best_discount = max((deal.get("discount_percent") or 0 for deal in html_deals), default=0)
-    lowest_price = min((deal["current_price"] for deal in html_deals), default=0)
-    cross_store = cross_store_annotations(html_deals)
-    history_items = load_price_history(
-        resolve_output_path(config.get("price_history_output"), PRICE_HISTORY_OUTPUT)
-    ).get("items", {})
-    duplicate_groups: dict[str, list[dict[str, Any]]] = {}
-    for deal in html_deals:
-        key = duplicate_key(deal)
-        if len(key) >= 6:
-            duplicate_groups.setdefault(key, []).append(deal)
-    duplicate_winners: set[int] = set()
-    duplicate_counts: dict[int, int] = {}
-    for group in duplicate_groups.values():
-        if len(group) < 2:
-            continue
-        ranked = sorted(group, key=lambda item: (item["current_price"], -(item.get("score") or 0)))
-        duplicate_winners.add(id(ranked[0]))
-        for item in group:
-            duplicate_counts[id(item)] = len(group)
-    for_you_deals = sorted(
-        [
-            deal
-            for deal in html_deals
-            if not deal.get("is_muted")
-            and (
-                deal.get("is_watchlist")
-                or deal.get("matches_my_size")
-                or (deal.get("matches_family_size") and (deal.get("current_price") or 0) <= 500)
-            )
-        ],
-        key=lambda deal: (-(deal.get("score") or 0), deal["current_price"]),
-    )[:8]
-    best_my_deal = next((deal for deal in for_you_deals if deal.get("matches_my_size")), None)
-    best_family_deal = next((deal for deal in for_you_deals if deal.get("matches_family_size")), None)
-    biggest_drop_deal = next(
-        iter(
-            sorted(
-                [deal for deal in html_deals if deal.get("price_trend") == "down" and not deal.get("is_muted")],
-                key=lambda deal: (-(abs(float(deal.get("price_change") or 0))), deal["current_price"]),
-            )
-        ),
-        None,
-    )
-    sweet_spot_count = sum(1 for deal in html_deals if is_sweet_spot(deal))
-    lowest_seen_count = sum(1 for deal in html_deals if is_lowest_seen(deal))
-    category_panel = (
-        f"""
-        <div class="category-panel" aria-label="Category filters">
-          <label class="category-toggle category-ski">
-            <input type="checkbox" value="ski" checked />
-            <span>Ski deals</span>
-            <b>{category_counts["ski"]}</b>
-          </label>
-          <label class="category-toggle category-clothing">
-            <input type="checkbox" value="clothing" />
-            <span>Clothing deals</span>
-            <b>{category_counts["clothing"]}</b>
-          </label>
-        </div>
-        """
-        if show_category_filter
-        else ""
-    )
-    brief_panel = brief_panel_html()
+def render_html(payload, config):
+    from deal_dashboard import render_dashboard
+    return render_dashboard(payload, config)
 
-    for deal in html_deals:
-        original = f"<span class='was'>Was ${deal['original_price']:.2f}</span>" if deal["original_price"] else ""
-        discount = f"<span>{deal['discount_percent']}% off</span>" if deal["discount_percent"] else "<span>Price found</span>"
-        savings = f"<span>Save ${deal['savings']:.2f}</span>" if deal["savings"] else ""
-        trend_label = price_trend_label(deal)
-        trend_class = f" trend-{html.escape(str(deal.get('price_trend') or 'unknown'))}"
-        trend_badge = f"<span class='trend{trend_class}'>{html.escape(trend_label)}</span>" if trend_label else ""
-        zone_label, zone_class = buy_zone(deal)
-        zone_badge = f"<span class='buy-zone {html.escape(zone_class)}'>{html.escape(zone_label)}</span>"
-        verdict_label, verdict_class = deal_verdict(deal)
-        verdict_badge = f"<span class='verdict {html.escape(verdict_class)}'>{html.escape(verdict_label)}</span>"
-        sweet_spot = is_sweet_spot(deal)
-        sweet_badge = "<span class='sweet-badge'>Sweet spot</span>" if sweet_spot else ""
-        lowest_seen = is_lowest_seen(deal)
-        lowest_badge = "<span class='floor-badge'>Lowest seen</span>" if lowest_seen else ""
-        duplicate_count = duplicate_counts.get(id(deal), 1)
-        duplicate_badge = (
-            f"<span class='dupe-badge'>{duplicate_count - 1} alternate{'s' if duplicate_count != 2 else ''}</span>"
-            if duplicate_count > 1
-            else ""
-        )
-        dupe_primary = duplicate_count <= 1 or id(deal) in duplicate_winners
-        category = str(deal.get("category") or "ski")
-        category_label = "Clothing" if category == "clothing" else "Ski"
-        category_badge = (
-            f"<span class='category category-{html.escape(category)}'>{html.escape(category_label)}</span>"
-            if show_category_filter
-            else ""
-        )
-        sizes = f"<span>Sizes {html.escape(', '.join(deal['sizes']))}</span>" if deal.get("sizes") else ""
-        status = stock_label(deal.get("stock_status"))
-        stock_badge = f"<span class='stock stock-{html.escape(deal['stock_status'])}'>{html.escape(status)}</span>" if status else ""
-        cached_badge = "<span class='cached'>Cached last seen price</span>" if deal.get("is_cached") else ""
-        watch_badge = "<span class='watch-badge'>Watchlist</span>" if deal.get("is_watchlist") else ""
-        muted_badge = "<span class='muted-badge'>Muted</span>" if deal.get("is_muted") else ""
-        my_size_badge = "<span class='size-badge'>My size</span>" if deal.get("matches_my_size") else ""
-        family_size_badge = "<span class='family-size-badge'>Family size</span>" if deal.get("matches_family_size") else ""
-        cross = cross_store.get(id(deal))
-        if cross and cross.get("best"):
-            cross_badge = f"<span class='cross-badge'>Best of {cross['stores']} stores</span>"
-        elif cross:
-            cross_badge = f"<span class='cross-note'>{html.escape(str(cross.get('note') or ''))}</span>"
-        else:
-            cross_badge = ""
-        spark = sparkline_svg(deal_price_series(history_items, deal))
-        thumbnail = (
-            f"""<a class="thumb" href="{html.escape(deal['url'])}" target="_blank" rel="noreferrer" aria-label="{html.escape(deal['title'])}">
-                <img src="{html.escape(deal['image_url'])}" alt="" loading="lazy" decoding="async" />
-              </a>"""
-            if deal.get("image_url")
-            else "<div class='thumb thumb-empty' aria-hidden='true'></div>"
-        )
-        cards.append(
-            f"""
-            <article
-              class="deal"
-              data-url="{html.escape(str(deal['url']))}"
-              data-source="{html.escape(deal['source'])}"
-              data-title="{html.escape(str(deal['title']).lower())}"
-              data-price="{deal['current_price']:.2f}"
-              data-discount="{deal['discount_percent'] or 0:.1f}"
-              data-savings="{deal['savings'] or 0:.2f}"
-              data-score="{deal['score']:.2f}"
-              data-trend="{html.escape(str(deal.get('price_trend') or ''))}"
-              data-has-image="{'true' if deal.get('image_url') else 'false'}"
-              data-category="{html.escape(category)}"
-              data-watchlist="{'true' if deal.get('is_watchlist') else 'false'}"
-              data-muted="{'true' if deal.get('is_muted') else 'false'}"
-              data-server-muted="{'true' if deal.get('is_muted') else 'false'}"
-              data-local-muted="false"
-              data-size-match="{'true' if deal.get('matches_size') else 'false'}"
-              data-my-size-match="{'true' if deal.get('matches_my_size') else 'false'}"
-              data-family-size-match="{'true' if deal.get('matches_family_size') else 'false'}"
-              data-sweet-spot="{'true' if sweet_spot else 'false'}"
-              data-lowest-seen="{'true' if lowest_seen else 'false'}"
-              data-verdict="{html.escape(verdict_label.lower())}"
-              data-dupe-primary="{'true' if dupe_primary else 'false'}"
-            >
-              {thumbnail}
-              <div class="deal-main">
-                <p class="source">{html.escape(deal['source'])}</p>
-                <h2><a href="{html.escape(deal['url'])}" target="_blank" rel="noreferrer">{html.escape(deal['title'])}</a></h2>
-              </div>
-              <div class="price">
-                <strong>${deal['current_price']:.2f}</strong>
-                {original}
-                {spark}
-              </div>
-              <div class="badges">{watch_badge}{muted_badge}{verdict_badge}{sweet_badge}{lowest_badge}{zone_badge}{cross_badge}{category_badge}{discount}{savings}{trend_badge}{cached_badge}{my_size_badge}{family_size_badge}{duplicate_badge}{sizes}{stock_badge}<span>Score {deal['score']:.0f}</span><button class="note-button" type="button" data-ignore-value="{html.escape(str(deal['url']))}">Not interested</button></div>
-            </article>
-            """
-        )
-
-    errors = "".join(
-        f"<li>{html.escape(error['source'])}: {html.escape(error['error'])}</li>" for error in payload["errors"]
-    )
-    empty = f"<p class='empty'>{html.escape(empty_message(config))}</p>"
-    title = html.escape(report_title(config))
-    source_controls = "".join(
-        f"""
-        <label class="source-toggle">
-          <input type="checkbox" value="{html.escape(source)}" checked />
-          <span>{html.escape(source)}</span>
-          <b>{count}</b>
-        </label>
-        """
-        for source, count in sorted(source_counts.items())
-    )
-    new_items = "".join(
-        f"""
-        <a class="mini-card" href="{html.escape(deal['url'])}" target="_blank" rel="noreferrer">
-          <strong>{html.escape(deal['title'])}</strong>
-          <span>${deal['current_price']:.2f} &middot; {html.escape(deal['source'])}</span>
-        </a>
-        """
-        for deal in newly_tracked_deals
-    )
-    for_you_items = "".join(
-        f"""
-        <a class="mini-card" href="{html.escape(deal['url'])}" target="_blank" rel="noreferrer">
-          <strong>{html.escape(deal['title'])}</strong>
-          <span>${deal['current_price']:.2f} &middot; {html.escape(deal['source'])} &middot; Score {float(deal.get('score') or 0):.0f}</span>
-        </a>
-        """
-        for deal in for_you_deals
-    )
-    digest_cards = "".join(
-        f"""
-        <a class="digest-card" href="{html.escape(deal['url'])}" target="_blank" rel="noreferrer">
-          <span>{html.escape(label)}</span>
-          <strong>{html.escape(deal['title'])}</strong>
-          <em>${deal['current_price']:.2f} &middot; {html.escape(deal['source'])}</em>
-        </a>
-        """
-        for label, deal in (
-            ("Best for me", best_my_deal),
-            ("Best for family", best_family_deal),
-            ("Biggest drop", biggest_drop_deal),
-        )
-        if isinstance(deal, dict)
-    )
-    disappeared_items = "".join(
-        f"""
-        <a class="mini-card ghost-card" href="{html.escape(str(deal['url']))}" target="_blank" rel="noreferrer">
-          <strong>{html.escape(str(deal['title']))}</strong>
-          <span>Last seen ${float(deal['current_price']):.2f} &middot; {html.escape(short_seen_label(str(deal.get('last_seen_at') or '')))}</span>
-        </a>
-        """
-        for deal in disappeared_deals[:8]
-        if isinstance(deal, dict) and money(deal.get("current_price")) is not None
-    )
-    activity_panel = (
-        f"""
-        <section class="digest-panel" aria-label="Daily digest">
-          <div class="section-head">
-            <h2>Today at a glance</h2>
-            <span>best quick reads</span>
-          </div>
-          <div class="digest-grid">{digest_cards if digest_cards else "<p class='empty-mini'>No digest picks yet.</p>"}</div>
-        </section>
-        <details class="secondary-panel">
-          <summary>
-            <span>More context</span>
-            <b>{len(for_you_deals)} for you &middot; {len(newly_tracked_deals)} new &middot; {len(disappeared_deals[:8])} gone</b>
-          </summary>
-          <section class="for-you-panel" aria-label="For you">
-            <div class="section-head">
-              <h2>For you</h2>
-              <span>{len(for_you_deals)} watchlist or size hits</span>
-            </div>
-            <div class="mini-list">{for_you_items if for_you_items else "<p class='empty-mini'>No preference matches yet.</p>"}</div>
-          </section>
-          <section class="activity-grid" aria-label="Deal activity">
-            <div class="activity-card">
-              <div class="section-head">
-                <h2>New since last run</h2>
-                <span>{len(newly_tracked_deals)} shown</span>
-              </div>
-              <div class="mini-list">{new_items if new_items else "<p class='empty-mini'>Nothing new this run.</p>"}</div>
-            </div>
-            <div class="activity-card">
-              <div class="section-head">
-                <h2>Recently disappeared</h2>
-                <span>{len(disappeared_deals[:8])} shown</span>
-              </div>
-              <div class="mini-list">{disappeared_items if disappeared_items else "<p class='empty-mini'>No recent vanishers.</p>"}</div>
-            </div>
-          </section>
-        </details>
-        """
-        if show_category_filter
-        else ""
-    )
-    error_by_source = {
-        str(error.get("source", "")): str(error.get("error", "Source error"))
-        for error in payload.get("errors", [])
-        if isinstance(error, dict)
-    }
-    health_sources = sorted(set(source_counts) | set(error_by_source))
-    health_cards = "".join(
-        source_health_card(source, html_deals, source_counts.get(source, 0), error_by_source.get(source))
-        for source in health_sources
-    )
-    health_panel = (
-        f"""
-        <details class="health-panel secondary-panel" aria-label="Store health">
-          <summary>
-            <span>Store health</span>
-            <b>{len(health_sources)} sources</b>
-          </summary>
-          <div class="health-grid">{health_cards}</div>
-        </details>
-        """
-        if health_cards
-        else ""
-    )
-    preference_panel = (
-        f"""
-        <section class="preference-panel start-panel" aria-label="Deal preferences">
-          <div>
-            <span class="eyebrow">Start here</span>
-            <h2>Pick a lane, then browse.</h2>
-            <p>The buttons below change the list instantly. Use the sidebar only when you need to get fussy.</p>
-          </div>
-          <div class="preference-grid">
-            <button type="button" data-radar-filter="dealsOfDay" aria-pressed="false"><strong>5</strong><span>best today</span></button>
-            <button type="button" data-radar-filter="mySizeOnly" aria-pressed="false"><strong>{int(preferences.get("my_size_match_count") or 0)}</strong><span>for me</span></button>
-            <button type="button" data-radar-filter="familySizeOnly" aria-pressed="false"><strong>{int(preferences.get("family_size_match_count") or 0)}</strong><span>family sizes</span></button>
-            <button type="button" data-radar-filter="dropOnly" aria-pressed="false"><strong>{price_drop_count}</strong><span>price drops</span></button>
-            <button type="button" data-radar-filter="sweetOnly" aria-pressed="false"><strong>{sweet_spot_count}</strong><span>sweet spot</span></button>
-            <button type="button" data-radar-filter="lowestSeenOnly" aria-pressed="false"><strong>{lowest_seen_count}</strong><span>lowest seen</span></button>
-          </div>
-        </section>
-        """
-        if preferences
-        else ""
-    )
-    source_filter = (
-        f"""
-        <details class="controls" aria-label="Deal controls" open>
-          <summary class="controls-summary">
-            <span>Filters</span>
-            <a class="brief-link" href="../deal-brief/index.html" onclick="event.stopPropagation()">Morning brief</a>
-            <span class="summary-count"><strong id="visibleDealCount">{len(html_deals)}</strong> shown</span>
-          </summary>
-          <div class="controls-body">
-            {category_panel}
-            <div class="tool-grid">
-              <label class="field search-field">
-                <span>Search</span>
-                <input id="dealSearch" type="search" placeholder="brand, model, store..." autocomplete="off" />
-              </label>
-              <label class="field">
-                <span>Sort</span>
-                <select id="dealSort">
-                  <option value="price-asc">Lowest price</option>
-                  <option value="discount-desc">Biggest discount</option>
-                  <option value="savings-desc">Most saved</option>
-                  <option value="score-desc">Best score</option>
-                </select>
-              </label>
-              <label class="field">
-                <span>Max price</span>
-                <input id="maxPrice" type="number" min="0" step="25" placeholder="Any" />
-              </label>
-              <div class="quick-filters primary-filters" aria-label="Quick filters">
-                <button id="dealsOfDay" class="quick-button" type="button" aria-pressed="false">Best 5 today</button>
-                <label><input id="mySizeOnly" type="checkbox" /> For me</label>
-                <label><input id="familySizeOnly" type="checkbox" /> Family</label>
-                <label><input id="dropOnly" type="checkbox" /> Drops</label>
-              </div>
-              <details class="filter-section">
-                <summary>More filters</summary>
-                <div class="quick-filters" aria-label="Advanced filters">
-                  <label><input id="sweetOnly" type="checkbox" /> Sweet spot</label>
-                  <label><input id="lowestSeenOnly" type="checkbox" /> Lowest seen</label>
-                  <label><input id="hideAlternates" type="checkbox" /> Hide alternates</label>
-                  <label><input id="photoOnly" type="checkbox" /> Photos only</label>
-                  <label><input id="newOnly" type="checkbox" /> Newly tracked</label>
-                  <label><input id="watchOnly" type="checkbox" /> Watchlist</label>
-                  <label><input id="hideMuted" type="checkbox" checked /> Hide muted</label>
-                  <button type="button" id="resetFilters">Reset everything</button>
-                </div>
-              </details>
-            </div>
-            <details class="store-panel">
-              <summary>
-                <strong>Stores</strong>
-                <span class="meta">{len(source_counts)} active</span>
-              </summary>
-              <div class="filter-actions">
-                <button type="button" data-filter-action="all">All stores</button>
-                <button type="button" data-filter-action="none">No stores</button>
-              </div>
-              <div class="source-toggles">{source_controls}</div>
-            </details>
-          </div>
-        </details>
-        """
-        if source_controls
-        else ""
-    )
-
-    return f"""<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-    <style>
-      :root {{ color-scheme: light; --ink:#17211d; --muted:#586a62; --line:#d9e1dc; --accent:#0d7c66; --accent-soft:#e7f3ef; --hot:#b42318; --gold:#8a5b00; --bg:#f4f2ea; --card:#fffef9; }}
-      * {{ box-sizing: border-box; }}
-      body {{ margin: 0; font-family: Avenir Next, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: radial-gradient(circle at 7% 0%, #ffffff 0, #f4f2ea 28%, #e8f0eb 100%); color: var(--ink); }}
-      main {{ width: min(1480px, 100%); margin: 0 auto; padding: 18px 16px 52px; }}
-      header {{ display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, .75fr); gap: 18px; align-items: end; padding: 18px 20px; margin-bottom: 14px; border: 1px solid rgba(13,124,102,.16); border-radius: 24px; background: linear-gradient(135deg, rgba(255,255,255,.88), rgba(232,244,239,.78)); box-shadow: 0 16px 34px rgba(39,61,51,.07); }}
-      h1 {{ margin: 0; font-size: clamp(1.85rem, 3vw, 2.8rem); letter-spacing: -0.055em; line-height: .94; }}
-      h2 {{ margin: 0; font-size: 1.05rem; line-height: 1.35; }}
-      button, input, select {{ font: inherit; }}
-      button {{ border: 1px solid var(--line); border-radius: 999px; background: white; color: var(--ink); padding: 8px 12px; cursor: pointer; }}
-      button:hover {{ border-color: var(--accent); color: var(--accent); }}
-      input, select {{ width: 100%; border: 1px solid var(--line); border-radius: 12px; background: white; color: var(--ink); padding: 11px 12px; }}
-      input:focus, select:focus {{ outline: 3px solid rgba(13,124,102,.18); border-color: var(--accent); }}
-      a {{ color: inherit; }}
-      .meta, .source, .was {{ color: var(--muted); }}
-      .stats {{ display: grid; grid-template-columns: repeat(4, minmax(74px, 1fr)); gap: 8px; min-width: 0; }}
-      .stat {{ padding: 10px; border: 1px solid rgba(13,124,102,.16); border-radius: 16px; background: rgba(255,255,255,.72); }}
-      .stat strong {{ display: block; font-size: 1.35rem; letter-spacing: -0.04em; }}
-      .stat span {{ color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }}
-      .app-shell {{ display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 16px; align-items: start; }}
-      .sidebar {{ position: sticky; top: 14px; max-height: calc(100vh - 28px); overflow: auto; scrollbar-width: thin; }}
-      .content {{ min-width: 0; }}
-      .controls {{ margin: 0; padding: 14px; border: 1px solid var(--line); background: rgba(255,254,249,.94); border-radius: 22px; box-shadow: 0 16px 36px rgba(39,61,51,.10); backdrop-filter: blur(12px); }}
-      .controls-summary {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; cursor: pointer; font-weight: 800; list-style: none; }}
-      .controls-summary::-webkit-details-marker {{ display: none; }}
-      .controls-summary::before {{ content: "Hide"; border: 1px solid var(--line); border-radius: 999px; background: white; color: var(--muted); padding: 5px 9px; font-size: .78rem; font-weight: 700; order: 3; }}
-      .controls:not([open]) .controls-summary::before {{ content: "Show"; }}
-      .summary-count {{ color: var(--muted); font-weight: 500; margin-left: auto; }}
-      .summary-count strong {{ color: var(--ink); }}
-      .brief-link {{ border: 1px solid var(--line); border-radius: 999px; background: white; color: var(--ink); padding: 5px 11px; font-size: .78rem; font-weight: 700; text-decoration: none; }}
-      .brief-link:hover {{ border-color: var(--ink); }}
-      .brief-panel {{ margin: 0 0 16px; padding: 14px 18px; border: 1px solid var(--line); background: rgba(255,254,249,.94); border-radius: 22px; box-shadow: 0 16px 36px rgba(39,61,51,.10); }}
-      .brief-panel summary {{ cursor: pointer; font-weight: 800; display: flex; align-items: baseline; gap: 10px; list-style: none; }}
-      .brief-panel summary::-webkit-details-marker {{ display: none; }}
-      .brief-panel summary .meta {{ color: var(--muted); font-weight: 500; font-size: .85rem; }}
-      .brief-body h1 {{ font-size: 1.05rem; margin: 12px 0 2px; }}
-      .brief-body h2 {{ font-size: .85rem; margin: 14px 0 6px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }}
-      .brief-body ul {{ margin: 0; padding-left: 20px; }}
-      .brief-body li {{ margin: 7px 0; }}
-      .brief-body a {{ color: var(--ink); }}
-      .cross-badge {{ background: #e2f3e8; border: 1px solid #b9ddc6; color: #1f6f43; border-radius: 999px; padding: 3px 9px; font-weight: 700; }}
-      .cross-note {{ color: var(--muted); }}
-      .spark {{ display: block; margin-top: 5px; margin-left: auto; }}
-      .controls-body {{ margin-top: 12px; }}
-      .category-panel {{ display: grid; gap: 8px; margin-bottom: 12px; }}
-      .category-toggle {{ display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; background: white; cursor: pointer; font-weight: 700; }}
-      .category-toggle input {{ width: auto; accent-color: var(--accent); }}
-      .category-toggle b {{ color: var(--muted); font-size: .82rem; }}
-      .category-toggle:has(input:checked) {{ border-color: rgba(13,124,102,.38); background: var(--accent-soft); }}
-      .category-clothing:has(input:checked) {{ border-color: #d6b86c; background: #fff7dc; }}
-      .tool-grid {{ display: grid; grid-template-columns: 1fr; gap: 10px; align-items: stretch; }}
-      .field span {{ display: block; margin: 0 0 5px; color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }}
-      .quick-filters {{ display: grid; grid-template-columns: 1fr 1fr; gap: 8px; align-items: stretch; padding-bottom: 1px; }}
-      .quick-filters label, .quick-button {{ display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 38px; padding: 8px 9px; border: 1px solid var(--line); border-radius: 12px; background: var(--accent-soft); white-space: nowrap; font-size: .88rem; }}
-      .quick-filters #resetFilters {{ grid-column: 1 / -1; }}
-      .primary-filters {{ grid-template-columns: 1fr; }}
-      .primary-filters label, .primary-filters .quick-button {{ justify-content: flex-start; min-height: 42px; padding-inline: 12px; font-weight: 800; }}
-      .quick-filters input {{ width: auto; accent-color: var(--accent); }}
-      .quick-button {{ cursor: pointer; color: var(--ink); font: inherit; }}
-      .quick-button[aria-pressed="true"] {{ border-color: rgba(13,124,102,.45); background: #edf8f4; color: var(--accent); box-shadow: inset 0 0 0 1px rgba(13,124,102,.18); }}
-      .filter-section, .store-panel {{ margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }}
-      .filter-section summary, .store-panel summary, .secondary-panel summary {{ display: flex; align-items: center; justify-content: space-between; gap: 10px; cursor: pointer; list-style: none; font-weight: 800; }}
-      .filter-section summary::-webkit-details-marker, .store-panel summary::-webkit-details-marker, .secondary-panel summary::-webkit-details-marker {{ display: none; }}
-      .filter-section summary::after, .store-panel summary::after, .secondary-panel summary::after {{ content: "Show"; border: 1px solid var(--line); border-radius: 999px; background: white; color: var(--muted); padding: 4px 8px; font-size: .74rem; font-weight: 800; }}
-      .filter-section[open] summary::after, .store-panel[open] summary::after, .secondary-panel[open] summary::after {{ content: "Hide"; }}
-      .filter-section .quick-filters {{ margin-top: 10px; }}
-      .filter-actions {{ display: flex; gap: 8px; }}
-      .store-panel .filter-actions {{ margin: 10px 0; }}
-      .source-toggles {{ display: grid; gap: 7px; }}
-      .source-toggle {{ display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 7px; min-height: 34px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); font-size: .88rem; cursor: pointer; }}
-      .source-toggle input {{ accent-color: var(--accent); }}
-      .source-toggle b {{ color: var(--muted); font-size: .78rem; }}
-      .visible-count {{ margin: 12px 0 0; }}
-      .activity-grid {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 0 0 18px; }}
-      .activity-card, .health-panel, .preference-panel, .for-you-panel, .digest-panel, .secondary-panel {{ border: 1px solid var(--line); border-radius: 18px; background: rgba(255,254,249,.9); box-shadow: 0 10px 26px rgba(39,61,51,.05); padding: 14px; }}
-      .section-head {{ display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px; }}
-      .section-head h2 {{ margin: 0; font-size: 1rem; }}
-      .section-head span {{ color: var(--muted); font-size: .84rem; }}
-      .mini-list {{ display: grid; gap: 8px; }}
-      .mini-card {{ display: block; padding: 10px; border: 1px solid var(--line); border-radius: 12px; background: white; text-decoration: none; }}
-      .mini-card:hover {{ border-color: rgba(13,124,102,.45); }}
-      .mini-card strong {{ display: block; font-size: .92rem; line-height: 1.25; }}
-      .mini-card span, .empty-mini {{ display: block; margin: 4px 0 0; color: var(--muted); font-size: .84rem; }}
-      .ghost-card {{ background: #fbfaf4; }}
-      .digest-panel {{ margin: 0 0 18px; background: linear-gradient(135deg, rgba(20,54,47,.96), rgba(13,124,102,.82)); color: white; }}
-      .digest-panel .section-head span {{ color: rgba(255,255,255,.72); }}
-      .digest-grid {{ display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }}
-      .digest-card {{ display: block; padding: 12px; border: 1px solid rgba(255,255,255,.22); border-radius: 14px; background: rgba(255,255,255,.10); color: white; text-decoration: none; }}
-      .digest-card span {{ display: block; color: rgba(255,255,255,.72); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }}
-      .digest-card strong {{ display: block; margin-top: 5px; line-height: 1.2; }}
-      .digest-card em {{ display: block; margin-top: 5px; color: rgba(255,255,255,.78); font-style: normal; font-size: .86rem; }}
-      .for-you-panel {{ margin: 12px 0 0; background: linear-gradient(135deg, rgba(237,248,244,.96), rgba(255,248,223,.72)); }}
-      .health-panel {{ margin: 0 0 18px; }}
-      .secondary-panel {{ margin: 0 0 18px; }}
-      .secondary-panel summary b {{ color: var(--muted); font-size: .84rem; font-weight: 700; }}
-      .secondary-panel[open] > summary {{ margin-bottom: 12px; }}
-      .preference-panel {{ margin: 0 0 14px; }}
-      .start-panel {{ display: grid; grid-template-columns: minmax(220px, .7fr) minmax(0, 1.3fr); gap: 14px; align-items: center; padding: 16px; background: linear-gradient(135deg, rgba(255,254,249,.96), rgba(237,248,244,.88)); }}
-      .start-panel h2 {{ font-size: clamp(1.35rem, 2.2vw, 2rem); letter-spacing: -0.045em; line-height: 1; }}
-      .start-panel p {{ margin: 8px 0 0; color: var(--muted); max-width: 42ch; }}
-      .eyebrow {{ display: inline-block; margin-bottom: 6px; color: var(--accent); font-size: .75rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }}
-      .preference-grid {{ display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }}
-      .preference-grid button {{ width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: white; text-align: left; cursor: pointer; color: var(--ink); }}
-      .preference-grid button:hover {{ border-color: rgba(13,124,102,.45); transform: translateY(-1px); }}
-      .preference-grid button[aria-pressed="true"] {{ border-color: rgba(13,124,102,.55); background: var(--accent-soft); box-shadow: inset 0 0 0 1px rgba(13,124,102,.16); }}
-      .preference-grid strong {{ display: block; font-size: 1.45rem; letter-spacing: -0.04em; }}
-      .preference-grid span, .preference-panel p {{ color: var(--muted); font-size: .84rem; }}
-      .health-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; }}
-      .health-card {{ border: 1px solid var(--line); border-radius: 14px; background: white; padding: 10px; }}
-      .health-card strong {{ display: block; font-size: .9rem; line-height: 1.25; }}
-      .health-card span {{ display: inline-block; margin-top: 7px; border-radius: 999px; padding: 3px 7px; font-size: .75rem; font-weight: 800; }}
-      .health-card p {{ margin: 7px 0 0; color: var(--muted); font-size: .82rem; }}
-      .health-live span {{ background: #edf8f4; color: var(--accent); }}
-      .health-cached span {{ background: #fff8df; color: var(--gold); }}
-      .health-issue span {{ background: #fff0ee; color: var(--hot); }}
-      .health-quiet span {{ background: #f0f2ef; color: var(--muted); }}
-      .deals-list {{ display: grid; gap: 12px; }}
-      .deal {{ display: grid; grid-template-columns: 104px 1fr auto; gap: 16px; padding: 14px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); box-shadow: 0 10px 26px rgba(39,61,51,.06); align-items: start; }}
-      .deal:hover {{ border-color: rgba(13,124,102,.45); transform: translateY(-1px); transition: transform .16s ease, border-color .16s ease; }}
-      .deal[hidden] {{ display: none; }}
-      .thumb {{ display: block; width: 104px; height: 104px; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: white; }}
-      .thumb img {{ width: 100%; height: 100%; object-fit: contain; display: block; }}
-      .thumb-empty {{ background: linear-gradient(135deg, #ffffff, #eef2ed); }}
-      .source {{ margin: 0 0 5px; font-size: .86rem; }}
-      .deal-main {{ min-width: 0; }}
-      .deal-main h2 a {{ text-decoration-thickness: 1px; text-underline-offset: 3px; }}
-      .price {{ text-align: right; min-width: 120px; }}
-      .price strong {{ display: block; font-size: 1.6rem; color: var(--hot); letter-spacing: -0.04em; }}
-      .was {{ display: block; text-decoration: line-through; }}
-      .badges {{ grid-column: 2 / -1; display: flex; flex-wrap: wrap; gap: 8px; }}
-      .badges span {{ border: 1px solid var(--line); border-radius: 999px; padding: 5px 8px; background: white; font-size: .86rem; }}
-      .trend-down {{ border-color: #b7d9d0; background: #edf8f4; color: var(--accent); }}
-      .trend-up {{ border-color: #efc2bd; background: #fff0ee; color: var(--hot); }}
-      .trend-flat {{ border-color: #d8d1b1; background: #fff8df; color: #7a6200; }}
-      .trend-new {{ border-color: #c9d6e8; background: #f0f6ff; color: #24558f; }}
-      .buy-zone {{ font-weight: 800; }}
-      .verdict {{ font-weight: 900; }}
-      .verdict-buy, .sweet-badge, .floor-badge {{ border-color: #b7d9d0; background: #edf8f4; color: var(--accent); }}
-      .verdict-size, .dupe-badge {{ border-color: #c9d6e8; background: #f0f6ff; color: #24558f; }}
-      .verdict-wait, .verdict-muted {{ border-color: #efc2bd; background: #fff0ee; color: var(--hot); }}
-      .verdict-look {{ border-color: #d8d1b1; background: #fff8df; color: #7a6200; }}
-      .watch-badge {{ border-color: #b7d9d0; background: #edf8f4; color: var(--accent); font-weight: 800; }}
-      .muted-badge {{ border-color: #efc2bd; background: #fff0ee; color: var(--hot); }}
-      .size-badge {{ border-color: #c9d6e8; background: #f0f6ff; color: #24558f; font-weight: 800; }}
-      .family-size-badge {{ border-color: #d8d1b1; background: #fff8df; color: #7a6200; font-weight: 800; }}
-      .zone-new-low, .zone-buy {{ border-color: #b7d9d0; background: #edf8f4; color: var(--accent); }}
-      .zone-strong {{ border-color: #c9d6e8; background: #f0f6ff; color: #24558f; }}
-      .zone-watch {{ border-color: #efc2bd; background: #fff0ee; color: var(--hot); }}
-      .zone-fair {{ border-color: #d8d1b1; background: #fff8df; color: #7a6200; }}
-      .category-ski {{ border-color: #b7d9d0; background: #edf8f4; color: var(--accent); }}
-      .category-clothing {{ border-color: #d8d1b1; background: #fff8df; color: #7a6200; }}
-      .cached {{ border-color: #d8d1b1; background: #fff8df; color: var(--gold); }}
-      .stock-in_stock {{ border-color: #b7d9d0; background: #edf8f4; color: var(--accent); }}
-      .stock-sold_out {{ border-color: #efc2bd; background: #fff0ee; color: var(--hot); }}
-      .stock-availability_unknown {{ border-color: #d8d1b1; background: #fff8df; color: #7a6200; }}
-      .note-button {{ border: 1px solid var(--line); border-radius: 999px; padding: 5px 8px; background: #fff; color: var(--muted); cursor: pointer; font: inherit; font-size: .86rem; }}
-      .note-button:hover {{ border-color: rgba(13,124,102,.45); color: var(--accent); }}
-      .deal[data-local-muted="true"] .note-button {{ border-color: #efc2bd; background: #fff0ee; color: var(--hot); }}
-      .empty {{ padding: 24px 0; color: var(--muted); }}
-      .errors {{ margin-top: 26px; border-top: 1px solid var(--line); padding-top: 16px; }}
-      @media (max-width: 1080px) {{ header {{ grid-template-columns: 1fr; }} .app-shell {{ grid-template-columns: 280px minmax(0, 1fr); }} .digest-grid, .activity-grid, .start-panel {{ grid-template-columns: 1fr; }} }}
-      @media (max-width: 820px) {{ main {{ padding-inline: 10px; }} .app-shell {{ grid-template-columns: 1fr; }} .sidebar {{ position: static; max-height: none; overflow: visible; }} .controls {{ margin-bottom: 14px; }} .controls:not([open]) {{ padding-bottom: 14px; }} .quick-filters, .preference-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} }}
-      @media (max-width: 620px) {{ header {{ padding: 16px; }} .stats {{ grid-template-columns: repeat(2, 1fr); }} .deal {{ grid-template-columns: 82px 1fr; gap: 12px; }} .thumb {{ width: 82px; height: 82px; }} .price {{ grid-column: 2; text-align: left; margin-top: 2px; }} .badges {{ grid-column: 1 / -1; }} }}
-    </style>
-  </head>
-  <body>
-    <main>
-      <header>
-        <div>
-          <h1>{title}</h1>
-          <p class="meta">Generated {html.escape(payload['generated_at'])}</p>
-        </div>
-        <div class="stats" aria-label="Report summary">
-          <div class="stat"><strong>{payload['deal_count']}</strong><span>Deals</span></div>
-          <div class="stat"><strong>${lowest_price:.0f}</strong><span>Lowest</span></div>
-          <div class="stat"><strong>{best_discount:.0f}%</strong><span>Best off</span></div>
-          <div class="stat"><strong>{image_count}</strong><span>Photos</span></div>
-        </div>
-      </header>
-      <div class="app-shell">
-        <aside class="sidebar">
-          {source_filter}
-        </aside>
-        <div class="content">
-          {brief_panel}
-          {preference_panel}
-          {activity_panel}
-          {health_panel}
-          <section class="deals-list">
-            {''.join(cards) if cards else empty}
-          </section>
-          {"<section class='errors'><h2>Source errors</h2><ul>" + errors + "</ul></section>" if errors else ""}
-        </div>
-      </div>
-    </main>
-    <script>
-      const checkboxes = [...document.querySelectorAll('.source-toggle input')];
-      const categoryBoxes = [...document.querySelectorAll('.category-toggle input')];
-      const deals = [...document.querySelectorAll('.deal')];
-      const dealsList = document.querySelector('.deals-list');
-      const visibleDealCount = document.querySelector('#visibleDealCount');
-      const searchInput = document.querySelector('#dealSearch');
-      const sortSelect = document.querySelector('#dealSort');
-      const maxPriceInput = document.querySelector('#maxPrice');
-      const photoOnly = document.querySelector('#photoOnly');
-      const dropOnly = document.querySelector('#dropOnly');
-      const newOnly = document.querySelector('#newOnly');
-      const watchOnly = document.querySelector('#watchOnly');
-      const mySizeOnly = document.querySelector('#mySizeOnly');
-      const familySizeOnly = document.querySelector('#familySizeOnly');
-      const sweetOnly = document.querySelector('#sweetOnly');
-      const lowestSeenOnly = document.querySelector('#lowestSeenOnly');
-      const hideAlternates = document.querySelector('#hideAlternates');
-      const hideMuted = document.querySelector('#hideMuted');
-      const dealsOfDay = document.querySelector('#dealsOfDay');
-      const resetFilters = document.querySelector('#resetFilters');
-      const radarButtons = [...document.querySelectorAll('[data-radar-filter]')];
-      const localMuteKey = 'skiDeals.localMutedUrls.v1';
-      let localMutedUrls = readLocalMutes();
-
-      function numericValue(deal, key) {{
-        return Number.parseFloat(deal.dataset[key] || '0') || 0;
-      }}
-
-      function readLocalMutes() {{
-        try {{
-          const storage = window.localStorage;
-          if (!storage) return new Set();
-          const parsed = JSON.parse(storage.getItem(localMuteKey) || '[]');
-          return new Set(Array.isArray(parsed) ? parsed.filter(Boolean) : []);
-        }} catch (error) {{
-          return new Set();
-        }}
-      }}
-
-      function writeLocalMutes() {{
-        try {{
-          const storage = window.localStorage;
-          if (storage) storage.setItem(localMuteKey, JSON.stringify([...localMutedUrls].sort()));
-        }} catch (error) {{
-          // Storage can be unavailable in restricted browser contexts; current-page hiding still works.
-        }}
-      }}
-
-      function applyLocalMutes() {{
-        for (const deal of deals) {{
-          const url = deal.dataset.url || '';
-          const isLocalIgnored = Boolean(url && localMutedUrls.has(url));
-          deal.dataset.localMuted = String(isLocalIgnored);
-          deal.dataset.muted = String(deal.dataset.serverMuted === 'true' || isLocalIgnored);
-          const button = deal.querySelector('.note-button');
-          if (button) button.textContent = isLocalIgnored ? 'Undo' : 'Not interested';
-        }}
-      }}
-
-      function sortDeals() {{
-        const sorted = [...deals].sort((a, b) => {{
-          const mode = sortSelect?.value || 'price-asc';
-          const topDealsMode = dealsOfDay?.getAttribute('aria-pressed') === 'true';
-          if (topDealsMode) {{
-            return numericValue(b, 'score') - numericValue(a, 'score') || numericValue(a, 'price') - numericValue(b, 'price');
-          }}
-          if (mode === 'price-asc') {{
-            const priceDelta = numericValue(a, 'price') - numericValue(b, 'price');
-            if (priceDelta !== 0) return priceDelta;
-            if (a.dataset.muted !== b.dataset.muted) return a.dataset.muted === 'true' ? 1 : -1;
-            if (a.dataset.watchlist !== b.dataset.watchlist) return a.dataset.watchlist === 'true' ? -1 : 1;
-            return numericValue(b, 'discount') - numericValue(a, 'discount');
-          }}
-          if (a.dataset.muted !== b.dataset.muted) return a.dataset.muted === 'true' ? 1 : -1;
-          if (a.dataset.watchlist !== b.dataset.watchlist) return a.dataset.watchlist === 'true' ? -1 : 1;
-          if (mode === 'discount-desc') return numericValue(b, 'discount') - numericValue(a, 'discount');
-          if (mode === 'savings-desc') return numericValue(b, 'savings') - numericValue(a, 'savings');
-          if (mode === 'score-desc') return numericValue(b, 'score') - numericValue(a, 'score');
-          return numericValue(a, 'price') - numericValue(b, 'price');
-        }});
-        for (const deal of sorted) dealsList?.appendChild(deal);
-      }}
-
-      function applyFilters() {{
-        const enabled = new Set(checkboxes.filter((box) => box.checked).map((box) => box.value));
-        const enabledCategories = new Set(categoryBoxes.filter((box) => box.checked).map((box) => box.value));
-        const query = (searchInput?.value || '').trim().toLowerCase();
-        const maxPrice = Number.parseFloat(maxPriceInput?.value || '');
-        const requirePhoto = Boolean(photoOnly?.checked);
-        const requireDrop = Boolean(dropOnly?.checked);
-        const requireNew = Boolean(newOnly?.checked);
-        const requireWatch = Boolean(watchOnly?.checked);
-        const requireMySize = Boolean(mySizeOnly?.checked);
-        const requireFamilySize = Boolean(familySizeOnly?.checked);
-        const requireSweet = Boolean(sweetOnly?.checked);
-        const requireLowestSeen = Boolean(lowestSeenOnly?.checked);
-        const shouldHideAlternates = Boolean(hideAlternates?.checked);
-        const shouldHideMuted = Boolean(hideMuted?.checked);
-        const topDealsMode = dealsOfDay?.getAttribute('aria-pressed') === 'true';
-        const eligibleTopDeals = topDealsMode
-          ? [...deals]
-              .filter((deal) => {{
-                const matchesStore = enabled.has(deal.dataset.source);
-                const matchesCategory = !categoryBoxes.length || enabledCategories.has(deal.dataset.category || 'ski');
-                const matchesSearch = !query || deal.dataset.title.includes(query) || deal.dataset.source.toLowerCase().includes(query);
-                const matchesPrice = Number.isNaN(maxPrice) || numericValue(deal, 'price') <= maxPrice;
-                const matchesPhoto = !requirePhoto || deal.dataset.hasImage === 'true';
-                const matchesDrop = !requireDrop || deal.dataset.trend === 'down';
-                const matchesNew = !requireNew || deal.dataset.trend === 'new';
-                const matchesWatch = !requireWatch || deal.dataset.watchlist === 'true';
-                const matchesSizeGroup = (!requireMySize && !requireFamilySize) || (requireMySize && deal.dataset.mySizeMatch === 'true') || (requireFamilySize && deal.dataset.familySizeMatch === 'true');
-                const matchesSweet = !requireSweet || deal.dataset.sweetSpot === 'true';
-                const matchesLowestSeen = !requireLowestSeen || deal.dataset.lowestSeen === 'true';
-                const matchesAlternate = !shouldHideAlternates || deal.dataset.dupePrimary === 'true';
-                const matchesMuted = !shouldHideMuted || deal.dataset.muted !== 'true';
-                return matchesStore && matchesCategory && matchesSearch && matchesPrice && matchesPhoto && matchesDrop && matchesNew && matchesWatch && matchesSizeGroup && matchesSweet && matchesLowestSeen && matchesAlternate && matchesMuted;
-              }})
-              .sort((a, b) => numericValue(b, 'score') - numericValue(a, 'score') || numericValue(a, 'price') - numericValue(b, 'price'))
-              .slice(0, 5)
-          : [];
-        const topDealSet = new Set(eligibleTopDeals);
-        let visible = 0;
-        for (const deal of deals) {{
-          const matchesStore = enabled.has(deal.dataset.source);
-          const matchesCategory = !categoryBoxes.length || enabledCategories.has(deal.dataset.category || 'ski');
-          const matchesSearch = !query || deal.dataset.title.includes(query) || deal.dataset.source.toLowerCase().includes(query);
-          const matchesPrice = Number.isNaN(maxPrice) || numericValue(deal, 'price') <= maxPrice;
-          const matchesPhoto = !requirePhoto || deal.dataset.hasImage === 'true';
-          const matchesDrop = !requireDrop || deal.dataset.trend === 'down';
-          const matchesNew = !requireNew || deal.dataset.trend === 'new';
-          const matchesWatch = !requireWatch || deal.dataset.watchlist === 'true';
-          const matchesSizeGroup = (!requireMySize && !requireFamilySize) || (requireMySize && deal.dataset.mySizeMatch === 'true') || (requireFamilySize && deal.dataset.familySizeMatch === 'true');
-          const matchesSweet = !requireSweet || deal.dataset.sweetSpot === 'true';
-          const matchesLowestSeen = !requireLowestSeen || deal.dataset.lowestSeen === 'true';
-          const matchesAlternate = !shouldHideAlternates || deal.dataset.dupePrimary === 'true';
-          const matchesMuted = !shouldHideMuted || deal.dataset.muted !== 'true';
-          const matchesTopDeals = !topDealsMode || topDealSet.has(deal);
-          const show = matchesStore && matchesCategory && matchesSearch && matchesPrice && matchesPhoto && matchesDrop && matchesNew && matchesWatch && matchesSizeGroup && matchesSweet && matchesLowestSeen && matchesAlternate && matchesMuted && matchesTopDeals;
-          deal.hidden = !show;
-          if (show) visible += 1;
-        }}
-        if (visibleDealCount) visibleDealCount.textContent = visible;
-      }}
-
-      function updateView() {{
-        sortDeals();
-        applyFilters();
-        syncRadarButtons();
-      }}
-
-      function radarTarget(name) {{
-        if (name === 'dropOnly') return dropOnly;
-        if (name === 'watchOnly') return watchOnly;
-        if (name === 'mySizeOnly') return mySizeOnly;
-        if (name === 'familySizeOnly') return familySizeOnly;
-        if (name === 'sweetOnly') return sweetOnly;
-        if (name === 'lowestSeenOnly') return lowestSeenOnly;
-        if (name === 'showMuted') return hideMuted;
-        return null;
-      }}
-
-      function syncRadarButtons() {{
-        for (const button of radarButtons) {{
-          const name = button.dataset.radarFilter;
-          if (name === 'dealsOfDay') {{
-            button.setAttribute('aria-pressed', String(dealsOfDay?.getAttribute('aria-pressed') === 'true'));
-            continue;
-          }}
-          if (name === 'showMuted') {{
-            button.setAttribute('aria-pressed', String(Boolean(hideMuted && !hideMuted.checked)));
-            continue;
-          }}
-          const target = radarTarget(name);
-          button.setAttribute('aria-pressed', String(Boolean(target?.checked)));
-        }}
-      }}
-
-      for (const box of checkboxes) {{
-        box.addEventListener('change', updateView);
-      }}
-      for (const box of categoryBoxes) {{
-        box.addEventListener('change', updateView);
-      }}
-      for (const button of document.querySelectorAll('[data-filter-action]')) {{
-        button.addEventListener('click', () => {{
-          const checked = button.dataset.filterAction === 'all';
-          for (const box of checkboxes) box.checked = checked;
-          updateView();
-        }});
-      }}
-      for (const button of radarButtons) {{
-        button.addEventListener('click', () => {{
-          const name = button.dataset.radarFilter;
-          if (name === 'dealsOfDay') {{
-            const enabled = dealsOfDay?.getAttribute('aria-pressed') !== 'true';
-            if (dealsOfDay) {{
-              dealsOfDay.setAttribute('aria-pressed', String(enabled));
-              dealsOfDay.textContent = enabled ? 'Showing best 5' : 'Best 5 today';
-            }}
-            if (enabled && sortSelect) sortSelect.value = 'score-desc';
-            updateView();
-            return;
-          }}
-          if (name === 'showMuted') {{
-            if (hideMuted) hideMuted.checked = !hideMuted.checked;
-            updateView();
-            return;
-          }}
-          const target = radarTarget(name);
-          if (target) target.checked = !target.checked;
-          updateView();
-        }});
-      }}
-      for (const control of [searchInput, sortSelect, maxPriceInput, photoOnly, dropOnly, newOnly, watchOnly, mySizeOnly, familySizeOnly, sweetOnly, lowestSeenOnly, hideAlternates, hideMuted]) {{
-        control?.addEventListener('input', updateView);
-        control?.addEventListener('change', updateView);
-      }}
-      for (const button of document.querySelectorAll('.note-button')) {{
-        button.addEventListener('click', async () => {{
-          const value = button.dataset.ignoreValue || '';
-          if (!value) return;
-          if (localMutedUrls.has(value)) {{
-            localMutedUrls.delete(value);
-          }} else {{
-            localMutedUrls.add(value);
-          }}
-          writeLocalMutes();
-          applyLocalMutes();
-          updateView();
-        }});
-      }}
-      dealsOfDay?.addEventListener('click', () => {{
-        const enabled = dealsOfDay.getAttribute('aria-pressed') !== 'true';
-        dealsOfDay.setAttribute('aria-pressed', String(enabled));
-        dealsOfDay.textContent = enabled ? 'Showing best 5' : 'Best 5 today';
-        if (enabled && sortSelect) sortSelect.value = 'score-desc';
-        updateView();
-      }});
-      resetFilters?.addEventListener('click', () => {{
-        if (searchInput) searchInput.value = '';
-        if (sortSelect) sortSelect.value = 'price-asc';
-        if (maxPriceInput) maxPriceInput.value = '';
-        if (photoOnly) photoOnly.checked = false;
-        if (dropOnly) dropOnly.checked = false;
-        if (newOnly) newOnly.checked = false;
-        if (watchOnly) watchOnly.checked = false;
-        if (mySizeOnly) mySizeOnly.checked = false;
-        if (familySizeOnly) familySizeOnly.checked = false;
-        if (sweetOnly) sweetOnly.checked = false;
-        if (lowestSeenOnly) lowestSeenOnly.checked = false;
-        if (hideAlternates) hideAlternates.checked = false;
-        if (hideMuted) hideMuted.checked = true;
-        if (dealsOfDay) {{
-          dealsOfDay.setAttribute('aria-pressed', 'false');
-          dealsOfDay.textContent = 'Best 5 today';
-        }}
-        for (const box of checkboxes) box.checked = true;
-        for (const box of categoryBoxes) box.checked = box.defaultChecked;
-        updateView();
-      }});
-      applyLocalMutes();
-      updateView();
-    </script>
-  </body>
-</html>
-"""
 
 
 def brief_panel_html() -> str:
@@ -3142,6 +2062,8 @@ def main() -> int:
         web_output = resolve_output_path(config.get("web_output"), WEB_OUTPUT)
         html_payload, html_config = combined_tracker_payload(payload, config)
         html_output = trim_trailing_whitespace(render_html(html_payload, html_config))
+        html_output_path.parent.mkdir(parents=True, exist_ok=True)
+        web_output.parent.mkdir(parents=True, exist_ok=True)
         html_output_path.write_text(html_output, encoding="utf-8")
         web_output.write_text(html_output, encoding="utf-8")
         print(f"Wrote {html_output_path}")
