@@ -43,7 +43,7 @@ def validate_decisions(result, dataset, now=None):
             seen.add(identity)
             records.append({'id': identity, 'section': section, 'reason': item['reason']})
     return {'schema_version': 2, 'snapshot_id': result['snapshot_id'], 'generated_at': datetime.now(timezone.utc).isoformat(),
-            'source_generated_at': dataset['generated_at'], 'provider': 'claude_code_subscription', 'model': None, 'decisions': records}
+            'source_generated_at': dataset['generated_at'], 'provider': 'chatgpt_scheduled_task', 'model': None, 'decisions': records}
 
 
 def markdown(brief, dataset):
@@ -66,7 +66,7 @@ def markdown(brief, dataset):
 def html_page(brief, dataset):
     import deal_analyst
     body = deal_analyst.markdown_to_html(markdown(brief, dataset))
-    return '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gear brief</title><link rel="stylesheet" href="../assets/deals.css"><main class="brief-page"><a href="../ski-deals/">← Gear Deals</a>' + body + '<p class="muted">Generated ' + html.escape(brief['generated_at']) + ' · Claude subscription · model not reported by runner</p></main></html>'
+    return '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gear brief</title><link rel="stylesheet" href="../assets/deals.css"><main class="brief-page"><a href="../ski-deals/">← Gear Deals</a>' + body + '<p class="muted">Generated ' + html.escape(brief['generated_at']) + ' · ' + ('ChatGPT scheduled task' if brief.get('provider') == 'chatgpt_scheduled_task' else 'Previous subscription brief') + '</p></main></html>'
 
 
 def publish(result, dataset, root):
