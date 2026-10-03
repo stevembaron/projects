@@ -2,3 +2,5 @@
 
 .category-toggle{display:inline-flex;gap:4px;padding:4px;margin:0 0 18px;background:var(--white);border:1px solid var(--line);border-radius:12px}.category-toggle button{min-width:110px}.category-toggle button[aria-pressed=true]{background:var(--green)}
 nav button[hidden]{display:none}
+
+.brief-section-title{margin:20px 0 8px;font-size:15px}.brief-summary .brief-picks{list-style:none;padding:0;margin:0}.brief-picks li{padding:12px 0;border-bottom:1px solid #d4e3cf;overflow-wrap:anywhere}.brief-picks li:last-child{border-bottom:0}.brief-picks p{margin:5px 0}

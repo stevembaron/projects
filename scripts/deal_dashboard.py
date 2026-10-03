@@ -27,7 +27,7 @@ def render_dashboard(payload, config):
 <div class="status" id="status" role="status"></div>
 <nav aria-label="Deal views" id="views"><button data-view="today" aria-pressed="true">Today</button><button data-view="me" aria-pressed="false">For me</button><button data-view="family" aria-pressed="false">Family</button><button data-view="all" aria-pressed="false">All deals</button></nav>
 <section class="metrics" id="metrics" aria-label="Deal summary"></section>
-<section id="brief" class="brief-summary"></section>
+<section id="brief" class="brief-summary" aria-label="Buying brief" aria-live="polite"></section>
 <section class="browse"><div class="browse-heading"><h2 id="listTitle">Today's shortlist</h2><span class="muted" id="count" aria-live="polite"></span></div>
 <details class="filters"><summary>Search and filters</summary><div class="filter-grid">
 <label>Search<input id="search" type="search" placeholder="Brand, model, store"></label>

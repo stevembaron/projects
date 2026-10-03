@@ -68,6 +68,29 @@ function card(d){
  const offers=d.comparison?.offers||[];
  return `<article class="deal" data-id="${escape(d.id)}">${d.image_url?`<img class="thumb" src="${escape(safeURL(d.image_url))}" alt="${escape(d.title)}" loading="lazy">`:'<div class="thumb no-photo">No photo</div>'}<div><p class="eyebrow">${escape(d.source)}</p><h3>${escape(d.title)}</h3><p class="muted">${escape((d.sizes||[]).join(' · ')||'Size not listed')}${d.condition?' · '+escape(d.condition):''}</p><div class="badges"><span class="badge ${d.act?'good':''}">${verdict}</span>${d.me?'<span class="badge">Your size</span>':''}${d.family?'<span class="badge">Family size</span>':''}${d.drop?`<span class="badge good">Down ${dollars(Math.abs(d.price_change))}</span>`:''}${caveats.map(x=>`<span class="badge caution">${x}</span>`).join('')}</div>${record?`<p class="reason">${escape(record.reason)}</p>`:''}<div class="evidence">${graph(d)}<span>${escape(evidence)}</span></div><p class="muted">Last checked: ${escape(date(d.last_verified_at))}</p>${offers.length>1?`<details class="offer-list"><summary>Compare verified offers</summary>${offers.map(o=>`<p><a href="${escape(safeURL(o.url))}" target="_blank" rel="noopener">${escape(o.source)}</a> · ${dollars(o.price)}</p>`).join('')}</details>`:''}<div class="actions"><button data-action="watch" data-id="${escape(d.id)}" aria-pressed="${d.watched}">${d.watched?'Watching':'Watch'}</button><button data-action="mute" data-id="${escape(d.id)}">${d.muted?'Undo dismissal':'Not interested'}</button><button data-action="own" data-id="${escape(d.id)}">${d.owned?'Undo owned':'Already bought'}</button></div></div><div class="purchase"><p class="price">${d.price_scope!=='exact'?'<small>From</small>':''}${dollars(d.current_price)}</p><a class="button" href="${escape(safeURL(d.url))}" target="_blank" rel="noopener">View deal ↗</a></div></article>`;
 }
+function renderBrief(deals,local){
+ const category=state.category==='ski'?'Ski':'Clothing';
+ const current=briefCurrent&&age(brief?.source_generated_at)<=preferences.freshness.act_now_hours;
+ let body=`<h2>${category} brief</h2>`;
+ if(!brief){$('brief').innerHTML=body+'<p>A buying brief will appear after the next successful ChatGPT run.</p>';return;}
+ body+=`<p class="muted">${brief.provider==='chatgpt_scheduled_task'?'Written by ChatGPT · ':''}${escape(date(brief.generated_at))}</p>`;
+ if(!current)body+='<p class="warning">Previous brief. These picks have not been validated against the latest data. Check current retailer details before buying.</p>';
+ if(local)body+='<p class="muted">This brief uses your published preferences. Picks outside your current browser sizes and budget, or marked dismissed or owned, are hidden.</p>';
+ const eligible=new Map(deals.filter(d=>d.fit&&d.budget&&!d.muted&&!d.owned).map(d=>[d.id,d]));
+ const picks=(brief.decisions||[]).filter(r=>eligible.has(r.id));
+ const sections=current?[['Act now',picks.filter(r=>r.section==='act_now'&&eligible.get(r.id).act)],['Worth watching',picks.filter(r=>r.section!=='act_now'||!eligible.get(r.id).act)]]:[['Previous picks',picks]];
+ for(const [title,items] of sections){
+  body+=`<h3 class="brief-section-title">${title}</h3>`;
+  body+=items.length?'<ul class="brief-picks">'+items.map(r=>{
+   const d=eligible.get(r.id);
+   const details=current?`<p class="muted">${d.price_scope!=='exact'?'From ':''}${dollars(d.current_price)} · ${escape((d.sizes||[]).join(', '))} · ${escape(d.source)}</p>`:'';
+   return `<li data-brief-id="${escape(d.id)}"><a href="${escape(safeURL(d.url))}" target="_blank" rel="noopener"><strong>${escape(d.title)}</strong></a>${details}<p>${escape(r.reason)}</p></li>`;
+  }).join('')+'</ul>':`<p>${title==='Act now'?'Nothing clears the verified must-buy bar.':'No additional picks for this category and your current preferences.'}</p>`;
+ }
+ const missing=(data.source_health||[]).filter(x=>x.category===state.category&&x.status!=='ok');
+ if(missing.length)body+=`<p class="muted">Incomplete coverage: ${missing.map(x=>escape(x.source)).join(', ')}.</p>`;
+ $('brief').innerHTML=body;
+}
 function render(){
  const all=data.deals.filter(d=>d.category===state.category).map(enrich).filter(d=>!d.is_cached||age(d.last_verified_at)<=preferences.freshness.hide_cached_after_hours);
  const relevant=all.filter(d=>d.fit&&d.budget&&!d.muted&&!d.owned);
@@ -83,8 +106,7 @@ function render(){
  document.querySelector('[data-view=family]').hidden=state.category==='clothing';
  for(const b of document.querySelectorAll('[data-view]'))b.setAttribute('aria-pressed',String(b.dataset.view===state.view));
  const local=JSON.stringify(preferences)!==JSON.stringify(data.preferences);
- $('brief').hidden=state.view!=='today';
- $('brief').innerHTML=`<h2>${relevant.some(d=>d.act)?'Worth your attention':'No verified must-buy deals right now'}</h2><p class="muted">${brief?'Last successful brief: '+escape(date(brief.generated_at)): 'A validated buying brief will appear after the next successful scheduled run.'}${brief&&!briefCurrent?' The brief is from an earlier snapshot.':''}</p>${local?'<p class="muted">Your browser preferences differ from the saved brief settings. Export them to update future briefs.</p>':''}<a href="../deal-brief/">Read full brief →</a>`;
+ renderBrief(all,local);
  const query=state.search.toLowerCase();let rows=all.filter(d=>(state.hidden||(!d.muted&&!d.owned))&&(!state.budget||d.budget)&&(!state.drops||d.drop)&&(!state.store||d.source===state.store)&&(!query||[d.title,d.source].join(' ').toLowerCase().includes(query)));
  if(state.view==='me')rows=rows.filter(d=>d.me);if(state.view==='family')rows=rows.filter(d=>d.family);if(state.view==='today')rows=rows.filter(d=>d.fit&&d.budget);
  rows.sort((a,b)=>state.sort==='price'?a.current_price-b.current_price:state.sort==='drop'?(b.drop?Math.abs(b.price_change):0)-(a.drop?Math.abs(a.price_change):0):state.sort==='new'?(Date.parse(b.first_seen_at)||0)-(Date.parse(a.first_seen_at)||0):b.score-a.score||a.current_price-b.current_price);
