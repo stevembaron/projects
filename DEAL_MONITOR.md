@@ -1,7 +1,7 @@
 # Gear Deals
 
 A static household deal dashboard, retailer collectors, verified offer history,
-and a subscription-generated brief. Hosting and schedules remain on GitHub.
+and a subscription-generated brief. GitHub handles collection and hosting; ChatGPT handles the scheduled brief.
 
 ## Daily operation
 
@@ -11,15 +11,18 @@ external Cloudflare dispatch route call the same workflow. The old ski-only
 manual workflow now delegates to that workflow. A shared concurrency group
 serializes refreshes and deployments.
 
-The refresh collects clothing and skis independently, writes a shared
-`data/tracker.json`, asks Claude Code for decisions, validates them, rebuilds
-the dashboard, commits generated files, then deploys a public-only `_site`
-directory. Collection or brief failures are reported separately. A failed
-brief never replaces the last successfully validated one.
+The refresh collects clothing and skis independently and exports a compact
+`data/chatgpt_brief_input.json` alongside the shared tracker. A ChatGPT scheduled
+task reads that file through the connected GitHub app and writes only
+`data/chatgpt_decisions.json` on main. The resulting push validates the snapshot,
+IDs and eligibility, commits the successful brief and archive, and deploys Pages.
+Invalid or stale decisions retain the last good brief and record a rejection in
+`data/chatgpt_brief_status.json`. Repeated decisions for a published snapshot are
+idempotent. Source text is untrusted data, never instructions.
 
-No paid model API calls are made by these scripts. The existing
-`CLAUDE_CODE_OAUTH_TOKEN` secret powers Claude Code through its subscription.
-The footer identifies the provider and does not claim an unreported model.
+No paid model API or Claude call is made. ChatGPT uses the scheduled task's
+normal subscription allowance. No OpenAI API key, OAuth token export, VM or
+Claude subscription is required. Subscription limits still apply.
 
 ## Preferences
 
@@ -64,7 +67,7 @@ Meaningful reductions: at least $25 OR 10% for skis, $10 OR 15% for clothing.
 
 `python3 scripts/deal_analyst.py --dry-run` prepares household-relevant offers,
 source health, verified history and recent structured recommendations.
-Claude writes JSON with a snapshot ID, up to three Act now listing IDs and up
+ChatGPT writes JSON with a snapshot ID, up to three Act now listing IDs and up
 to five Watch listing IDs, each with a short rationale. The renderer looks up
 all prices, sizes and purchase URLs itself. Unknown IDs, stale snapshots,
 invalid eligibility and invented dollar figures/URLs in rationales are rejected.
@@ -75,29 +78,16 @@ independently verified product research.
 and publishes. Archives use timestamps, so the second daily run no longer
 overwrites the morning brief. Failed validation retains the prior brief.
 
-## ChatGPT Plus / Astra migration
+## ChatGPT scheduled brief
 
-The required future route is **ChatGPT plan OAuth**, with no paid API fallback.
-It is not activated in this change. Sign in with ChatGPT supports eligible
-open-source/local clients and documents self-hosted VMs. GitHub-hosted unattended
-runner support and persistent token renewal have not been verified. No VM is
-required for this upgrade, and Claude stays active until that migration gate passes.
+The cloud task runs twice daily, at 05:00 and 13:00 America/Denver, after the
+collector windows. Manage its schedule in ChatGPT Scheduled. It uses the account's
+available task model; the pipeline does not claim a particular model name.
+See `CHATGPT_BRIEF_TASK.md` for the durable task instructions. If a collector is
+late or data is stale, the task preserves the prior brief instead of inventing data.
+The next normal run retries with the newest snapshot.
 
-After completing the official SIWC consent flow, the optional read-only check is:
-
-```
-python3 scripts/check_chatgpt_plan.py --credentials /protected/path/chatgpt-auth.json
-```
-
-It checks for plan consent and whether `gpt-6-astra` is in the account's model
-catalog. It does not perform inference, search for existing credentials, log
-secrets, or prove GitHub runner compatibility. Do not use a copied browser cookie
-or arbitrary Codex token in its place.
-
-Official references:
-- https://developers.openai.com/siwc/token-sharing-open-source
-- https://developers.openai.com/siwc/token-sharing-open-source/models-and-inference
-- https://developers.openai.com/siwc/token-sharing-open-source/self-hosted-vms
+Official reference: https://learn.chatgpt.com/docs/automations
 
 ## Local commands
 
@@ -114,7 +104,7 @@ python3 scripts/build_public.py
 Open `ski-deals/index.html` or serve `_site` locally. The interface is plain
 HTML/CSS/JavaScript with no build step or runtime framework dependency. Production
 collectors use Python's standard library. `make brief` prepares the input only;
-generation is subscription-authenticated in the workflow.
+generation takes place in the ChatGPT scheduled task.
 
 ## Modules
 

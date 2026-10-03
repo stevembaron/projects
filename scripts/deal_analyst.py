@@ -3,7 +3,7 @@
 
 The deal monitor (scripts/deal_monitor.py) collects and ranks raw listings by
 rules. This script does the part rules can't: it sends the day's deals, their
-price history, and your preferences to Claude and asks for actual judgment —
+price history, and your preferences to ChatGPT and asks for actual judgment —
 is this a real discount, does it fit, is it worth acting on today — then
 writes a short markdown brief.
 
@@ -11,7 +11,7 @@ Usage:
     python3 scripts/deal_analyst.py             # write data/deal_brief.md
     python3 scripts/deal_analyst.py --dry-run   # show the assembled prompt, no API call
 
-Paid API calls are disabled. The workflow uses an existing Claude subscription.
+Paid API calls are disabled. A ChatGPT scheduled task writes decisions through GitHub.
 """
 
 from __future__ import annotations
@@ -170,7 +170,7 @@ def build_user_prompt(max_deals_per_category):
 
 
 def run_analysis(user_prompt):
-    raise RuntimeError('Paid API inference is disabled. Run the subscription workflow.')
+    raise RuntimeError('Paid API inference is disabled. Use the ChatGPT scheduled task.')
 
 
 
