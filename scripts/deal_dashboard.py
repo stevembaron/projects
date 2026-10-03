@@ -1,5 +1,7 @@
 """Static dashboard shell. Data and recommendations share a single snapshot."""
 import json
+import hashlib
+import html
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,7 +20,7 @@ def render_dashboard(payload, config):
     current = bool(brief and brief.get('snapshot_id') == snapshot_id(payload))
     refresh_brief_page(brief, payload, current)
     data = json.dumps({'dataset': payload, 'brief': brief, 'briefCurrent': current}, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
-    return '''<!doctype html>
+    page = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Gear Deals | Your daily shortlist</title><link rel="stylesheet" href="../assets/deals.css"></head>
 <body><main>
@@ -27,7 +29,7 @@ def render_dashboard(payload, config):
 <div class="status" id="status" role="status"></div>
 <nav aria-label="Deal views" id="views"><button data-view="today" aria-pressed="true">Today</button><button data-view="me" aria-pressed="false">For me</button><button data-view="family" aria-pressed="false">Family</button><button data-view="all" aria-pressed="false">All deals</button></nav>
 <section class="metrics" id="metrics" aria-label="Deal summary"></section>
-<section id="brief" class="brief-summary" aria-label="Buying brief" aria-live="polite"></section>
+<section id="brief" class="brief-summary" aria-label="Buying brief" aria-live="polite"><!--inline-brief--></section>
 <section class="browse"><div class="browse-heading"><h2 id="listTitle">Today's shortlist</h2><span class="muted" id="count" aria-live="polite"></span></div>
 <details class="filters"><summary>Search and filters</summary><div class="filter-grid">
 <label>Search<input id="search" type="search" placeholder="Brand, model, store"></label>
@@ -51,6 +53,24 @@ def render_dashboard(payload, config):
 <p id="preferenceError" class="error" role="alert"></p><div class="actions"><button type="submit">Save in this browser</button><button type="button" id="export" class="secondary">Export preferences</button><label class="import secondary">Import JSON<input id="import" type="file" accept="application/json,.json"></label><button type="button" id="restore" class="secondary">Restore published preferences</button></div>
 <p class="muted">To update the automatic brief, replace <a href="https://github.com/stevembaron/projects/edit/main/config/deal_preferences.json" target="_blank" rel="noopener">saved preferences</a> with your exported JSON. Until then, the brief uses the published settings.</p>
 </form></dialog><script id="gear-data" type="application/json">''' + data + '''</script><script src="../assets/deals.js" defer></script></body></html>'''
+
+    for asset in ('deals.css', 'deals.js'):
+        version = hashlib.sha256((ROOT/'assets'/asset).read_bytes()).hexdigest()[:12]
+        page = page.replace('../assets/'+asset, '../assets/'+asset+'?v='+version)
+    return page.replace('<!--inline-brief-->', initial_brief(brief, payload, current))
+
+
+def initial_brief(brief, dataset, current):
+    if not brief:
+        return '<h2>Ski brief</h2><p>A buying brief will appear after the next successful ChatGPT run.</p>'
+    from deal_analyst import markdown_to_html
+    from deal_brief import markdown
+    eligible = {d['id'] for d in dataset['deals'] if d.get('category') == 'ski'
+                and d.get('matches_preferences')}
+    selected = dict(brief, decisions=[r for r in brief.get('decisions', []) if r['id'] in eligible])
+    text = markdown(selected, dataset).split('\n', 1)[1]
+    notice = '' if current else '<p class="warning">Previous brief. Confirm current prices and availability before buying.</p>'
+    return '<h2>Ski brief</h2><p class="muted">Last brief: ' + html.escape(brief['generated_at']) + '</p>' + notice + markdown_to_html(text)
 
 
 def refresh_brief_page(brief, dataset, current):
