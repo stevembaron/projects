@@ -23,6 +23,17 @@ const path=require('node:path');
     });
     assert.ok(displayed.length>0,'Category contains visible offers');
     assert.ok(displayed.every(value=>value===category),'Only the selected category is shown');
+    assert.equal(await page.locator('#brief').isVisible(),true,'Brief remains on the main page in every view');
+    const inline=await page.evaluate(()=>{
+     const {dataset,brief}=JSON.parse(document.getElementById('gear-data').textContent);
+     return [...document.querySelectorAll('[data-brief-id]')].map(el=>({
+      category:dataset.deals.find(d=>d.id===el.dataset.briefId).category,
+      hasReason:el.textContent.includes(brief.decisions.find(r=>r.id===el.dataset.briefId).reason),
+      hasLink:!!el.querySelector('a[href^="https://"]')
+     }));
+    });
+    assert.ok(inline.every(x=>x.category===category&&x.hasReason&&x.hasLink),'Inline brief shows matching picks, full rationale and product links');
+
    }
    assert.equal(await skis.getAttribute('aria-pressed'),'true','Skis are the default');
    await page.getByRole('button',{name:'All deals',exact:true}).click();
