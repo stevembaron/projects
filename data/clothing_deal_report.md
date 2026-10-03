@@ -1,11 +1,11 @@
 # Men's Clothing Deals
 
-Generated: 2026-10-03T14:45:51+00:00
+Generated: 2026-10-03T21:12:19+00:00
 Deals found: 12
 
 1. [Stio Environ Pant - Men's](https://geartrade.com/products/stio-environ-pant-mens-1687321)
    $88.18 was $419.90 (79.0% off) - Geartrade Stio men's clothing
-   Price trend: Down $41.71 (32.1%) since prior day
+   Price trend: Same as prior day
    Sizes: M
 
 
@@ -17,7 +17,7 @@ Deals found: 12
 
 3. [Stio Doublecharge Insulated Jacket - Men's](https://geartrade.com/products/stio-doublecharge-insulated-jacket-mens-1728147)
    $234.50 was $469.00 (50.0% off) - Geartrade Stio men's clothing
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: M
 
 
@@ -65,7 +65,7 @@ Deals found: 12
 
 11. [Stio Stio Crester Polo SS - Men's](https://geartrade.com/products/stio-crester-polo-ss-mens-1725837)
    $37.50 was $75.00 (50.0% off) - Geartrade Stio men's clothing
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: M
 
 
