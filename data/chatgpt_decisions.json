@@ -1,14 +1,23 @@
 {
-  "snapshot_id": "20ae9827b17f7a4ca97c",
-  "act_now": [],
+  "snapshot_id": "fdebffa1b336e2641bf7",
+  "act_now": [
+    {
+      "id": "c621fd8e4e291eee",
+      "reason": "This new 172 cm Bent 110 has the strongest verified move in the scan: a 37.2% reduction to a five-observation low, with an exact-size price and reported stock. It is a flat ski, so include bindings and mounting when judging the total purchase."
+    },
+    {
+      "id": "3fb77e805675dac8",
+      "reason": "The 166 cm Bent 90 is in your saved range and fell 14.3% to its five-observation low. The exact-size listing reports stock. This is a more practical width than the Bent 110, but budget for bindings and mounting before deciding."
+    },
+    {
+      "id": "d1e3b8ba06a82b8c",
+      "reason": "The 159 cm Maven 86 C fits the household size range and dropped 14.3% to its five-observation low, with an exact-size price and reported stock. It is worth acting on only if that family size and an unmounted ski fill a real need."
+    }
+  ],
   "watch": [
     {
       "id": "59e64e6848d20bb6",
-      "reason": "This new 170 cm M-Pro 99 listing is a potentially useful all-mountain option in your size range, with an exact price and reported stock. It has only one observation, so there is no verified reduction or evidence of urgency yet."
-    },
-    {
-      "id": "b556f9943885d1a6",
-      "reason": "The 154 cm M-Pro 99 W could be a strong household-value candidate after four unchanged checks, but this is a from-price listing. Confirm that the listed size receives that price and remains available before treating it as a real opportunity."
+      "reason": "The 170 cm M-Pro 99 remains an attractive exact-size listing with reported stock, but its price is unchanged across only two observations. Keep watching rather than treating the listing as a verified bargain."
     }
   ]
 }
