@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-04T15:25:19+00:00
+Generated: 2026-10-04T21:21:53+00:00
 Deals found: 242
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -83,7 +83,7 @@ Deals found: 242
 
 14. [K2 Mindbender 89 Ti Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292747-k2-mindbender-89-ti-skis-griffon-13-demo-ski-bindings-2025-used)
    $339.99 was $999.90 (66.0% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 176 cm
    Stock: In stock
 
@@ -131,7 +131,7 @@ Deals found: 242
 
 22. [2026 Atomic Bent 110 - 172cm / Multicolor / New](https://lonepinegearx.com/products/2026-atomic-bent-110-86f19)
    $329.95 was $900.00 (63.3% off) - Lone Pine new flat skis
-   Price trend: Down $195.04 (37.2%) since prior day
+   Price trend: Same as prior day
    Sizes: 172cm
    Stock: In stock
 
