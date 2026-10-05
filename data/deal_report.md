@@ -1,7 +1,7 @@
 # Ski Gear Deals
 
-Generated: 2026-10-04T21:21:53+00:00
-Deals found: 242
+Generated: 2026-10-05T19:19:51+00:00
+Deals found: 241
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
    $119.99 was $699.95 (82.9% off) - Evo skis price ascending
@@ -60,7 +60,7 @@ Deals found: 242
 10. [Armada ARV 100 Skis + Strive 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292582-armada-arv-100-skis-strive-13-demo-ski-bindings-2025-used)
    $329.99 was $979.90 (66.3% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 179 cm
+   Sizes: 172 cm
    Stock: In stock
 
 11. [Völkl Secret 96 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292799-volkl-secret-96-skis-squire-11-demo-ski-bindings-2025-used)
@@ -84,7 +84,7 @@ Deals found: 242
 14. [K2 Mindbender 89 Ti Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292747-k2-mindbender-89-ti-skis-griffon-13-demo-ski-bindings-2025-used)
    $339.99 was $999.90 (66.0% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 176 cm
+   Sizes: 164 cm
    Stock: In stock
 
 15. [Völkl Blaze 94 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292724-volkl-blaze-94-skis-squire-11-demo-ski-bindings-2025-used)
