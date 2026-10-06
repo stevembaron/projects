@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-06T00:01:54+00:00
+Generated: 2026-10-06T16:51:33+00:00
 Deals found: 241
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -84,7 +84,7 @@ Deals found: 241
 14. [K2 Mindbender 89 Ti Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292747-k2-mindbender-89-ti-skis-griffon-13-demo-ski-bindings-2025-used)
    $339.99 was $999.90 (66.0% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 164 cm
+   Sizes: 176 cm
    Stock: In stock
 
 15. [Völkl Blaze 94 Skis + Marker Squire 11 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292724-volkl-blaze-94-skis-squire-11-demo-ski-bindings-2025-used)
@@ -120,7 +120,7 @@ Deals found: 241
 20. [Völkl M7 Mantra Skis + Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.94 (66.1% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 177 cm
+   Sizes: 170 cm
    Stock: In stock
 
 21. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
@@ -156,5 +156,4 @@ Deals found: 241
 
 ## Source Errors
 
-- CampSaver backcountry skis: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
 - J Skis Secret Stash: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
