@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-06T16:51:33+00:00
+Generated: 2026-10-06T22:39:01+00:00
 Deals found: 241
 
 1. [Dynastar M-Pro 99 W Skis - Women's 2022](https://www.evo.com/products/185155-dynastar-m-pro-99-w-skis-women-s-2022)
@@ -129,31 +129,32 @@ Deals found: 241
    Sizes: 165 cm
    Stock: In stock
 
-22. [2026 Atomic Bent 110 - 172cm / Multicolor / New](https://lonepinegearx.com/products/2026-atomic-bent-110-86f19)
-   $329.95 was $900.00 (63.3% off) - Lone Pine new flat skis
-   Price trend: Same as prior day
-   Sizes: 172cm
-   Stock: In stock
-
-23. [Season Nexus Skis 2026 - Used](https://www.evo.com/products/257155-season-nexus-skis-2026-used)
+22. [Season Nexus Skis 2026 - Used](https://www.evo.com/products/257155-season-nexus-skis-2026-used)
    $299.98 was $749.95 (60.0% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 158 cm
    Stock: In stock
 
-24. [Nordica Santa Ana 102 Skis - Women's 2025](https://www.evo.com/products/253127-nordica-santa-ana-102-skis-women-s-2025)
+23. [Nordica Santa Ana 102 Skis - Women's 2025](https://www.evo.com/products/253127-nordica-santa-ana-102-skis-women-s-2025)
    $339.99 was $849.99 (60.0% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 179 cm
    Stock: In stock
 
-25. [K2 Reckoner 102 W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292795-k2-reckoner-102-w-skis-griffon-13-demo-ski-bindings-2025-used)
+24. [K2 Reckoner 102 W Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292795-k2-reckoner-102-w-skis-griffon-13-demo-ski-bindings-2025-used)
    $359.99 was $899.90 (60.0% off) - Evo skis price ascending
    Price trend: Same as prior day
    Sizes: 170 cm
    Stock: In stock
 
+25. [Nordica Unleashed 90 Skis 2025](https://www.evo.com/products/253222-nordica-unleashed-90-skis-2025)
+   $199.97 was $449.99 (55.6% off) - Evo skis price ascending
+   Price trend: Same as prior day
+   Sizes: 152 cm
+   Stock: In stock
+
 
 ## Source Errors
 
+- CampSaver backcountry skis: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
 - J Skis Secret Stash: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden

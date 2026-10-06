@@ -1,6 +1,6 @@
 # Men's Clothing Deals
 
-Generated: 2026-10-06T16:51:20+00:00
+Generated: 2026-10-06T22:38:47+00:00
 Deals found: 11
 
 1. [Stio Skillet Stretch Down Shirt Jacket - Men's](https://geartrade.com/products/stio-skillet-stretch-down-shirt-jacket-mens-1726602)
@@ -11,7 +11,7 @@ Deals found: 11
 
 2. [Stio Exploit Jacket - Men's](https://geartrade.com/products/stio-exploit-jacket-mens-1726376)
    $174.50 was $349.00 (50.0% off) - Geartrade Stio men's clothing
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: M
 
 
@@ -35,13 +35,13 @@ Deals found: 11
 
 6. [Stio Hylas Hooded Pullover - Men's](https://geartrade.com/products/stio-hylas-hooded-pullover-mens-1725638)
    $49.50 was $99.00 (50.0% off) - Geartrade Stio men's clothing
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: M
 
 
 7. [Stio Hylas Sleeveless Hooded Pullover - Men's](https://geartrade.com/products/stio-hylas-sleeveless-hooded-pullover-mens-1725276)
    $44.50 was $89.00 (50.0% off) - Geartrade Stio men's clothing
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: M
 
 

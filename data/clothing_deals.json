@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T16:51:20+00:00",
+  "generated_at": "2026-10-06T22:38:47+00:00",
   "deal_count": 11,
   "sources_checked": 1,
   "price_history_count": 840,
@@ -14,7 +14,7 @@
       "discount_percent": 50.0,
       "savings": 144.5,
       "score": 102.11,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
@@ -31,8 +31,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     },
     {
@@ -44,25 +44,25 @@
       "discount_percent": 50.0,
       "savings": 174.5,
       "score": 101.51,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/5fe1e19b-9dd6-4ff1-84f1-f07a20844ae7.webp?v=1791279087&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 174.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-10-06T16:51:20+00:00",
       "lowest_price": 174.5,
       "highest_price": 174.5,
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 1,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 2,
       "history_start": "2026-10-06"
     },
     {
@@ -74,7 +74,7 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "S"
       ],
@@ -91,8 +91,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     },
     {
@@ -104,7 +104,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
@@ -121,8 +121,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     },
     {
@@ -134,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
@@ -151,8 +151,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     },
     {
@@ -164,25 +164,25 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/859ec97c-c592-493e-900a-01f28466e948.webp?v=1791278991&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 49.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-10-06T16:51:20+00:00",
       "lowest_price": 49.5,
       "highest_price": 49.5,
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 1,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 2,
       "history_start": "2026-10-06"
     },
     {
@@ -194,25 +194,25 @@
       "discount_percent": 50.0,
       "savings": 44.5,
       "score": 80.23,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
       "stock_status": null,
       "image_url": "https://geartrade.com/cdn/shop/files/4b173192-15cb-4b3b-961f-410c135b4448.webp?v=1791278771&width=460",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 44.5,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-10-06T16:51:20+00:00",
       "lowest_price": 44.5,
       "highest_price": 44.5,
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 1,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 2,
       "history_start": "2026-10-06"
     },
     {
@@ -224,7 +224,7 @@
       "discount_percent": 45.0,
       "savings": 62.55,
       "score": 79.11,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
@@ -241,8 +241,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     },
     {
@@ -254,7 +254,7 @@
       "discount_percent": 50.0,
       "savings": 37.5,
       "score": 78.62,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
@@ -271,8 +271,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     },
     {
@@ -284,7 +284,7 @@
       "discount_percent": 50.0,
       "savings": 37.5,
       "score": 78.62,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
@@ -301,8 +301,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 7,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 8,
       "history_start": "2026-10-03"
     },
     {
@@ -314,7 +314,7 @@
       "discount_percent": 50.0,
       "savings": 29.5,
       "score": 76.78,
-      "found_at": "2026-10-06T16:51:17+00:00",
+      "found_at": "2026-10-06T22:38:45+00:00",
       "sizes": [
         "M"
       ],
@@ -331,8 +331,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-06T16:51:20+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-06T22:38:47+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     }
   ],
