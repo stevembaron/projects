@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T17:27:31+00:00",
-  "deal_count": 11,
+  "generated_at": "2026-10-07T23:03:33+00:00",
+  "deal_count": 10,
   "sources_checked": 1,
-  "price_history_count": 841,
+  "price_history_count": 842,
   "price_change_count": 0,
   "deals": [
     {
@@ -14,7 +14,7 @@
       "discount_percent": 50.0,
       "savings": 144.5,
       "score": 102.11,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -31,8 +31,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-02"
     },
     {
@@ -44,7 +44,7 @@
       "discount_percent": 50.0,
       "savings": 174.5,
       "score": 101.51,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -61,8 +61,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 3,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 4,
       "history_start": "2026-10-06"
     },
     {
@@ -74,7 +74,7 @@
       "discount_percent": 54.0,
       "savings": 48.0,
       "score": 85.18,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "S"
       ],
@@ -91,8 +91,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-02"
     },
     {
@@ -104,7 +104,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -121,8 +121,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-02"
     },
     {
@@ -134,7 +134,7 @@
       "discount_percent": 50.0,
       "savings": 49.5,
       "score": 81.39,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -151,39 +151,9 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-02"
-    },
-    {
-      "title": "Stio Hylas Hooded Pullover - Men's",
-      "url": "https://geartrade.com/products/stio-hylas-hooded-pullover-mens-1725638",
-      "source": "Geartrade Stio men's clothing",
-      "current_price": 49.5,
-      "original_price": 99.0,
-      "discount_percent": 50.0,
-      "savings": 49.5,
-      "score": 81.39,
-      "found_at": "2026-10-07T17:27:29+00:00",
-      "sizes": [
-        "M"
-      ],
-      "stock_status": null,
-      "image_url": "https://geartrade.com/cdn/shop/files/859ec97c-c592-493e-900a-01f28466e948.webp?v=1791278991&width=460",
-      "is_cached": false,
-      "previous_price": 49.5,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-10-06T16:51:20+00:00",
-      "lowest_price": 49.5,
-      "highest_price": 49.5,
-      "variant_id": null,
-      "price_scope": "exact",
-      "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 3,
-      "history_start": "2026-10-06"
     },
     {
       "title": "Stio Hylas Sleeveless Hooded Pullover - Men's",
@@ -194,7 +164,7 @@
       "discount_percent": 50.0,
       "savings": 44.5,
       "score": 80.23,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -211,8 +181,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 3,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 4,
       "history_start": "2026-10-06"
     },
     {
@@ -224,7 +194,7 @@
       "discount_percent": 45.0,
       "savings": 62.55,
       "score": 79.11,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -241,8 +211,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-02"
     },
     {
@@ -254,7 +224,7 @@
       "discount_percent": 50.0,
       "savings": 37.5,
       "score": 78.62,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -271,8 +241,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-02"
     },
     {
@@ -284,7 +254,7 @@
       "discount_percent": 50.0,
       "savings": 37.5,
       "score": 78.62,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -301,8 +271,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-03"
     },
     {
@@ -314,7 +284,7 @@
       "discount_percent": 50.0,
       "savings": 29.5,
       "score": 76.78,
-      "found_at": "2026-10-07T17:27:29+00:00",
+      "found_at": "2026-10-07T23:03:31+00:00",
       "sizes": [
         "M"
       ],
@@ -331,8 +301,8 @@
       "variant_id": null,
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-07T17:27:31+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-07T23:03:33+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-02"
     }
   ],
