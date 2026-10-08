@@ -1,6 +1,6 @@
 # Men's Clothing Deals
 
-Generated: 2026-10-07T23:03:33+00:00
+Generated: 2026-10-08T17:26:00+00:00
 Deals found: 10
 
 1. [Stio Skillet Stretch Down Shirt Jacket - Men's](https://geartrade.com/products/stio-skillet-stretch-down-shirt-jacket-mens-1726602)
