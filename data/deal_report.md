@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-09T17:02:14+00:00
+Generated: 2026-10-09T22:36:42+00:00
 Deals found: 242
 
 1. [2026 Elan Ripstick 88 W *Sidewall Damage* - 154cm / Blue/Tan / New](https://lonepinegearx.com/products/2026-elan-ripstick-88-w-sidewall-damage-d0613)
@@ -90,7 +90,7 @@ Deals found: 242
 15. [Völkl Peregrine 82 Skis + Lowride 13 FR Bindings 2025 - Used](https://www.evo.com/products/254904-volkl-peregrine-82-skis-lowride-13-fr-bindings-2025-used)
    $369.99 was $1099.99 (66.4% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 177 cm
+   Sizes: 172 cm
    Stock: In stock
 
 16. [K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292797-k2-reckoner-124-skis-griffon-13-demo-ski-bindings-2025-used)

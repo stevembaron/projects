@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T17:02:14+00:00",
+  "generated_at": "2026-10-09T22:36:42+00:00",
   "deal_count": 242,
   "sources_checked": 7,
-  "price_history_count": 852,
+  "price_history_count": 854,
   "price_change_count": 0,
   "deals": [
     {
@@ -14,7 +14,7 @@
       "discount_percent": 69.2,
       "savings": 450.1,
       "score": 120.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "154cm"
       ],
@@ -31,8 +31,8 @@
       "variant_id": "54227055739177",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -44,7 +44,7 @@
       "discount_percent": 68.5,
       "savings": 615.51,
       "score": 117.83,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "178 cm"
       ],
@@ -61,8 +61,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -74,7 +74,7 @@
       "discount_percent": 67.1,
       "savings": 469.96,
       "score": 117.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160 cm"
       ],
@@ -91,8 +91,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-03"
     },
     {
@@ -104,7 +104,7 @@
       "discount_percent": 68.0,
       "savings": 645.91,
       "score": 116.92,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -121,8 +121,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -134,7 +134,7 @@
       "discount_percent": 65.7,
       "savings": 459.96,
       "score": 115.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160 cm"
       ],
@@ -151,8 +151,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-03"
     },
     {
@@ -164,7 +164,7 @@
       "discount_percent": 67.0,
       "savings": 670.0,
       "score": 115.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "162 cm"
       ],
@@ -181,8 +181,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -194,7 +194,7 @@
       "discount_percent": 67.0,
       "savings": 669.91,
       "score": 115.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "176 cm"
       ],
@@ -211,8 +211,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -224,7 +224,7 @@
       "discount_percent": 65.9,
       "savings": 579.95,
       "score": 114.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "161 cm"
       ],
@@ -241,8 +241,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -254,7 +254,7 @@
       "discount_percent": 66.3,
       "savings": 649.91,
       "score": 114.7,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -271,8 +271,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-03"
     },
     {
@@ -284,7 +284,7 @@
       "discount_percent": 66.7,
       "savings": 719.95,
       "score": 114.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -301,8 +301,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -314,7 +314,7 @@
       "discount_percent": 65.0,
       "savings": 520.06,
       "score": 114.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -331,8 +331,8 @@
       "variant_id": "67565409370409",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-03"
     },
     {
@@ -344,7 +344,7 @@
       "discount_percent": 64.3,
       "savings": 449.96,
       "score": 114.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -361,8 +361,8 @@
       "variant_id": "50034873204950",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -374,7 +374,7 @@
       "discount_percent": 66.0,
       "savings": 659.91,
       "score": 114.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "176 cm"
       ],
@@ -391,8 +391,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-04"
     },
     {
@@ -404,7 +404,7 @@
       "discount_percent": 65.6,
       "savings": 609.95,
       "score": 114.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "151 cm"
       ],
@@ -421,8 +421,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -434,9 +434,9 @@
       "discount_percent": 66.4,
       "savings": 730.0,
       "score": 114.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
-        "177 cm"
+        "172 cm"
       ],
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1347772.jpg?v=1788899235",
@@ -445,15 +445,15 @@
       "price_change": 0.0,
       "price_change_percent": 0.0,
       "price_trend": "flat",
-      "first_seen_at": "2026-10-08T17:26:17+00:00",
+      "first_seen_at": "2026-10-02T16:18:57+00:00",
       "lowest_price": 369.99,
       "highest_price": 369.99,
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 3,
-      "history_start": "2026-10-08"
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 13,
+      "history_start": "2026-10-02"
     },
     {
       "title": "K2 Reckoner 124 Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used",
@@ -464,7 +464,7 @@
       "discount_percent": 66.4,
       "savings": 729.91,
       "score": 114.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "169 cm"
       ],
@@ -481,8 +481,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -494,7 +494,7 @@
       "discount_percent": 65.7,
       "savings": 689.91,
       "score": 113.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -511,8 +511,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -524,7 +524,7 @@
       "discount_percent": 66.1,
       "savings": 759.95,
       "score": 113.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "177 cm"
       ],
@@ -541,8 +541,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-03"
     },
     {
@@ -554,7 +554,7 @@
       "discount_percent": 66.1,
       "savings": 759.91,
       "score": 113.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "165 cm"
       ],
@@ -571,8 +571,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -584,7 +584,7 @@
       "discount_percent": 59.0,
       "savings": 295.0,
       "score": 109.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "173 cm"
       ],
@@ -601,8 +601,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 3,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 4,
       "history_start": "2026-10-08"
     },
     {
@@ -614,7 +614,7 @@
       "discount_percent": 60.0,
       "savings": 449.97,
       "score": 109.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158 cm"
       ],
@@ -631,8 +631,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -644,7 +644,7 @@
       "discount_percent": 60.0,
       "savings": 510.0,
       "score": 108.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "179 cm"
       ],
@@ -661,8 +661,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -674,7 +674,7 @@
       "discount_percent": 60.0,
       "savings": 539.91,
       "score": 107.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -691,8 +691,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -704,7 +704,7 @@
       "discount_percent": 55.6,
       "savings": 250.02,
       "score": 106.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "152 cm"
       ],
@@ -721,8 +721,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -734,7 +734,7 @@
       "discount_percent": 60.0,
       "savings": 660.0,
       "score": 106.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -751,8 +751,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 3,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 4,
       "history_start": "2026-10-08"
     },
     {
@@ -764,7 +764,7 @@
       "discount_percent": 57.1,
       "savings": 400.01,
       "score": 106.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789987228-ScottPureFree90Ti-Women_s-15352199053565.jpg?v=1789987229",
@@ -779,8 +779,8 @@
       "variant_id": "71345030037757",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -792,7 +792,7 @@
       "discount_percent": 57.1,
       "savings": 400.01,
       "score": 106.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789987228-ScottPureFree90Ti-Women_s-15352199053565.jpg?v=1789987229",
@@ -807,8 +807,8 @@
       "variant_id": "71345032495357",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -820,7 +820,7 @@
       "discount_percent": 57.1,
       "savings": 400.01,
       "score": 106.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789987228-ScottPureFree90Ti-Women_s-15352199053565.jpg?v=1789987229",
@@ -835,8 +835,8 @@
       "variant_id": "71345032593661",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -848,7 +848,7 @@
       "discount_percent": 57.1,
       "savings": 400.01,
       "score": 106.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789987221-ScottPureFree90Ti-Unisex-15352198758653.jpg?v=1789987223",
@@ -863,8 +863,8 @@
       "variant_id": "71345029316861",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -876,7 +876,7 @@
       "discount_percent": 57.1,
       "savings": 400.01,
       "score": 106.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789987221-ScottPureFree90Ti-Unisex-15352198758653.jpg?v=1789987223",
@@ -891,8 +891,8 @@
       "variant_id": "71345028530429",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -904,7 +904,7 @@
       "discount_percent": 58.0,
       "savings": 550.0,
       "score": 105.02,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/blackdiamondheliocarbon10402copy.png?v=1757047910",
@@ -919,8 +919,8 @@
       "variant_id": "71343914844413",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -932,7 +932,7 @@
       "discount_percent": 58.0,
       "savings": 550.0,
       "score": 105.02,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/blackdiamondheliocarbon10402copy.png?v=1757047910",
@@ -947,8 +947,8 @@
       "variant_id": "71343914909949",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -960,7 +960,7 @@
       "discount_percent": 58.0,
       "savings": 550.0,
       "score": 105.02,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/blackdiamondheliocarbon10402copy.png?v=1757047910",
@@ -975,8 +975,8 @@
       "variant_id": "71343903441149",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -988,7 +988,7 @@
       "discount_percent": 57.1,
       "savings": 500.01,
       "score": 104.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156"
       ],
@@ -1005,8 +1005,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1018,7 +1018,7 @@
       "discount_percent": 57.5,
       "savings": 575.0,
       "score": 104.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156",
         "166",
@@ -1038,8 +1038,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1051,7 +1051,7 @@
       "discount_percent": 53.6,
       "savings": 375.06,
       "score": 102.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -1068,8 +1068,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1081,7 +1081,7 @@
       "discount_percent": 51.7,
       "savings": 310.02,
       "score": 100.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "165 cm"
       ],
@@ -1098,8 +1098,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 3,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 4,
       "history_start": "2026-10-08"
     },
     {
@@ -1111,7 +1111,7 @@
       "discount_percent": 51.7,
       "savings": 310.02,
       "score": 100.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "165 cm"
       ],
@@ -1128,8 +1128,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1141,7 +1141,7 @@
       "discount_percent": 56.3,
       "savings": 675.01,
       "score": 100.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "164",
         "172",
@@ -1161,8 +1161,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1174,7 +1174,7 @@
       "discount_percent": 54.8,
       "savings": 545.11,
       "score": 100.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171cm"
       ],
@@ -1191,8 +1191,8 @@
       "variant_id": "53445910036777",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1204,7 +1204,7 @@
       "discount_percent": 52.5,
       "savings": 419.96,
       "score": 99.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -1221,8 +1221,8 @@
       "variant_id": "49166059012393",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1234,7 +1234,7 @@
       "discount_percent": 51.1,
       "savings": 345.05,
       "score": 99.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "157cm"
       ],
@@ -1251,8 +1251,8 @@
       "variant_id": "52786602574121",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1264,7 +1264,7 @@
       "discount_percent": 51.1,
       "savings": 345.05,
       "score": 99.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "157cm"
       ],
@@ -1281,8 +1281,8 @@
       "variant_id": "52322328936745",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1294,7 +1294,7 @@
       "discount_percent": 51.1,
       "savings": 345.05,
       "score": 99.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166cm"
       ],
@@ -1311,8 +1311,8 @@
       "variant_id": "52322328969513",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1324,7 +1324,7 @@
       "discount_percent": 52.8,
       "savings": 475.0,
       "score": 99.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167",
         "173"
@@ -1342,8 +1342,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1355,7 +1355,7 @@
       "discount_percent": 52.6,
       "savings": 499.96,
       "score": 98.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166",
         "178"
@@ -1373,8 +1373,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1386,7 +1386,7 @@
       "discount_percent": 51.3,
       "savings": 410.05,
       "score": 98.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -1403,8 +1403,8 @@
       "variant_id": "50818480865577",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1416,7 +1416,7 @@
       "discount_percent": 51.3,
       "savings": 410.05,
       "score": 98.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -1433,8 +1433,39 @@
       "variant_id": "53268588233001",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
+      "history_start": "2026-10-02"
+    },
+    {
+      "title": "Nordica Enforcer 99 Mens Demo Skis 2026",
+      "url": "https://utahskis.com/products/nordica-enforcer-99-mens-demo-skis-2026",
+      "source": "Utah Skis demo skis sale",
+      "current_price": 474.99,
+      "original_price": 999.99,
+      "discount_percent": 52.5,
+      "savings": 525.0,
+      "score": 98.0,
+      "found_at": "2026-10-09T22:36:30+00:00",
+      "sizes": [
+        "167",
+        "173"
+      ],
+      "stock_status": "in_stock",
+      "image_url": "https://cdn.shopify.com/s/files/1/0580/7410/3867/files/NordicaEnforcer99MensDemoSkis2026_720x720.jpg?v=1774998606",
+      "is_cached": false,
+      "previous_price": 474.99,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
+      "first_seen_at": "2026-10-02T16:18:57+00:00",
+      "lowest_price": 474.99,
+      "highest_price": 474.99,
+      "variant_id": null,
+      "price_scope": "from",
+      "condition": null,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1446,7 +1477,7 @@
       "discount_percent": 52.5,
       "savings": 525.0,
       "score": 98.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "149",
         "156",
@@ -1465,39 +1496,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
-      "history_start": "2026-10-02"
-    },
-    {
-      "title": "Nordica Enforcer 99 Mens Demo Skis 2026",
-      "url": "https://utahskis.com/products/nordica-enforcer-99-mens-demo-skis-2026",
-      "source": "Utah Skis demo skis sale",
-      "current_price": 474.99,
-      "original_price": 999.99,
-      "discount_percent": 52.5,
-      "savings": 525.0,
-      "score": 98.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
-      "sizes": [
-        "167",
-        "173"
-      ],
-      "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0580/7410/3867/files/NordicaEnforcer99MensDemoSkis2026_720x720.jpg?v=1774998606",
-      "is_cached": false,
-      "previous_price": 474.99,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-10-02T16:18:57+00:00",
-      "lowest_price": 474.99,
-      "highest_price": 474.99,
-      "variant_id": null,
-      "price_scope": "from",
-      "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1509,7 +1509,7 @@
       "discount_percent": 50.0,
       "savings": 350.0,
       "score": 98.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "155cm"
       ],
@@ -1526,8 +1526,8 @@
       "variant_id": "53099371430185",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1539,7 +1539,7 @@
       "discount_percent": 49.2,
       "savings": 320.0,
       "score": 97.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -1556,8 +1556,8 @@
       "variant_id": "53099320574249",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1569,7 +1569,7 @@
       "discount_percent": 49.2,
       "savings": 320.0,
       "score": 97.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1586,8 +1586,8 @@
       "variant_id": "53099321393449",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1599,7 +1599,7 @@
       "discount_percent": 52.4,
       "savings": 550.01,
       "score": 97.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156",
         "163",
@@ -1618,8 +1618,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-05"
     },
     {
@@ -1631,7 +1631,7 @@
       "discount_percent": 50.0,
       "savings": 400.0,
       "score": 97.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789978977-BlackDiamondImpulseTi98Skis-Women_s-71343235793149.jpg?v=1789978979",
@@ -1646,8 +1646,8 @@
       "variant_id": "71343235793149",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1659,7 +1659,7 @@
       "discount_percent": 50.0,
       "savings": 425.0,
       "score": 96.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789980743-BlackDiamondImpulseTI104Ski-Women_s-71343922053373.jpg?v=1789980745",
@@ -1674,8 +1674,8 @@
       "variant_id": "71343922053373",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1687,7 +1687,7 @@
       "discount_percent": 50.0,
       "savings": 424.96,
       "score": 96.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "Gray / 148"
       ],
@@ -1704,8 +1704,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1717,7 +1717,7 @@
       "discount_percent": 50.0,
       "savings": 439.5,
       "score": 96.21,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "162 cm"
       ],
@@ -1734,8 +1734,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 3,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 4,
       "history_start": "2026-10-08"
     },
     {
@@ -1747,7 +1747,7 @@
       "discount_percent": 50.8,
       "savings": 495.05,
       "score": 96.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1764,8 +1764,8 @@
       "variant_id": "50813018538281",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -1777,7 +1777,7 @@
       "discount_percent": 50.8,
       "savings": 495.05,
       "score": 96.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -1794,8 +1794,8 @@
       "variant_id": "50813059432745",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -1807,7 +1807,7 @@
       "discount_percent": 50.8,
       "savings": 495.05,
       "score": 96.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1824,8 +1824,8 @@
       "variant_id": "50813059727657",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -1837,7 +1837,7 @@
       "discount_percent": 50.8,
       "savings": 495.05,
       "score": 96.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -1854,8 +1854,8 @@
       "variant_id": "53269184381225",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -1867,7 +1867,7 @@
       "discount_percent": 50.8,
       "savings": 495.05,
       "score": 96.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -1884,8 +1884,8 @@
       "variant_id": "53269184413993",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -1897,7 +1897,7 @@
       "discount_percent": 50.0,
       "savings": 450.05,
       "score": 96.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -1914,8 +1914,8 @@
       "variant_id": "52289998881065",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1927,7 +1927,7 @@
       "discount_percent": 50.0,
       "savings": 450.05,
       "score": 96.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -1944,8 +1944,8 @@
       "variant_id": "50820715053353",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1957,7 +1957,7 @@
       "discount_percent": 50.0,
       "savings": 475.0,
       "score": 95.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "164",
         "170",
@@ -1976,8 +1976,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -1989,7 +1989,7 @@
       "discount_percent": 48.0,
       "savings": 360.0,
       "score": 95.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -2006,8 +2006,8 @@
       "variant_id": "53226930602281",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2019,7 +2019,7 @@
       "discount_percent": 50.0,
       "savings": 525.0,
       "score": 94.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "173",
         "179"
@@ -2037,8 +2037,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2050,7 +2050,7 @@
       "discount_percent": 45.5,
       "savings": 249.96,
       "score": 94.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "169cm"
       ],
@@ -2067,8 +2067,8 @@
       "variant_id": "49196145377577",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2080,7 +2080,7 @@
       "discount_percent": 44.5,
       "savings": 280.0,
       "score": 92.52,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789988929-FactionProdigy1-15352257937661.jpg?v=1789988931",
@@ -2095,8 +2095,8 @@
       "variant_id": "71345104519421",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2108,7 +2108,7 @@
       "discount_percent": 44.5,
       "savings": 280.0,
       "score": 92.52,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789988929-FactionProdigy1-15352257937661.jpg?v=1789988931",
@@ -2123,8 +2123,8 @@
       "variant_id": "71345104683261",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2136,7 +2136,7 @@
       "discount_percent": 44.5,
       "savings": 280.0,
       "score": 92.52,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789988929-FactionProdigy1-15352257937661.jpg?v=1789988931",
@@ -2151,8 +2151,8 @@
       "variant_id": "71345104748797",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2164,7 +2164,7 @@
       "discount_percent": 45.3,
       "savings": 339.96,
       "score": 92.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -2181,8 +2181,8 @@
       "variant_id": "67548062155049",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2194,7 +2194,7 @@
       "discount_percent": 47.5,
       "savings": 475.0,
       "score": 92.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163"
       ],
@@ -2211,38 +2211,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
-      "history_start": "2026-10-02"
-    },
-    {
-      "title": "Rossignol Sprayer Pro Skis + Xpress 10 Bindings 2026",
-      "url": "https://www.evo.com/products/268822-rossignol-sprayer-pro-skis-xpress-10-bindings-2026",
-      "source": "Evo skis price ascending",
-      "current_price": 233.97,
-      "original_price": 399.95,
-      "discount_percent": 41.5,
-      "savings": 165.98,
-      "score": 91.82,
-      "found_at": "2026-10-09T17:02:01+00:00",
-      "sizes": [
-        "178 cm"
-      ],
-      "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1187966.jpg?v=1767736738",
-      "is_cached": false,
-      "previous_price": 233.97,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-10-02T16:18:57+00:00",
-      "lowest_price": 233.97,
-      "highest_price": 233.97,
-      "variant_id": null,
-      "price_scope": "from",
-      "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2254,7 +2224,7 @@
       "discount_percent": 44.3,
       "savings": 301.0,
       "score": 91.74,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy2_5.png?v=1771280061",
@@ -2269,8 +2239,8 @@
       "variant_id": "71345101242621",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2282,7 +2252,7 @@
       "discount_percent": 44.3,
       "savings": 301.0,
       "score": 91.74,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy2_5.png?v=1771280061",
@@ -2297,8 +2267,8 @@
       "variant_id": "71345101996285",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2310,7 +2280,7 @@
       "discount_percent": 44.3,
       "savings": 301.0,
       "score": 91.74,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy2_5.png?v=1771280061",
@@ -2325,8 +2295,8 @@
       "variant_id": "71345102684413",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2338,7 +2308,7 @@
       "discount_percent": 44.3,
       "savings": 301.0,
       "score": 91.74,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy2_5.png?v=1771280061",
@@ -2353,8 +2323,8 @@
       "variant_id": "71345104879869",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2366,7 +2336,7 @@
       "discount_percent": 44.4,
       "savings": 346.0,
       "score": 90.74,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy3.png?v=1771276799",
@@ -2381,8 +2351,8 @@
       "variant_id": "71345102848253",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2394,7 +2364,7 @@
       "discount_percent": 44.4,
       "savings": 346.0,
       "score": 90.74,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy3.png?v=1771276799",
@@ -2409,8 +2379,8 @@
       "variant_id": "71345100390653",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2422,7 +2392,7 @@
       "discount_percent": 44.4,
       "savings": 346.0,
       "score": 90.74,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionProdigy3.png?v=1771276799",
@@ -2437,8 +2407,8 @@
       "variant_id": "71345102979325",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2450,7 +2420,7 @@
       "discount_percent": 40.0,
       "savings": 160.0,
       "score": 90.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -2467,8 +2437,8 @@
       "variant_id": "50034862555350",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2480,7 +2450,7 @@
       "discount_percent": 40.0,
       "savings": 160.0,
       "score": 90.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -2497,8 +2467,8 @@
       "variant_id": "50034862620886",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2510,7 +2480,7 @@
       "discount_percent": 44.4,
       "savings": 368.0,
       "score": 90.18,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionStudio2_4.png?v=1771277660",
@@ -2525,8 +2495,8 @@
       "variant_id": "71345100587261",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2538,7 +2508,7 @@
       "discount_percent": 44.4,
       "savings": 368.0,
       "score": 90.18,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/FactionStudio2_4.png?v=1771277660",
@@ -2553,8 +2523,8 @@
       "variant_id": "71345100718333",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2566,7 +2536,7 @@
       "discount_percent": 44.3,
       "savings": 372.0,
       "score": 89.96,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789988850-FactionDancer2_-15352255676669.jpg?v=1789988852",
@@ -2581,8 +2551,8 @@
       "variant_id": "71345101734141",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2594,7 +2564,7 @@
       "discount_percent": 44.3,
       "savings": 372.0,
       "score": 89.96,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789988850-FactionDancer2_-15352255676669.jpg?v=1789988852",
@@ -2609,8 +2579,8 @@
       "variant_id": "71345101471997",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 14,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 15,
       "history_start": "2026-10-02"
     },
     {
@@ -2622,7 +2592,7 @@
       "discount_percent": 44.3,
       "savings": 372.0,
       "score": 89.96,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789988850-FactionDancer2_-15352255676669.jpg?v=1789988852",
@@ -2637,8 +2607,8 @@
       "variant_id": "71345101570301",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 14,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 15,
       "history_start": "2026-10-02"
     },
     {
@@ -2650,7 +2620,7 @@
       "discount_percent": 44.1,
       "savings": 373.0,
       "score": 89.66,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -2667,8 +2637,8 @@
       "variant_id": "71345104093437",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2680,7 +2650,7 @@
       "discount_percent": 40.0,
       "savings": 180.0,
       "score": 89.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -2697,8 +2667,8 @@
       "variant_id": "50034849743062",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2710,7 +2680,7 @@
       "discount_percent": 40.0,
       "savings": 180.0,
       "score": 89.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -2727,8 +2697,8 @@
       "variant_id": "50034849775830",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2740,7 +2710,7 @@
       "discount_percent": 40.0,
       "savings": 180.0,
       "score": 89.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "155cm"
       ],
@@ -2757,8 +2727,8 @@
       "variant_id": "50034849874134",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2770,7 +2740,7 @@
       "discount_percent": 40.0,
       "savings": 179.98,
       "score": 89.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1155246.jpg?v=1767735447",
@@ -2785,8 +2755,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2798,7 +2768,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "153 cm"
       ],
@@ -2815,8 +2785,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2828,7 +2798,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "161 cm"
       ],
@@ -2845,8 +2815,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2858,25 +2828,25 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "162 cm"
       ],
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1234724.jpg?v=1767738525",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 299.95,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-10-09T17:02:14+00:00",
       "lowest_price": 299.95,
       "highest_price": 299.95,
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 1,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 2,
       "history_start": "2026-10-09"
     },
     {
@@ -2888,7 +2858,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167cm"
       ],
@@ -2905,8 +2875,8 @@
       "variant_id": "50034872746198",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2918,7 +2888,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -2935,8 +2905,8 @@
       "variant_id": "50034803245270",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2948,7 +2918,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -2965,8 +2935,8 @@
       "variant_id": "50034848497878",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -2978,7 +2948,7 @@
       "discount_percent": 40.0,
       "savings": 200.0,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -2995,8 +2965,8 @@
       "variant_id": "50034847973590",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3008,7 +2978,7 @@
       "discount_percent": 40.0,
       "savings": 199.98,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -3025,8 +2995,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3038,7 +3008,7 @@
       "discount_percent": 40.0,
       "savings": 199.98,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "177 cm"
       ],
@@ -3055,8 +3025,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 12,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 13,
       "history_start": "2026-10-03"
     },
     {
@@ -3068,7 +3038,7 @@
       "discount_percent": 40.0,
       "savings": 199.98,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "161 cm"
       ],
@@ -3085,8 +3055,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3098,7 +3068,7 @@
       "discount_percent": 40.0,
       "savings": 199.98,
       "score": 89.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166cm"
       ],
@@ -3115,8 +3085,8 @@
       "variant_id": "47217402413270",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3128,7 +3098,7 @@
       "discount_percent": 40.0,
       "savings": 212.0,
       "score": 88.64,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -3145,8 +3115,8 @@
       "variant_id": "50034827722966",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3158,7 +3128,7 @@
       "discount_percent": 40.0,
       "savings": 212.0,
       "score": 88.64,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -3175,8 +3145,8 @@
       "variant_id": "50034827755734",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3188,7 +3158,7 @@
       "discount_percent": 40.0,
       "savings": 212.0,
       "score": 88.64,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -3205,8 +3175,8 @@
       "variant_id": "50034812322006",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3218,7 +3188,7 @@
       "discount_percent": 40.0,
       "savings": 220.0,
       "score": 88.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166 cm"
       ],
@@ -3235,8 +3205,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3248,7 +3218,7 @@
       "discount_percent": 40.0,
       "savings": 219.98,
       "score": 88.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "157cm"
       ],
@@ -3265,8 +3235,8 @@
       "variant_id": "50034778341590",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3278,7 +3248,7 @@
       "discount_percent": 40.0,
       "savings": 231.98,
       "score": 88.04,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167cm"
       ],
@@ -3295,8 +3265,8 @@
       "variant_id": "47560166670550",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3308,7 +3278,7 @@
       "discount_percent": 40.0,
       "savings": 231.98,
       "score": 88.04,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -3325,8 +3295,8 @@
       "variant_id": "47560166637782",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3338,7 +3308,7 @@
       "discount_percent": 40.0,
       "savings": 240.04,
       "score": 87.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "159cm"
       ],
@@ -3355,8 +3325,8 @@
       "variant_id": "53277256155433",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3368,7 +3338,7 @@
       "discount_percent": 40.0,
       "savings": 240.0,
       "score": 87.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171 cm"
       ],
@@ -3385,8 +3355,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-03"
     },
     {
@@ -3398,7 +3368,7 @@
       "discount_percent": 40.0,
       "savings": 240.0,
       "score": 87.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158 cm"
       ],
@@ -3415,8 +3385,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3428,7 +3398,7 @@
       "discount_percent": 40.0,
       "savings": 240.0,
       "score": 87.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -3445,8 +3415,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3458,7 +3428,7 @@
       "discount_percent": 40.0,
       "savings": 239.98,
       "score": 87.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -3475,8 +3445,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3488,7 +3458,7 @@
       "discount_percent": 40.0,
       "savings": 239.98,
       "score": 87.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171cm"
       ],
@@ -3505,8 +3475,8 @@
       "variant_id": "50034788303062",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3518,7 +3488,7 @@
       "discount_percent": 40.0,
       "savings": 252.0,
       "score": 87.44,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -3535,8 +3505,8 @@
       "variant_id": "50034841321686",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3548,7 +3518,7 @@
       "discount_percent": 40.1,
       "savings": 260.0,
       "score": 87.32,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -3565,8 +3535,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3578,7 +3548,7 @@
       "discount_percent": 40.0,
       "savings": 260.0,
       "score": 87.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -3595,8 +3565,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3608,7 +3578,7 @@
       "discount_percent": 40.0,
       "savings": 260.0,
       "score": 87.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160 cm"
       ],
@@ -3625,8 +3595,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3638,7 +3608,7 @@
       "discount_percent": 40.0,
       "savings": 260.0,
       "score": 87.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "179 cm"
       ],
@@ -3655,8 +3625,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3668,7 +3638,7 @@
       "discount_percent": 40.0,
       "savings": 260.0,
       "score": 87.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -3685,8 +3655,8 @@
       "variant_id": "50034836439254",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3698,7 +3668,7 @@
       "discount_percent": 40.0,
       "savings": 259.98,
       "score": 87.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "177 cm"
       ],
@@ -3715,8 +3685,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3728,7 +3698,7 @@
       "discount_percent": 40.0,
       "savings": 259.98,
       "score": 87.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -3745,8 +3715,8 @@
       "variant_id": "50034827559126",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3758,7 +3728,7 @@
       "discount_percent": 40.0,
       "savings": 259.98,
       "score": 87.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "169cm"
       ],
@@ -3775,8 +3745,8 @@
       "variant_id": "50034838339798",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-02"
     },
     {
@@ -3788,7 +3758,7 @@
       "discount_percent": 40.0,
       "savings": 267.98,
       "score": 86.96,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -3805,8 +3775,8 @@
       "variant_id": "50034855510230",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-05"
     },
     {
@@ -3818,7 +3788,7 @@
       "discount_percent": 40.0,
       "savings": 269.98,
       "score": 86.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "169 cm"
       ],
@@ -3835,8 +3805,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 5,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 6,
       "history_start": "2026-10-04"
     },
     {
@@ -3848,7 +3818,7 @@
       "discount_percent": 40.0,
       "savings": 269.98,
       "score": 86.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -3865,8 +3835,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-05"
     },
     {
@@ -3878,7 +3848,7 @@
       "discount_percent": 37.7,
       "savings": 180.95,
       "score": 86.72,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "169cm"
       ],
@@ -3895,8 +3865,8 @@
       "variant_id": "49428887601449",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 6,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 7,
       "history_start": "2026-10-06"
     },
     {
@@ -3908,7 +3878,7 @@
       "discount_percent": 40.0,
       "savings": 280.0,
       "score": 86.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166 cm"
       ],
@@ -3925,8 +3895,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3938,7 +3908,7 @@
       "discount_percent": 40.0,
       "savings": 280.0,
       "score": 86.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "165 cm"
       ],
@@ -3955,8 +3925,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -3968,7 +3938,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "169 cm"
       ],
@@ -3985,8 +3955,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-02"
     },
     {
@@ -3998,7 +3968,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166 cm"
       ],
@@ -4015,8 +3985,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-05"
     },
     {
@@ -4028,7 +3998,7 @@
       "discount_percent": 40.0,
       "savings": 279.98,
       "score": 86.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -4045,8 +4015,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4058,7 +4028,7 @@
       "discount_percent": 37.0,
       "savings": 166.5,
       "score": 86.33,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1153661.jpg?v=1767735379",
@@ -4073,8 +4043,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4086,7 +4056,7 @@
       "discount_percent": 40.1,
       "savings": 300.0,
       "score": 86.12,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170 cm"
       ],
@@ -4103,8 +4073,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4116,7 +4086,7 @@
       "discount_percent": 40.1,
       "savings": 300.0,
       "score": 86.12,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -4133,8 +4103,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-02"
     },
     {
@@ -4146,7 +4116,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172 cm"
       ],
@@ -4163,8 +4133,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 4,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 5,
       "history_start": "2026-10-02"
     },
     {
@@ -4176,7 +4146,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -4193,8 +4163,8 @@
       "variant_id": "50034859344086",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4206,7 +4176,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "154cm"
       ],
@@ -4223,8 +4193,8 @@
       "variant_id": "50034859376854",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4236,7 +4206,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4253,8 +4223,8 @@
       "variant_id": "52322209988905",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4266,7 +4236,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -4283,8 +4253,8 @@
       "variant_id": "52322350956841",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4296,7 +4266,7 @@
       "discount_percent": 40.0,
       "savings": 300.0,
       "score": 86.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -4313,8 +4283,8 @@
       "variant_id": "53277419176233",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4326,7 +4296,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "154cm"
       ],
@@ -4343,8 +4313,8 @@
       "variant_id": "50034867110102",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4356,7 +4326,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -4373,8 +4343,8 @@
       "variant_id": "53069943767337",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -4386,7 +4356,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -4403,8 +4373,8 @@
       "variant_id": "50841773375785",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4416,7 +4386,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4433,8 +4403,8 @@
       "variant_id": "53277413933353",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4446,7 +4416,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -4463,8 +4433,8 @@
       "variant_id": "53277414129961",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4476,7 +4446,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4493,8 +4463,8 @@
       "variant_id": "53097865806121",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4506,7 +4476,7 @@
       "discount_percent": 40.0,
       "savings": 320.0,
       "score": 85.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -4523,8 +4493,8 @@
       "variant_id": "53097867280681",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4536,7 +4506,7 @@
       "discount_percent": 38.6,
       "savings": 270.0,
       "score": 85.02,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "173 cm"
       ],
@@ -4553,8 +4523,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4566,7 +4536,7 @@
       "discount_percent": 38.6,
       "savings": 270.0,
       "score": 85.02,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -4583,8 +4553,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4596,7 +4566,7 @@
       "discount_percent": 38.6,
       "savings": 269.96,
       "score": 85.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -4613,8 +4583,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4626,7 +4596,7 @@
       "discount_percent": 40.9,
       "savings": 380.0,
       "score": 84.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163",
         "170"
@@ -4644,8 +4614,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4657,7 +4627,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4674,8 +4644,8 @@
       "variant_id": "50837251981609",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4687,7 +4657,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -4704,8 +4674,8 @@
       "variant_id": "50837252014377",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4717,7 +4687,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4734,8 +4704,8 @@
       "variant_id": "67547729854761",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4747,7 +4717,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4764,8 +4734,8 @@
       "variant_id": "67547687485737",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4777,7 +4747,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -4794,8 +4764,8 @@
       "variant_id": "67547687551273",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4807,7 +4777,7 @@
       "discount_percent": 39.1,
       "savings": 312.48,
       "score": 84.35,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -4824,8 +4794,8 @@
       "variant_id": "52528706486569",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 8,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 9,
       "history_start": "2026-10-04"
     },
     {
@@ -4837,7 +4807,7 @@
       "discount_percent": 37.0,
       "savings": 233.1,
       "score": 84.06,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "153 cm"
       ],
@@ -4854,8 +4824,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4867,7 +4837,7 @@
       "discount_percent": 34.6,
       "savings": 172.98,
       "score": 83.06,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171cm"
       ],
@@ -4884,8 +4854,8 @@
       "variant_id": "47270902759638",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4897,7 +4867,7 @@
       "discount_percent": 35.0,
       "savings": 192.48,
       "score": 82.85,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167 cm"
       ],
@@ -4914,8 +4884,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-05"
     },
     {
@@ -4927,7 +4897,7 @@
       "discount_percent": 35.0,
       "savings": 192.48,
       "score": 82.85,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156 cm"
       ],
@@ -4944,8 +4914,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4957,7 +4927,7 @@
       "discount_percent": 35.0,
       "savings": 209.98,
       "score": 82.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -4974,8 +4944,8 @@
       "variant_id": "67547735195945",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -4987,7 +4957,7 @@
       "discount_percent": 35.0,
       "savings": 209.98,
       "score": 82.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166cm"
       ],
@@ -5004,8 +4974,8 @@
       "variant_id": "67547735228713",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5017,7 +4987,7 @@
       "discount_percent": 35.0,
       "savings": 209.98,
       "score": 82.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -5034,8 +5004,8 @@
       "variant_id": "50837507211561",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -5047,7 +5017,7 @@
       "discount_percent": 35.4,
       "savings": 230.0,
       "score": 82.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168 cm"
       ],
@@ -5064,8 +5034,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5077,7 +5047,7 @@
       "discount_percent": 35.0,
       "savings": 244.98,
       "score": 80.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -5094,8 +5064,8 @@
       "variant_id": "52944186212649",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5107,7 +5077,7 @@
       "discount_percent": 35.0,
       "savings": 244.98,
       "score": 80.9,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -5124,8 +5094,8 @@
       "variant_id": "53440624492841",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5137,12 +5107,12 @@
       "discount_percent": 35.0,
       "savings": 262.48,
       "score": 80.25,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1790616793519D6CJGJWBM20YYKSHS3RJ.png?v=1790616806",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1790616793519D6CJGJWBM20YYKSHS3RJ_2fe3f092-6f73-437c-9025-39d3af3d3699.png?v=1791583742",
       "is_cached": false,
       "previous_price": 487.47,
       "price_change": 0.0,
@@ -5154,8 +5124,8 @@
       "variant_id": "67547752956201",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5167,7 +5137,7 @@
       "discount_percent": 35.0,
       "savings": 262.48,
       "score": 80.25,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -5184,8 +5154,8 @@
       "variant_id": "52952621089065",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5197,7 +5167,7 @@
       "discount_percent": 33.8,
       "savings": 220.0,
       "score": 80.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -5214,8 +5184,8 @@
       "variant_id": "53268661764393",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5227,7 +5197,7 @@
       "discount_percent": 33.8,
       "savings": 219.96,
       "score": 80.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -5244,8 +5214,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5257,7 +5227,7 @@
       "discount_percent": 35.3,
       "savings": 300.01,
       "score": 79.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167cm"
       ],
@@ -5274,8 +5244,8 @@
       "variant_id": "53270070690089",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-02"
     },
     {
@@ -5287,7 +5257,7 @@
       "discount_percent": 31.8,
       "savings": 174.96,
       "score": 79.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -5304,8 +5274,8 @@
       "variant_id": "67547804270889",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5317,7 +5287,7 @@
       "discount_percent": 31.8,
       "savings": 174.96,
       "score": 79.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167cm"
       ],
@@ -5334,8 +5304,8 @@
       "variant_id": "67547804303657",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5347,7 +5317,7 @@
       "discount_percent": 34.9,
       "savings": 296.96,
       "score": 78.84,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -5364,8 +5334,8 @@
       "variant_id": "67548017262889",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5377,7 +5347,7 @@
       "discount_percent": 34.9,
       "savings": 296.96,
       "score": 78.84,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "154cm"
       ],
@@ -5394,8 +5364,8 @@
       "variant_id": "67547894350121",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5407,7 +5377,7 @@
       "discount_percent": 30.0,
       "savings": 144.0,
       "score": 78.28,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "160cm"
       ],
@@ -5424,8 +5394,8 @@
       "variant_id": "50034840338646",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5437,7 +5407,7 @@
       "discount_percent": 30.0,
       "savings": 144.0,
       "score": 78.28,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168cm"
       ],
@@ -5454,8 +5424,8 @@
       "variant_id": "50034840371414",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5467,7 +5437,7 @@
       "discount_percent": 30.0,
       "savings": 159.0,
       "score": 77.58,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167cm"
       ],
@@ -5484,8 +5454,8 @@
       "variant_id": "47225504727254",
       "price_scope": "exact",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5497,7 +5467,7 @@
       "discount_percent": 30.0,
       "savings": 134.99,
       "score": 77.45,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1159257.jpg?v=1767735605",
@@ -5512,8 +5482,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5525,7 +5495,7 @@
       "discount_percent": 30.0,
       "savings": 164.99,
       "score": 77.3,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171 cm"
       ],
@@ -5542,8 +5512,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 11,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 12,
       "history_start": "2026-10-04"
     },
     {
@@ -5555,7 +5525,7 @@
       "discount_percent": 30.0,
       "savings": 180.0,
       "score": 76.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171cm"
       ],
@@ -5572,8 +5542,8 @@
       "variant_id": "50845523869993",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-03"
     },
     {
@@ -5585,7 +5555,7 @@
       "discount_percent": 30.0,
       "savings": 179.99,
       "score": 76.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -5602,8 +5572,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5615,7 +5585,7 @@
       "discount_percent": 30.0,
       "savings": 188.7,
       "score": 76.19,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "178 cm"
       ],
@@ -5632,8 +5602,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 5,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 6,
       "history_start": "2026-10-07"
     },
     {
@@ -5645,7 +5615,7 @@
       "discount_percent": 30.0,
       "savings": 209.96,
       "score": 75.2,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -5662,8 +5632,8 @@
       "variant_id": "54200778719529",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5675,7 +5645,7 @@
       "discount_percent": 30.0,
       "savings": 224.7,
       "score": 74.51,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "154cm"
       ],
@@ -5692,8 +5662,8 @@
       "variant_id": "49828159160617",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5705,7 +5675,7 @@
       "discount_percent": 30.0,
       "savings": 234.01,
       "score": 74.1,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -5722,8 +5692,8 @@
       "variant_id": "53074274320681",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5735,7 +5705,7 @@
       "discount_percent": 30.0,
       "savings": 234.0,
       "score": 74.08,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "172cm"
       ],
@@ -5752,8 +5722,8 @@
       "variant_id": "53277385490729",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5765,7 +5735,7 @@
       "discount_percent": 30.0,
       "savings": 240.04,
       "score": 73.8,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -5782,8 +5752,8 @@
       "variant_id": "53283264037161",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5795,7 +5765,7 @@
       "discount_percent": 20.0,
       "savings": 139.96,
       "score": 63.79,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -5812,8 +5782,8 @@
       "variant_id": "67547782119721",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5825,7 +5795,7 @@
       "discount_percent": 20.0,
       "savings": 139.96,
       "score": 63.79,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167cm"
       ],
@@ -5842,8 +5812,8 @@
       "variant_id": "67547782152489",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5855,7 +5825,7 @@
       "discount_percent": 20.0,
       "savings": 150.0,
       "score": 63.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "154cm"
       ],
@@ -5872,8 +5842,8 @@
       "variant_id": "67547813904681",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5885,7 +5855,7 @@
       "discount_percent": 20.0,
       "savings": 150.0,
       "score": 63.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -5902,8 +5872,8 @@
       "variant_id": "67547813937449",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5915,7 +5885,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.6,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "175 cm"
       ],
@@ -5932,8 +5902,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5945,7 +5915,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158 cm"
       ],
@@ -5962,8 +5932,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -5975,7 +5945,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "168 cm"
       ],
@@ -5992,8 +5962,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6005,7 +5975,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "163 cm"
       ],
@@ -6022,8 +5992,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6035,7 +6005,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789987497-DynastarM-ProW92OpenSkFlats_New_NeverMounted_-15352208294141.jpg?v=1789987499",
@@ -6050,8 +6020,8 @@
       "variant_id": "71345042915581",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 9,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 10,
       "history_start": "2026-10-05"
     },
     {
@@ -6063,7 +6033,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -6080,8 +6050,8 @@
       "variant_id": "51259151647017",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6093,7 +6063,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 12.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "156cm"
       ],
@@ -6110,8 +6080,8 @@
       "variant_id": "51496991228201",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6123,7 +6093,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "157 cm"
       ],
@@ -6140,8 +6110,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6153,7 +6123,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171 cm"
       ],
@@ -6170,8 +6140,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-02"
     },
     {
@@ -6183,7 +6153,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "164 cm"
       ],
@@ -6200,8 +6170,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6213,7 +6183,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "157cm"
       ],
@@ -6230,8 +6200,8 @@
       "variant_id": "53442499117353",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6243,7 +6213,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.5,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171cm"
       ],
@@ -6260,8 +6230,8 @@
       "variant_id": "53442499379497",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6273,7 +6243,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.42,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "157 cm"
       ],
@@ -6290,8 +6260,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6303,7 +6273,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.01,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789981112-DynafitFree107Skis-15351920328957.jpg?v=1789981113",
@@ -6318,8 +6288,8 @@
       "variant_id": "71343944532221",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6331,7 +6301,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.01,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789981112-DynafitFree107Skis-15351920328957.jpg?v=1789981113",
@@ -6346,8 +6316,8 @@
       "variant_id": "71343944663293",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6359,7 +6329,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.01,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0747/9096/1405/files/1789981112-DynafitFree107Skis-15351920328957.jpg?v=1789981113",
@@ -6374,39 +6344,9 @@
       "variant_id": "71343945613565",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
-    },
-    {
-      "title": "K2 Omen 85 W Skis - Women's 2027",
-      "url": "https://www.evo.com/products/264797-k2-omen-85-w-skis-women-s-2026",
-      "source": "Evo skis price ascending",
-      "current_price": 449.95,
-      "original_price": 449.95,
-      "discount_percent": null,
-      "savings": null,
-      "score": 11.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
-      "sizes": [
-        "159 cm"
-      ],
-      "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1180756.jpg?v=1767736494",
-      "is_cached": false,
-      "previous_price": 449.95,
-      "price_change": 0.0,
-      "price_change_percent": 0.0,
-      "price_trend": "flat",
-      "first_seen_at": "2026-10-07T23:03:46+00:00",
-      "lowest_price": 449.95,
-      "highest_price": 449.95,
-      "variant_id": null,
-      "price_scope": "from",
-      "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 2,
-      "history_start": "2026-10-07"
     },
     {
       "title": "Line Honey Badger Skis 2027",
@@ -6417,24 +6357,84 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "155 cm"
       ],
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1291281.jpg?v=1775835478",
       "is_cached": false,
-      "previous_price": null,
-      "price_change": null,
-      "price_change_percent": null,
-      "price_trend": "new",
+      "previous_price": 449.95,
+      "price_change": 0.0,
+      "price_change_percent": 0.0,
+      "price_trend": "flat",
       "first_seen_at": "2026-10-09T17:02:14+00:00",
       "lowest_price": 449.95,
       "highest_price": 449.95,
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 2,
+      "history_start": "2026-10-09"
+    },
+    {
+      "title": "K2 Omen 85 W Skis - Women's 2027",
+      "url": "https://www.evo.com/products/264797-k2-omen-85-w-skis-women-s-2026",
+      "source": "Evo skis price ascending",
+      "current_price": 449.95,
+      "original_price": 449.95,
+      "discount_percent": null,
+      "savings": null,
+      "score": 11.0,
+      "found_at": "2026-10-09T22:36:30+00:00",
+      "sizes": [
+        "169 cm"
+      ],
+      "stock_status": "in_stock",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1180756.jpg?v=1767736494",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-10-09T22:36:42+00:00",
+      "lowest_price": 449.95,
+      "highest_price": 449.95,
+      "variant_id": null,
+      "price_scope": "from",
+      "condition": null,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 1,
+      "history_start": "2026-10-09"
+    },
+    {
+      "title": "K2 Omen 85 Skis 2027",
+      "url": "https://www.evo.com/products/264796-k2-omen-85-skis-2026",
+      "source": "Evo skis price ascending",
+      "current_price": 449.95,
+      "original_price": 449.95,
+      "discount_percent": null,
+      "savings": null,
+      "score": 11.0,
+      "found_at": "2026-10-09T22:36:30+00:00",
+      "sizes": [
+        "169 cm"
+      ],
+      "stock_status": "in_stock",
+      "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1180743.jpg?v=1767736493",
+      "is_cached": false,
+      "previous_price": null,
+      "price_change": null,
+      "price_change_percent": null,
+      "price_trend": "new",
+      "first_seen_at": "2026-10-09T22:36:42+00:00",
+      "lowest_price": 449.95,
+      "highest_price": 449.95,
+      "variant_id": null,
+      "price_scope": "from",
+      "condition": null,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
       "observation_count": 1,
       "history_start": "2026-10-09"
     },
@@ -6447,7 +6447,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 11.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": null,
       "stock_status": "in_stock",
       "image_url": "https://cdn.shopify.com/s/files/1/0679/7882/1782/files/product-image-1335388.jpg?v=1786400015",
@@ -6462,8 +6462,8 @@
       "variant_id": null,
       "price_scope": "from",
       "condition": null,
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 8,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 9,
       "history_start": "2026-10-02"
     },
     {
@@ -6503,7 +6503,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 10.4,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -6520,8 +6520,8 @@
       "variant_id": "53440495517993",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6533,7 +6533,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 9.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "166cm"
       ],
@@ -6550,8 +6550,8 @@
       "variant_id": "53442535031081",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 13,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 14,
       "history_start": "2026-10-02"
     },
     {
@@ -6563,7 +6563,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 9.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "171cm"
       ],
@@ -6580,8 +6580,8 @@
       "variant_id": "53442535063849",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 10,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 11,
       "history_start": "2026-10-02"
     },
     {
@@ -6705,7 +6705,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 6.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -6722,8 +6722,8 @@
       "variant_id": "67540407648553",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6735,7 +6735,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 6.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "167cm"
       ],
@@ -6752,8 +6752,8 @@
       "variant_id": "67540407419177",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6765,7 +6765,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 6.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
@@ -6782,8 +6782,8 @@
       "variant_id": "54135721197865",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6795,7 +6795,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 6.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -6812,8 +6812,8 @@
       "variant_id": "54135721263401",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6825,7 +6825,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 5.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -6842,8 +6842,8 @@
       "variant_id": "67541528740137",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6855,7 +6855,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 5.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "154cm"
       ],
@@ -6872,8 +6872,8 @@
       "variant_id": "67540449132841",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6885,7 +6885,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 5.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -6902,8 +6902,8 @@
       "variant_id": "53442366996777",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6915,12 +6915,12 @@
       "discount_percent": null,
       "savings": null,
       "score": 5.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "158cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1789503954561MDBB5KCAIPNXCSKU1FTM.png?v=1789506614",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1789503954561MDBB5KCAIPNXCSKU1FTM_ed3bf2e8-d00b-4f99-9135-d25fc06769b1.png?v=1791568745",
       "is_cached": false,
       "previous_price": 749.99,
       "price_change": 0.0,
@@ -6932,8 +6932,8 @@
       "variant_id": "54135554113833",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6945,12 +6945,12 @@
       "discount_percent": null,
       "savings": null,
       "score": 5.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1789503954561MDBB5KCAIPNXCSKU1FTM.png?v=1789506614",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/1789503954561MDBB5KCAIPNXCSKU1FTM_ed3bf2e8-d00b-4f99-9135-d25fc06769b1.png?v=1791568745",
       "is_cached": false,
       "previous_price": 749.99,
       "price_change": 0.0,
@@ -6962,8 +6962,8 @@
       "variant_id": "54135554507049",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -6975,12 +6975,12 @@
       "discount_percent": null,
       "savings": null,
       "score": 3.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
       "stock_status": "in_stock",
-      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/178733369821017IJRBY042IF8XAV3TCF.png?v=1787949971",
+      "image_url": "https://cdn.shopify.com/s/files/1/0286/7439/2148/files/178733369821017IJRBY042IF8XAV3TCF_f8e4fdfd-5450-4358-ad9c-59bcba8a6a14.png?v=1791579000",
       "is_cached": false,
       "previous_price": 849.95,
       "price_change": 0.0,
@@ -6992,8 +6992,8 @@
       "variant_id": "53442401042729",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
@@ -7005,7 +7005,7 @@
       "discount_percent": null,
       "savings": null,
       "score": 3.0,
-      "found_at": "2026-10-09T17:02:01+00:00",
+      "found_at": "2026-10-09T22:36:30+00:00",
       "sizes": [
         "170cm"
       ],
@@ -7022,8 +7022,8 @@
       "variant_id": "53442359558441",
       "price_scope": "exact",
       "condition": "new",
-      "last_verified_at": "2026-10-09T17:02:14+00:00",
-      "observation_count": 15,
+      "last_verified_at": "2026-10-09T22:36:42+00:00",
+      "observation_count": 16,
       "history_start": "2026-10-02"
     },
     {
