@@ -1,7 +1,7 @@
 # Ski Gear Deals
 
-Generated: 2026-10-08T23:19:59+00:00
-Deals found: 241
+Generated: 2026-10-09T17:02:14+00:00
+Deals found: 242
 
 1. [2026 Elan Ripstick 88 W *Sidewall Damage* - 154cm / Blue/Tan / New](https://lonepinegearx.com/products/2026-elan-ripstick-88-w-sidewall-damage-d0613)
    $199.89 was $649.99 (69.2% off) - Lone Pine new flat skis
@@ -156,4 +156,5 @@ Deals found: 241
 
 ## Source Errors
 
+- CampSaver backcountry skis: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
 - J Skis Secret Stash: HTTP Error 403: Forbidden; reader fallback failed: HTTP Error 403: Forbidden
