@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-09T22:36:42+00:00
+Generated: 2026-10-10T15:54:29+00:00
 Deals found: 242
 
 1. [2026 Elan Ripstick 88 W *Sidewall Damage* - 154cm / Blue/Tan / New](https://lonepinegearx.com/products/2026-elan-ripstick-88-w-sidewall-damage-d0613)
