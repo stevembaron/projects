@@ -1,4 +1,4 @@
-# Gear brief | 2026-10-10
+# Gear brief | 2026-10-11
 
 ## Act now
 Nothing clears the bar today.
