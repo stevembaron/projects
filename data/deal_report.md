@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-10T21:41:12+00:00
+Generated: 2026-10-11T16:21:17+00:00
 Deals found: 242
 
 1. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
@@ -102,7 +102,7 @@ Deals found: 242
 17. [Völkl M7 Mantra Skis + Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.94 (66.1% off) - Evo skis price ascending
    Price trend: Same as prior day
-   Sizes: 177 cm
+   Sizes: 170 cm
    Stock: In stock
 
 18. [Season Pass Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292770-season-pass-skis-griffon-13-demo-ski-bindings-2025-used)
