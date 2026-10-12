@@ -1,4 +1,4 @@
-# Gear brief | 2026-10-11
+# Gear brief | 2026-10-12
 
 ## Act now
 Nothing clears the bar today.
@@ -7,5 +7,4 @@ Nothing clears the bar today.
 No additional picks.
 
 ## Coverage
-- CampSaver backcountry skis: unavailable or incomplete this run.
 - J Skis Secret Stash: unavailable or incomplete this run.
