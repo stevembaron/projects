@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-13T17:39:23+00:00
+Generated: 2026-10-13T22:42:26+00:00
 Deals found: 242
 
 1. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
@@ -11,7 +11,7 @@ Deals found: 242
 
 2. [K2 Mindbender 90 C Skis + Marker Squire 10 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292748-k2-mindbender-90-c-skis-squire-10-demo-ski-bindings-2025-used)
    $229.99 was $699.95 (67.1% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 172 cm
    Stock: In stock
 
@@ -156,5 +156,4 @@ Deals found: 242
 
 ## Source Errors
 
-- CampSaver backcountry skis: Blocked by retailer anti-bot page: before we continue; reader fallback failed: Blocked by retailer anti-bot page: before we continue
 - J Skis Secret Stash: No products parsed; availability is unverified
