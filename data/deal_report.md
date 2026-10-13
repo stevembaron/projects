@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-12T19:51:48+00:00
+Generated: 2026-10-13T00:37:58+00:00
 Deals found: 242
 
 1. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
@@ -53,7 +53,7 @@ Deals found: 242
 
 9. [2025 Faction Agent 1X - 154cm / Teal / New](https://lonepinegearx.com/products/2025-faction-agent-1x-069d4)
    $262.99 was $749.00 (64.9% off) - Lone Pine new flat skis
-   Price trend: Down $261.31 (49.8%) since prior day
+   Price trend: Same as prior day
    Sizes: 154cm
    Stock: In stock
 
@@ -107,7 +107,7 @@ Deals found: 242
 
 18. [Völkl M7 Mantra Skis + Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292742-volkl-m7-mantra-skis-griffon-13-demo-ski-bindings-2025-used)
    $389.99 was $1149.94 (66.1% off) - Evo skis price ascending
-   Price trend: Newly tracked
+   Price trend: Same as prior day
    Sizes: 163 cm
    Stock: In stock
 
@@ -156,4 +156,5 @@ Deals found: 242
 
 ## Source Errors
 
+- CampSaver backcountry skis: Blocked by retailer anti-bot page: before we continue; reader fallback failed: Blocked by retailer anti-bot page: before we continue
 - J Skis Secret Stash: No products parsed; availability is unverified
