@@ -1,6 +1,6 @@
 # Ski Gear Deals
 
-Generated: 2026-10-13T00:37:58+00:00
+Generated: 2026-10-13T17:39:23+00:00
 Deals found: 242
 
 1. [Peak Skis Peak 98 By Dav Skis 2025](https://www.evo.com/products/275505-peak-skis-peak-98-by-dav-skis-2025)
@@ -11,8 +11,8 @@ Deals found: 242
 
 2. [K2 Mindbender 90 C Skis + Marker Squire 10 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292748-k2-mindbender-90-c-skis-squire-10-demo-ski-bindings-2025-used)
    $229.99 was $699.95 (67.1% off) - Evo skis price ascending
-   Price trend: Same as prior day
-   Sizes: 160 cm
+   Price trend: Newly tracked
+   Sizes: 172 cm
    Stock: In stock
 
 3. [K2 Mindbender 96 C Skis + Marker Griffon 13 Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292752-k2-mindbender-96-c-skis-griffon-13-demo-ski-bindings-2025-used)
@@ -141,13 +141,13 @@ Deals found: 242
    Sizes: 152 cm
    Stock: In stock
 
-24. [Völkl Peregrine 82 Skis + Lowride 12 TCX Demo Ski Bindings 2025 - Used](https://www.evo.com/products/292784-volkl-peregrine-82-skis-lowride-12-tcx-demo-ski-bindings-2025-used)
-   $439.99 was $1099.99 (60.0% off) - Evo skis price ascending
+24. [Scott Pure Free 90 Ti - Women's - Brand new-with tags / 154 / No Color](https://thegearroom.com/products/scott-pure-free-90-ti-womens)
+   $299.99 was $700.00 (57.1% off) - The Gear Room skis price ascending
    Price trend: Same as prior day
-   Sizes: 172 cm
+
    Stock: In stock
 
-25. [Scott Pure Free 90 Ti - Women's - Brand new-with tags / 154 / No Color](https://thegearroom.com/products/scott-pure-free-90-ti-womens)
+25. [Scott Pure Free 90 Ti - Women's - Brand new-with tags / 160 / No Color](https://thegearroom.com/products/scott-pure-free-90-ti-womens)
    $299.99 was $700.00 (57.1% off) - The Gear Room skis price ascending
    Price trend: Same as prior day
 
