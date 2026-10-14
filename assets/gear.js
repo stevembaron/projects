@@ -183,26 +183,12 @@ function card(item) {
 }
 
 /* ---------- brief ---------- */
-function localBrief() {
-  const b = store.get('aiBrief', null);
-  return b && b.snapshot_id === G.packet.snapshot_id ? b : null;
-}
-function refChip(id) {
-  const item = D.items.find(i => i.id === id);
-  if (!item) return `<span class="ref gone">No longer listed</span>`;
-  const v = item._v ? item._v[0] : 'pass';
-  return `<a class="ref v-${v}" href="#d-${esc(id)}" data-ref="${esc(id)}"><i></i>${esc(item.title.replace(/ Skis?\b.*$/, '').slice(0, 42))}<b>${esc(usd(item._fit ? item._fit.price || item.price : item.price))}</b></a>`;
-}
 function renderBrief() {
   const el = $('brief');
   const kind = state.category;
-  const houseKey = kind === 'clothing' ? 'clothing' : (state.profile === 'family' && G.briefs.house.family ? 'family' : 'ski');
-  const house = G.briefs.house[houseKey];
-  const ai = kind === 'ski' && state.profile === 'me' ? (localBrief() || (G.briefs.ai_current ? G.briefs.ai : null)) : null;
-  const mode = ai && store.get('briefMode', 'ai') === 'ai' ? 'ai' : 'house';
-  const b = mode === 'ai' ? ai : house;
+  const key = kind === 'clothing' ? 'clothing' : (state.profile === 'family' && G.briefs.house.family ? 'family' : 'ski');
+  const b = G.briefs.house[key];
   if (!b) { el.innerHTML = ''; return; }
-  const kicker = `${mode === 'ai' ? "Editor's brief" : 'Market brief'} · ${esc(when(mode === 'ai' ? (b.data_generated_at || b.accepted_at) : G.briefs.generated_at))}`;
   const line = l => {
     if (typeof l === 'string') return `<li>${esc(l)}</li>`;
     if (!l.ref) return `<li>${esc(l.text)}</li>`;
@@ -210,15 +196,10 @@ function renderBrief() {
     const v = item && item._v ? item._v[0] : 'pass';
     return `<li class="bl v-${v}"><a href="#d-${esc(l.ref)}" data-ref="${esc(l.ref)}">${esc(l.text)}</a></li>`;
   };
-  const section = s => `<div class="b-sec"><h3>${esc(s.title)}</h3>${s.body ? `<p>${esc(s.body)}</p>` : ''}${s.lines ? `<ul>${s.lines.map(line).join('')}</ul>` : ''}${(s.refs || []).length ? `<div class="refs">${s.refs.slice(0, 6).map(refChip).join('')}</div>` : ''}</div>`;
-  const all = b.sections || [], open = mode === 'ai' ? 3 : 2;
-  const rest = all.slice(open);
-  const sections = all.slice(0, open).map(section).join('') + (rest.length ? `</div><details class="b-more"><summary>More in the brief: ${rest.map(s => esc(s.title)).join(' · ')}</summary><div class="b-body">${rest.map(section).join('')}</div></details><div>` : '');
-  const tabs = ai ? `<div class="b-tabs" role="tablist"><button type="button" role="tab" data-brief="ai" aria-selected="${mode === 'ai'}">Editor</button><button type="button" role="tab" data-brief="house" aria-selected="${mode === 'house'}">Market data</button></div>` : '';
-  const note = mode === 'ai' ? `<p class="b-note">Written in ChatGPT from this data packet${localBrief() ? ' · saved on this device only' : ''}. Every price and listing it mentions was checked against the data.</p>`
-    : `<p class="b-note">Generated automatically from today's listings.${kind === 'ski' && state.profile === 'me' ? ` <button type="button" class="linkish" id="openStudio">Write the editor's brief with ChatGPT</button>` : ''}</p>`;
-  const status = G.briefs.ai_status && G.briefs.ai_status.status === 'rejected' && kind === 'ski' ? `<p class="b-warn">The last ChatGPT brief (${esc(G.briefs.ai_status.file || '')}) was not published: ${esc((G.briefs.ai_status.errors || [])[0] || '')}</p>` : '';
-  el.innerHTML = `<div class="b-head"><p class="kicker">${kicker}</p>${tabs}</div><h2 id="briefHeadline">${esc(b.headline)}</h2>${b.dek ? `<p class="dek">${esc(b.dek)}</p>` : ''}<div class="b-body">${sections}</div>${status}${note}`;
+  const section = s => `<div class="b-sec"><h3>${esc(s.title)}</h3><ul>${(s.lines || []).map(line).join('')}</ul></div>`;
+  const all = b.sections || [], rest = all.slice(2);
+  const sections = all.slice(0, 2).map(section).join('') + (rest.length ? `</div><details class="b-more"><summary>More in the brief: ${rest.map(s => esc(s.title)).join(' · ')}</summary><div class="b-body">${rest.map(section).join('')}</div></details><div>` : '');
+  el.innerHTML = `<div class="b-head"><p class="kicker">The brief · ${esc(when(G.briefs.generated_at))}</p></div><h2 id="briefHeadline">${esc(b.headline)}</h2>${b.dek ? `<p class="dek">${esc(b.dek)}</p>` : ''}<div class="b-body">${sections}</div><p class="b-note">Written automatically from today's listings.</p>`;
 }
 
 /* ---------- list ---------- */
@@ -387,7 +368,7 @@ function prefsForm() {
   const conds = ['new', 'blem', 'new_with_tags', 'demo', 'excellent', 'good', 'fair', 'used'];
   $('prefsDialog').innerHTML = `<form method="dialog" id="prefsForm" novalidate>
   <div class="sheet-head"><h2 id="prefsTitle">Preferences · ${esc(p.name)}</h2><button type="button" class="x" data-close aria-label="Close">×</button></div>
-  <p class="muted">Changes apply in this browser right away. To make the twice-daily build and the brief use them, export and replace <code>config/deal_preferences.json</code> (<a href="${esc(G.repo)}/edit/main/config/deal_preferences.json" target="_blank" rel="noopener">edit on GitHub</a>).</p>
+  <p class="muted">Changes apply in this browser right away. To make the twice-daily build use them, export and replace <code>config/deal_preferences.json</code> (<a href="${esc(G.repo)}/edit/main/config/deal_preferences.json" target="_blank" rel="noopener">edit on GitHub</a>).</p>
   ${s ? `<fieldset><legend>Skis</legend><div class="grid">
     <label>Ideal length from (cm)<input name="ideal0" type="number" min="100" max="210" value="${s.lengths.ideal[0]}"></label>
     <label>to<input name="ideal1" type="number" min="100" max="210" value="${s.lengths.ideal[1]}"></label>
@@ -458,85 +439,6 @@ function exportPrefs() {
   setTimeout(() => URL.revokeObjectURL(url), 1500);
 }
 
-/* ---------- ChatGPT brief studio ---------- */
-function allowedNumbers(pkt) {
-  const dollars = new Set(), percents = new Set();
-  for (const e of Object.values(pkt.listings)) {
-    for (const k of ['price', 'fmv', 'vs_fmv', 'list_price', 'previous_price', 'low_90', 'strong_at']) if (typeof e[k] === 'number') dollars.add(e[k]);
-    if (typeof e.change === 'number') dollars.add(Math.abs(e.change));
-    for (const k of ['vs_fmv_pct', 'claimed_pct', 'change_pct']) if (typeof e[k] === 'number') percents.add(Math.abs(e[k]));
-    for (const t of [].concat(e.evidence || [], e.pros || [], e.cons || [], e.flags || [])) {
-      for (const m of t.matchAll(/\$([\d,]+(?:\.\d+)?)/g)) dollars.add(Number(m[1].replace(/,/g, '')));
-      for (const m of t.matchAll(/(\d+(?:\.\d+)?)%/g)) percents.add(Number(m[1]));
-    }
-  }
-  const r = pkt.reader || {};
-  if (typeof r.ski_budget === 'number') dollars.add(r.ski_budget);
-  if (r.clothing && typeof r.clothing.budget === 'number') dollars.add(r.clothing.budget);
-  for (const grp of [pkt.skis || {}, pkt.clothing || {}]) {
-    for (const s of grp.stores || []) if (s.median_claimed_pct != null) percents.add(s.median_claimed_pct);
-    const t = grp.trend || {};
-    for (const k of ['claimed_then', 'claimed_now']) if (t[k] != null) percents.add(t[k]);
-  }
-  return [dollars, percents];
-}
-function validateReply(raw, pkt) {
-  let sub;
-  try { sub = JSON.parse(String(raw).trim().replace(/^```(?:json)?\s*|\s*```$/g, '')); } catch (e) { return [null, ['The reply is not valid JSON. Ask ChatGPT to reply with the JSON only.']]; }
-  const errors = [];
-  if (!sub || typeof sub !== 'object' || Array.isArray(sub)) return [null, ['The reply must be a JSON object']];
-  if (sub.snapshot_id !== pkt.snapshot_id) errors.push('snapshot_id does not match this data packet (the data has refreshed; copy a new packet)');
-  if (typeof sub.headline !== 'string' || sub.headline.length < 5 || sub.headline.length > 110) errors.push('headline must be 5-110 characters');
-  if (sub.dek != null && (typeof sub.dek !== 'string' || sub.dek.length > 300)) errors.push('dek must be at most 300 characters');
-  const sections = Array.isArray(sub.sections) && sub.sections.length >= 1 && sub.sections.length <= 7 ? sub.sections : (errors.push('sections must be a list of 1-7'), []);
-  const [dollars, percents] = allowedNumbers(pkt);
-  const texts = [sub.headline || '', sub.dek || ''];
-  sections.forEach((s, i) => {
-    if (!s || typeof s !== 'object') { errors.push(`section ${i + 1} must be an object`); return; }
-    if (typeof s.title !== 'string' || !s.title.length || s.title.length > 60) errors.push(`section ${i + 1}: title must be 1-60 characters`);
-    if (typeof s.body !== 'string' || !s.body.length || s.body.length > 900) errors.push(`section ${i + 1}: body must be 1-900 characters`);
-    const refs = Array.isArray(s.refs) ? s.refs : [];
-    const unknown = refs.filter(r => !(r in pkt.listings));
-    if (!Array.isArray(s.refs || []) || refs.length > 8 || unknown.length) errors.push(`section ${i + 1}: unknown listing ids ${JSON.stringify(unknown)}`);
-    texts.push(s.title || '', s.body || '');
-  });
-  const joined = texts.join('\n');
-  if (/https?:\/\/|www\.|\]\(/i.test(joined)) errors.push('Links are not allowed; the page adds verified links itself');
-  for (const m of joined.matchAll(/\$\s?([\d,]+(?:\.\d+)?)/g)) { const v = Number(m[1].replace(/,/g, '')); if (![...dollars].some(a => Math.abs(v - a) <= 1)) errors.push(`$${m[1]} does not match any price in the packet`); }
-  for (const m of joined.matchAll(/(\d+(?:\.\d+)?)\s?%/g)) { const v = Number(m[1]); if (![...percents].some(a => Math.abs(v - a) <= 1.5)) errors.push(`${m[1]}% does not match any percentage in the packet`); }
-  const buyNow = new Set(Object.entries(pkt.listings).filter(([, e]) => e.verdict === 'buy_now').map(([k]) => k));
-  for (const s of sections) if (s && /\bbuy now\b/i.test(`${s.title} ${s.body}`) && (s.refs || []).length && !(s.refs || []).some(r => buyNow.has(r))) errors.push(`'${s.title}': says buy now about listings whose verdict is not Buy now`);
-  if (errors.length) return [null, errors.slice(0, 12)];
-  return [{snapshot_id: pkt.snapshot_id, headline: sub.headline.trim(), dek: (sub.dek || '').trim(), sections: sections.map(s => ({title: s.title, body: s.body, refs: s.refs || []})), accepted_at: new Date().toISOString(), data_generated_at: pkt.generated_at, author: 'chatgpt'}, []];
-}
-function studio() {
-  const dlg = $('studioDialog');
-  dlg.innerHTML = `<div class="sheet-head"><h2 id="studioTitle">Write the editor's brief with ChatGPT</h2><button type="button" class="x" data-close aria-label="Close">×</button></div>
-  <p class="muted">Uses your ChatGPT subscription in the normal ChatGPT app. Nothing here calls an API or stores a login.</p>
-  <ol class="steps">
-    <li><b>Copy today's data packet.</b> It holds the verified listings, scores and your preferences, plus instructions.
-      <div class="row"><button type="button" id="copyPacket">Copy packet</button><a class="ghost button" href="https://chatgpt.com/" target="_blank" rel="noopener">Open ChatGPT ↗</a></div></li>
-    <li><b>Paste it into a new ChatGPT chat</b> and send. It replies with JSON.</li>
-    <li><b>Paste the reply here.</b> It is checked against the data: unknown listings, links, and any price or percentage not in the packet are rejected.
-      <textarea id="reply" rows="7" placeholder='{"snapshot_id": "...", "headline": "...", ...}'></textarea>
-      <div class="row"><button type="button" id="checkReply">Check reply</button></div></li>
-  </ol>
-  <div id="studioResult" aria-live="polite"></div>`;
-  dlg.showModal();
-}
-function studioResult(brief, errors) {
-  const box = $('studioResult');
-  if (errors.length) { box.innerHTML = `<div class="b-warn"><b>Not accepted.</b><ul>${errors.map(e => `<li>${esc(e)}</li>`).join('')}</ul><p>Ask ChatGPT to fix these and reply with corrected JSON.</p></div>`; return; }
-  const json = JSON.stringify({snapshot_id: brief.snapshot_id, headline: brief.headline, dek: brief.dek, sections: brief.sections}, null, 1);
-  const stamp = new Date().toISOString().replace(/[:.]/g, '').slice(0, 15);
-  const publishURL = `${G.repo}/new/main?filename=${encodeURIComponent(`data/brief_inbox/${stamp}.json`)}&value=${encodeURIComponent(json)}`;
-  box.innerHTML = `<div class="b-ok"><p><b>Accepted.</b> “${esc(brief.headline)}”</p>
-    <div class="row"><button type="button" id="useLocal">Show it on this device</button>
-    <a class="button ghost" href="${esc(publishURL)}" target="_blank" rel="noopener" id="publishRepo">Publish for every device ↗</a><button type="button" class="ghost" id="copyReply">Copy JSON</button></div>
-    <p class="muted">Publishing opens GitHub with the reply prefilled as a new file in <code>data/brief_inbox/</code>. Commit it, and the site checks it again and republishes in a few minutes.</p></div>`;
-  $('useLocal').onclick = () => { store.set('aiBrief', brief); store.set('briefMode', 'ai'); $('studioDialog').close(); renderBrief(); location.hash = 'brief'; };
-  $('copyReply').onclick = () => copy(json, $('copyReply'));
-}
 async function copy(text, button) {
   try { await navigator.clipboard.writeText(text); button.textContent = 'Copied'; }
   catch (e) { const t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); button.textContent = 'Copied'; } catch (e2) { button.textContent = 'Copy failed'; } t.remove(); }
@@ -569,7 +471,6 @@ document.addEventListener('click', e => {
   if (t.dataset.category) { state.category = t.dataset.category; state.stores = []; state.categories = []; limit = 40; render(); return; }
   if (t.dataset.view) { state.view = t.dataset.view; limit = 40; render(); return; }
   if (t.dataset.group) { toggle(state[t.dataset.group], t.dataset.value); if (t.dataset.group === 'kinds' && !state.kinds.length) state.kinds = ['ski']; limit = 40; render(); $('filters').hidden = false; return; }
-  if (t.dataset.brief) { store.set('briefMode', t.dataset.brief); renderBrief(); return; }
   if (t.dataset.jump) {
     const map = {buy_now: 'foryou', strong: 'foryou', watch: 'foryou', new: 'new', drops: 'drops'};
     if (t.dataset.jump === 'stores') { $('health').open = true; $('health').scrollIntoView({behavior: 'smooth'}); return; }
@@ -609,9 +510,6 @@ document.addEventListener('click', e => {
     case 'openPrefs': prefsForm(); $('prefsDialog').showModal(); break;
     case 'prefsExport': try { prefs = readPrefsForm(); } catch (err) { $('prefsError').textContent = err.message; break; } store.set('prefs', prefs); exportPrefs(); break;
     case 'prefsReset': prefs = clone(published); store.set('prefs', null); $('prefsDialog').close(); render(); break;
-    case 'openStudio': studio(); break;
-    case 'copyPacket': copy(G.prompt, t); break;
-    case 'checkReply': { const [b, errs] = validateReply($('reply').value, G.packet); studioResult(b, errs); break; }
     case 'markSeen': markSeen(); $('alerts').hidden = true; break;
     case 'openCompare': compareDialog(); break;
     case 'clearCompare': compare = []; render(); break;
@@ -646,5 +544,5 @@ $('search').addEventListener('input', e => { clearTimeout(searchTimer); searchTi
 
 render();
 if (location.hash.startsWith('#d-')) setTimeout(() => { const x = document.querySelector(location.hash); if (x) x.scrollIntoView({block: 'center'}); }, 50);
-window.GearApp = {state: () => state, validateReply, evaluateAll};
+window.GearApp = {state: () => state, evaluateAll};
 })();

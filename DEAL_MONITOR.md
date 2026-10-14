@@ -1,17 +1,16 @@
 # Powder Hunter: gear deals
 
-A personal ski-gear deal finder. Twice a day it reads sale, demo, blemished and secondhand listings from about twenty stores, works out which prices are actually good, ranks them for each person in the household, writes a brief, and publishes a static dashboard at `https://stevembaron.github.io/projects/ski-deals/`.
+A personal ski-gear deal finder. Twice a day it reads sale, demo, blemished and secondhand listings from about twenty stores, works out which prices are actually good, ranks them for each person in the household, writes a brief from the data, and publishes a static dashboard at `https://stevembaron.github.io/projects/ski-deals/`.
 
 ## What runs where
 
 | Part | Automatic? | Where |
 |---|---|---|
-| Collect listings, value them, rank them, write the market brief, build the site | Automatic, 04:17 and 12:17 Mountain | `.github/workflows/gear-deals.yml` (also runs on every push to main and on manual dispatch) |
-| Editor's brief in ChatGPT | Your ChatGPT scheduled task, or by hand from the dashboard | `CHATGPT_BRIEF_TASK.md` |
+| Collect listings, value them, rank them, write the brief, build the site | Automatic, 04:17 and 12:17 Mountain | `.github/workflows/gear-deals.yml` (also runs on every push to main and on manual dispatch) |
 | Preferences, saved items, targets | Instantly in your browser; export to make the daily build use them | dashboard **Preferences**, `config/deal_preferences.json` |
 | Local run | When you double-click | `Run Ski Deals.command` (opens the dashboard on this Mac; pushes nothing) |
 
-No paid services, API keys or servers. GitHub Actions and Pages are the only infrastructure; the optional Cloudflare worker in `external-scheduler/` can wake the workflow if GitHub's own schedule is late.
+No AI services, paid services, API keys or servers. GitHub Actions and Pages are the only infrastructure; the optional Cloudflare worker in `external-scheduler/` can wake the workflow if GitHub's own schedule is late.
 
 ## Commands
 
@@ -19,7 +18,6 @@ No paid services, API keys or servers. GitHub Actions and Pages are the only inf
 python3 scripts/gear_run.py                 # collect from every store and build
 python3 scripts/gear_run.py --offline       # rebuild from the last collection (after editing preferences)
 python3 scripts/gear_run.py --only evo,geartrade
-python3 scripts/gear_run.py --accept-brief reply.json
 python3 -m unittest discover tests
 make serve                                   # then open http://127.0.0.1:8000/ski-deals/
 ```
@@ -59,13 +57,11 @@ A target price you set wins: at or below it the listing becomes Buy now (or Stro
 
 ## Preferences (`config/deal_preferences.json`, schema 3)
 
-Profiles (`me`, `family`) each have ski length ranges, budget, style, ability, cuts, categories to avoid, categories already owned, the skis you own (`quiver`), conditions and binding preference, plus clothing sizes and budget. Watch and muted terms, saved, dismissed and owned listings and target prices are shared. The two quiver skis came from an earlier ChatGPT brief; edit them if they are wrong.
+Profiles (`me`, `family`) each have ski length ranges, budget, style, ability, cuts, categories to avoid, categories already owned, the skis you own (`quiver`), conditions and binding preference, plus clothing sizes and budget. Watch and muted terms, saved, dismissed and owned listings and target prices are shared. The two quiver skis came from an earlier brief; edit them if they are wrong.
 
 ## The brief
 
-Every build writes a **market brief** from the data (`scripts/gear/brief.py`): best picks for you, what moved (price cuts, new listings, sold items), listings close to a buy with the price that would make them a strong deal, market notes by store and brand, good deals that don't fit you, listings to double-check, and coverage gaps. It always has something real to say, even when nothing is worth buying.
-
-The optional **editor's brief** is written in ChatGPT from `data/brief_packet.json`. The reply is checked before it is shown: every listing must exist, every dollar figure and percentage must match the packet, no links, and nothing may be called "Buy now" unless its verdict is. From the dashboard you can show an accepted reply on your device immediately, or publish it for every device by committing it to `data/brief_inbox/` (the dashboard opens GitHub with the file prefilled). Rejections are shown on the page with the reasons.
+Every build writes the brief from the data (`scripts/gear/brief.py`): best picks for you, what moved (price cuts, new listings, sold items), listings close to a buy with the price that would make them a strong deal, market notes by store and brand, good deals that don't fit you, listings to double-check, and coverage gaps. Every number in it comes from the listings, and it always has something real to say, even when nothing is worth buying.
 
 ## Dashboard
 
@@ -78,9 +74,6 @@ The optional **editor's brief** is written in ChatGPT from `data/brief_packet.js
 | `data/offers.json` | every normalized listing from the last collection |
 | `data/history.json` | price changes per listing size (only changes are stored) and the run log |
 | `data/run.json` | per-store results for the last run and a market trend log |
-| `data/brief.json` | market briefs, the accepted ChatGPT brief and its status |
-| `data/brief_packet.json` | the packet for ChatGPT; `brief_packets.json` keeps the last six |
-| `data/brief_inbox/` | drop a ChatGPT reply here to publish it |
-| `data/briefs/` | archive of accepted ChatGPT briefs |
+| `data/brief.json` | the briefs for skis, clothing and the family profile |
 
 The old `/clothing-deals/` and `/deal-brief/` addresses redirect to the dashboard.

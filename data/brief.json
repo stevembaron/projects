@@ -338,16 +338,5 @@
       "generated_at": "2026-10-14T12:14:33+00:00",
       "author": "house"
     }
-  },
-  "ai": null,
-  "ai_current": false,
-  "ai_status": {
-    "status": "rejected",
-    "file": "chatgpt_decisions.json",
-    "at": "2026-10-14T04:00:35+00:00",
-    "errors": [
-      "This reply uses the old picks-only format. Paste the new instructions from CHATGPT_BRIEF_TASK.md into the ChatGPT scheduled task."
-    ]
-  },
-  "snapshot_id": "113a9a0e0cd4c618"
+  }
 }
