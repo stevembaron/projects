@@ -1,7 +1,7 @@
 name: Gear deals and site
 # One workflow for everything the deals site needs:
 #  - schedule / manual / external dispatch: collect from every store, then build
-#  - push to main (preferences, a ChatGPT brief in data/brief_inbox, code, other sites): rebuild offline
+#  - push to main (preferences, code, other sites): rebuild offline
 # Every path ends by deploying GitHub Pages for all sites in the repository.
 on:
   schedule:
@@ -55,7 +55,6 @@ jobs:
         run: |
           bash scripts/publish_generated_report.sh "Update gear deals" \
             data/offers.json data/history.json data/run.json data/brief.json \
-            data/brief_packet.json data/brief_packets.json data/briefs data/brief_inbox data/chatgpt_decisions.json \
             ski-deals clothing-deals deal-brief
       - name: Stage public files
         run: python3 scripts/build_public.py

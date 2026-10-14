@@ -8,7 +8,6 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from .aibrief import prompt_text
 
 REPO_URL = "https://github.com/stevembaron/projects"
 
@@ -81,7 +80,6 @@ def page(root: Path, brief_headline: str) -> str:
 </main>
 <div class="compare-bar" id="compareBar" hidden></div>
 <dialog id="prefsDialog" class="sheet" aria-labelledby="prefsTitle"></dialog>
-<dialog id="studioDialog" class="sheet" aria-labelledby="studioTitle"></dialog>
 <dialog id="compareDialog" class="sheet wide" aria-labelledby="compareTitle"></dialog>
 <noscript><p class="wrap">This dashboard needs JavaScript. The latest data is in data.js.</p></noscript>
 <script src="data.js?v={{DATA_VERSION}}"></script>
@@ -140,12 +138,12 @@ def redirect(target: str, title: str) -> str:
 """
 
 
-def build(root: Path, dataset: dict[str, Any], briefs: dict[str, Any], packet: dict[str, Any]) -> None:
+def build(root: Path, dataset: dict[str, Any], briefs: dict[str, Any]) -> None:
     out = root / "ski-deals"
     out.mkdir(parents=True, exist_ok=True)
-    cited = {ref for b in list((briefs.get("house") or {}).values()) + [briefs.get("ai") or {}] for sec in (b or {}).get("sections", []) for ref in sec.get("refs", [])}
-    cited |= set(packet.get("listings", {}))
-    payload = {"dataset": slim(dataset, cited), "briefs": briefs, "packet": packet, "prompt": prompt_text(packet), "repo": REPO_URL}
+    cited = {line["ref"] for b in (briefs.get("house") or {}).values() for sec in (b or {}).get("sections", [])
+             for line in sec.get("lines", []) if isinstance(line, dict) and line.get("ref")}
+    payload = {"dataset": slim(dataset, cited), "briefs": briefs, "repo": REPO_URL}
     data = "window.GEAR=" + script_json(payload) + ";\n"
     (out / "data.js").write_text(data, encoding="utf-8")
     headline = (briefs.get("house", {}).get("ski") or {}).get("headline", "Ski deals")

@@ -19,10 +19,7 @@ def main() -> None:
     for report in run.get("reports", []):
         notes = report.get("error") or "; ".join(report.get("notes") or [])
         print(f"| {report['name']} | {report['status']} | {report['offers']} | {notes[:140]} |")
-    status = brief.get("ai_status") or {}
-    print(f"\nHouse brief: {(brief.get('house', {}).get('ski') or {}).get('headline', 'none')}")
-    if status:
-        print(f"\nChatGPT brief: {status.get('status')} {('- ' + '; '.join(status.get('errors', []))) if status.get('errors') else ''}")
+    print(f"\nBrief: {(brief.get('house', {}).get('ski') or {}).get('headline', 'none')}")
 
 
 if __name__ == "__main__":

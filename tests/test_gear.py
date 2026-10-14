@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from gear import adapters, aibrief, brief, fit, history, pipeline, prefs as preferences, site, textparse as tp, valuation  # noqa: E402
+from gear import adapters, brief, fit, history, pipeline, prefs as preferences, site, textparse as tp, valuation  # noqa: E402
 from gear.net import Client, FetchError, Robots  # noqa: E402
 
 NOW = "2026-10-14T12:00:00+00:00"
@@ -289,29 +289,12 @@ class BriefAndSite(unittest.TestCase):
         self.assertTrue(text)
         self.assertTrue(allowed)
 
-    def test_ai_reply_validation(self):
-        ds = self.dataset()
-        pkt = aibrief.packet(ds, brief.facts(ds, "ski", "me"), brief.facts(ds, "clothing", "me"))
-        ref = next(iter(pkt["listings"]))
-        price = pkt["listings"][ref]["price"]
-        good = {"snapshot_id": pkt["snapshot_id"], "headline": "A quiet day with one good Bent", "dek": "",
-                "sections": [{"title": "Pick", "body": f"The Bent is ${price:.2f} today.", "refs": [ref]}]}
-        accepted, errors = aibrief.validate(json.dumps(good), pkt)
-        self.assertEqual(errors, [])
-        self.assertTrue(accepted)
-        for change in ({"snapshot_id": "nope"}, {"sections": [{"title": "x", "body": "Only $12,345 today.", "refs": [ref]}]},
-                       {"sections": [{"title": "x", "body": "See https://evo.com", "refs": []}]},
-                       {"sections": [{"title": "x", "body": "ok", "refs": ["missing"]}]}):
-            self.assertIsNone(aibrief.validate(dict(good, **change), pkt)[0], change)
-        self.assertEqual(aibrief.validate("not json", pkt)[1], ["The reply is not valid JSON"])
-
     def test_site_build_and_carry_over(self):
         ds = self.dataset()
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             shutil.copytree(ROOT / "assets", root / "assets")
-            pkt = aibrief.packet(ds, brief.facts(ds, "ski", "me"))
-            site.build(root, ds, {"house": {"ski": brief.house_brief(brief.facts(ds, "ski", "me"))}, "generated_at": NOW}, pkt)
+            site.build(root, ds, {"house": {"ski": brief.house_brief(brief.facts(ds, "ski", "me"))}, "generated_at": NOW})
             data = (root / "ski-deals" / "data.js").read_text()
             self.assertNotIn("</script", data)
             json.loads(data[len("window.GEAR="):-2])

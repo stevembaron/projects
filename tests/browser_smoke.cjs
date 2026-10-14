@@ -1,6 +1,6 @@
 /* Desktop and mobile smoke test. Needs Playwright with Chromium (CI installs it).
    Loads the built page from disk and blocks every network request, so it never
-   contacts a retailer or ChatGPT. */
+   contacts a retailer. */
 const {chromium} = require('playwright');
 const assert = require('node:assert/strict');
 const {pathToFileURL} = require('node:url');
@@ -61,14 +61,6 @@ const path = require('node:path');
         assert.ok((await page.locator('#list article').count()) >= 1, 'saved listing appears under Saved');
       }
 
-      await page.locator('[data-category="ski"]').click();
-      if (await page.locator('#openStudio').count()) {
-        await page.locator('#openStudio').click();
-        await page.locator('#reply').fill('{"snapshot_id":"wrong","headline":"x"}');
-        await page.locator('#checkReply').click();
-        assert.match(await page.locator('#studioResult').innerText(), /Not accepted/);
-        await page.keyboard.press('Escape');
-      }
       await page.screenshot({path: `/tmp/gear-${viewport.width}.png`, fullPage: false});
       assert.deepEqual(errors, [], 'no JavaScript errors');
       await context.close();
