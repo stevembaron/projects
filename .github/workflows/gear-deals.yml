@@ -1,0 +1,73 @@
+name: Gear deals and site
+# One workflow for everything the deals site needs:
+#  - schedule / manual / external dispatch: collect from every store, then build
+#  - push to main (preferences, a ChatGPT brief in data/brief_inbox, code, other sites): rebuild offline
+# Every path ends by deploying GitHub Pages for all sites in the repository.
+on:
+  schedule:
+    - cron: "17 10 * * *"   # 04:17 MDT / 03:17 MST
+    - cron: "17 18 * * *"   # 12:17 MDT / 11:17 MST
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "collect = fetch from stores; rebuild = reuse the last collection"
+        type: choice
+        options: [collect, rebuild]
+        default: collect
+  repository_dispatch:
+    types: [daily-deals]
+  push:
+    branches: [main]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: gear-deals
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Tests
+        run: python3 -m unittest discover tests
+      - name: JavaScript syntax
+        run: node --check assets/gear.js && node --check assets/fit.js
+      - name: Collect and build
+        id: build
+        if: github.event_name != 'push' && (github.event_name != 'workflow_dispatch' || inputs.mode == 'collect')
+        run: python3 scripts/gear_run.py
+      - name: Rebuild from the last collection
+        if: steps.build.outcome == 'skipped'
+        run: python3 scripts/gear_run.py --offline
+      - name: Save data and pages
+        run: |
+          bash scripts/publish_generated_report.sh "Update gear deals" \
+            data/offers.json data/history.json data/run.json data/brief.json \
+            data/brief_packet.json data/brief_packets.json data/briefs data/brief_inbox data/chatgpt_decisions.json \
+            ski-deals clothing-deals deal-brief
+      - name: Stage public files
+        run: python3 scripts/build_public.py
+      - uses: actions/configure-pages@v6
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: Run summary
+        if: always()
+        run: python3 scripts/run_summary.py >> "$GITHUB_STEP_SUMMARY"

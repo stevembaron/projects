@@ -1,0 +1,503 @@
+{
+  "schema_version": 3,
+  "notes": "Retailer feeds. Shopify stores use the public /collections/<handle>/products.json feed, which their robots.txt allows. Add a store by copying an entry. seller.trust is 0-1: authorized retailer with returns ~0.9, consignment/marketplace ~0.7. shipping.flat is only set when the retailer publishes it; otherwise shipping is shown as unknown.",
+  "sources": [
+    {
+      "id": "evo",
+      "name": "evo",
+      "adapter": "shopify",
+      "base_url": "https://www.evo.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.92,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "sale-skis",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 4
+        },
+        {
+          "collection": "used-skis",
+          "kind": "ski",
+          "condition": "used",
+          "max_pages": 4
+        }
+      ]
+    },
+    {
+      "id": "geartrade",
+      "name": "Geartrade",
+      "adapter": "shopify",
+      "base_url": "https://geartrade.com",
+      "seller": {
+        "type": "marketplace",
+        "trust": 0.72,
+        "returns": true,
+        "note": "Consignment and retail-partner listings; each listing is one item"
+      },
+      "feeds": [
+        {
+          "collection": "alpine-skis-unmounted",
+          "kind": "ski",
+          "bindings": "none",
+          "condition_from": "body_html",
+          "max_pages": 3
+        },
+        {
+          "collection": "alpine-skis-w-bindings",
+          "kind": "ski",
+          "bindings": "included",
+          "condition_from": "body_html",
+          "max_pages": 3
+        },
+        {
+          "collection": "alpine-touring-skis-unmounted",
+          "kind": "ski",
+          "bindings": "none",
+          "condition_from": "body_html",
+          "max_pages": 1
+        },
+        {
+          "collection": "alpine-touring-skis-w-bindings",
+          "kind": "ski",
+          "bindings": "included",
+          "condition_from": "body_html",
+          "max_pages": 1
+        },
+        {
+          "collection": "alpine-ski-bindings",
+          "kind": "binding",
+          "condition_from": "body_html",
+          "max_pages": 1
+        },
+        {
+          "collection": "stio",
+          "kind": "clothing",
+          "condition_from": "body_html",
+          "genders": [
+            "mens",
+            "unisex"
+          ],
+          "exclude_title": [
+            "\\bshoes?\\b",
+            "\\bboots?\\b",
+            "\\bsandals?\\b",
+            "\\bstuff sack\\b",
+            "\\bsocks?\\b"
+          ],
+          "max_pages": 8
+        }
+      ],
+      "tag_conditions": {
+        "RetailVendorPartner": "new"
+      }
+    },
+    {
+      "id": "utahskis",
+      "name": "Utah Skis",
+      "adapter": "shopify",
+      "base_url": "https://utahskis.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.88,
+        "returns": true,
+        "local": "Salt Lake City"
+      },
+      "feeds": [
+        {
+          "collection": "demo-skis",
+          "kind": "ski",
+          "condition": "demo",
+          "max_pages": 2
+        },
+        {
+          "collection": "ski-outlet",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 4
+        }
+      ]
+    },
+    {
+      "id": "lonepine",
+      "name": "Lone Pine Gear Exchange",
+      "adapter": "shopify",
+      "base_url": "https://lonepinegearx.com",
+      "seller": {
+        "type": "gear_exchange",
+        "trust": 0.82,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "flat-skis",
+          "kind": "ski",
+          "bindings": "none",
+          "max_pages": 5
+        },
+        {
+          "collection": "demo-skis-1",
+          "kind": "ski",
+          "max_pages": 6
+        }
+      ]
+    },
+    {
+      "id": "eriks",
+      "name": "ERIK'S",
+      "adapter": "shopify",
+      "base_url": "https://www.eriksbikeshop.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.88,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "downhill-skis",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 2
+        }
+      ]
+    },
+    {
+      "id": "gearroom",
+      "name": "The Gear Room",
+      "adapter": "shopify",
+      "base_url": "https://thegearroom.com",
+      "seller": {
+        "type": "gear_exchange",
+        "trust": 0.78,
+        "returns": false
+      },
+      "feeds": [
+        {
+          "collection": "skis",
+          "kind": "ski",
+          "max_pages": 2
+        },
+        {
+          "collection": "ski-board-bindings",
+          "kind": "binding",
+          "exclude_title": [
+            "\\bsnowboard\\b",
+            "\\bsplitboard\\b"
+          ],
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "jskis",
+      "name": "J Skis",
+      "adapter": "shopify",
+      "base_url": "https://jskis.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.9,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "secret-stash",
+          "kind": "ski",
+          "condition": "blem",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        },
+        {
+          "collection": "2025-blemishes",
+          "kind": "ski",
+          "condition": "blem",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "4frnt",
+      "name": "4FRNT",
+      "adapter": "shopify",
+      "base_url": "https://4frnt.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.9,
+        "returns": true,
+        "local": "Salt Lake City"
+      },
+      "feeds": [
+        {
+          "collection": "stash",
+          "kind": "ski",
+          "condition": "new",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "dps",
+      "name": "DPS",
+      "adapter": "shopify",
+      "base_url": "https://www.dpsskis.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.9,
+        "returns": true,
+        "local": "Salt Lake City"
+      },
+      "feeds": [
+        {
+          "collection": "skis",
+          "kind": "ski",
+          "condition": "new",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "moment",
+      "name": "Moment",
+      "adapter": "shopify",
+      "base_url": "https://www.momentskis.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.9,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "on-sale",
+          "kind": "ski",
+          "condition": "new",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        },
+        {
+          "collection": "cosmeticblems",
+          "kind": "ski",
+          "condition": "blem",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "on3p",
+      "name": "ON3P",
+      "adapter": "shopify",
+      "base_url": "https://www.on3pskis.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.9,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "on-sale",
+          "kind": "ski",
+          "condition": "new",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        },
+        {
+          "collection": "factory-sale",
+          "kind": "ski",
+          "condition": "blem",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "name": "Season",
+      "adapter": "shopify",
+      "base_url": "https://seasoneqpt.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.88,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "closeouts-blems",
+          "kind": "ski",
+          "condition": "new",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "armada",
+      "name": "Armada",
+      "adapter": "shopify",
+      "base_url": "https://www.armadaskis.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.9,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "outlet-skis",
+          "kind": "ski",
+          "condition": "new",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "rmu",
+      "name": "RMU",
+      "adapter": "shopify",
+      "base_url": "https://www.rmuoutdoors.com",
+      "seller": {
+        "type": "brand",
+        "trust": 0.85,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "garage-sale",
+          "kind": "ski",
+          "condition": "new",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        },
+        {
+          "collection": "blemished-sale-skis",
+          "kind": "ski",
+          "condition": "blem",
+          "vendor_is_brand": true,
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "aspen",
+      "name": "Aspen Ski and Board",
+      "adapter": "shopify",
+      "base_url": "https://www.aspenskiandboard.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.86,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "outlet-skis",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 2
+        },
+        {
+          "collection": "sale-mens-skis",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "coloradoskishop",
+      "name": "Colorado Ski Shop",
+      "adapter": "shopify",
+      "base_url": "https://www.coloradoskishop.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.85,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "sale-skis",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 4
+        }
+      ]
+    },
+    {
+      "id": "gearx",
+      "name": "Outdoor Gear Exchange",
+      "adapter": "shopify",
+      "base_url": "https://www.gearx.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.86,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "alpine-skis",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "alpineshopvt",
+      "name": "Alpine Shop VT",
+      "adapter": "shopify",
+      "base_url": "https://www.alpineshopvt.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.85,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "ski-sale",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "cripplecreek",
+      "name": "Cripple Creek Backcountry",
+      "adapter": "shopify",
+      "base_url": "https://cripplecreekbc.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.86,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "collection": "sale-skis",
+          "kind": "ski",
+          "condition": "new",
+          "max_pages": 1
+        }
+      ]
+    },
+    {
+      "id": "campsaver",
+      "name": "CampSaver",
+      "adapter": "campsaver",
+      "base_url": "https://www.campsaver.com",
+      "seller": {
+        "type": "retailer",
+        "trust": 0.85,
+        "returns": true
+      },
+      "feeds": [
+        {
+          "url": "https://www.campsaver.com/backcountry-skis.html?_iv_sort=lowest-price",
+          "kind": "ski"
+        }
+      ]
+    }
+  ]
+}

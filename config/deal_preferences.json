@@ -1,62 +1,55 @@
 {
-  "watch_terms": [
-    "dynastar",
-    "ripstick",
-    "black pearl",
-    "santa ana",
-    "rallybird",
-    "stio"
-  ],
-  "muted_terms": [
-    "zag"
-  ],
-  "muted_urls": [],
-  "my_ski_sizes": [
-    166,
-    167,
-    168,
-    169,
-    170,
-    171,
-    172
-  ],
-  "family_ski_sizes": [
-    154,
-    155,
-    156,
-    157,
-    158,
-    159,
-    160
-  ],
-  "clothing_sizes": [
-    "s",
-    "m"
-  ],
-  "max_prices": {
-    "ski": 500,
-    "clothing": 100
-  },
-  "schema_version": 2,
-  "watch_urls": [],
-  "owned_terms": [],
-  "owned_urls": [],
-  "shopping_intent": {
-    "ski": "exceptional_only",
-    "clothing": "exceptional_only"
-  },
-  "freshness": {
-    "act_now_hours": 24,
-    "hide_cached_after_hours": 72
-  },
-  "price_drop_thresholds": {
-    "ski": {
-      "amount": 25,
-      "percent": 10
+  "schema_version": 3,
+  "profiles": [
+    {
+      "id": "me",
+      "name": "Me",
+      "ski": {
+        "lengths": {"ideal": [168, 172], "ok": [166, 174], "never_at_or_above": 178},
+        "waist_mm": {"min": null, "max": null},
+        "genders": ["mens", "unisex", null],
+        "style": "playful",
+        "ability": "advanced",
+        "resort_only": true,
+        "home_resorts": ["Alta", "Snowbird", "Solitude", "Brighton", "Deer Valley", "Snowbasin"],
+        "categories_avoid": ["carving"],
+        "categories_owned": ["powder", "all_mountain", "frontside"],
+        "quiver": [
+          {"name": "Blizzard Rustler 9", "brand": "Blizzard", "model_key": "rustler 9", "category": "all_mountain", "waist_mm": 94, "note": "Named in an earlier brief; edit if wrong"},
+          {"name": "Rossignol Sender Soul 102", "brand": "Rossignol", "model_key": "sender soul 102", "category": "all_mountain_wide", "waist_mm": 102, "note": "Named in an earlier brief; edit if wrong"}
+        ],
+        "budget": 500,
+        "conditions": ["new", "blem", "new_with_tags", "demo", "excellent", "good", "fair", "used"],
+        "bindings": "any"
+      },
+      "clothing": {"sizes": ["S", "M"], "genders": ["mens", "unisex", null], "budget": 100, "conditions": ["new", "new_with_tags", "excellent", "good", "fair", "used"]}
     },
-    "clothing": {
-      "amount": 10,
-      "percent": 15
+    {
+      "id": "family",
+      "name": "Family",
+      "ski": {
+        "lengths": {"ideal": [154, 160], "ok": [152, 162], "never_at_or_above": 168},
+        "waist_mm": {"min": null, "max": null},
+        "genders": ["mens", "womens", "unisex", null],
+        "style": null,
+        "ability": null,
+        "resort_only": true,
+        "categories_avoid": [],
+        "categories_owned": [],
+        "quiver": [],
+        "budget": 500,
+        "conditions": ["new", "blem", "new_with_tags", "demo", "excellent", "good", "fair", "used"],
+        "bindings": "any"
+      },
+      "clothing": null
     }
-  }
+  ],
+  "watch_terms": ["dynastar", "ripstick", "black pearl", "santa ana", "rallybird", "stio"],
+  "muted_terms": ["zag"],
+  "saved": [],
+  "dismissed": [],
+  "owned_listings": [],
+  "targets": {},
+  "alerts": {"price_drop_pct": 10},
+  "freshness": {"act_now_hours": 30, "hide_cached_after_hours": 72}
 }
