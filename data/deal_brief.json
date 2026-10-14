@@ -1,15 +1,9 @@
 {
   "schema_version": 2,
-  "snapshot_id": "42d2f2d60b3f1420ab52",
-  "generated_at": "2026-10-13T11:02:20.654214+00:00",
-  "source_generated_at": "2026-10-13T00:37:58+00:00",
+  "snapshot_id": "2ad67f12cdcc9260ea99",
+  "generated_at": "2026-10-14T10:58:24.843977+00:00",
+  "source_generated_at": "2026-10-13T22:42:26+00:00",
   "provider": "chatgpt_scheduled_task",
   "model": null,
-  "decisions": [
-    {
-      "id": "587b6d59d43094b4",
-      "section": "watch",
-      "reason": "Fresh 21.4% verified drop in your 171 cm range, but its 94 mm slot overlaps your Rustler 9 and sits close to the Sender Soul 102. Worth watching only if you are replacing the Rustler; binding and mounting costs still apply."
-    }
-  ]
+  "decisions": []
 }
