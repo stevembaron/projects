@@ -1,9 +1,0 @@
-{
-  "schema_version": 2,
-  "snapshot_id": "d6f0107fc9f14d18ec37",
-  "generated_at": "2026-10-07T10:59:05.431018+00:00",
-  "source_generated_at": "2026-10-06T22:39:01+00:00",
-  "provider": "chatgpt_scheduled_task",
-  "model": null,
-  "decisions": []
-}

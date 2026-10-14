@@ -15,7 +15,8 @@ git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 existing=()
 for path in "$@"; do
-  if [ -e "$path" ]; then
+  # Include tracked paths that were deleted (for example a processed brief inbox file).
+  if [ -e "$path" ] || git ls-files --error-unmatch -- "$path" >/dev/null 2>&1; then
     existing+=("$path")
   else
     echo "Skipping missing path: $path" >&2
@@ -27,7 +28,7 @@ if [ "${#existing[@]}" -eq 0 ]; then
   exit 0
 fi
 
-git add -- "${existing[@]}"
+git add -A -- "${existing[@]}"
 
 if git diff --cached --quiet; then
   echo "No report changes to commit."

@@ -1,13 +1,14 @@
-.PHONY: deals clothing-deals brief test
+.PHONY: deals rebuild test serve
 
 deals:
-	python3 scripts/deal_monitor.py
+	python3 scripts/gear_run.py
 
-clothing-deals:
-	python3 scripts/deal_monitor.py --config config/clothing_deal_sources.json
-
-brief:
-	python3 scripts/deal_analyst.py --dry-run
+rebuild:
+	python3 scripts/gear_run.py --offline
 
 test:
 	python3 -m unittest discover tests
+
+serve:
+	@echo "Open http://127.0.0.1:8000/ski-deals/"
+	python3 -m http.server 8000 --bind 127.0.0.1

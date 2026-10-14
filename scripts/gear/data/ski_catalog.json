@@ -1,0 +1,2750 @@
+{
+ "version": 1,
+ "notes": "Hand-curated ski model families. Scores are editorial judgments, not measurements. Extend freely.",
+ "families": [
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Rustler 9"
+   ],
+   "match": [
+    "rustler 9"
+   ],
+   "gender": "unisex",
+   "waist_mm": 94,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Loose, surfy all-mountain ski with a forgiving tail; easy to smear."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Rustler 10"
+   ],
+   "match": [
+    "rustler 10"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Versatile wide all-mountain ski; playful but holds an edge."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Rustler 11"
+   ],
+   "match": [
+    "rustler 11"
+   ],
+   "gender": "unisex",
+   "waist_mm": 114,
+   "category": "powder",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Surfy powder ski with enough metal for chop."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Sheeva 9"
+   ],
+   "match": [
+    "sheeva 9"
+   ],
+   "gender": "womens",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful women's all-mountain ski."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Sheeva 10"
+   ],
+   "match": [
+    "sheeva 10"
+   ],
+   "gender": "womens",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful women's wide all-mountain ski."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Black Pearl 88"
+   ],
+   "match": [
+    "black pearl 88"
+   ],
+   "gender": "womens",
+   "waist_mm": 88,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Easy, stable women's frontside ski."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Black Pearl 97"
+   ],
+   "match": [
+    "black pearl 97"
+   ],
+   "gender": "womens",
+   "waist_mm": 97,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable women's all-mountain ski."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Bonafide 97"
+   ],
+   "match": [
+    "bonafide 97",
+    "bonafide"
+   ],
+   "gender": "unisex",
+   "waist_mm": 97,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, powerful charger that rewards carving."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Brahma 88"
+   ],
+   "match": [
+    "brahma 88",
+    "brahma"
+   ],
+   "gender": "unisex",
+   "waist_mm": 88,
+   "category": "frontside",
+   "playful": 1,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stiff, damp frontside carver."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Anomaly 88"
+   ],
+   "match": [
+    "anomaly 88"
+   ],
+   "gender": "unisex",
+   "waist_mm": 88,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Precise, damp frontside ski."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Anomaly 94"
+   ],
+   "match": [
+    "anomaly 94"
+   ],
+   "gender": "unisex",
+   "waist_mm": 94,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, directional all-mountain ski."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Anomaly 102"
+   ],
+   "match": [
+    "anomaly 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Strong, damp wide all-mountain ski."
+  },
+  {
+   "brand": "Blizzard",
+   "names": [
+    "Zero G 95"
+   ],
+   "match": [
+    "zero g 95"
+   ],
+   "gender": "unisex",
+   "waist_mm": 95,
+   "category": "touring",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": true,
+   "years": null,
+   "summary": "Stiff, light touring ski for steep firm snow."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Enforcer 89"
+   ],
+   "match": [
+    "enforcer 89"
+   ],
+   "gender": "unisex",
+   "waist_mm": 89,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, precise narrow Enforcer."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Enforcer 94"
+   ],
+   "match": [
+    "enforcer 94"
+   ],
+   "gender": "unisex",
+   "waist_mm": 94,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable all-mountain charger with some looseness."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Enforcer 99"
+   ],
+   "match": [
+    "enforcer 99"
+   ],
+   "gender": "unisex",
+   "waist_mm": 99,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, stable all-mountain benchmark."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Enforcer 104"
+   ],
+   "match": [
+    "enforcer 104"
+   ],
+   "gender": "unisex",
+   "waist_mm": 104,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, powerful wide all-mountain ski."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Enforcer 110"
+   ],
+   "match": [
+    "enforcer 110"
+   ],
+   "gender": "unisex",
+   "waist_mm": 110,
+   "category": "freeride",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Heavy, stable soft-snow ski."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Santa Ana 93"
+   ],
+   "match": [
+    "santa ana 93"
+   ],
+   "gender": "womens",
+   "waist_mm": 93,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable women's all-mountain ski."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Santa Ana 98"
+   ],
+   "match": [
+    "santa ana 98"
+   ],
+   "gender": "womens",
+   "waist_mm": 98,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Versatile women's all-mountain ski."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Unleashed 98"
+   ],
+   "match": [
+    "unleashed 98"
+   ],
+   "gender": "unisex",
+   "waist_mm": 98,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful twin with Enforcer-like stability."
+  },
+  {
+   "brand": "Nordica",
+   "names": [
+    "Unleashed 108"
+   ],
+   "match": [
+    "unleashed 108"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "freeride",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful, stable soft-snow twin."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Mantra M6"
+   ],
+   "match": [
+    "mantra m 6"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Powerful, carve-first all-mountain ski."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Mantra 102"
+   ],
+   "match": [
+    "mantra 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Strong wide carver."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Kendo 88"
+   ],
+   "match": [
+    "kendo 88"
+   ],
+   "gender": "unisex",
+   "waist_mm": 88,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Precise frontside carver."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Blaze 94"
+   ],
+   "match": [
+    "blaze 94"
+   ],
+   "gender": "unisex",
+   "waist_mm": 94,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, easy, surfy all-mountain ski."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Blaze 106"
+   ],
+   "match": [
+    "blaze 106"
+   ],
+   "gender": "unisex",
+   "waist_mm": 106,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, loose soft-snow ski."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Revolt 96"
+   ],
+   "match": [
+    "revolt 96"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "park",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Buttery, poppy twin."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Revolt 104"
+   ],
+   "match": [
+    "revolt 104"
+   ],
+   "gender": "unisex",
+   "waist_mm": 104,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful freeride twin."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Katana 108"
+   ],
+   "match": [
+    "katana 108"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "freeride",
+   "playful": 2,
+   "demanding": 5,
+   "level": [
+    "expert",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Very stiff big-mountain charger."
+  },
+  {
+   "brand": "Volkl",
+   "names": [
+    "Secret 96"
+   ],
+   "match": [
+    "secret 96"
+   ],
+   "gender": "womens",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Strong women's all-mountain ski."
+  },
+  {
+   "brand": "K2",
+   "names": [
+    "Mindbender 89Ti"
+   ],
+   "match": [
+    "mindbender 89 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 89,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "B",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, carve-oriented."
+  },
+  {
+   "brand": "K2",
+   "names": [
+    "Mindbender 96C"
+   ],
+   "match": [
+    "mindbender 96 c"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "B",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Lighter, easy all-mountain ski."
+  },
+  {
+   "brand": "K2",
+   "names": [
+    "Mindbender 99Ti"
+   ],
+   "match": [
+    "mindbender 99 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 99,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, stable all-mountain ski."
+  },
+  {
+   "brand": "K2",
+   "names": [
+    "Mindbender 108Ti"
+   ],
+   "match": [
+    "mindbender 108 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "freeride",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable wide freeride ski."
+  },
+  {
+   "brand": "K2",
+   "names": [
+    "Reckoner 102"
+   ],
+   "match": [
+    "reckoner 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Soft, buttery freestyle-freeride twin."
+  },
+  {
+   "brand": "K2",
+   "names": [
+    "Reckoner 110"
+   ],
+   "match": [
+    "reckoner 110"
+   ],
+   "gender": "unisex",
+   "waist_mm": 110,
+   "category": "powder",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "B",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful soft-snow twin."
+  },
+  {
+   "brand": "K2",
+   "names": [
+    "Disruption"
+   ],
+   "match": [
+    "disruption"
+   ],
+   "gender": "unisex",
+   "waist_mm": 78,
+   "category": "carving",
+   "playful": 1,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "B",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Groomer carver."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Bent 90"
+   ],
+   "match": [
+    "bent 90"
+   ],
+   "gender": "unisex",
+   "waist_mm": 90,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Light, playful all-mountain twin."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Bent 100"
+   ],
+   "match": [
+    "bent 100"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "all_mountain_wide",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Buttery, surfy one-ski quiver for playful skiers."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Bent 110"
+   ],
+   "match": [
+    "bent 110"
+   ],
+   "gender": "unisex",
+   "waist_mm": 110,
+   "category": "powder",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Surfy, playful soft-snow ski."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Bent Chetler 120"
+   ],
+   "match": [
+    "bent chetler 120"
+   ],
+   "gender": "unisex",
+   "waist_mm": 120,
+   "category": "powder",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Surfy deep-day ski."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Maverick 95 Ti"
+   ],
+   "match": [
+    "maverick 95 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 95,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Smooth, versatile all-mountain ski."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Maverick 100 Ti"
+   ],
+   "match": [
+    "maverick 100 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable, easy wide all-mountain ski."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Maven 93 C"
+   ],
+   "match": [
+    "maven 93 c",
+    "maven 93"
+   ],
+   "gender": "womens",
+   "waist_mm": 93,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Easy women's all-mountain ski."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Redster Q9"
+   ],
+   "match": [
+    "redster q 9"
+   ],
+   "gender": "unisex",
+   "waist_mm": null,
+   "category": "carving",
+   "playful": 1,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "B",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Piste carver."
+  },
+  {
+   "brand": "Atomic",
+   "names": [
+    "Cloud"
+   ],
+   "match": [
+    "cloud"
+   ],
+   "gender": "womens",
+   "waist_mm": null,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 1,
+   "level": [
+    "beginner",
+    "intermediate"
+   ],
+   "tier": "C",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Entry women's groomer ski."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "QST 92"
+   ],
+   "match": [
+    "qst 92"
+   ],
+   "gender": "unisex",
+   "waist_mm": 92,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Easy, versatile all-mountain ski."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "QST 98"
+   ],
+   "match": [
+    "qst 98"
+   ],
+   "gender": "unisex",
+   "waist_mm": 98,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Versatile, damp all-mountain ski."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "QST 106"
+   ],
+   "match": [
+    "qst 106"
+   ],
+   "gender": "unisex",
+   "waist_mm": 106,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Loose, fun soft-snow ski."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "QST Blank"
+   ],
+   "match": [
+    "qst blank"
+   ],
+   "gender": "unisex",
+   "waist_mm": 112,
+   "category": "powder",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful pow ski."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "QST Spark"
+   ],
+   "match": [
+    "qst spark"
+   ],
+   "gender": "unisex",
+   "waist_mm": null,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 1,
+   "level": [
+    "beginner",
+    "intermediate"
+   ],
+   "tier": "C",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Entry-level, forgiving groomer ski."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "Stance 90"
+   ],
+   "match": [
+    "stance 90"
+   ],
+   "gender": "unisex",
+   "waist_mm": 90,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, precise carver."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "Stance 96"
+   ],
+   "match": [
+    "stance 96"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, directional all-mountain ski."
+  },
+  {
+   "brand": "Salomon",
+   "names": [
+    "Stance 102"
+   ],
+   "match": [
+    "stance 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable wide all-mountain ski."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Sender Soul 92"
+   ],
+   "match": [
+    "sender soul 92"
+   ],
+   "gender": "unisex",
+   "waist_mm": 92,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "B",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Easy, loose all-mountain ski."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Sender Soul 102"
+   ],
+   "match": [
+    "sender soul 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, surfy, easy wide ski."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Sender Free 100"
+   ],
+   "match": [
+    "sender free 100"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful, poppy wide all-mountain twin."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Sender Free 110"
+   ],
+   "match": [
+    "sender free 110"
+   ],
+   "gender": "unisex",
+   "waist_mm": 110,
+   "category": "freeride",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful freeride twin."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Sender 104 Ti"
+   ],
+   "match": [
+    "sender 104 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 104,
+   "category": "freeride",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable freeride ski."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Blackops 98"
+   ],
+   "match": [
+    "blackops 98"
+   ],
+   "gender": "unisex",
+   "waist_mm": 98,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "B",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Loose, playful all-mountain ski."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Arcade 88"
+   ],
+   "match": [
+    "arcade 88"
+   ],
+   "gender": "unisex",
+   "waist_mm": 88,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 3,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "B",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Carve-focused all-rounder."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Experience 78"
+   ],
+   "match": [
+    "experience 78"
+   ],
+   "gender": "unisex",
+   "waist_mm": 78,
+   "category": "carving",
+   "playful": 1,
+   "demanding": 2,
+   "level": [
+    "beginner",
+    "intermediate"
+   ],
+   "tier": "C",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Entry carver."
+  },
+  {
+   "brand": "Rossignol",
+   "names": [
+    "Rallybird Soul 102"
+   ],
+   "match": [
+    "rallybird soul 102"
+   ],
+   "gender": "womens",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, surfy women's wide ski."
+  },
+  {
+   "brand": "Elan",
+   "names": [
+    "Ripstick 96"
+   ],
+   "match": [
+    "ripstick 96"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, quick, easy-pivoting all-mountain ski."
+  },
+  {
+   "brand": "Elan",
+   "names": [
+    "Ripstick 106"
+   ],
+   "match": [
+    "ripstick 106"
+   ],
+   "gender": "unisex",
+   "waist_mm": 106,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, surfy soft-snow ski."
+  },
+  {
+   "brand": "Elan",
+   "names": [
+    "Ripstick 88"
+   ],
+   "match": [
+    "ripstick 88"
+   ],
+   "gender": "unisex",
+   "waist_mm": 88,
+   "category": "frontside",
+   "playful": 3,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, nimble frontside ski."
+  },
+  {
+   "brand": "Elan",
+   "names": [
+    "Playmaker 101"
+   ],
+   "match": [
+    "playmaker 101"
+   ],
+   "gender": "unisex",
+   "waist_mm": 101,
+   "category": "all_mountain_wide",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Buttery, playful twin."
+  },
+  {
+   "brand": "Elan",
+   "names": [
+    "Element"
+   ],
+   "match": [
+    "element"
+   ],
+   "gender": "unisex",
+   "waist_mm": 76,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 1,
+   "level": [
+    "beginner",
+    "intermediate"
+   ],
+   "tier": "C",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Entry-level groomer ski."
+  },
+  {
+   "brand": "Dynastar",
+   "names": [
+    "M-Free 108"
+   ],
+   "match": [
+    "mfree 108"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Surfy, playful soft-snow twin."
+  },
+  {
+   "brand": "Dynastar",
+   "names": [
+    "M-Pro 99"
+   ],
+   "match": [
+    "mpro 99"
+   ],
+   "gender": "unisex",
+   "waist_mm": 99,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable, versatile all-mountain ski."
+  },
+  {
+   "brand": "Dynastar",
+   "names": [
+    "M-Menace 80"
+   ],
+   "match": [
+    "mmenace 80",
+    "menace 80"
+   ],
+   "gender": "unisex",
+   "waist_mm": 80,
+   "category": "frontside",
+   "playful": 2,
+   "demanding": 1,
+   "level": [
+    "beginner",
+    "intermediate"
+   ],
+   "tier": "C",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Entry-level twin for groomers."
+  },
+  {
+   "brand": "Dynastar",
+   "names": [
+    "M-Menace 90"
+   ],
+   "match": [
+    "mmenace 90",
+    "menace 90"
+   ],
+   "gender": "unisex",
+   "waist_mm": 90,
+   "category": "park",
+   "playful": 4,
+   "demanding": 1,
+   "level": [
+    "beginner",
+    "intermediate"
+   ],
+   "tier": "C",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Entry-level park twin."
+  },
+  {
+   "brand": "Dynastar",
+   "names": [
+    "M-Cross 78"
+   ],
+   "match": [
+    "mcross 78"
+   ],
+   "gender": "unisex",
+   "waist_mm": 78,
+   "category": "frontside",
+   "playful": 1,
+   "demanding": 1,
+   "level": [
+    "beginner",
+    "intermediate"
+   ],
+   "tier": "C",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Entry-level groomer ski."
+  },
+  {
+   "brand": "Head",
+   "names": [
+    "Kore 99"
+   ],
+   "match": [
+    "kore 99"
+   ],
+   "gender": "unisex",
+   "waist_mm": 99,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light but damp all-mountain ski."
+  },
+  {
+   "brand": "Head",
+   "names": [
+    "Kore 105"
+   ],
+   "match": [
+    "kore 105"
+   ],
+   "gender": "unisex",
+   "waist_mm": 105,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Versatile wide ski."
+  },
+  {
+   "brand": "Head",
+   "names": [
+    "Kore 100 Ti"
+   ],
+   "match": [
+    "kore 100 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damper Kore with metal."
+  },
+  {
+   "brand": "Head",
+   "names": [
+    "Oblivion 102"
+   ],
+   "match": [
+    "oblivion 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "park",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "B",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful park-freeride twin."
+  },
+  {
+   "brand": "Fischer",
+   "names": [
+    "Ranger 96"
+   ],
+   "match": [
+    "ranger 96"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Smooth, versatile all-mountain ski."
+  },
+  {
+   "brand": "Fischer",
+   "names": [
+    "Ranger 102"
+   ],
+   "match": [
+    "ranger 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "mixed",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Versatile wide ski."
+  },
+  {
+   "brand": "Faction",
+   "names": [
+    "Prodigy 2"
+   ],
+   "match": [
+    "prodigy 2"
+   ],
+   "gender": "unisex",
+   "waist_mm": 98,
+   "category": "all_mountain",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful, poppy all-mountain twin."
+  },
+  {
+   "brand": "Faction",
+   "names": [
+    "Prodigy 3"
+   ],
+   "match": [
+    "prodigy 3"
+   ],
+   "gender": "unisex",
+   "waist_mm": 106,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful freeride twin."
+  },
+  {
+   "brand": "Faction",
+   "names": [
+    "Dancer 2"
+   ],
+   "match": [
+    "dancer 2"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Strong directional ski."
+  },
+  {
+   "brand": "Faction",
+   "names": [
+    "Agent 2"
+   ],
+   "match": [
+    "agent 2"
+   ],
+   "gender": "unisex",
+   "waist_mm": 98,
+   "category": "touring",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": true,
+   "years": null,
+   "summary": "Light touring ski."
+  },
+  {
+   "brand": "Armada",
+   "names": [
+    "ARV 96"
+   ],
+   "match": [
+    "arv 96"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "park",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Buttery freestyle twin."
+  },
+  {
+   "brand": "Armada",
+   "names": [
+    "ARV 106"
+   ],
+   "match": [
+    "arv 106"
+   ],
+   "gender": "unisex",
+   "waist_mm": 106,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful freeride twin."
+  },
+  {
+   "brand": "Armada",
+   "names": [
+    "ARW 94"
+   ],
+   "match": [
+    "arw 94"
+   ],
+   "gender": "womens",
+   "waist_mm": 94,
+   "category": "park",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful women's twin."
+  },
+  {
+   "brand": "Armada",
+   "names": [
+    "ARW 100"
+   ],
+   "match": [
+    "arw 100"
+   ],
+   "gender": "womens",
+   "waist_mm": 100,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful women's wide twin."
+  },
+  {
+   "brand": "Armada",
+   "names": [
+    "Declivity 92 Ti"
+   ],
+   "match": [
+    "declivity 92 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 92,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp directional ski."
+  },
+  {
+   "brand": "Armada",
+   "names": [
+    "Declivity 102 Ti"
+   ],
+   "match": [
+    "declivity 102 ti"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, strong wide ski."
+  },
+  {
+   "brand": "Armada",
+   "names": [
+    "Stranger 100"
+   ],
+   "match": [
+    "stranger 100",
+    "stranger"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "park",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "B",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Soft, playful twin."
+  },
+  {
+   "brand": "Line",
+   "names": [
+    "Chronic 94"
+   ],
+   "match": [
+    "chronic 94"
+   ],
+   "gender": "unisex",
+   "waist_mm": 94,
+   "category": "park",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Poppy, playful twin."
+  },
+  {
+   "brand": "Line",
+   "names": [
+    "Blade Optic 96"
+   ],
+   "match": [
+    "blade optic 96"
+   ],
+   "gender": "unisex",
+   "waist_mm": 96,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Surfy shape that still carves."
+  },
+  {
+   "brand": "Line",
+   "names": [
+    "Sakana"
+   ],
+   "match": [
+    "sakana"
+   ],
+   "gender": "unisex",
+   "waist_mm": 105,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Surfy, slashy directional ski."
+  },
+  {
+   "brand": "Line",
+   "names": [
+    "Vision 108"
+   ],
+   "match": [
+    "vision 108"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, playful soft-snow ski."
+  },
+  {
+   "brand": "Line",
+   "names": [
+    "Sick Day 94"
+   ],
+   "match": [
+    "sick day 94"
+   ],
+   "gender": "unisex",
+   "waist_mm": 94,
+   "category": "all_mountain",
+   "playful": 4,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "advanced"
+   ],
+   "tier": "B",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, easy all-mountain ski."
+  },
+  {
+   "brand": "Peak",
+   "names": [
+    "Peak 98"
+   ],
+   "match": [
+    "peak 98"
+   ],
+   "gender": "unisex",
+   "waist_mm": 98,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, precise all-mountain ski."
+  },
+  {
+   "brand": "Black Diamond",
+   "names": [
+    "Helio Carbon 95"
+   ],
+   "match": [
+    "helio carbon 95"
+   ],
+   "gender": "unisex",
+   "waist_mm": 95,
+   "category": "touring",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": true,
+   "years": null,
+   "summary": "Light, capable touring ski."
+  },
+  {
+   "brand": "Black Diamond",
+   "names": [
+    "Helio Carbon 88"
+   ],
+   "match": [
+    "helio carbon 88"
+   ],
+   "gender": "unisex",
+   "waist_mm": 88,
+   "category": "touring",
+   "playful": 2,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": true,
+   "years": null,
+   "summary": "Light touring ski."
+  },
+  {
+   "brand": "4FRNT",
+   "names": [
+    "MSP 99"
+   ],
+   "match": [
+    "msp 99"
+   ],
+   "gender": "unisex",
+   "waist_mm": 99,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable, versatile all-mountain ski."
+  },
+  {
+   "brand": "4FRNT",
+   "names": [
+    "Hoji"
+   ],
+   "match": [
+    "hoji"
+   ],
+   "gender": "unisex",
+   "waist_mm": 112,
+   "category": "powder",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Reverse-camber surf ski."
+  },
+  {
+   "brand": "4FRNT",
+   "names": [
+    "Devastator"
+   ],
+   "match": [
+    "devastator"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "freeride",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful freeride twin."
+  },
+  {
+   "brand": "J Skis",
+   "names": [
+    "Allplay"
+   ],
+   "match": [
+    "allplay"
+   ],
+   "gender": "unisex",
+   "waist_mm": 94,
+   "category": "park",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Fun, playful all-mountain twin."
+  },
+  {
+   "brand": "J Skis",
+   "names": [
+    "Masterblaster"
+   ],
+   "match": [
+    "masterblaster"
+   ],
+   "gender": "unisex",
+   "waist_mm": 99,
+   "category": "all_mountain",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Damp, strong directional ski."
+  },
+  {
+   "brand": "J Skis",
+   "names": [
+    "Fastforward"
+   ],
+   "match": [
+    "fastforward"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "freeride",
+   "playful": 3,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable freeride ski."
+  },
+  {
+   "brand": "J Skis",
+   "names": [
+    "Friend"
+   ],
+   "match": [
+    "friend"
+   ],
+   "gender": "unisex",
+   "waist_mm": 105,
+   "category": "powder",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Surfy soft-snow twin."
+  },
+  {
+   "brand": "Moment",
+   "names": [
+    "Deathwish 104"
+   ],
+   "match": [
+    "deathwish 104",
+    "deathwish"
+   ],
+   "gender": "unisex",
+   "waist_mm": 104,
+   "category": "freeride",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful, stable freeride twin."
+  },
+  {
+   "brand": "Moment",
+   "names": [
+    "Wildcat 108"
+   ],
+   "match": [
+    "wildcat 108",
+    "wildcat"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "powder",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Very surfy soft-snow ski."
+  },
+  {
+   "brand": "ON3P",
+   "names": [
+    "Woodsman 102"
+   ],
+   "match": [
+    "woodsman 102"
+   ],
+   "gender": "unisex",
+   "waist_mm": 102,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Stable, playful wide ski."
+  },
+  {
+   "brand": "ON3P",
+   "names": [
+    "Jeffrey 108"
+   ],
+   "match": [
+    "jeffrey 108"
+   ],
+   "gender": "unisex",
+   "waist_mm": 108,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful, solid freeride twin."
+  },
+  {
+   "brand": "DPS",
+   "names": [
+    "Pagoda 100 C2"
+   ],
+   "match": [
+    "pagoda 100"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "all_mountain_wide",
+   "playful": 3,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Light, smooth wide ski."
+  },
+  {
+   "brand": "DPS",
+   "names": [
+    "Wailer 100"
+   ],
+   "match": [
+    "wailer 100"
+   ],
+   "gender": "unisex",
+   "waist_mm": 100,
+   "category": "all_mountain_wide",
+   "playful": 4,
+   "demanding": 3,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "carbon",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Quick, surfy wide ski."
+  },
+  {
+   "brand": "Icelantic",
+   "names": [
+    "Nomad 105"
+   ],
+   "match": [
+    "nomad 105"
+   ],
+   "gender": "unisex",
+   "waist_mm": 105,
+   "category": "freeride",
+   "playful": 5,
+   "demanding": 2,
+   "level": [
+    "intermediate",
+    "expert"
+   ],
+   "tier": "B",
+   "build": "wood",
+   "twin": true,
+   "touring": false,
+   "years": null,
+   "summary": "Playful soft-snow twin."
+  },
+  {
+   "brand": "Kastle",
+   "names": [
+    "MX 98"
+   ],
+   "match": [
+    "mx 98"
+   ],
+   "gender": "unisex",
+   "waist_mm": 98,
+   "category": "all_mountain",
+   "playful": 2,
+   "demanding": 4,
+   "level": [
+    "advanced",
+    "expert"
+   ],
+   "tier": "A",
+   "build": "metal",
+   "twin": false,
+   "touring": false,
+   "years": null,
+   "summary": "Precise, damp premium ski."
+  }
+ ]
+}
