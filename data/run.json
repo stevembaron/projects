@@ -1,0 +1,261 @@
+{
+  "at": "2026-10-14T12:15:27+00:00",
+  "generated_at": "2026-10-14T12:14:33+00:00",
+  "reports": [
+    {
+      "source_id": "evo",
+      "name": "evo",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 463,
+      "offers": 202,
+      "elapsed_s": 42.9
+    },
+    {
+      "source_id": "geartrade",
+      "name": "Geartrade",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 12,
+      "products_seen": 1839,
+      "offers": 1039,
+      "elapsed_s": 19.3
+    },
+    {
+      "source_id": "utahskis",
+      "name": "Utah Skis",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 16,
+      "offers": 14,
+      "elapsed_s": 3.3
+    },
+    {
+      "source_id": "lonepine",
+      "name": "Lone Pine Gear Exchange",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 4,
+      "products_seen": 912,
+      "offers": 896,
+      "elapsed_s": 9.1
+    },
+    {
+      "source_id": "eriks",
+      "name": "ERIK'S",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 255,
+      "offers": 208,
+      "elapsed_s": 3.3
+    },
+    {
+      "source_id": "gearroom",
+      "name": "The Gear Room",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 87,
+      "offers": 84,
+      "elapsed_s": 3.3
+    },
+    {
+      "source_id": "jskis",
+      "name": "J Skis",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 22,
+      "offers": 6,
+      "elapsed_s": 3.3
+    },
+    {
+      "source_id": "4frnt",
+      "name": "4FRNT",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 11,
+      "offers": 3,
+      "elapsed_s": 1.8
+    },
+    {
+      "source_id": "dps",
+      "name": "DPS",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 28,
+      "offers": 27,
+      "elapsed_s": 1.8
+    },
+    {
+      "source_id": "moment",
+      "name": "Moment",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 49,
+      "offers": 23,
+      "elapsed_s": 3.4
+    },
+    {
+      "source_id": "on3p",
+      "name": "ON3P",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 4,
+      "offers": 4,
+      "elapsed_s": 3.3
+    },
+    {
+      "source_id": "season",
+      "name": "Season",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 1,
+      "offers": 0,
+      "elapsed_s": 1.8
+    },
+    {
+      "source_id": "armada",
+      "name": "Armada",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 21,
+      "offers": 13,
+      "elapsed_s": 1.9
+    },
+    {
+      "source_id": "rmu",
+      "name": "RMU",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 0,
+      "offers": 0,
+      "elapsed_s": 4.2
+    },
+    {
+      "source_id": "aspen",
+      "name": "Aspen Ski and Board",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 107,
+      "offers": 57,
+      "elapsed_s": 3.5
+    },
+    {
+      "source_id": "coloradoskishop",
+      "name": "Colorado Ski Shop",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 2,
+      "products_seen": 456,
+      "offers": 411,
+      "elapsed_s": 4.5
+    },
+    {
+      "source_id": "gearx",
+      "name": "Outdoor Gear Exchange",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 53,
+      "offers": 52,
+      "elapsed_s": 2.1
+    },
+    {
+      "source_id": "alpineshopvt",
+      "name": "Alpine Shop VT",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 79,
+      "offers": 34,
+      "elapsed_s": 2.0
+    },
+    {
+      "source_id": "cripplecreek",
+      "name": "Cripple Creek Backcountry",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 86,
+      "offers": 74,
+      "elapsed_s": 2.2
+    },
+    {
+      "source_id": "campsaver",
+      "name": "CampSaver",
+      "status": "ok",
+      "error": null,
+      "notes": [],
+      "pages": 1,
+      "products_seen": 11,
+      "offers": 11,
+      "elapsed_s": 2.5
+    }
+  ],
+  "events": {
+    "new_offers": [
+      "a1e348c1a1bfdf"
+    ],
+    "gone_offers": [
+      "09152d5d235184",
+      "1d8acc2bac547e",
+      "42dcede797fdf0",
+      "980099526abf3e",
+      "dc30a5aef8d909",
+      "fdf432e3a8a6ed"
+    ],
+    "returned_offers": []
+  },
+  "market_log": [
+    {
+      "at": "2026-10-14T03:51:12+00:00",
+      "skis": 2336,
+      "median_claimed_pct": 42.6,
+      "median_vs_fmv_pct": -6.1,
+      "strong_or_better": 81
+    },
+    {
+      "at": "2026-10-14T12:14:33+00:00",
+      "skis": 2335,
+      "median_claimed_pct": 42.6,
+      "median_vs_fmv_pct": -6.1,
+      "strong_or_better": 84
+    }
+  ],
+  "counts": {
+    "collected": 3158,
+    "published": 2714,
+    "new": 0
+  }
+}
