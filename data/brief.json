@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-18T13:59:19+00:00",
+  "generated_at": "2026-10-18T20:41:32+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "7 strong deals in 168–172 cm; best is 2026 Atomic Bent 110 at $375",
-      "dek": "We checked 1,454 discounted skis across 15 stores; 224 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
+      "headline": "5 strong deals in 168–172 cm; best is 2026 Atomic Bent 110 at $375",
+      "dek": "We checked 1,182 discounted skis across 14 stores; 166 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
       "sections": [
         {
           "title": "Best of today",
@@ -22,8 +22,8 @@
               "ref": "929082f91e8534"
             },
             {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $140 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
-              "ref": "5d0d8d88d1295b"
+              "text": "2026 Rossignol Sender Free 100 at Lone Pine Gear Exchange, $340 in 170 cm; about $115 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "ref": "016936b81abfa8"
             }
           ],
           "refs": []
@@ -66,6 +66,10 @@
           "title": "Close to a buy",
           "lines": [
             {
+              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange is $380 in 172 cm; it becomes a strong deal at about $365 (4% lower).",
+              "ref": "6286d498f8a4a4"
+            },
+            {
               "text": "2024 Dynastar M-Pro 99 at Lone Pine Gear Exchange is $280 in 170 cm; it becomes a strong deal at about $260 (7% lower).",
               "ref": "81b0d71b37f4a0"
             },
@@ -76,10 +80,6 @@
             {
               "text": "Scott Proguide 96 Touring at Cripple Creek Backcountry is $440 in 167 cm; it becomes a strong deal at about $405 (8% lower).",
               "ref": "de0c536803c40a"
-            },
-            {
-              "text": "Elan Wingman 82 CTi at Geartrade is $288 in 172 cm; it becomes a strong deal at about $265 (8% lower).",
-              "ref": "3296a8964c74c7"
             }
           ],
           "refs": []
@@ -88,19 +88,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (53), Lone Pine Gear Exchange (31), evo (3).",
+              "text": "Most strong prices: Geartrade (53), Lone Pine Gear Exchange (30), evo (3).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 516 listings.",
+              "text": "Geartrade has the deepest typical markdown at 54% off list across 264 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Line (25), Atomic (24), Rossignol (24).",
+              "text": "In your size and budget, the most choice is from Line (24), Rossignol (19), Atomic (18).",
               "ref": null
             },
             {
-              "text": "79 of the 224 fitting skis are demo, resale or blemished stock.",
+              "text": "25 of the 166 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -114,16 +114,16 @@
               "ref": "bc83c1d7d10e81"
             },
             {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 95): no length between 166 and 174 cm (has 158, 165).",
-              "ref": "49f93b7dba3353"
-            },
-            {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 95): no length between 166 and 174 cm (has 158).",
-              "ref": "091f736fb7eb72"
-            },
-            {
               "text": "2026 Atomic Bent 90 at Lone Pine Gear Exchange, $275 (score 94): no length between 166 and 174 cm (has 157, 175).",
               "ref": "f2be5d30617ce8"
+            },
+            {
+              "text": "2025 Peak 98 By Dav at evo, $283 (score 93): no length between 166 and 174 cm (has 178).",
+              "ref": "c2ecd880fdaccf"
+            },
+            {
+              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 89): no length between 166 and 174 cm (has 158, 165).",
+              "ref": "49f93b7dba3353"
             }
           ],
           "refs": []
@@ -148,7 +148,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -156,7 +156,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -164,11 +164,15 @@
               "ref": null
             },
             {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -176,15 +180,15 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
+              "text": "Aspen Ski and Board: partial (sale-mens-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -203,14 +207,104 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-18T13:59:19+00:00",
+      "generated_at": "2026-10-18T20:41:32+00:00",
       "author": "house"
     },
     "clothing": {
       "kind": "clothing",
-      "headline": "A quiet day for clothing listings",
-      "dek": "We checked 0 discounted clothing listings across 0 stores; 0 are in your size and budget. None is cheap enough to call a strong deal yet, so the useful news today is in what moved and what is close.",
+      "headline": "5 strong deals; best is Stio Lucent Long Sleeve Tee at $32",
+      "dek": "We checked 84 discounted clothing listings across 1 stores; 21 are in your size and budget.",
       "sections": [
+        {
+          "title": "Best of today",
+          "lines": [
+            {
+              "text": "Stio Lucent Long Sleeve Tee at Geartrade, $32 in S; about $32 under our fair-price estimate; your size (S).",
+              "ref": "b15c4dc643d379"
+            },
+            {
+              "text": "Stio Lucent Long Sleeve Tee at Geartrade, $36 in M; about $28 under our fair-price estimate; your size (M).",
+              "ref": "a130511e56586e"
+            },
+            {
+              "text": "Stio Western Logo Tee at Geartrade, $18 in S; about $18 under our fair-price estimate; your size (S).",
+              "ref": "82321071bdf14a"
+            },
+            {
+              "text": "Stio Divide Short Sleeve Tee at Geartrade, $22 in S; about $17.15 under our fair-price estimate; your size (S).",
+              "ref": "fd54298baba49b"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "What moved",
+          "lines": [
+            {
+              "text": "New: Stio Environ Technical Shell Jacket at Geartrade, $144, scored 76.",
+              "ref": "5f88b923cac6cf"
+            },
+            {
+              "text": "New: Stio Rivet Jean at Geartrade, $35, scored 70.",
+              "ref": "d8afc858d63f1d"
+            },
+            {
+              "text": "New: Stio Rivet Canvas Pants at Geartrade, $39, scored 69.",
+              "ref": "b6ba9c48eed62e"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Close to a buy",
+          "lines": [
+            {
+              "text": "Stio Eddy Coast Long Sleeve Shirt at Geartrade is $71 in M; it becomes a strong deal at about $70 (1% lower).",
+              "ref": "8679ece0f589ac"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Market notes",
+          "lines": [
+            {
+              "text": "Most strong prices: Geartrade (18).",
+              "ref": null
+            },
+            {
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 84 listings.",
+              "ref": null
+            },
+            {
+              "text": "In your size and budget, the most choice is from Stio (21).",
+              "ref": null
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Good deals that aren't for you",
+          "lines": [
+            {
+              "text": "Stio Environ Technical Shell Jacket at Geartrade, $144 (score 76): not in your size (listed: L).",
+              "ref": "5f88b923cac6cf"
+            },
+            {
+              "text": "Stio Rivet Jean at Geartrade, $35 (score 70): not in your size (listed: 33R).",
+              "ref": "d8afc858d63f1d"
+            },
+            {
+              "text": "Stio Rivet Canvas Pants at Geartrade, $39 (score 69): not in your size (listed: 36\" x 32\" / Khaki).",
+              "ref": "b6ba9c48eed62e"
+            },
+            {
+              "text": "Stio Pinedale Softshell Pant at Geartrade, $68 (score 69): not in your size (listed: 32\" x 32\" / Black).",
+              "ref": "261b0fdce078e5"
+            }
+          ],
+          "refs": []
+        },
         {
           "title": "Coverage",
           "lines": [
@@ -231,7 +325,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -239,7 +333,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -247,11 +341,15 @@
               "ref": null
             },
             {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -259,15 +357,15 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
+              "text": "Aspen Ski and Board: partial (sale-mens-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -286,25 +384,17 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-18T13:59:19+00:00",
+      "generated_at": "2026-10-18T20:41:32+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "31 strong deals in 154–160 cm; best is 2026 Atomic Bent 100 at $325",
-      "dek": "We checked 1,454 discounted skis across 15 stores; 290 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
+      "headline": "31 strong deals in 154–160 cm; best is 2026 Atomic Bent 90 at $275",
+      "dek": "We checked 1,182 discounted skis across 14 stores; 246 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
-            {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 in 158 cm; about $195 under our fair-price estimate.",
-              "ref": "49f93b7dba3353"
-            },
-            {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 in 158 cm; about $195 under our fair-price estimate.",
-              "ref": "091f736fb7eb72"
-            },
             {
               "text": "2026 Atomic Bent 90 at Lone Pine Gear Exchange, $275 in 157 cm; about $164 under our fair-price estimate.",
               "ref": "f2be5d30617ce8"
@@ -312,6 +402,14 @@
             {
               "text": "2026 Atomic Bent 90 at Lone Pine Gear Exchange, $275 in 157 cm; about $164 under our fair-price estimate.",
               "ref": "a7c713060b2b86"
+            },
+            {
+              "text": "2027 Salomon QST 100 at evo, $420 in 156 cm; about $224 under our fair-price estimate.",
+              "ref": "929082f91e8534"
+            },
+            {
+              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 in 158 cm; about $152 under our fair-price estimate.",
+              "ref": "49f93b7dba3353"
             }
           ],
           "refs": []
@@ -366,8 +464,8 @@
               "ref": "aa531055ee4b96"
             },
             {
-              "text": "Salomon QST 106 at evo is $480 in 157 cm; it becomes a strong deal at about $445 (7% lower).",
-              "ref": "99888328d0ec65"
+              "text": "2026 K2 Mindbender 96C W W at Aspen Ski and Board is $420 in 154 cm; it becomes a strong deal at about $400 (5% lower).",
+              "ref": "3b98de69c14872"
             }
           ],
           "refs": []
@@ -376,19 +474,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (53), Lone Pine Gear Exchange (31), evo (3).",
+              "text": "Most strong prices: Geartrade (53), Lone Pine Gear Exchange (30), evo (3).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 516 listings.",
+              "text": "Geartrade has the deepest typical markdown at 54% off list across 264 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Atomic (37), Rossignol (35), Dynastar (35).",
+              "text": "In your size and budget, the most choice is from K2 (30), Atomic (28), Rossignol (28).",
               "ref": null
             },
             {
-              "text": "82 of the 290 fitting skis are demo, resale or blemished stock.",
+              "text": "42 of the 246 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -436,7 +534,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -444,7 +542,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -452,11 +550,15 @@
               "ref": null
             },
             {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -464,15 +566,15 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
+              "text": "Aspen Ski and Board: partial (sale-mens-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -491,7 +593,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-18T13:59:19+00:00",
+      "generated_at": "2026-10-18T20:41:32+00:00",
       "author": "house"
     }
   }
