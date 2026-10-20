@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T22:20:46+00:00",
+  "generated_at": "2026-10-20T15:02:06+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "5 strong deals in 168–172 cm; best is 2027 Salomon QST 100 at $420",
-      "dek": "We checked 1,246 discounted skis across 14 stores; 171 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
+      "dek": "We checked 1,226 discounted skis across 14 stores; 171 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
             {
-              "text": "2027 Salomon QST 100 at evo, $420 in 172 cm; about $259 under our fair-price estimate; but close to your Rossignol Sender Soul 102.",
+              "text": "2027 Salomon QST 100 at evo, $420 in 172 cm; about $224 under our fair-price estimate; but close to your Rossignol Sender Soul 102.",
               "ref": "929082f91e8534"
             },
             {
@@ -88,11 +88,11 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (53), Lone Pine Gear Exchange (29), evo (3).",
+              "text": "Most strong prices: Geartrade (52), Lone Pine Gear Exchange (29), evo (3).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 54% off list across 305 listings.",
+              "text": "Geartrade has the deepest typical markdown at 54% off list across 285 listings.",
               "ref": null
             },
             {
@@ -136,15 +136,15 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (ski-outlet page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (demo-skis-1 page 1: HTTP 429).",
+              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -152,11 +152,11 @@
               "ref": null
             },
             {
-              "text": "The Gear Room: partial (skis page 1: HTTP 429).",
+              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -168,11 +168,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -184,7 +184,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -193,6 +193,10 @@
             },
             {
               "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -207,7 +211,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-19T22:20:46+00:00",
+      "generated_at": "2026-10-20T15:02:06+00:00",
       "author": "house"
     },
     "clothing": {
@@ -313,15 +317,15 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (ski-outlet page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (demo-skis-1 page 1: HTTP 429).",
+              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -329,11 +333,11 @@
               "ref": null
             },
             {
-              "text": "The Gear Room: partial (skis page 1: HTTP 429).",
+              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -345,11 +349,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -361,7 +365,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -370,6 +374,10 @@
             },
             {
               "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -384,13 +392,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-19T22:20:46+00:00",
+      "generated_at": "2026-10-20T15:02:06+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "Buy now: 2026 Atomic Bent 100, $325 at Lone Pine Gear Exchange",
-      "dek": "We checked 1,246 discounted skis across 14 stores; 260 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
+      "headline": "32 strong deals in 154–160 cm; best is 2026 Atomic Bent 100 at $325",
+      "dek": "We checked 1,226 discounted skis across 14 stores; 258 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 43%).",
       "sections": [
         {
           "title": "Best of today",
@@ -474,19 +482,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (53), Lone Pine Gear Exchange (29), evo (3).",
+              "text": "Most strong prices: Geartrade (52), Lone Pine Gear Exchange (29), evo (3).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 54% off list across 305 listings.",
+              "text": "Geartrade has the deepest typical markdown at 54% off list across 285 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from K2 (33), Rossignol (31), Atomic (29).",
+              "text": "In your size and budget, the most choice is from K2 (33), Atomic (29), Rossignol (29).",
               "ref": null
             },
             {
-              "text": "43 of the 260 fitting skis are demo, resale or blemished stock.",
+              "text": "43 of the 258 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -522,15 +530,15 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (ski-outlet page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (demo-skis-1 page 1: HTTP 429).",
+              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -538,11 +546,11 @@
               "ref": null
             },
             {
-              "text": "The Gear Room: partial (skis page 1: HTTP 429).",
+              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -554,11 +562,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -570,7 +578,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -579,6 +587,10 @@
             },
             {
               "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -593,7 +605,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-19T22:20:46+00:00",
+      "generated_at": "2026-10-20T15:02:06+00:00",
       "author": "house"
     }
   }
