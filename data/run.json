@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-24T13:59:30+00:00",
-  "generated_at": "2026-10-24T13:59:30+00:00",
+  "at": "2026-10-24T20:47:51+00:00",
+  "generated_at": "2026-10-24T20:47:51+00:00",
   "reports": [
     {
       "source_id": "evo",
@@ -9,9 +9,9 @@
       "error": null,
       "notes": [],
       "pages": 2,
-      "products_seen": 449,
-      "offers": 189,
-      "elapsed_s": 3.8
+      "products_seen": 448,
+      "offers": 188,
+      "elapsed_s": 3.9
     },
     {
       "source_id": "geartrade",
@@ -20,8 +20,8 @@
       "error": "alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429",
       "notes": [],
       "pages": 3,
-      "products_seen": 615,
-      "offers": 584,
+      "products_seen": 626,
+      "offers": 595,
       "elapsed_s": 34.8
     },
     {
@@ -33,7 +33,7 @@
       "pages": 2,
       "products_seen": 15,
       "offers": 13,
-      "elapsed_s": 3.1
+      "elapsed_s": 3.2
     },
     {
       "source_id": "lonepine",
@@ -42,8 +42,8 @@
       "error": "demo-skis-1 page 3: HTTP 429",
       "notes": [],
       "pages": 3,
-      "products_seen": 723,
-      "offers": 717,
+      "products_seen": 721,
+      "offers": 715,
       "elapsed_s": 12.1
     },
     {
@@ -66,7 +66,7 @@
       "pages": 2,
       "products_seen": 105,
       "offers": 100,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.3
     },
     {
       "source_id": "jskis",
@@ -104,13 +104,13 @@
     {
       "source_id": "moment",
       "name": "Moment",
-      "status": "partial",
-      "error": "cosmeticblems page 1: HTTP 429",
+      "status": "failed",
+      "error": "on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429",
       "notes": [],
-      "pages": 1,
-      "products_seen": 24,
-      "offers": 23,
-      "elapsed_s": 9.1
+      "pages": 0,
+      "products_seen": 0,
+      "offers": 0,
+      "elapsed_s": 15.2
     },
     {
       "source_id": "on3p",
@@ -121,7 +121,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 15.1
+      "elapsed_s": 15.2
     },
     {
       "source_id": "season",
@@ -165,7 +165,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 13.6
+      "elapsed_s": 13.7
     },
     {
       "source_id": "coloradoskishop",
@@ -220,17 +220,29 @@
       "pages": 1,
       "products_seen": 11,
       "offers": 11,
-      "elapsed_s": 2.1
+      "elapsed_s": 2.0
     }
   ],
   "events": {
-    "new_offers": [],
-    "gone_offers": [
-      "6cb759586bc588"
+    "new_offers": [
+      "9330aff2e6fd9f",
+      "c62bf006d91222",
+      "a0912088c66a14",
+      "e09d565486d1f2",
+      "bc22f0dd5e9017",
+      "93e1fbd376c91c",
+      "896e269ae8c242",
+      "19f8eb27250de8",
+      "4b4c582fc15deb",
+      "6947790d728bfe",
+      "d5ef6f5f98b957",
+      "f012367d81c51b",
+      "1cd1805b3dcd79"
     ],
-    "returned_offers": [
-      "a63c6e5b9bc148"
-    ]
+    "gone_offers": [
+      "1325f4c23fb03c"
+    ],
+    "returned_offers": []
   },
   "market_log": [
     {
@@ -386,11 +398,18 @@
       "median_claimed_pct": 44.3,
       "median_vs_fmv_pct": -7.7,
       "strong_or_better": 99
+    },
+    {
+      "at": "2026-10-24T20:47:51+00:00",
+      "skis": 2229,
+      "median_claimed_pct": 44.4,
+      "median_vs_fmv_pct": -7.7,
+      "strong_or_better": 99
     }
   ],
   "counts": {
-    "collected": 3127,
-    "published": 2677,
-    "new": 112
+    "collected": 3139,
+    "published": 2689,
+    "new": 116
   }
 }
