@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-24T20:47:51+00:00",
-  "generated_at": "2026-10-24T20:47:51+00:00",
+  "at": "2026-10-25T14:21:01+00:00",
+  "generated_at": "2026-10-25T14:21:01+00:00",
   "reports": [
     {
       "source_id": "evo",
@@ -9,9 +9,9 @@
       "error": null,
       "notes": [],
       "pages": 2,
-      "products_seen": 448,
-      "offers": 188,
-      "elapsed_s": 3.9
+      "products_seen": 446,
+      "offers": 186,
+      "elapsed_s": 4.0
     },
     {
       "source_id": "geartrade",
@@ -20,9 +20,9 @@
       "error": "alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429",
       "notes": [],
       "pages": 3,
-      "products_seen": 626,
-      "offers": 595,
-      "elapsed_s": 34.8
+      "products_seen": 623,
+      "offers": 592,
+      "elapsed_s": 34.9
     },
     {
       "source_id": "utahskis",
@@ -33,7 +33,7 @@
       "pages": 2,
       "products_seen": 15,
       "offers": 13,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.3
     },
     {
       "source_id": "lonepine",
@@ -44,7 +44,7 @@
       "pages": 3,
       "products_seen": 721,
       "offers": 715,
-      "elapsed_s": 12.1
+      "elapsed_s": 12.2
     },
     {
       "source_id": "eriks",
@@ -66,7 +66,7 @@
       "pages": 2,
       "products_seen": 105,
       "offers": 100,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.4
     },
     {
       "source_id": "jskis",
@@ -77,7 +77,7 @@
       "pages": 1,
       "products_seen": 7,
       "offers": 5,
-      "elapsed_s": 9.1
+      "elapsed_s": 9.2
     },
     {
       "source_id": "4frnt",
@@ -88,7 +88,7 @@
       "pages": 1,
       "products_seen": 11,
       "offers": 3,
-      "elapsed_s": 1.7
+      "elapsed_s": 1.8
     },
     {
       "source_id": "dps",
@@ -99,7 +99,7 @@
       "pages": 1,
       "products_seen": 28,
       "offers": 27,
-      "elapsed_s": 1.7
+      "elapsed_s": 1.9
     },
     {
       "source_id": "moment",
@@ -115,24 +115,24 @@
     {
       "source_id": "on3p",
       "name": "ON3P",
-      "status": "failed",
-      "error": "on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429",
+      "status": "blocked",
+      "error": "on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)",
       "notes": [],
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 15.2
+      "elapsed_s": 13.8
     },
     {
       "source_id": "season",
       "name": "Season",
-      "status": "failed",
-      "error": "closeouts-blems page 1: HTTP 429",
+      "status": "blocked",
+      "error": "closeouts-blems page 1: Could not read robots.txt (HTTP 429)",
       "notes": [],
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 7.6
+      "elapsed_s": 6.2
     },
     {
       "source_id": "armada",
@@ -143,7 +143,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.2
+      "elapsed_s": 6.4
     },
     {
       "source_id": "rmu",
@@ -154,7 +154,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 13.7
+      "elapsed_s": 13.8
     },
     {
       "source_id": "aspen",
@@ -165,7 +165,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 13.7
+      "elapsed_s": 13.8
     },
     {
       "source_id": "coloradoskishop",
@@ -176,7 +176,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.1
+      "elapsed_s": 6.2
     },
     {
       "source_id": "gearx",
@@ -187,7 +187,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.1
+      "elapsed_s": 6.2
     },
     {
       "source_id": "alpineshopvt",
@@ -209,7 +209,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.1
+      "elapsed_s": 6.2
     },
     {
       "source_id": "campsaver",
@@ -220,27 +220,14 @@
       "pages": 1,
       "products_seen": 11,
       "offers": 11,
-      "elapsed_s": 2.0
+      "elapsed_s": 1.9
     }
   ],
   "events": {
-    "new_offers": [
-      "9330aff2e6fd9f",
-      "c62bf006d91222",
-      "a0912088c66a14",
-      "e09d565486d1f2",
-      "bc22f0dd5e9017",
-      "93e1fbd376c91c",
-      "896e269ae8c242",
-      "19f8eb27250de8",
-      "4b4c582fc15deb",
-      "6947790d728bfe",
-      "d5ef6f5f98b957",
-      "f012367d81c51b",
-      "1cd1805b3dcd79"
-    ],
+    "new_offers": [],
     "gone_offers": [
-      "1325f4c23fb03c"
+      "4ec080157b83d3",
+      "eedd71b465314a"
     ],
     "returned_offers": []
   },
@@ -405,11 +392,18 @@
       "median_claimed_pct": 44.4,
       "median_vs_fmv_pct": -7.7,
       "strong_or_better": 99
+    },
+    {
+      "at": "2026-10-25T14:21:01+00:00",
+      "skis": 2227,
+      "median_claimed_pct": 44.4,
+      "median_vs_fmv_pct": -7.7,
+      "strong_or_better": 99
     }
   ],
   "counts": {
-    "collected": 3139,
-    "published": 2689,
-    "new": 116
+    "collected": 3135,
+    "published": 2685,
+    "new": 30
   }
 }

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T20:47:51+00:00",
+  "generated_at": "2026-10-25T14:21:01+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "5 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 2,229 discounted skis across 16 stores; 301 are in your size and budget. Typical advertised discounts are deeper than a week ago (44% vs 40%).",
+      "dek": "We checked 2,227 discounted skis across 16 stores; 300 are in your size and budget. Typical advertised discounts are deeper than a week ago (44% vs 40%).",
       "sections": [
         {
           "title": "Best of today",
@@ -40,23 +40,23 @@
               "ref": "00e8f9ce719fe1"
             },
             {
-              "text": "2025 J Skis ALLPLAY (J Skis) dropped $100 to $579 (15%).",
-              "ref": "bf7e8b6b44ca0e"
-            },
-            {
-              "text": "New: 2026 Kastle M9 87 at Lone Pine Gear Exchange, $455, scored 74.",
-              "ref": "675b6fe69fa9eb"
-            },
-            {
-              "text": "New: Salomon Stance W 94 at Lone Pine Gear Exchange, $230, scored 71.",
-              "ref": "04ef35e4f22211"
+              "text": "2025 Atomic W Maven 103 CTI (Lone Pine Gear Exchange) dropped $50 to $300 (14%).",
+              "ref": "20c3ea068120f7"
             },
             {
               "text": "New: 2024 Elan Ripstick 96 at Lone Pine Gear Exchange, $250, scored 71.",
               "ref": "d76adbaef7e758"
             },
             {
-              "text": "111 listings sold or came down this week.",
+              "text": "New: 2025 Blizzard Anomaly 84R at Lone Pine Gear Exchange, $200, scored 64.",
+              "ref": "336ba05fe58881"
+            },
+            {
+              "text": "New: 2025 Dynastar M-Free 108 at Lone Pine Gear Exchange, $400.",
+              "ref": "1cd1805b3dcd79"
+            },
+            {
+              "text": "113 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -100,7 +100,7 @@
               "ref": null
             },
             {
-              "text": "177 of the 301 fitting skis are demo, resale or blemished stock.",
+              "text": "177 of the 300 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -148,11 +148,11 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: blocked (on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "text": "Season: blocked (closeouts-blems page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
@@ -187,21 +187,17 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-24T20:47:51+00:00",
+      "generated_at": "2026-10-25T14:21:01+00:00",
       "author": "house"
     },
     "clothing": {
       "kind": "clothing",
-      "headline": "5 strong deals; best is Stio Lucent Long Sleeve Tee at $32",
-      "dek": "We checked 415 discounted clothing listings across 1 stores; 85 are in your size and budget.",
+      "headline": "4 strong deals; best is Stio Lucent Long Sleeve Tee at $36",
+      "dek": "We checked 413 discounted clothing listings across 1 stores; 83 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
-            {
-              "text": "Stio Lucent Long Sleeve Tee at Geartrade, $32 in S; about $32 under our fair-price estimate; your size (S).",
-              "ref": "b15c4dc643d379"
-            },
             {
               "text": "Stio Lucent Long Sleeve Tee at Geartrade, $36 in M; about $28 under our fair-price estimate; your size (M).",
               "ref": "a130511e56586e"
@@ -213,6 +209,10 @@
             {
               "text": "Stio Divide Short Sleeve Tee at Geartrade, $22 in S; about $17.15 under our fair-price estimate; your size (S).",
               "ref": "fd54298baba49b"
+            },
+            {
+              "text": "Stio Western Logo Tee at Geartrade, $22 in M; about $13.50 under our fair-price estimate; your size (M).",
+              "ref": "c4cf54dc00d961"
             }
           ],
           "refs": []
@@ -231,18 +231,6 @@
             {
               "text": "Stio Ender Hooded Jacket (Geartrade) dropped $4.48 to $103 (4%).",
               "ref": "616bd0c4d2aeb6"
-            },
-            {
-              "text": "New: Stio Doublecharge Insulated Jacket at Geartrade, $234.",
-              "ref": "c581c48e9b386d"
-            },
-            {
-              "text": "New: Stio Hiking Shorts at Geartrade, $27.",
-              "ref": "0a982d26e08698"
-            },
-            {
-              "text": "New: Stio Divide Polo at Geartrade, $30.",
-              "ref": "10248ff31b72f1"
             }
           ],
           "refs": []
@@ -269,15 +257,15 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (20).",
+              "text": "Most strong prices: Geartrade (19).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 415 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 413 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Stio (85).",
+              "text": "In your size and budget, the most choice is from Stio (83).",
               "ref": null
             }
           ],
@@ -325,11 +313,11 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: blocked (on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "text": "Season: blocked (closeouts-blems page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
@@ -364,13 +352,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-24T20:47:51+00:00",
+      "generated_at": "2026-10-25T14:21:01+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
       "headline": "Buy now: 2027 Salomon QST 106, $480 at evo",
-      "dek": "We checked 2,229 discounted skis across 16 stores; 421 are in your size and budget. Typical advertised discounts are deeper than a week ago (44% vs 40%).",
+      "dek": "We checked 2,227 discounted skis across 16 stores; 421 are in your size and budget. Typical advertised discounts are deeper than a week ago (44% vs 40%).",
       "sections": [
         {
           "title": "Best of today",
@@ -406,23 +394,23 @@
               "ref": "00e8f9ce719fe1"
             },
             {
-              "text": "2025 J Skis ALLPLAY (J Skis) dropped $100 to $579 (15%).",
-              "ref": "bf7e8b6b44ca0e"
-            },
-            {
-              "text": "New: 2026 Kastle M9 87 at Lone Pine Gear Exchange, $455, scored 74.",
-              "ref": "675b6fe69fa9eb"
-            },
-            {
-              "text": "New: Salomon Stance W 94 at Lone Pine Gear Exchange, $230, scored 71.",
-              "ref": "04ef35e4f22211"
+              "text": "2025 Atomic W Maven 103 CTI (Lone Pine Gear Exchange) dropped $50 to $300 (14%).",
+              "ref": "20c3ea068120f7"
             },
             {
               "text": "New: 2024 Elan Ripstick 96 at Lone Pine Gear Exchange, $250, scored 71.",
               "ref": "d76adbaef7e758"
             },
             {
-              "text": "111 listings sold or came down this week.",
+              "text": "New: 2025 Blizzard Anomaly 84R at Lone Pine Gear Exchange, $200, scored 64.",
+              "ref": "336ba05fe58881"
+            },
+            {
+              "text": "New: 2025 Dynastar M-Free 108 at Lone Pine Gear Exchange, $400.",
+              "ref": "1cd1805b3dcd79"
+            },
+            {
+              "text": "113 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -514,11 +502,11 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: blocked (on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "text": "Season: blocked (closeouts-blems page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
@@ -553,7 +541,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-24T20:47:51+00:00",
+      "generated_at": "2026-10-25T14:21:01+00:00",
       "author": "house"
     }
   }
