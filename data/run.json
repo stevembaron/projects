@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-25T14:21:01+00:00",
-  "generated_at": "2026-10-25T14:21:01+00:00",
+  "at": "2026-10-25T20:49:47+00:00",
+  "generated_at": "2026-10-25T20:49:47+00:00",
   "reports": [
     {
       "source_id": "evo",
@@ -11,18 +11,18 @@
       "pages": 2,
       "products_seen": 446,
       "offers": 186,
-      "elapsed_s": 4.0
+      "elapsed_s": 3.8
     },
     {
       "source_id": "geartrade",
       "name": "Geartrade",
       "status": "partial",
-      "error": "alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429",
+      "error": "stio page 1: HTTP 429",
       "notes": [],
-      "pages": 3,
-      "products_seen": 623,
-      "offers": 592,
-      "elapsed_s": 34.9
+      "pages": 6,
+      "products_seen": 664,
+      "offers": 632,
+      "elapsed_s": 16.6
     },
     {
       "source_id": "utahskis",
@@ -33,18 +33,18 @@
       "pages": 2,
       "products_seen": 15,
       "offers": 13,
-      "elapsed_s": 3.3
+      "elapsed_s": 3.2
     },
     {
       "source_id": "lonepine",
       "name": "Lone Pine Gear Exchange",
-      "status": "partial",
-      "error": "demo-skis-1 page 3: HTTP 429",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 3,
-      "products_seen": 721,
-      "offers": 715,
-      "elapsed_s": 12.2
+      "pages": 4,
+      "products_seen": 878,
+      "offers": 863,
+      "elapsed_s": 6.8
     },
     {
       "source_id": "eriks",
@@ -64,20 +64,20 @@
       "error": null,
       "notes": [],
       "pages": 2,
-      "products_seen": 105,
-      "offers": 100,
-      "elapsed_s": 3.4
+      "products_seen": 108,
+      "offers": 103,
+      "elapsed_s": 3.2
     },
     {
       "source_id": "jskis",
       "name": "J Skis",
-      "status": "partial",
-      "error": "2025-blemishes page 1: HTTP 429",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 1,
-      "products_seen": 7,
+      "pages": 2,
+      "products_seen": 22,
       "offers": 5,
-      "elapsed_s": 9.2
+      "elapsed_s": 3.2
     },
     {
       "source_id": "4frnt",
@@ -88,7 +88,7 @@
       "pages": 1,
       "products_seen": 11,
       "offers": 3,
-      "elapsed_s": 1.8
+      "elapsed_s": 1.7
     },
     {
       "source_id": "dps",
@@ -99,106 +99,106 @@
       "pages": 1,
       "products_seen": 28,
       "offers": 27,
-      "elapsed_s": 1.9
+      "elapsed_s": 1.8
     },
     {
       "source_id": "moment",
       "name": "Moment",
-      "status": "failed",
-      "error": "on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 15.2
+      "pages": 2,
+      "products_seen": 46,
+      "offers": 23,
+      "elapsed_s": 3.3
     },
     {
       "source_id": "on3p",
       "name": "ON3P",
-      "status": "blocked",
-      "error": "on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 13.8
+      "pages": 2,
+      "products_seen": 4,
+      "offers": 4,
+      "elapsed_s": 3.2
     },
     {
       "source_id": "season",
       "name": "Season",
-      "status": "blocked",
-      "error": "closeouts-blems page 1: Could not read robots.txt (HTTP 429)",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
+      "pages": 1,
+      "products_seen": 1,
       "offers": 0,
-      "elapsed_s": 6.2
+      "elapsed_s": 1.7
     },
     {
       "source_id": "armada",
       "name": "Armada",
-      "status": "blocked",
-      "error": "outlet-skis page 1: Could not read robots.txt (HTTP 429)",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 6.4
+      "pages": 1,
+      "products_seen": 18,
+      "offers": 10,
+      "elapsed_s": 1.7
     },
     {
       "source_id": "rmu",
       "name": "RMU",
-      "status": "blocked",
-      "error": "garage-sale page 1: Could not read robots.txt (HTTP 429); blemished-sale-skis page 1: Could not read robots.txt (HTTP 429)",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
+      "pages": 2,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 13.8
+      "elapsed_s": 3.2
     },
     {
       "source_id": "aspen",
       "name": "Aspen Ski and Board",
-      "status": "blocked",
-      "error": "outlet-skis page 1: Could not read robots.txt (HTTP 429); sale-mens-skis page 1: Could not read robots.txt (HTTP 429)",
+      "status": "partial",
+      "error": "sale-mens-skis page 1: HTTP 429",
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 13.8
+      "pages": 1,
+      "products_seen": 62,
+      "offers": 52,
+      "elapsed_s": 9.2
     },
     {
       "source_id": "coloradoskishop",
       "name": "Colorado Ski Shop",
-      "status": "blocked",
-      "error": "sale-skis page 1: Could not read robots.txt (HTTP 429)",
+      "status": "partial",
+      "error": "sale-skis page 2: HTTP 429",
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 6.2
+      "pages": 1,
+      "products_seen": 250,
+      "offers": 225,
+      "elapsed_s": 9.2
     },
     {
       "source_id": "gearx",
       "name": "Outdoor Gear Exchange",
-      "status": "blocked",
-      "error": "alpine-skis page 1: Could not read robots.txt (HTTP 429)",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 6.2
+      "pages": 1,
+      "products_seen": 57,
+      "offers": 55,
+      "elapsed_s": 1.9
     },
     {
       "source_id": "alpineshopvt",
       "name": "Alpine Shop VT",
-      "status": "blocked",
-      "error": "ski-sale page 1: Could not read robots.txt (HTTP 429)",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 6.2
+      "pages": 1,
+      "products_seen": 79,
+      "offers": 35,
+      "elapsed_s": 1.9
     },
     {
       "source_id": "cripplecreek",
@@ -220,14 +220,51 @@
       "pages": 1,
       "products_seen": 11,
       "offers": 11,
-      "elapsed_s": 1.9
+      "elapsed_s": 2.0
     }
   ],
   "events": {
-    "new_offers": [],
+    "new_offers": [
+      "6e690f62498252",
+      "abe32bd3d0c3ea",
+      "fc77691809f8d2",
+      "a9c9b66fe28a2f",
+      "a8c2e327b4e613",
+      "d9a91f0deb9d63",
+      "6292dc0f206ac0",
+      "354d04b1abe5a6",
+      "4cdf6ac6f6fd67",
+      "19e92be08dddaa",
+      "8cca2ff192fa35",
+      "e72d32036ef1a2",
+      "6b57c1877901fe",
+      "2c33b1ec36b18a",
+      "e5210726fdc533",
+      "fafeb5b2b759fc",
+      "860bcaad27522a",
+      "0f35fe43021533"
+    ],
     "gone_offers": [
-      "4ec080157b83d3",
-      "eedd71b465314a"
+      "0e80d4a5a609f0",
+      "11ca02292fdae7",
+      "14d9c9c0281b74",
+      "1c2f47b90bc547",
+      "4451f568d4830d",
+      "47ff130dce75e4",
+      "564b8408af6b19",
+      "698e529810b6e6",
+      "8a129289e53548",
+      "8a6a536cadeea1",
+      "9bd29c22badd74",
+      "a1b7eef379797a",
+      "a547f57a4f3576",
+      "aa0ad5816d59d7",
+      "af56b4e7438ad6",
+      "c4fbe6a6b1840e",
+      "da69c5be10c3f6",
+      "dff292c0fc948e",
+      "e29d291400be72",
+      "ff15efaa4015e7"
     ],
     "returned_offers": []
   },
@@ -399,11 +436,18 @@
       "median_claimed_pct": 44.4,
       "median_vs_fmv_pct": -7.7,
       "strong_or_better": 99
+    },
+    {
+      "at": "2026-10-25T20:49:47+00:00",
+      "skis": 2225,
+      "median_claimed_pct": 44.4,
+      "median_vs_fmv_pct": -7.6,
+      "strong_or_better": 102
     }
   ],
   "counts": {
-    "collected": 3135,
-    "published": 2685,
-    "new": 30
+    "collected": 3133,
+    "published": 2684,
+    "new": 45
   }
 }
