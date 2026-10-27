@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T22:39:33+00:00",
+  "generated_at": "2026-10-27T15:51:56+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "5 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 2,024 discounted skis across 15 stores; 288 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 40%).",
+      "dek": "We checked 2,069 discounted skis across 15 stores; 289 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 40%).",
       "sections": [
         {
           "title": "Best of today",
@@ -32,16 +32,16 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "2026 Rossignol W Arcade 82 (Lone Pine Gear Exchange) dropped $296 to $99 (75%).",
-              "ref": "73baed91fd278a"
+              "text": "2026 Moment Wildcat Tour 118 (Moment) dropped $230 to $489 (32%).",
+              "ref": "0be5c215b2cd70"
             },
             {
-              "text": "2025 Atomic Cloud C12 Revoschock (Lone Pine Gear Exchange) dropped $209 to $70 (75%).",
-              "ref": "969565baadb211"
+              "text": "2026 Atomic Maverick 115 CTI (Lone Pine Gear Exchange) dropped $159 to $500 (24%).",
+              "ref": "49df8abb1a7d9b"
             },
             {
-              "text": "Elan Explore 82 (Lone Pine Gear Exchange) dropped $134 to $45 (75%).",
-              "ref": "85e23ab21b3f0f"
+              "text": "2026 Atomic Cloud Q12 Revoshock (Lone Pine Gear Exchange) dropped $100 to $380 (21%).",
+              "ref": "00e8f9ce719fe1"
             },
             {
               "text": "New: 2026 Elan Ripstick 88 at Lone Pine Gear Exchange, $250, scored 80.",
@@ -52,8 +52,8 @@
               "ref": "2c33b1ec36b18a"
             },
             {
-              "text": "New: 2026 Head Crux 93 Pro at Lone Pine Gear Exchange, $237, scored 74.",
-              "ref": "ec6adbd8453241"
+              "text": "New: Elan Ripstick 94 W at Lone Pine Gear Exchange, $250, scored 71.",
+              "ref": "8cca2ff192fa35"
             },
             {
               "text": "148 listings sold or came down this week.",
@@ -74,12 +74,12 @@
               "ref": "b5d3b7d6646c6e"
             },
             {
-              "text": "2024 Atomic Redster Q4 at Lone Pine Gear Exchange is $45 in 169 cm; it becomes a strong deal at about $43 (4% lower).",
-              "ref": "f9b1bca91cae70"
-            },
-            {
               "text": "Black Diamond Helio Carbon 88 at Geartrade is $396 in 170 cm; it becomes a strong deal at about $370 (7% lower).",
               "ref": "cd0473c26b0bc2"
+            },
+            {
+              "text": "Black Diamond Helio Carbon 95 at Geartrade is $408 in 169 cm; it becomes a strong deal at about $380 (7% lower).",
+              "ref": "cae3442c3602e6"
             }
           ],
           "refs": []
@@ -88,19 +88,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (66), Geartrade (45), evo (5).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (45), Geartrade (45), evo (5).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 622 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 672 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (41), Elan (29), Line (28).",
+              "text": "In your size and budget, the most choice is from Rossignol (41), Elan (30), Salomon (28).",
               "ref": null
             },
             {
-              "text": "175 of the 288 fitting skis are demo, resale or blemished stock.",
+              "text": "176 of the 289 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -110,20 +110,20 @@
           "title": "Good deals that aren't for you",
           "lines": [
             {
-              "text": "2026 Faction Agent 2 at Lone Pine Gear Exchange, $148 (score 97): no length between 166 and 174 cm (has 187).",
-              "ref": "61f7ff4e9b1d40"
-            },
-            {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $137 (score 95): no length between 166 and 174 cm (has 188).",
-              "ref": "6757df542ed254"
-            },
-            {
-              "text": "2027 Rossignol Arcade 88 at Lone Pine Gear Exchange, $187 (score 94): no length between 166 and 174 cm (has 162).",
-              "ref": "a5ab2f1991a668"
-            },
-            {
               "text": "2025 Peak 98 By Dav at evo, $283 (score 93): no length between 166 and 174 cm (has 178).",
               "ref": "c2ecd880fdaccf"
+            },
+            {
+              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 91): no length between 166 and 174 cm (has 158).",
+              "ref": "49f93b7dba3353"
+            },
+            {
+              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 91): no length between 166 and 174 cm (has 158).",
+              "ref": "091f736fb7eb72"
+            },
+            {
+              "text": "2027 Salomon QST 94 at evo, $750 (score 91): over your $500 budget.",
+              "ref": "dacac00735b6e8"
             }
           ],
           "refs": []
@@ -141,6 +141,10 @@
             },
             {
               "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -175,7 +179,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-26T22:39:33+00:00",
+      "generated_at": "2026-10-27T15:51:56+00:00",
       "author": "house"
     },
     "clothing": {
@@ -199,6 +203,10 @@
               "ref": null
             },
             {
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
               "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
               "ref": null
             },
@@ -230,13 +238,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-26T22:39:33+00:00",
+      "generated_at": "2026-10-27T15:51:56+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
       "headline": "Buy now: 2027 Salomon QST 106, $480 at evo",
-      "dek": "We checked 2,024 discounted skis across 15 stores; 405 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 40%).",
+      "dek": "We checked 2,069 discounted skis across 15 stores; 424 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 40%).",
       "sections": [
         {
           "title": "Best of today",
@@ -264,16 +272,16 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "2026 Rossignol W Arcade 82 (Lone Pine Gear Exchange) dropped $296 to $99 (75%).",
-              "ref": "73baed91fd278a"
+              "text": "2026 Moment Wildcat Tour 118 (Moment) dropped $230 to $489 (32%).",
+              "ref": "0be5c215b2cd70"
             },
             {
-              "text": "2025 Atomic Cloud C12 Revoschock (Lone Pine Gear Exchange) dropped $209 to $70 (75%).",
-              "ref": "969565baadb211"
+              "text": "2026 Atomic Maverick 115 CTI (Lone Pine Gear Exchange) dropped $159 to $500 (24%).",
+              "ref": "49df8abb1a7d9b"
             },
             {
-              "text": "Elan Explore 82 (Lone Pine Gear Exchange) dropped $134 to $45 (75%).",
-              "ref": "85e23ab21b3f0f"
+              "text": "2026 Atomic Cloud Q12 Revoshock (Lone Pine Gear Exchange) dropped $100 to $380 (21%).",
+              "ref": "00e8f9ce719fe1"
             },
             {
               "text": "New: 2026 Elan Ripstick 88 at Lone Pine Gear Exchange, $250, scored 80.",
@@ -284,8 +292,8 @@
               "ref": "2c33b1ec36b18a"
             },
             {
-              "text": "New: 2026 Head Crux 93 Pro at Lone Pine Gear Exchange, $237, scored 74.",
-              "ref": "ec6adbd8453241"
+              "text": "New: Elan Ripstick 94 W at Lone Pine Gear Exchange, $250, scored 71.",
+              "ref": "8cca2ff192fa35"
             },
             {
               "text": "148 listings sold or came down this week.",
@@ -320,19 +328,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (66), Geartrade (45), evo (5).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (45), Geartrade (45), evo (5).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 622 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 672 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (67), Dynastar (45), Atomic (41).",
+              "text": "In your size and budget, the most choice is from Rossignol (68), Dynastar (48), Atomic (42).",
               "ref": null
             },
             {
-              "text": "215 of the 405 fitting skis are demo, resale or blemished stock.",
+              "text": "231 of the 424 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -342,20 +350,20 @@
           "title": "Good deals that aren't for you",
           "lines": [
             {
-              "text": "2026 Faction Agent 2 at Lone Pine Gear Exchange, $148 (score 97): no length between 152 and 162 cm (has 187).",
-              "ref": "61f7ff4e9b1d40"
-            },
-            {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $137 (score 95): no length between 152 and 162 cm (has 188).",
-              "ref": "6757df542ed254"
-            },
-            {
               "text": "2025 Peak 98 By Dav at evo, $283 (score 93): no length between 152 and 162 cm (has 178).",
               "ref": "c2ecd880fdaccf"
             },
             {
-              "text": "2026 K2 Reckoner 92 at Lone Pine Gear Exchange, $97 (score 89): no length between 152 and 162 cm (has 149).",
-              "ref": "fd1c34ab3070e4"
+              "text": "2026 Atomic Maverick 105 CTI at Lone Pine Gear Exchange, $400 (score 83): no length between 152 and 162 cm (has 170, 178).",
+              "ref": "7e0a058f017176"
+            },
+            {
+              "text": "2026 Atomic Maverick 96 CTI at Lone Pine Gear Exchange, $375 (score 82): no length between 152 and 162 cm (has 165, 172, 179, 186).",
+              "ref": "f37bb4b0875630"
+            },
+            {
+              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 (score 82): no length between 152 and 162 cm (has 164, 172, 180, 188).",
+              "ref": "c4730a5ef38e7d"
             }
           ],
           "refs": []
@@ -373,6 +381,10 @@
             },
             {
               "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -407,7 +419,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-26T22:39:33+00:00",
+      "generated_at": "2026-10-27T15:51:56+00:00",
       "author": "house"
     }
   }
