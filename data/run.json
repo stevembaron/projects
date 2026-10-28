@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-28T16:36:18+00:00",
-  "generated_at": "2026-10-28T16:36:18+00:00",
+  "at": "2026-10-28T22:33:49+00:00",
+  "generated_at": "2026-10-28T22:33:49+00:00",
   "reports": [
     {
       "source_id": "evo",
@@ -9,20 +9,20 @@
       "error": null,
       "notes": [],
       "pages": 2,
-      "products_seen": 447,
-      "offers": 187,
-      "elapsed_s": 4.0
+      "products_seen": 448,
+      "offers": 188,
+      "elapsed_s": 3.8
     },
     {
       "source_id": "geartrade",
       "name": "Geartrade",
       "status": "partial",
-      "error": "alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429",
+      "error": "alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429",
       "notes": [],
-      "pages": 3,
-      "products_seen": 664,
-      "offers": 626,
-      "elapsed_s": 34.9
+      "pages": 4,
+      "products_seen": 681,
+      "offers": 644,
+      "elapsed_s": 29.0
     },
     {
       "source_id": "utahskis",
@@ -33,18 +33,18 @@
       "pages": 2,
       "products_seen": 15,
       "offers": 13,
-      "elapsed_s": 3.2
+      "elapsed_s": 3.3
     },
     {
       "source_id": "lonepine",
       "name": "Lone Pine Gear Exchange",
-      "status": "partial",
-      "error": "demo-skis-1 page 3: HTTP 429",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 3,
-      "products_seen": 720,
-      "offers": 715,
-      "elapsed_s": 12.4
+      "pages": 4,
+      "products_seen": 863,
+      "offers": 850,
+      "elapsed_s": 6.8
     },
     {
       "source_id": "eriks",
@@ -53,9 +53,9 @@
       "error": null,
       "notes": [],
       "pages": 1,
-      "products_seen": 245,
-      "offers": 219,
-      "elapsed_s": 2.6
+      "products_seen": 246,
+      "offers": 220,
+      "elapsed_s": 2.4
     },
     {
       "source_id": "gearroom",
@@ -71,13 +71,13 @@
     {
       "source_id": "jskis",
       "name": "J Skis",
-      "status": "partial",
-      "error": "2025-blemishes page 1: HTTP 429",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 1,
-      "products_seen": 8,
+      "pages": 2,
+      "products_seen": 23,
       "offers": 7,
-      "elapsed_s": 9.1
+      "elapsed_s": 3.2
     },
     {
       "source_id": "4frnt",
@@ -104,46 +104,46 @@
     {
       "source_id": "moment",
       "name": "Moment",
-      "status": "failed",
-      "error": "on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429",
+      "status": "partial",
+      "error": "cosmeticblems page 1: HTTP 429",
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 15.2
+      "pages": 1,
+      "products_seen": 23,
+      "offers": 22,
+      "elapsed_s": 9.2
     },
     {
       "source_id": "on3p",
       "name": "ON3P",
-      "status": "failed",
-      "error": "on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429",
+      "status": "partial",
+      "error": "factory-sale page 1: HTTP 429",
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 15.2
+      "pages": 1,
+      "products_seen": 4,
+      "offers": 4,
+      "elapsed_s": 9.2
     },
     {
       "source_id": "season",
       "name": "Season",
-      "status": "failed",
-      "error": "closeouts-blems page 1: HTTP 429",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
+      "pages": 1,
+      "products_seen": 1,
       "offers": 0,
-      "elapsed_s": 7.6
+      "elapsed_s": 1.7
     },
     {
       "source_id": "armada",
       "name": "Armada",
-      "status": "blocked",
-      "error": "outlet-skis page 1: Could not read robots.txt (HTTP 429)",
+      "status": "failed",
+      "error": "outlet-skis page 1: HTTP 429",
       "notes": [],
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.2
+      "elapsed_s": 7.7
     },
     {
       "source_id": "rmu",
@@ -154,7 +154,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 13.7
+      "elapsed_s": 14.0
     },
     {
       "source_id": "aspen",
@@ -165,7 +165,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 13.8
+      "elapsed_s": 13.9
     },
     {
       "source_id": "coloradoskishop",
@@ -176,7 +176,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.1
+      "elapsed_s": 6.2
     },
     {
       "source_id": "gearx",
@@ -187,7 +187,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.1
+      "elapsed_s": 6.2
     },
     {
       "source_id": "alpineshopvt",
@@ -198,7 +198,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.2
+      "elapsed_s": 6.4
     },
     {
       "source_id": "cripplecreek",
@@ -209,7 +209,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 6.1
+      "elapsed_s": 6.2
     },
     {
       "source_id": "campsaver",
@@ -220,20 +220,28 @@
       "pages": 1,
       "products_seen": 11,
       "offers": 11,
-      "elapsed_s": 2.2
+      "elapsed_s": 2.1
     }
   ],
   "events": {
     "new_offers": [
-      "bddb56f4aa1438",
-      "483ec621ea4485"
+      "30e45d125bfb66",
+      "6303b51f769b02",
+      "9aa074189699dd",
+      "289542a836b125",
+      "c6f5fc07db6682",
+      "5f6c9a1b7a08f7",
+      "6c413db1a5235e"
     ],
     "gone_offers": [
-      "e5cec78cbad4a2",
-      "eb1c4f3d5b1c74"
+      "1cd1805b3dcd79",
+      "1d5f91fe283346",
+      "69391b19a57390",
+      "c6b44b32ccc87a",
+      "f2be5d30617ce8"
     ],
     "returned_offers": [
-      "4451f568d4830d"
+      "114eb255382def"
     ]
   },
   "market_log": [
@@ -446,11 +454,18 @@
       "median_claimed_pct": 46.9,
       "median_vs_fmv_pct": -8.2,
       "strong_or_better": 97
+    },
+    {
+      "at": "2026-10-28T22:33:49+00:00",
+      "skis": 2067,
+      "median_claimed_pct": 46.9,
+      "median_vs_fmv_pct": -8.2,
+      "strong_or_better": 100
     }
   ],
   "counts": {
-    "collected": 2488,
-    "published": 2112,
-    "new": 73
+    "collected": 2487,
+    "published": 2110,
+    "new": 77
   }
 }
