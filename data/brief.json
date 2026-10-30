@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T22:44:14+00:00",
+  "generated_at": "2026-10-30T16:41:11+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "4 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 2,063 discounted skis across 15 stores; 284 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 44%).",
+      "headline": "5 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
+      "dek": "We checked 2,063 discounted skis across 15 stores; 288 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 44%).",
       "sections": [
         {
           "title": "Best of today",
@@ -36,12 +36,12 @@
               "ref": "bdde36fa9f9c18"
             },
             {
-              "text": "2026 Blizzard Black Pearl 94 (Lone Pine Gear Exchange) dropped $160 to $400 (29%).",
-              "ref": "7b8a2aff41afcd"
+              "text": "2026 Faction Dancer 2 (Lone Pine Gear Exchange) dropped $168 to $420 (29%).",
+              "ref": "80b54fe6d9102c"
             },
             {
-              "text": "2026 Dynastar M-Cross 88 (Lone Pine Gear Exchange) dropped $130 to $350 (27%).",
-              "ref": "facb5cbf95c49c"
+              "text": "2026 Faction Dancer 2 (Lone Pine Gear Exchange) dropped $168 to $420 (29%).",
+              "ref": "b05be4e75b077e"
             },
             {
               "text": "New: Fischer Inspire at Lone Pine Gear Exchange, $200, scored 69.",
@@ -66,6 +66,10 @@
           "title": "Close to a buy",
           "lines": [
             {
+              "text": "2026 Faction Studio 3 at Lone Pine Gear Exchange is $500 in 172 cm; it becomes a strong deal at about $490 (2% lower).",
+              "ref": "4b393de05bf6ab"
+            },
+            {
               "text": "2026 Atomic Bent 110 at Lone Pine Gear Exchange is $430 in 172 cm; it becomes a strong deal at about $415 (3% lower).",
               "ref": "e1d871727aad23"
             },
@@ -76,10 +80,6 @@
             {
               "text": "Black Diamond Helio Carbon 88 at Geartrade is $396 in 170 cm; it becomes a strong deal at about $370 (7% lower).",
               "ref": "cd0473c26b0bc2"
-            },
-            {
-              "text": "Black Diamond Helio Carbon 95 at Geartrade is $408 in 169 cm; it becomes a strong deal at about $380 (7% lower).",
-              "ref": "cae3442c3602e6"
             }
           ],
           "refs": []
@@ -88,19 +88,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (62), Geartrade (45), evo (5).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (70), Geartrade (45), evo (5).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 656 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 655 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (40), Elan (28), Salomon (27).",
+              "text": "In your size and budget, the most choice is from Rossignol (40), Salomon (28), Elan (28).",
               "ref": null
             },
             {
-              "text": "175 of the 284 fitting skis are demo, resale or blemished stock.",
+              "text": "175 of the 288 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -144,15 +144,19 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "text": "ON3P: blocked (on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)).",
+              "ref": null
+            },
+            {
+              "text": "Season: blocked (closeouts-blems page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
@@ -187,7 +191,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-29T22:44:14+00:00",
+      "generated_at": "2026-10-30T16:41:11+00:00",
       "author": "house"
     },
     "clothing": {
@@ -211,15 +215,19 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "text": "ON3P: blocked (on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)).",
+              "ref": null
+            },
+            {
+              "text": "Season: blocked (closeouts-blems page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
@@ -254,13 +262,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-29T22:44:14+00:00",
+      "generated_at": "2026-10-30T16:41:11+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
       "headline": "Buy now: 2027 Salomon QST 106, $480 at evo",
-      "dek": "We checked 2,063 discounted skis across 15 stores; 426 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 44%).",
+      "dek": "We checked 2,063 discounted skis across 15 stores; 427 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 44%).",
       "sections": [
         {
           "title": "Best of today",
@@ -292,12 +300,12 @@
               "ref": "bdde36fa9f9c18"
             },
             {
-              "text": "2026 Blizzard Black Pearl 94 (Lone Pine Gear Exchange) dropped $160 to $400 (29%).",
-              "ref": "7b8a2aff41afcd"
+              "text": "2026 Faction Dancer 2 (Lone Pine Gear Exchange) dropped $168 to $420 (29%).",
+              "ref": "80b54fe6d9102c"
             },
             {
-              "text": "2026 Dynastar M-Cross 88 (Lone Pine Gear Exchange) dropped $130 to $350 (27%).",
-              "ref": "facb5cbf95c49c"
+              "text": "2026 Faction Dancer 2 (Lone Pine Gear Exchange) dropped $168 to $420 (29%).",
+              "ref": "b05be4e75b077e"
             },
             {
               "text": "New: Fischer Inspire at Lone Pine Gear Exchange, $200, scored 69.",
@@ -344,11 +352,11 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (62), Geartrade (45), evo (5).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (70), Geartrade (45), evo (5).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 656 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 655 listings.",
               "ref": null
             },
             {
@@ -356,7 +364,7 @@
               "ref": null
             },
             {
-              "text": "230 of the 426 fitting skis are demo, resale or blemished stock.",
+              "text": "231 of the 427 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -400,15 +408,19 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "text": "ON3P: blocked (on-sale page 1: Could not read robots.txt (HTTP 429); factory-sale page 1: Could not read robots.txt (HTTP 429)).",
+              "ref": null
+            },
+            {
+              "text": "Season: blocked (closeouts-blems page 1: Could not read robots.txt (HTTP 429)).",
               "ref": null
             },
             {
@@ -443,7 +455,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-29T22:44:14+00:00",
+      "generated_at": "2026-10-30T16:41:11+00:00",
       "author": "house"
     }
   }
