@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T15:42:58+00:00",
+  "generated_at": "2026-10-31T21:32:19+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "5 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 1,945 discounted skis across 14 stores; 273 are in your size and budget. Typical advertised discounts are deeper than a week ago (48% vs 44%).",
+      "dek": "We checked 1,945 discounted skis across 14 stores; 272 are in your size and budget. Typical advertised discounts are deeper than a week ago (48% vs 44%).",
       "sections": [
         {
           "title": "Best of today",
@@ -48,15 +48,15 @@
               "ref": "d02382638378ab"
             },
             {
-              "text": "New: 2027 Rossignol Forza 60 Ti at Lone Pine Gear Exchange, $440, scored 66.",
-              "ref": "cf7f1b75b8562f"
-            },
-            {
               "text": "New: Dynastar M-TOUR 108 F-TEAM at Geartrade, $550.",
               "ref": "5c036b02498e6a"
             },
             {
-              "text": "96 listings sold or came down this week.",
+              "text": "New: Dynastar ELITE 9 KONECT at Geartrade, $580.",
+              "ref": "2051c1bde9d6ad"
+            },
+            {
+              "text": "95 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -100,7 +100,7 @@
               "ref": null
             },
             {
-              "text": "175 of the 273 fitting skis are demo, resale or blemished stock.",
+              "text": "175 of the 272 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -132,7 +132,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "Geartrade: partial (alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429).",
+              "text": "Geartrade: partial (alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings pag).",
               "ref": null
             },
             {
@@ -144,15 +144,23 @@
               "ref": null
             },
             {
-              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "ref": null
+            },
+            {
+              "text": "RMU: blocked (garage-sale page 1: Could not read robots.txt (HTTP 429); blemished-sale-skis page 1: Could not read robots.txt (HTTP 42).",
               "ref": null
             },
             {
@@ -179,7 +187,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-31T15:42:58+00:00",
+      "generated_at": "2026-10-31T21:32:19+00:00",
       "author": "house"
     },
     "clothing": {
@@ -191,7 +199,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "Geartrade: partial (alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429).",
+              "text": "Geartrade: partial (alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings pag).",
               "ref": null
             },
             {
@@ -203,15 +211,23 @@
               "ref": null
             },
             {
-              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "ref": null
+            },
+            {
+              "text": "RMU: blocked (garage-sale page 1: Could not read robots.txt (HTTP 429); blemished-sale-skis page 1: Could not read robots.txt (HTTP 42).",
               "ref": null
             },
             {
@@ -238,7 +254,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-31T15:42:58+00:00",
+      "generated_at": "2026-10-31T21:32:19+00:00",
       "author": "house"
     },
     "family": {
@@ -288,15 +304,15 @@
               "ref": "d02382638378ab"
             },
             {
-              "text": "New: 2027 Rossignol Forza 60 Ti at Lone Pine Gear Exchange, $440, scored 66.",
-              "ref": "cf7f1b75b8562f"
-            },
-            {
               "text": "New: Dynastar M-TOUR 108 F-TEAM at Geartrade, $550.",
               "ref": "5c036b02498e6a"
             },
             {
-              "text": "96 listings sold or came down this week.",
+              "text": "New: Dynastar ELITE 9 KONECT at Geartrade, $580.",
+              "ref": "2051c1bde9d6ad"
+            },
+            {
+              "text": "95 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -372,7 +388,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "Geartrade: partial (alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429).",
+              "text": "Geartrade: partial (alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings pag).",
               "ref": null
             },
             {
@@ -384,15 +400,23 @@
               "ref": null
             },
             {
-              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "ref": null
+            },
+            {
+              "text": "RMU: blocked (garage-sale page 1: Could not read robots.txt (HTTP 429); blemished-sale-skis page 1: Could not read robots.txt (HTTP 42).",
               "ref": null
             },
             {
@@ -419,7 +443,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-10-31T15:42:58+00:00",
+      "generated_at": "2026-10-31T21:32:19+00:00",
       "author": "house"
     }
   }
