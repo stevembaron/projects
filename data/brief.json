@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-01T16:47:41+00:00",
+  "generated_at": "2026-11-01T22:00:05+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "5 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 1,817 discounted skis across 14 stores; 243 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 44%).",
+      "dek": "We checked 2,007 discounted skis across 17 stores; 264 are in your size and budget. Typical advertised discounts are shallower than a week ago (45% vs 47%).",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
             {
-              "text": "2027 Salomon QST 106 at evo, $480 in 173 cm; about $294 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "text": "2027 Salomon QST 106 at evo, $480 in 173 cm; about $256 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
               "ref": "99888328d0ec65"
             },
             {
-              "text": "2027 Salomon QST 100 at evo, $420 in 172 cm; about $259 under our fair-price estimate; but close to your Rossignol Sender Soul 102.",
+              "text": "2027 Salomon QST 100 at evo, $420 in 172 cm; about $224 under our fair-price estimate; but close to your Rossignol Sender Soul 102.",
               "ref": "929082f91e8534"
             },
             {
@@ -48,15 +48,15 @@
               "ref": "d02382638378ab"
             },
             {
+              "text": "New: Armada ARV 94 at Cripple Creek Backcountry, $450.",
+              "ref": "851ee80d077b4b"
+            },
+            {
               "text": "New: Dynastar M-TOUR 108 F-TEAM at Geartrade, $550.",
               "ref": "5c036b02498e6a"
             },
             {
-              "text": "New: Armada ARV 112 at ERIK'S, $480.",
-              "ref": "e399c7c118bd9f"
-            },
-            {
-              "text": "94 listings sold or came down this week.",
+              "text": "78 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -66,20 +66,20 @@
           "title": "Close to a buy",
           "lines": [
             {
+              "text": "2026 Atomic Maverick 96 CTI at Lone Pine Gear Exchange is $375 in 172 cm; it becomes a strong deal at about $370 (1% lower).",
+              "ref": "f37bb4b0875630"
+            },
+            {
               "text": "2026 Faction Studio 3 at Lone Pine Gear Exchange is $500 in 172 cm; it becomes a strong deal at about $490 (2% lower).",
               "ref": "4b393de05bf6ab"
             },
             {
-              "text": "2026 Faction Prodigy 3 at Lone Pine Gear Exchange is $430 in 172 cm; it becomes a strong deal at about $415 (3% lower).",
+              "text": "2026 Faction Prodigy 3 at Lone Pine Gear Exchange is $430 in 172 cm; it becomes a strong deal at about $420 (2% lower).",
               "ref": "c9323f01a98dfe"
             },
             {
-              "text": "Black Diamond Helio Carbon 88 at Geartrade is $396 in 170 cm; it becomes a strong deal at about $370 (7% lower).",
-              "ref": "cd0473c26b0bc2"
-            },
-            {
-              "text": "Black Diamond Helio Carbon 95 at Geartrade is $408 in 169 cm; it becomes a strong deal at about $380 (7% lower).",
-              "ref": "cae3442c3602e6"
+              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "344c90011bdb4f"
             }
           ],
           "refs": []
@@ -88,19 +88,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (59), Geartrade (45), evo (6).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (53), Geartrade (45), evo (6).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 660 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 658 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (31), Salomon (26), Elan (25).",
+              "text": "In your size and budget, the most choice is from Rossignol (33), Salomon (26), Elan (26).",
               "ref": null
             },
             {
-              "text": "146 of the 243 fitting skis are demo, resale or blemished stock.",
+              "text": "145 of the 264 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -110,7 +110,7 @@
           "title": "Good deals that aren't for you",
           "lines": [
             {
-              "text": "2027 Salomon QST 94 at evo, $750 (score 91): over your $500 budget.",
+              "text": "2027 Salomon QST 94 at evo, $750 (score 90): over your $500 budget.",
               "ref": "dacac00735b6e8"
             },
             {
@@ -132,11 +132,27 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "Geartrade: partial (alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings pag).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (demo-skis-1 page 3: HTTP 429).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "ref": null
+            },
+            {
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "The Gear Room: partial (ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -144,7 +160,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "4FRNT: failed (stash page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (on-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -156,125 +176,219 @@
               "ref": null
             },
             {
-              "text": "Armada: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "RMU: blocked (garage-sale page 1: Could not read robots.txt (HTTP 429); blemished-sale-skis page 1: Could not read robots.txt (HTTP 42).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Aspen Ski and Board: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429); sale-mens-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: blocked (sale-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Outdoor Gear Exchange: blocked (alpine-skis page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Alpine Shop VT: blocked (ski-sale page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: blocked (sale-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-01T16:47:41+00:00",
+      "generated_at": "2026-11-01T22:00:05+00:00",
       "author": "house"
     },
     "clothing": {
       "kind": "clothing",
-      "headline": "A quiet day for clothing listings",
-      "dek": "We checked 0 discounted clothing listings across 0 stores; 0 are in your size and budget. None is cheap enough to call a strong deal yet, so the useful news today is in what moved and what is close.",
-      "sections": [
-        {
-          "title": "Coverage",
-          "lines": [
-            {
-              "text": "Geartrade: partial (alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings pag).",
-              "ref": null
-            },
-            {
-              "text": "Lone Pine Gear Exchange: partial (demo-skis-1 page 3: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Armada: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "RMU: blocked (garage-sale page 1: Could not read robots.txt (HTTP 429); blemished-sale-skis page 1: Could not read robots.txt (HTTP 42).",
-              "ref": null
-            },
-            {
-              "text": "Aspen Ski and Board: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429); sale-mens-skis page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Colorado Ski Shop: blocked (sale-skis page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Outdoor Gear Exchange: blocked (alpine-skis page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Alpine Shop VT: blocked (ski-sale page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: blocked (sale-skis page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            }
-          ],
-          "refs": []
-        }
-      ],
-      "generated_at": "2026-11-01T16:47:41+00:00",
-      "author": "house"
-    },
-    "family": {
-      "kind": "ski",
-      "headline": "Buy now: 2027 Salomon QST 106, $480 at evo",
-      "dek": "We checked 1,817 discounted skis across 14 stores; 344 are in your size and budget. Typical advertised discounts are deeper than a week ago (47% vs 44%).",
+      "headline": "4 strong deals; best is Stio Lucent Long Sleeve Tee at $36",
+      "dek": "We checked 76 discounted clothing listings across 1 stores; 12 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
             {
-              "text": "2027 Salomon QST 106 at evo, $480 in 157 cm; about $294 under our fair-price estimate.",
+              "text": "Stio Lucent Long Sleeve Tee at Geartrade, $36 in M; about $28 under our fair-price estimate; your size (M).",
+              "ref": "a130511e56586e"
+            },
+            {
+              "text": "Stio Western Logo Tee at Geartrade, $18 in S; about $18 under our fair-price estimate; your size (S).",
+              "ref": "82321071bdf14a"
+            },
+            {
+              "text": "Stio Divide Short Sleeve Tee at Geartrade, $22 in S; about $17.15 under our fair-price estimate; your size (S).",
+              "ref": "fd54298baba49b"
+            },
+            {
+              "text": "Stio Western Logo Tee at Geartrade, $22 in M; about $13.50 under our fair-price estimate; your size (M).",
+              "ref": "c4cf54dc00d961"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "What moved",
+          "lines": [
+            {
+              "text": "New: Stio Alpin Lightweight Merino Tee SS at Geartrade, $17.80, scored 55.",
+              "ref": "7d7fa4643af985"
+            },
+            {
+              "text": "New: Stio Glide Power Stretch Full-Zip Hoodie at Geartrade, $75.",
+              "ref": "7ae3742d6b5d78"
+            },
+            {
+              "text": "New: Stio Village Insulated Glove at Geartrade, $45.",
+              "ref": "30c8fa94949e33"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Close to a buy",
+          "lines": [
+            {
+              "text": "Stio Eddy Coast Long Sleeve Shirt at Geartrade is $71 in M; it becomes a strong deal at about $70 (1% lower).",
+              "ref": "8679ece0f589ac"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Market notes",
+          "lines": [
+            {
+              "text": "Most strong prices: Geartrade (14).",
+              "ref": null
+            },
+            {
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 76 listings.",
+              "ref": null
+            },
+            {
+              "text": "In your size and budget, the most choice is from Stio (12).",
+              "ref": null
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Good deals that aren't for you",
+          "lines": [
+            {
+              "text": "Stio Rivet Canvas Pants at Geartrade, $39 (score 69): not in your size (listed: 36\" x 32\" / Khaki).",
+              "ref": "b6ba9c48eed62e"
+            },
+            {
+              "text": "Stio Pinedale Softshell Pant at Geartrade, $68 (score 69): not in your size (listed: 32\" x 32\" / Black).",
+              "ref": "261b0fdce078e5"
+            },
+            {
+              "text": "Stio Lucent Short Sleeve Tee at Geartrade, $21 (score 68): not in your size (listed: L).",
+              "ref": "d4ba88c00ca483"
+            },
+            {
+              "text": "Stio CFS Board Pant at Geartrade, $35 (score 68): not in your size (listed: 35R).",
+              "ref": "b6b3e04205bc5a"
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Coverage",
+          "lines": [
+            {
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "ref": null
+            },
+            {
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "The Gear Room: partial (ski-board-bindings page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "4FRNT: failed (stash page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (on-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
+              "ref": null
+            }
+          ],
+          "refs": []
+        }
+      ],
+      "generated_at": "2026-11-01T22:00:05+00:00",
+      "author": "house"
+    },
+    "family": {
+      "kind": "ski",
+      "headline": "Buy now: 2027 Salomon QST 106, $480 at evo",
+      "dek": "We checked 2,007 discounted skis across 17 stores; 373 are in your size and budget. Typical advertised discounts are shallower than a week ago (45% vs 47%).",
+      "sections": [
+        {
+          "title": "Best of today",
+          "lines": [
+            {
+              "text": "2027 Salomon QST 106 at evo, $480 in 157 cm; about $256 under our fair-price estimate.",
               "ref": "99888328d0ec65"
             },
             {
-              "text": "2027 Salomon QST 100 at evo, $420 in 156 cm; about $259 under our fair-price estimate.",
+              "text": "2027 Salomon QST 100 at evo, $420 in 156 cm; about $224 under our fair-price estimate.",
               "ref": "929082f91e8534"
             },
             {
-              "text": "2027 Salomon QST 94 at evo, $420 in 156 cm; about $243 under our fair-price estimate.",
+              "text": "2027 Salomon QST 94 at evo, $420 in 156 cm; about $224 under our fair-price estimate.",
               "ref": "dacac00735b6e8"
             },
             {
@@ -304,15 +418,15 @@
               "ref": "d02382638378ab"
             },
             {
+              "text": "New: Armada ARV 94 at Cripple Creek Backcountry, $450.",
+              "ref": "851ee80d077b4b"
+            },
+            {
               "text": "New: Dynastar M-TOUR 108 F-TEAM at Geartrade, $550.",
               "ref": "5c036b02498e6a"
             },
             {
-              "text": "New: Armada ARV 112 at ERIK'S, $480.",
-              "ref": "e399c7c118bd9f"
-            },
-            {
-              "text": "94 listings sold or came down this week.",
+              "text": "78 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -344,19 +458,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (59), Geartrade (45), evo (6).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (53), Geartrade (45), evo (6).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 660 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 658 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (53), Dynastar (48), Atomic (34).",
+              "text": "In your size and budget, the most choice is from Rossignol (56), Dynastar (49), Atomic (35).",
               "ref": null
             },
             {
-              "text": "179 of the 344 fitting skis are demo, resale or blemished stock.",
+              "text": "179 of the 373 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -374,7 +488,7 @@
               "ref": "f08624f6a856f3"
             },
             {
-              "text": "2026 Atomic Maverick 105 CTI at Lone Pine Gear Exchange, $400 (score 83): no length between 152 and 162 cm (has 170).",
+              "text": "2026 Atomic Maverick 105 CTI at Lone Pine Gear Exchange, $400 (score 88): no length between 152 and 162 cm (has 170).",
               "ref": "7e0a058f017176"
             },
             {
@@ -388,11 +502,27 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "Geartrade: partial (alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings pag).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (demo-skis-1 page 3: HTTP 429).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "ref": null
+            },
+            {
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "The Gear Room: partial (ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -400,7 +530,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "4FRNT: failed (stash page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (on-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -412,38 +546,30 @@
               "ref": null
             },
             {
-              "text": "Armada: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "RMU: blocked (garage-sale page 1: Could not read robots.txt (HTTP 429); blemished-sale-skis page 1: Could not read robots.txt (HTTP 42).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Aspen Ski and Board: blocked (outlet-skis page 1: Could not read robots.txt (HTTP 429); sale-mens-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: blocked (sale-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Outdoor Gear Exchange: blocked (alpine-skis page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Alpine Shop VT: blocked (ski-sale page 1: Could not read robots.txt (HTTP 429)).",
-              "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: blocked (sale-skis page 1: Could not read robots.txt (HTTP 429)).",
+              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-01T16:47:41+00:00",
+      "generated_at": "2026-11-01T22:00:05+00:00",
       "author": "house"
     }
   }
