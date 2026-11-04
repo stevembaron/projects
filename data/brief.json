@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-04T17:58:23+00:00",
+  "generated_at": "2026-11-04T23:39:22+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "5 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
+      "headline": "6 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
       "dek": "We checked 2,159 discounted skis across 16 stores; 299 are in your size and budget. Typical advertised discounts are shallower than a week ago (44% vs 47%).",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
             {
-              "text": "2027 Salomon QST 106 at evo, $480 in 173 cm; about $294 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "text": "2027 Salomon QST 106 at evo, $480 in 173 cm; about $256 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
               "ref": "99888328d0ec65"
             },
             {
-              "text": "2027 Salomon QST 100 at evo, $420 in 172 cm; about $259 under our fair-price estimate; but close to your Rossignol Sender Soul 102.",
+              "text": "2027 Salomon QST 100 at evo, $420 in 172 cm; about $224 under our fair-price estimate; but close to your Rossignol Sender Soul 102.",
               "ref": "929082f91e8534"
             },
             {
@@ -44,6 +44,10 @@
               "ref": "7b8a2aff41afcd"
             },
             {
+              "text": "New: 2025 Blizzard Anomaly 102 at evo, $300, scored 66.",
+              "ref": "1fb9f7fb2bc4c1"
+            },
+            {
               "text": "New: Rossignol Experience 78 Carbon at Lone Pine Gear Exchange, $160, scored 58.",
               "ref": "ea5344c18e2840"
             },
@@ -52,11 +56,7 @@
               "ref": "f3c35291234df3"
             },
             {
-              "text": "New: 2027 Rossignol Forza 20 V-FG 1080 at Lone Pine Gear Exchange, $260.",
-              "ref": "346db0a6b4032a"
-            },
-            {
-              "text": "100 listings sold or came down this week.",
+              "text": "101 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -78,8 +78,8 @@
               "ref": "b5d3b7d6646c6e"
             },
             {
-              "text": "Black Diamond Helio Carbon 88 at Geartrade is $396 in 170 cm; it becomes a strong deal at about $370 (7% lower).",
-              "ref": "cd0473c26b0bc2"
+              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "344c90011bdb4f"
             }
           ],
           "refs": []
@@ -88,7 +88,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (65), Geartrade (43), evo (5).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (63), Geartrade (49), evo (6).",
               "ref": null
             },
             {
@@ -110,7 +110,7 @@
           "title": "Good deals that aren't for you",
           "lines": [
             {
-              "text": "2027 Salomon QST 94 at evo, $750 (score 91): over your $500 budget.",
+              "text": "2027 Salomon QST 94 at evo, $750 (score 90): over your $500 budget.",
               "ref": "dacac00735b6e8"
             },
             {
@@ -132,14 +132,54 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "text": "Geartrade: partial (alpine-skis-w-bindings page 2: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; stio page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "The Gear Room: partial (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Aspen Ski and Board: partial (outlet-skis page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-04T17:58:23+00:00",
+      "generated_at": "2026-11-04T23:39:22+00:00",
       "author": "house"
     },
     "clothing": {
@@ -197,7 +237,7 @@
               "ref": "580933b86811a1"
             },
             {
-              "text": "31 listings sold or came down this week.",
+              "text": "30 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -257,14 +297,54 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "text": "Geartrade: partial (alpine-skis-w-bindings page 2: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; stio page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "The Gear Room: partial (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Aspen Ski and Board: partial (outlet-skis page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-04T17:58:23+00:00",
+      "generated_at": "2026-11-04T23:39:22+00:00",
       "author": "house"
     },
     "family": {
@@ -276,15 +356,15 @@
           "title": "Best of today",
           "lines": [
             {
-              "text": "2027 Salomon QST 106 at evo, $480 in 157 cm; about $294 under our fair-price estimate.",
+              "text": "2027 Salomon QST 106 at evo, $480 in 157 cm; about $256 under our fair-price estimate.",
               "ref": "99888328d0ec65"
             },
             {
-              "text": "2027 Salomon QST 100 at evo, $420 in 156 cm; about $259 under our fair-price estimate.",
+              "text": "2027 Salomon QST 100 at evo, $420 in 156 cm; about $224 under our fair-price estimate.",
               "ref": "929082f91e8534"
             },
             {
-              "text": "2027 Salomon QST 94 at evo, $420 in 156 cm; about $243 under our fair-price estimate.",
+              "text": "2027 Salomon QST 94 at evo, $420 in 156 cm; about $224 under our fair-price estimate.",
               "ref": "dacac00735b6e8"
             },
             {
@@ -310,6 +390,10 @@
               "ref": "7b8a2aff41afcd"
             },
             {
+              "text": "New: 2025 Blizzard Anomaly 102 at evo, $300, scored 66.",
+              "ref": "1fb9f7fb2bc4c1"
+            },
+            {
               "text": "New: Rossignol Experience 78 Carbon at Lone Pine Gear Exchange, $160, scored 58.",
               "ref": "ea5344c18e2840"
             },
@@ -318,11 +402,7 @@
               "ref": "f3c35291234df3"
             },
             {
-              "text": "New: 2027 Rossignol Forza 20 V-FG 1080 at Lone Pine Gear Exchange, $260.",
-              "ref": "346db0a6b4032a"
-            },
-            {
-              "text": "100 listings sold or came down this week.",
+              "text": "101 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -354,7 +434,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (65), Geartrade (43), evo (5).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (63), Geartrade (49), evo (6).",
               "ref": null
             },
             {
@@ -398,14 +478,54 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "text": "Geartrade: partial (alpine-skis-w-bindings page 2: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; stio page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "The Gear Room: partial (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Aspen Ski and Board: partial (outlet-skis page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-04T17:58:23+00:00",
+      "generated_at": "2026-11-04T23:39:22+00:00",
       "author": "house"
     }
   }
