@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06T23:06:55+00:00",
+  "generated_at": "2026-11-07T16:24:06+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "7 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 2,160 discounted skis across 16 stores; 298 are in your size and budget. Typical advertised discounts are shallower than a week ago (44% vs 48%).",
+      "dek": "We checked 2,141 discounted skis across 16 stores; 298 are in your size and budget. Typical advertised discounts are shallower than a week ago (45% vs 48%).",
       "sections": [
         {
           "title": "Best of today",
@@ -48,12 +48,8 @@
               "ref": "1816cf21c7d8ed"
             },
             {
-              "text": "New: 2025 Blizzard Anomaly 102 at evo, $300, scored 66.",
-              "ref": "1fb9f7fb2bc4c1"
-            },
-            {
-              "text": "New: 2026 Black Crows Atris at evo, $503.",
-              "ref": "82c5a58eeef391"
+              "text": "New: J Skis Mixed Graphic at J Skis, $549.",
+              "ref": "f06b173ffaf828"
             },
             {
               "text": "101 listings sold or came down this week.",
@@ -136,7 +132,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings ).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -156,7 +152,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -172,11 +168,15 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
               "ref": null
             },
             {
               "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -198,16 +198,12 @@
             {
               "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-06T23:06:55+00:00",
+      "generated_at": "2026-11-07T16:24:06+00:00",
       "author": "house"
     },
     "clothing": {
@@ -317,7 +313,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings ).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -337,7 +333,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -353,11 +349,15 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
               "ref": null
             },
             {
               "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -379,22 +379,18 @@
             {
               "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-06T23:06:55+00:00",
+      "generated_at": "2026-11-07T16:24:06+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
       "headline": "44 strong deals in 154–160 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 2,160 discounted skis across 16 stores; 429 are in your size and budget. Typical advertised discounts are shallower than a week ago (44% vs 48%).",
+      "dek": "We checked 2,141 discounted skis across 16 stores; 426 are in your size and budget. Typical advertised discounts are shallower than a week ago (45% vs 48%).",
       "sections": [
         {
           "title": "Best of today",
@@ -438,12 +434,8 @@
               "ref": "1816cf21c7d8ed"
             },
             {
-              "text": "New: 2025 Blizzard Anomaly 102 at evo, $300, scored 66.",
-              "ref": "1fb9f7fb2bc4c1"
-            },
-            {
-              "text": "New: 2026 Black Crows Atris at evo, $503.",
-              "ref": "82c5a58eeef391"
+              "text": "New: J Skis Mixed Graphic at J Skis, $549.",
+              "ref": "f06b173ffaf828"
             },
             {
               "text": "101 listings sold or came down this week.",
@@ -490,7 +482,7 @@
               "ref": null
             },
             {
-              "text": "218 of the 429 fitting skis are demo, resale or blemished stock.",
+              "text": "218 of the 426 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -508,12 +500,12 @@
               "ref": "f08624f6a856f3"
             },
             {
-              "text": "2026 Atomic Maverick 96 CTI at Lone Pine Gear Exchange, $375 (score 88): no length between 152 and 162 cm (has 165, 172, 186).",
-              "ref": "f37bb4b0875630"
-            },
-            {
               "text": "2026 Atomic Maverick 105 CTI at Lone Pine Gear Exchange, $400 (score 88): no length between 152 and 162 cm (has 170).",
               "ref": "7e0a058f017176"
+            },
+            {
+              "text": "2026 Atomic Maverick 96 CTI at Lone Pine Gear Exchange, $375 (score 85): no length between 152 and 162 cm (has 165, 172, 186).",
+              "ref": "f37bb4b0875630"
             }
           ],
           "refs": []
@@ -526,7 +518,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: HTTP 429; alpine-touring-skis-w-bindings ).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -546,7 +538,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -562,11 +554,15 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (on-sale page 1: HTTP 429).",
               "ref": null
             },
             {
               "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -588,16 +584,12 @@
             {
               "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-06T23:06:55+00:00",
+      "generated_at": "2026-11-07T16:24:06+00:00",
       "author": "house"
     }
   }
