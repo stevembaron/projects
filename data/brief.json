@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T21:48:15+00:00",
+  "generated_at": "2026-11-08T16:38:50+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "3 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 1,346 discounted skis across 14 stores; 140 are in your size and budget. Typical advertised discounts are shallower than a week ago (41% vs 47%).",
+      "dek": "We checked 974 discounted skis across 11 stores; 121 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 45%).",
       "sections": [
         {
           "title": "Best of today",
@@ -32,27 +32,23 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "2026 Blizzard Anomaly 102 (Alpine Shop VT) dropped $115 to $480 (19%).",
-              "ref": "12a61f54a0a8d3"
+              "text": "Nordica Steadfast 75 CA (ERIK'S) dropped $90 to $460 (16%).",
+              "ref": "fe69db38d0b359"
             },
             {
-              "text": "2026 Salomon QST 100 (Alpine Shop VT) dropped $90 to $400 (18%).",
-              "ref": "b70e1f443f02d7"
+              "text": "Nordica Wild Belle 74 W with TP2 Compact 10 FDT (ERIK'S) dropped $90 to $460 (16%).",
+              "ref": "93e94aeccd1aff"
             },
             {
-              "text": "2026 Blizzard Anomaly 94 (Alpine Shop VT) dropped $100 to $450 (18%).",
-              "ref": "01220c2501c5fa"
-            },
-            {
-              "text": "New: 2025 Rossignol Experience W 82 TI at evo, $280, scored 70.",
-              "ref": "1816cf21c7d8ed"
+              "text": "2026 Atomic Maven 78 M10 GW Binding (Aspen Ski and Board) dropped $40 to $320 (11%).",
+              "ref": "337687292d8e50"
             },
             {
               "text": "New: J Skis Mixed Graphic at J Skis, $549.",
               "ref": "f06b173ffaf828"
             },
             {
-              "text": "101 listings sold or came down this week.",
+              "text": "102 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -62,20 +58,20 @@
           "title": "Close to a buy",
           "lines": [
             {
-              "text": "2026 Blizzard Anomaly 94 at Alpine Shop VT is $450 in 170 cm; it becomes a strong deal at about $440 (2% lower).",
-              "ref": "01220c2501c5fa"
+              "text": "2026 Rossignol Sender Soul 92 at Colorado Ski Shop is $350 in 166 cm; it becomes a strong deal at about $325 (7% lower).",
+              "ref": "4f55e93755f99d"
             },
             {
-              "text": "2026 Nordica Enforcer 104 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $480 (4% lower).",
-              "ref": "288516d07a7964"
+              "text": "Scott Proguide 96 Touring at Cripple Creek Backcountry is $440 in 167 cm; it becomes a strong deal at about $405 (8% lower).",
+              "ref": "de0c536803c40a"
             },
             {
-              "text": "2026 Atomic Bent 110 at Alpine Shop VT is $420 in 172 cm; it becomes a strong deal at about $395 (6% lower).",
-              "ref": "f1e8d0eeac102d"
+              "text": "Rossignol Escaper 87 Touring at Geartrade is $246 in 174 cm; it becomes a strong deal at about $225 (8% lower).",
+              "ref": "55738a323f2419"
             },
             {
-              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $470 (6% lower).",
-              "ref": "344c90011bdb4f"
+              "text": "2026 K2 Wayback 89 Touring at Aspen Ski and Board is $450 in 167 cm; it becomes a strong deal at about $410 (9% lower).",
+              "ref": "93bcea4f3b2558"
             }
           ],
           "refs": []
@@ -84,19 +80,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (48), evo (7), Outdoor Gear Exchange (2).",
+              "text": "Most strong prices: Geartrade (46), evo (6), Outdoor Gear Exchange (2).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 442 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 419 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Line (20), Salomon (18), Nordica (17).",
+              "text": "In your size and budget, the most choice is from Line (18), Salomon (15), Rossignol (15).",
               "ref": null
             },
             {
-              "text": "37 of the 140 fitting skis are demo, resale or blemished stock.",
+              "text": "34 of the 121 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -132,11 +128,11 @@
               "ref": null
             },
             {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -152,7 +148,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -160,7 +156,11 @@
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -184,11 +184,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
+              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -203,13 +199,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-07T21:48:15+00:00",
+      "generated_at": "2026-11-08T16:38:50+00:00",
       "author": "house"
     },
     "clothing": {
       "kind": "clothing",
-      "headline": "4 strong deals; best is Stio Lucent Long Sleeve Tee at $36",
-      "dek": "We checked 68 discounted clothing listings across 1 stores; 11 are in your size and budget.",
+      "headline": "3 strong deals; best is Stio Lucent Long Sleeve Tee at $36",
+      "dek": "We checked 70 discounted clothing listings across 1 stores; 12 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -225,10 +221,6 @@
             {
               "text": "Stio Divide Short Sleeve Tee at Geartrade, $22 in S; about $17.15 under our fair-price estimate; your size (S).",
               "ref": "fd54298baba49b"
-            },
-            {
-              "text": "Stio Western Logo Tee at Geartrade, $22 in M; about $13.50 under our fair-price estimate; your size (M).",
-              "ref": "c4cf54dc00d961"
             }
           ],
           "refs": []
@@ -237,8 +229,30 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "30 listings sold or came down this week.",
+              "text": "New: Stio Hylas Hooded Pullover at Geartrade, $45, scored 50.",
+              "ref": "72f0353e6ce646"
+            },
+            {
+              "text": "New: Stio Basis Power Wool Tight at Geartrade, $49.",
+              "ref": "63a70d571f83c3"
+            },
+            {
+              "text": "New: Stio Basis Power Wool Crew at Geartrade, $49.",
+              "ref": "cf9b073875ffc7"
+            },
+            {
+              "text": "29 listings sold or came down this week.",
               "ref": null
+            }
+          ],
+          "refs": []
+        },
+        {
+          "title": "Close to a buy",
+          "lines": [
+            {
+              "text": "Stio Hagen Trail Shirt at Geartrade is $58 in M; it becomes a strong deal at about $38 (35% lower).",
+              "ref": "494d3746ef17e2"
             }
           ],
           "refs": []
@@ -247,15 +261,15 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (13).",
+              "text": "Most strong prices: Geartrade (12).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 68 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 70 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Stio (11).",
+              "text": "In your size and budget, the most choice is from Stio (12).",
               "ref": null
             }
           ],
@@ -291,11 +305,11 @@
               "ref": null
             },
             {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -311,7 +325,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -319,7 +333,11 @@
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -343,11 +361,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
+              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -362,13 +376,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-07T21:48:15+00:00",
+      "generated_at": "2026-11-08T16:38:50+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "18 strong deals in 154–160 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 1,346 discounted skis across 14 stores; 231 are in your size and budget. Typical advertised discounts are shallower than a week ago (41% vs 47%).",
+      "headline": "17 strong deals in 154–160 cm; best is 2027 Salomon QST 106 at $480",
+      "dek": "We checked 974 discounted skis across 11 stores; 210 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 45%).",
       "sections": [
         {
           "title": "Best of today",
@@ -396,27 +410,23 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "2026 Blizzard Anomaly 102 (Alpine Shop VT) dropped $115 to $480 (19%).",
-              "ref": "12a61f54a0a8d3"
+              "text": "Nordica Steadfast 75 CA (ERIK'S) dropped $90 to $460 (16%).",
+              "ref": "fe69db38d0b359"
             },
             {
-              "text": "2026 Salomon QST 100 (Alpine Shop VT) dropped $90 to $400 (18%).",
-              "ref": "b70e1f443f02d7"
+              "text": "Nordica Wild Belle 74 W with TP2 Compact 10 FDT (ERIK'S) dropped $90 to $460 (16%).",
+              "ref": "93e94aeccd1aff"
             },
             {
-              "text": "2026 Blizzard Anomaly 94 (Alpine Shop VT) dropped $100 to $450 (18%).",
-              "ref": "01220c2501c5fa"
-            },
-            {
-              "text": "New: 2025 Rossignol Experience W 82 TI at evo, $280, scored 70.",
-              "ref": "1816cf21c7d8ed"
+              "text": "2026 Atomic Maven 78 M10 GW Binding (Aspen Ski and Board) dropped $40 to $320 (11%).",
+              "ref": "337687292d8e50"
             },
             {
               "text": "New: J Skis Mixed Graphic at J Skis, $549.",
               "ref": "f06b173ffaf828"
             },
             {
-              "text": "101 listings sold or came down this week.",
+              "text": "102 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -438,8 +448,8 @@
               "ref": "aa531055ee4b96"
             },
             {
-              "text": "K2 Mindbender 90C W at Outdoor Gear Exchange is $360 in 154 cm; it becomes a strong deal at about $340 (6% lower).",
-              "ref": "3df3f9081b4ad1"
+              "text": "Atomic Maven 88 CTI Deep Ocean at Outdoor Gear Exchange is $470 in 153 cm; it becomes a strong deal at about $420 (11% lower).",
+              "ref": "a7890b309fe486"
             }
           ],
           "refs": []
@@ -448,19 +458,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (48), evo (7), Outdoor Gear Exchange (2).",
+              "text": "Most strong prices: Geartrade (46), evo (6), Outdoor Gear Exchange (2).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 442 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 419 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (29), K2 (27), Dynastar (26).",
+              "text": "In your size and budget, the most choice is from Rossignol (26), Dynastar (25), K2 (22).",
               "ref": null
             },
             {
-              "text": "62 of the 231 fitting skis are demo, resale or blemished stock.",
+              "text": "60 of the 210 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -496,11 +506,11 @@
               "ref": null
             },
             {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -516,7 +526,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -524,7 +534,11 @@
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -548,11 +562,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
+              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -567,7 +577,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-07T21:48:15+00:00",
+      "generated_at": "2026-11-08T16:38:50+00:00",
       "author": "house"
     }
   }
