@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T16:38:50+00:00",
+  "generated_at": "2026-11-08T22:02:44+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "3 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 974 discounted skis across 11 stores; 121 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 45%).",
+      "headline": "2 strong deals in 168–172 cm; best is 2027 Salomon QST 106 at $480",
+      "dek": "We checked 998 discounted skis across 14 stores; 122 are in your size and budget. Typical advertised discounts are shallower than a week ago (41% vs 45%).",
       "sections": [
         {
           "title": "Best of today",
@@ -18,12 +18,12 @@
               "ref": "929082f91e8534"
             },
             {
-              "text": "Black Diamond Helio Carbon 95 at Geartrade, $408 in 169 cm; about $145 under our fair-price estimate; but built light for touring; less damp on resort snow.",
-              "ref": "cae3442c3602e6"
-            },
-            {
               "text": "2026 Rossignol Sender Soul 92 at Colorado Ski Shop, $350 in 166 cm; about $73 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Blizzard Rustler 9.",
               "ref": "4f55e93755f99d"
+            },
+            {
+              "text": "Rossignol Escaper 87 Touring at Geartrade, $246 in 174 cm; about $74 under our fair-price estimate; but built light for touring; less damp on resort snow.",
+              "ref": "55738a323f2419"
             }
           ],
           "refs": []
@@ -32,20 +32,28 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "Nordica Steadfast 75 CA (ERIK'S) dropped $90 to $460 (16%).",
-              "ref": "fe69db38d0b359"
+              "text": "2026 Season Primer (evo) dropped $57 to $227 (20%).",
+              "ref": "f2b80a22bab38a"
             },
             {
-              "text": "Nordica Wild Belle 74 W with TP2 Compact 10 FDT (ERIK'S) dropped $90 to $460 (16%).",
-              "ref": "93e94aeccd1aff"
+              "text": "2026 Season Nexus (evo) dropped $94 to $379 (20%).",
+              "ref": "ab555e51d11fed"
             },
             {
               "text": "2026 Atomic Maven 78 M10 GW Binding (Aspen Ski and Board) dropped $40 to $320 (11%).",
               "ref": "337687292d8e50"
             },
             {
-              "text": "New: J Skis Mixed Graphic at J Skis, $549.",
-              "ref": "f06b173ffaf828"
+              "text": "New: Dynastar M-TOUR 90 at Geartrade, $420.",
+              "ref": "ba38719849faca"
+            },
+            {
+              "text": "New: Dynastar M-TOUR 108 F-TEAM at Geartrade, $550.",
+              "ref": "91ac4e49bae15e"
+            },
+            {
+              "text": "New: 4FRNT Night Shift Pole at 4FRNT, $30.",
+              "ref": "4df614a0dcf0ae"
             },
             {
               "text": "102 listings sold or came down this week.",
@@ -58,20 +66,20 @@
           "title": "Close to a buy",
           "lines": [
             {
+              "text": "Black Diamond Helio Carbon 88 at Geartrade is $396 in 170 cm; it becomes a strong deal at about $370 (7% lower).",
+              "ref": "cd0473c26b0bc2"
+            },
+            {
+              "text": "Black Diamond Helio Carbon 95 at Geartrade is $408 in 169 cm; it becomes a strong deal at about $380 (7% lower).",
+              "ref": "cae3442c3602e6"
+            },
+            {
               "text": "2026 Rossignol Sender Soul 92 at Colorado Ski Shop is $350 in 166 cm; it becomes a strong deal at about $325 (7% lower).",
               "ref": "4f55e93755f99d"
             },
             {
               "text": "Scott Proguide 96 Touring at Cripple Creek Backcountry is $440 in 167 cm; it becomes a strong deal at about $405 (8% lower).",
               "ref": "de0c536803c40a"
-            },
-            {
-              "text": "Rossignol Escaper 87 Touring at Geartrade is $246 in 174 cm; it becomes a strong deal at about $225 (8% lower).",
-              "ref": "55738a323f2419"
-            },
-            {
-              "text": "2026 K2 Wayback 89 Touring at Aspen Ski and Board is $450 in 167 cm; it becomes a strong deal at about $410 (9% lower).",
-              "ref": "93bcea4f3b2558"
             }
           ],
           "refs": []
@@ -80,19 +88,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (46), evo (6), Outdoor Gear Exchange (2).",
+              "text": "Most strong prices: Geartrade (41), evo (6), Outdoor Gear Exchange (2).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 419 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 442 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Line (18), Salomon (15), Rossignol (15).",
+              "text": "In your size and budget, the most choice is from Rossignol (16), Line (16), Salomon (13).",
               "ref": null
             },
             {
-              "text": "34 of the 121 fitting skis are demo, resale or blemished stock.",
+              "text": "48 of the 122 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -124,11 +132,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (sale-skis page 1: HTTP 429; used-skis page 2: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: ).",
               "ref": null
             },
             {
@@ -144,7 +152,7 @@
               "ref": null
             },
             {
-              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
+              "text": "The Gear Room: partial (ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -152,19 +160,15 @@
               "ref": null
             },
             {
-              "text": "4FRNT: failed (stash page 1: HTTP 429).",
-              "ref": null
-            },
-            {
               "text": "DPS: failed (skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -184,7 +188,11 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -199,7 +207,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-08T16:38:50+00:00",
+      "generated_at": "2026-11-08T22:02:44+00:00",
       "author": "house"
     },
     "clothing": {
@@ -301,11 +309,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (sale-skis page 1: HTTP 429; used-skis page 2: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: ).",
               "ref": null
             },
             {
@@ -321,7 +329,7 @@
               "ref": null
             },
             {
-              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
+              "text": "The Gear Room: partial (ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -329,19 +337,15 @@
               "ref": null
             },
             {
-              "text": "4FRNT: failed (stash page 1: HTTP 429).",
-              "ref": null
-            },
-            {
               "text": "DPS: failed (skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -361,7 +365,11 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -376,13 +384,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-08T16:38:50+00:00",
+      "generated_at": "2026-11-08T22:02:44+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "17 strong deals in 154–160 cm; best is 2027 Salomon QST 106 at $480",
-      "dek": "We checked 974 discounted skis across 11 stores; 210 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 45%).",
+      "headline": "16 strong deals in 154–160 cm; best is 2027 Salomon QST 106 at $480",
+      "dek": "We checked 998 discounted skis across 14 stores; 196 are in your size and budget. Typical advertised discounts are shallower than a week ago (41% vs 45%).",
       "sections": [
         {
           "title": "Best of today",
@@ -410,20 +418,28 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "Nordica Steadfast 75 CA (ERIK'S) dropped $90 to $460 (16%).",
-              "ref": "fe69db38d0b359"
+              "text": "2026 Season Primer (evo) dropped $57 to $227 (20%).",
+              "ref": "f2b80a22bab38a"
             },
             {
-              "text": "Nordica Wild Belle 74 W with TP2 Compact 10 FDT (ERIK'S) dropped $90 to $460 (16%).",
-              "ref": "93e94aeccd1aff"
+              "text": "2026 Season Nexus (evo) dropped $94 to $379 (20%).",
+              "ref": "ab555e51d11fed"
             },
             {
               "text": "2026 Atomic Maven 78 M10 GW Binding (Aspen Ski and Board) dropped $40 to $320 (11%).",
               "ref": "337687292d8e50"
             },
             {
-              "text": "New: J Skis Mixed Graphic at J Skis, $549.",
-              "ref": "f06b173ffaf828"
+              "text": "New: Dynastar M-TOUR 90 at Geartrade, $420.",
+              "ref": "ba38719849faca"
+            },
+            {
+              "text": "New: Dynastar M-TOUR 108 F-TEAM at Geartrade, $550.",
+              "ref": "91ac4e49bae15e"
+            },
+            {
+              "text": "New: 4FRNT Night Shift Pole at 4FRNT, $30.",
+              "ref": "4df614a0dcf0ae"
             },
             {
               "text": "102 listings sold or came down this week.",
@@ -448,8 +464,8 @@
               "ref": "aa531055ee4b96"
             },
             {
-              "text": "Atomic Maven 88 CTI Deep Ocean at Outdoor Gear Exchange is $470 in 153 cm; it becomes a strong deal at about $420 (11% lower).",
-              "ref": "a7890b309fe486"
+              "text": "Black Diamond Helio Carbon 88 at Geartrade is $396 in 161 cm; it becomes a strong deal at about $370 (7% lower).",
+              "ref": "1102f0e151bd9d"
             }
           ],
           "refs": []
@@ -458,19 +474,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (46), evo (6), Outdoor Gear Exchange (2).",
+              "text": "Most strong prices: Geartrade (41), evo (6), Outdoor Gear Exchange (2).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 419 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 442 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (26), Dynastar (25), K2 (22).",
+              "text": "In your size and budget, the most choice is from Dynastar (27), Rossignol (26), K2 (21).",
               "ref": null
             },
             {
-              "text": "60 of the 210 fitting skis are demo, resale or blemished stock.",
+              "text": "72 of the 196 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -502,11 +518,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (sale-skis page 1: HTTP 429; used-skis page 2: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: ).",
               "ref": null
             },
             {
@@ -522,7 +538,7 @@
               "ref": null
             },
             {
-              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
+              "text": "The Gear Room: partial (ski-board-bindings page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -530,19 +546,15 @@
               "ref": null
             },
             {
-              "text": "4FRNT: failed (stash page 1: HTTP 429).",
-              "ref": null
-            },
-            {
               "text": "DPS: failed (skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -562,7 +574,11 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -577,7 +593,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-08T16:38:50+00:00",
+      "generated_at": "2026-11-08T22:02:44+00:00",
       "author": "house"
     }
   }

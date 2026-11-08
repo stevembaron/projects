@@ -1,28 +1,28 @@
 {
-  "at": "2026-11-08T16:38:50+00:00",
-  "generated_at": "2026-11-08T16:38:50+00:00",
+  "at": "2026-11-08T22:02:44+00:00",
+  "generated_at": "2026-11-08T22:02:44+00:00",
   "reports": [
     {
       "source_id": "evo",
       "name": "evo",
-      "status": "failed",
-      "error": "sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429",
+      "status": "partial",
+      "error": "sale-skis page 1: HTTP 429; used-skis page 2: HTTP 429",
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 15.5
+      "pages": 1,
+      "products_seen": 250,
+      "offers": 12,
+      "elapsed_s": 19.1
     },
     {
       "source_id": "geartrade",
       "name": "Geartrade",
       "status": "partial",
-      "error": "alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: HTTP 429; alpine-ski-bindings page 1: HTTP 429; stio page 2: HTTP 429",
+      "error": "alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: HTTP 429; alpine-ski-bindings page 1: HTTP 429; stio page 1: HTTP 429",
       "notes": [],
-      "pages": 2,
-      "products_seen": 259,
-      "offers": 79,
-      "elapsed_s": 45.6
+      "pages": 1,
+      "products_seen": 23,
+      "offers": 23,
+      "elapsed_s": 40.0
     },
     {
       "source_id": "utahskis",
@@ -55,18 +55,18 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 7.7
+      "elapsed_s": 7.8
     },
     {
       "source_id": "gearroom",
       "name": "The Gear Room",
-      "status": "failed",
-      "error": "skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429",
+      "status": "partial",
+      "error": "ski-board-bindings page 1: HTTP 429",
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 15.4
+      "pages": 1,
+      "products_seen": 69,
+      "offers": 68,
+      "elapsed_s": 9.3
     },
     {
       "source_id": "jskis",
@@ -82,13 +82,13 @@
     {
       "source_id": "4frnt",
       "name": "4FRNT",
-      "status": "failed",
-      "error": "stash page 1: HTTP 429",
+      "status": "ok",
+      "error": null,
       "notes": [],
-      "pages": 0,
-      "products_seen": 0,
-      "offers": 0,
-      "elapsed_s": 7.7
+      "pages": 1,
+      "products_seen": 5,
+      "offers": 2,
+      "elapsed_s": 3.7
     },
     {
       "source_id": "dps",
@@ -99,29 +99,29 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 7.7
+      "elapsed_s": 7.8
     },
     {
       "source_id": "moment",
       "name": "Moment",
-      "status": "partial",
-      "error": "cosmeticblems page 1: HTTP 429",
-      "notes": [],
-      "pages": 1,
-      "products_seen": 22,
-      "offers": 21,
-      "elapsed_s": 15.5
-    },
-    {
-      "source_id": "on3p",
-      "name": "ON3P",
       "status": "failed",
-      "error": "on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429",
+      "error": "on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429",
       "notes": [],
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
       "elapsed_s": 15.4
+    },
+    {
+      "source_id": "on3p",
+      "name": "ON3P",
+      "status": "partial",
+      "error": "factory-sale page 1: HTTP 429",
+      "notes": [],
+      "pages": 1,
+      "products_seen": 4,
+      "offers": 4,
+      "elapsed_s": 9.3
     },
     {
       "source_id": "season",
@@ -154,7 +154,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 15.4
+      "elapsed_s": 15.5
     },
     {
       "source_id": "aspen",
@@ -170,24 +170,24 @@
     {
       "source_id": "coloradoskishop",
       "name": "Colorado Ski Shop",
-      "status": "partial",
-      "error": "sale-skis page 2: HTTP 429",
+      "status": "failed",
+      "error": "sale-skis page 1: HTTP 429",
       "notes": [],
-      "pages": 1,
-      "products_seen": 250,
-      "offers": 238,
-      "elapsed_s": 15.4
+      "pages": 0,
+      "products_seen": 0,
+      "offers": 0,
+      "elapsed_s": 7.8
     },
     {
       "source_id": "gearx",
       "name": "Outdoor Gear Exchange",
-      "status": "ok",
-      "error": null,
+      "status": "failed",
+      "error": "alpine-skis page 1: HTTP 429",
       "notes": [],
-      "pages": 1,
-      "products_seen": 67,
-      "offers": 63,
-      "elapsed_s": 1.9
+      "pages": 0,
+      "products_seen": 0,
+      "offers": 0,
+      "elapsed_s": 7.8
     },
     {
       "source_id": "alpineshopvt",
@@ -198,7 +198,7 @@
       "pages": 0,
       "products_seen": 0,
       "offers": 0,
-      "elapsed_s": 7.7
+      "elapsed_s": 7.8
     },
     {
       "source_id": "cripplecreek",
@@ -220,23 +220,24 @@
       "pages": 1,
       "products_seen": 11,
       "offers": 11,
-      "elapsed_s": 2.0
+      "elapsed_s": 2.1
     }
   ],
   "events": {
     "new_offers": [
-      "afcf71b9ce4f90",
-      "2acb11ff5eb8aa",
-      "63a70d571f83c3",
-      "72f0353e6ce646",
-      "cf9b073875ffc7",
-      "a6b9daaedfe2ab",
-      "494d3746ef17e2"
+      "ba38719849faca",
+      "91ac4e49bae15e",
+      "25bd924ad29b92",
+      "48c0d8b450d054",
+      "32baf5d906b19d",
+      "8a15ef664fe0d6",
+      "8fa0acaf3b4118",
+      "4df614a0dcf0ae"
     ],
-    "gone_offers": [
-      "3df3f9081b4ad1"
-    ],
-    "returned_offers": []
+    "gone_offers": [],
+    "returned_offers": [
+      "7858cd8a244c39"
+    ]
   },
   "market_log": [
     {
@@ -602,11 +603,18 @@
       "median_claimed_pct": 40.0,
       "median_vs_fmv_pct": -7.7,
       "strong_or_better": 56
+    },
+    {
+      "at": "2026-11-08T22:02:44+00:00",
+      "skis": 998,
+      "median_claimed_pct": 40.9,
+      "median_vs_fmv_pct": -9.1,
+      "strong_or_better": 50
     }
   ],
   "counts": {
-    "collected": 1387,
-    "published": 1054,
-    "new": 8
+    "collected": 1265,
+    "published": 1078,
+    "new": 16
   }
 }
