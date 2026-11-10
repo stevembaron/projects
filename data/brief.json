@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T01:30:06+00:00",
+  "generated_at": "2026-11-10T17:45:50+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "10 strong deals in 168–172 cm; best is 2026 Head Oblivion 102 at $301",
+      "headline": "Buy now: 2026 Head Oblivion 102, $301 at evo",
       "dek": "We checked 2,098 discounted skis across 16 stores; 288 are in your size and budget.",
       "sections": [
         {
@@ -18,12 +18,12 @@
               "ref": "2b3324bccca231"
             },
             {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $140 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
-              "ref": "c4730a5ef38e7d"
+              "text": "2026 Faction Dancer 3 at evo, $404 in 172 cm; about $167 under our fair-price estimate; but how it skis is unknown for this model.",
+              "ref": "163229660fde6f"
             },
             {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $140 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
-              "ref": "5d0d8d88d1295b"
+              "text": "2027 Salomon QST 106 at evo, $492 in 173 cm; about $244 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "ref": "99888328d0ec65"
             }
           ],
           "refs": []
@@ -44,16 +44,16 @@
               "ref": "2e4aad83a36fce"
             },
             {
-              "text": "New: 2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380, scored 67.",
+              "text": "New: 2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380, scored 65.",
               "ref": "60bf6a80fce6ce"
+            },
+            {
+              "text": "New: 2026 Dynastar M-Free 108 at Lone Pine Gear Exchange, $430, scored 55.",
+              "ref": "239baf9f98643f"
             },
             {
               "text": "New: 2019 Armada Tracer 98 at Lone Pine Gear Exchange, $230, scored 53.",
               "ref": "c8f8483b7e2ad4"
-            },
-            {
-              "text": "New: 2026 Dynastar M-Free 108 at Lone Pine Gear Exchange, $430.",
-              "ref": "239baf9f98643f"
             },
             {
               "text": "100 listings sold or came down this week.",
@@ -66,20 +66,20 @@
           "title": "Close to a buy",
           "lines": [
             {
-              "text": "2026 Faction Studio 3 at Lone Pine Gear Exchange is $500 in 172 cm; it becomes a strong deal at about $495 (1% lower).",
-              "ref": "4b393de05bf6ab"
-            },
-            {
-              "text": "2026 Blizzard Anomaly 94 at Alpine Shop VT is $450 in 170 cm; it becomes a strong deal at about $440 (2% lower).",
-              "ref": "01220c2501c5fa"
-            },
-            {
               "text": "2025 Rossignol Rallybird 104 at evo is $274 in 172 cm; it becomes a strong deal at about $265 (3% lower).",
               "ref": "e8b96fd68e50f3"
             },
             {
               "text": "2026 Nordica Enforcer 104 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $480 (4% lower).",
               "ref": "288516d07a7964"
+            },
+            {
+              "text": "2023 Blizzard Brahma 82 SP at Lone Pine Gear Exchange is $120 in 173 cm; it becomes a strong deal at about $115 (4% lower).",
+              "ref": "b5d3b7d6646c6e"
+            },
+            {
+              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $475 (5% lower).",
+              "ref": "344c90011bdb4f"
             }
           ],
           "refs": []
@@ -88,7 +88,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (56), Geartrade (46), evo (26).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (47), Geartrade (46), evo (26).",
               "ref": null
             },
             {
@@ -114,16 +114,16 @@
               "ref": "5d5233092cf6a3"
             },
             {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 95): no length between 166 and 174 cm (has 158).",
-              "ref": "091f736fb7eb72"
-            },
-            {
-              "text": "2026 Atomic Bent 90 at Lone Pine Gear Exchange, $275 (score 94): no length between 166 and 174 cm (has 157).",
-              "ref": "a7c713060b2b86"
-            },
-            {
               "text": "2025 Atomic Maven 93 C at evo, $228 (score 91): women's-specific model.",
               "ref": "f26761fa9153fd"
+            },
+            {
+              "text": "2027 Salomon QST 94 at evo, $750 (score 90): over your $500 budget.",
+              "ref": "dacac00735b6e8"
+            },
+            {
+              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 89): no length between 166 and 174 cm (has 158).",
+              "ref": "091f736fb7eb72"
             }
           ],
           "refs": []
@@ -132,11 +132,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 2: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -211,7 +211,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-10T01:30:06+00:00",
+      "generated_at": "2026-11-10T17:45:50+00:00",
       "author": "house"
     },
     "clothing": {
@@ -257,16 +257,16 @@
               "ref": "6466ed8206d294"
             },
             {
-              "text": "New: Stio Basis Power Wool Tight at Geartrade, $49.",
-              "ref": "63a70d571f83c3"
+              "text": "New: Stio Colter GORE-TEX Infinium Down Jacket at Geartrade, $193.",
+              "ref": "8e174ef9f81dcf"
             },
             {
-              "text": "New: Stio Basis Power Wool Crew at Geartrade, $49.",
-              "ref": "cf9b073875ffc7"
+              "text": "New: Stio Crester Tee SS at Geartrade, $28.",
+              "ref": "5f25827ae9a390"
             },
             {
-              "text": "New: Stio Raymer Pants at Geartrade, $157.",
-              "ref": "2acb11ff5eb8aa"
+              "text": "New: Stio Divide Polo at Geartrade, $30.",
+              "ref": "34a5d377a57778"
             },
             {
               "text": "49 listings sold or came down this week.",
@@ -333,11 +333,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 2: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -412,25 +412,17 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-10T01:30:06+00:00",
+      "generated_at": "2026-11-10T17:45:50+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "51 strong deals in 154–160 cm; best is 2026 Atomic Bent 100 at $325",
+      "headline": "Buy now: 2027 Salomon QST 94, $420 at evo",
       "dek": "We checked 2,098 discounted skis across 16 stores; 413 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
-            {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 in 158 cm; about $195 under our fair-price estimate.",
-              "ref": "091f736fb7eb72"
-            },
-            {
-              "text": "2026 Atomic Bent 90 at Lone Pine Gear Exchange, $275 in 157 cm; about $164 under our fair-price estimate.",
-              "ref": "a7c713060b2b86"
-            },
             {
               "text": "2027 Salomon QST 94 at evo, $420 in 156 cm; about $224 under our fair-price estimate.",
               "ref": "dacac00735b6e8"
@@ -438,6 +430,14 @@
             {
               "text": "2026 Head Kore 94 Ti at evo, $287 in 156 cm; about $200 under our fair-price estimate.",
               "ref": "f0e2282771ab39"
+            },
+            {
+              "text": "2026 Head Kore 87 Ti W at evo, $248 in 156 cm; about $174 under our fair-price estimate.",
+              "ref": "58bdc95560b6ff"
+            },
+            {
+              "text": "2026 Dynastar M-Free 90 at evo, $225 in 157 cm; about $133 under our fair-price estimate; matches your watch list.",
+              "ref": "964e2187cebea8"
             }
           ],
           "refs": []
@@ -458,16 +458,16 @@
               "ref": "2e4aad83a36fce"
             },
             {
-              "text": "New: 2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380, scored 67.",
+              "text": "New: 2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380, scored 65.",
               "ref": "60bf6a80fce6ce"
+            },
+            {
+              "text": "New: 2026 Dynastar M-Free 108 at Lone Pine Gear Exchange, $430, scored 55.",
+              "ref": "239baf9f98643f"
             },
             {
               "text": "New: 2019 Armada Tracer 98 at Lone Pine Gear Exchange, $230, scored 53.",
               "ref": "c8f8483b7e2ad4"
-            },
-            {
-              "text": "New: 2026 Dynastar M-Free 108 at Lone Pine Gear Exchange, $430.",
-              "ref": "239baf9f98643f"
             },
             {
               "text": "100 listings sold or came down this week.",
@@ -502,7 +502,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (56), Geartrade (46), evo (26).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (47), Geartrade (46), evo (26).",
               "ref": null
             },
             {
@@ -546,11 +546,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 2: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -625,7 +625,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-10T01:30:06+00:00",
+      "generated_at": "2026-11-10T17:45:50+00:00",
       "author": "house"
     }
   }
