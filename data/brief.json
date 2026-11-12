@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T18:15:03+00:00",
+  "generated_at": "2026-11-12T23:37:41+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "Buy now: 2026 Head Oblivion 102, $301 at evo",
-      "dek": "We checked 2,099 discounted skis across 16 stores; 286 are in your size and budget.",
+      "headline": "6 strong deals in 168–172 cm; best is 2026 Head Oblivion 102 at $301",
+      "dek": "We checked 895 discounted skis across 10 stores; 123 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -18,12 +18,12 @@
               "ref": "2b3324bccca231"
             },
             {
-              "text": "2026 Faction Dancer 3 at evo, $404 in 172 cm; about $167 under our fair-price estimate; but how it skis is unknown for this model.",
-              "ref": "163229660fde6f"
-            },
-            {
               "text": "2027 Salomon QST 106 at evo, $492 in 173 cm; about $244 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
               "ref": "99888328d0ec65"
+            },
+            {
+              "text": "2026 Dynastar M-Free 100 at evo, $339 in 170 cm; about $149 under our fair-price estimate; matches your watch list; but close to your Rossignol Sender Soul 102.",
+              "ref": "7e469276e25976"
             }
           ],
           "refs": []
@@ -32,16 +32,16 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "2026 Rossignol Sender Soul 92 (Lone Pine Gear Exchange) dropped $250 to $300 (46%).",
-              "ref": "764adb17094c5f"
-            },
-            {
               "text": "2026 Dynastar M-Free 100 (evo) dropped $224 to $339 (40%).",
               "ref": "7e469276e25976"
             },
             {
               "text": "2026 Salomon QST X (evo) dropped $275 to $445 (38%).",
               "ref": "2e4aad83a36fce"
+            },
+            {
+              "text": "2026 Dynastar M-Free 90 (evo) dropped $133 to $225 (37%).",
+              "ref": "964e2187cebea8"
             },
             {
               "text": "New: Dynafit Seven Summits+ Set at Geartrade, $660.",
@@ -66,20 +66,20 @@
           "title": "Close to a buy",
           "lines": [
             {
-              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $485 (3% lower).",
-              "ref": "344c90011bdb4f"
-            },
-            {
               "text": "2025 Rossignol Rallybird 104 at evo is $274 in 172 cm; it becomes a strong deal at about $265 (3% lower).",
               "ref": "e8b96fd68e50f3"
             },
             {
-              "text": "2023 Blizzard Brahma 82 SP at Lone Pine Gear Exchange is $120 in 173 cm; it becomes a strong deal at about $115 (4% lower).",
-              "ref": "b5d3b7d6646c6e"
+              "text": "2026 Atomic Bent 110 at Alpine Shop VT is $420 in 172 cm; it becomes a strong deal at about $395 (6% lower).",
+              "ref": "f1e8d0eeac102d"
             },
             {
-              "text": "2026 Nordica Enforcer 94 at Alpine Shop VT is $480 in 167 cm; it becomes a strong deal at about $450 (6% lower).",
-              "ref": "f5ce4d8c23f0a9"
+              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "344c90011bdb4f"
+            },
+            {
+              "text": "2026 Nordica Unleashed 108 at Alpine Shop VT is $500 in 174 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "48545d884b7ed4"
             }
           ],
           "refs": []
@@ -88,19 +88,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (48), Geartrade (46), evo (26).",
+              "text": "Most strong prices: Geartrade (44), evo (25), ERIK'S (1).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 615 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 406 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (47), Elan (26), Salomon (25).",
+              "text": "In your size and budget, the most choice is from Salomon (16), Rossignol (14), Nordica (14).",
               "ref": null
             },
             {
-              "text": "162 of the 286 fitting skis are demo, resale or blemished stock.",
+              "text": "36 of the 123 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -122,8 +122,8 @@
               "ref": "dacac00735b6e8"
             },
             {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 89): no length between 166 and 174 cm (has 158).",
-              "ref": "091f736fb7eb72"
+              "text": "2026 Head Kore 87 Ti W at evo, $248 (score 87): women's-specific model.",
+              "ref": "58bdc95560b6ff"
             }
           ],
           "refs": []
@@ -132,7 +132,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: partial (used-skis page 1: HTTP 429).",
+              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -140,7 +140,7 @@
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (ski-outlet page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -156,7 +156,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -172,7 +172,7 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -192,7 +192,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -211,13 +211,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-12T18:15:03+00:00",
+      "generated_at": "2026-11-12T23:37:41+00:00",
       "author": "house"
     },
     "clothing": {
       "kind": "clothing",
       "headline": "2 strong deals; best is Stio Western Logo Tee at $18",
-      "dek": "We checked 308 discounted clothing listings across 1 stores; 58 are in your size and budget.",
+      "dek": "We checked 129 discounted clothing listings across 1 stores; 23 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -235,8 +235,8 @@
               "ref": "45d2d0c63b9c50"
             },
             {
-              "text": "Stio Crester 1/2-Zip Top at Geartrade, $20 in S; about $12 under our fair-price estimate; your size (S).",
-              "ref": "9ce2a661b85dd8"
+              "text": "Stio Eddy Technical Western Shirt at Geartrade, $44 in M; 66% off list; your size (M).",
+              "ref": "3298bc48e23a4a"
             }
           ],
           "refs": []
@@ -245,16 +245,16 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "Stio OPR Shorts (Geartrade) dropped $2.49 to $47 (5%).",
-              "ref": "074908a2e36018"
-            },
-            {
               "text": "Stio Gannett Peak Half Zip (Geartrade) dropped $3.09 to $67 (4%).",
               "ref": "45d2d0c63b9c50"
             },
             {
-              "text": "Stio Rivet Cord Pants (Geartrade) dropped $2.15 to $49 (4%).",
-              "ref": "6466ed8206d294"
+              "text": "Stio Rivet Canvas Pants (Geartrade) dropped $2.51 to $62 (4%).",
+              "ref": "38a435e2cf767f"
+            },
+            {
+              "text": "Stio LS Tech Shirt (Geartrade) dropped $1.48 to $39 (4%).",
+              "ref": "ad3c7662f11f38"
             },
             {
               "text": "48 listings sold or came down this week.",
@@ -281,15 +281,15 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Geartrade (13).",
+              "text": "Most strong prices: Geartrade (11).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 57% off list across 308 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 129 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Stio (58).",
+              "text": "In your size and budget, the most choice is from Stio (23).",
               "ref": null
             }
           ],
@@ -321,7 +321,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: partial (used-skis page 1: HTTP 429).",
+              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -329,7 +329,7 @@
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (ski-outlet page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -345,7 +345,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -361,7 +361,7 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -381,7 +381,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -400,13 +400,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-12T18:15:03+00:00",
+      "generated_at": "2026-11-12T23:37:41+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "Buy now: 2027 Salomon QST 94, $420 at evo",
-      "dek": "We checked 2,099 discounted skis across 16 stores; 414 are in your size and budget.",
+      "headline": "26 strong deals in 154–160 cm; best is 2027 Salomon QST 94 at $420",
+      "dek": "We checked 895 discounted skis across 10 stores; 204 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -416,11 +416,11 @@
               "ref": "dacac00735b6e8"
             },
             {
-              "text": "2026 Head Kore 94 Ti at evo, $287 in 156 cm; about $204 under our fair-price estimate.",
+              "text": "2026 Head Kore 94 Ti at evo, $287 in 156 cm; about $200 under our fair-price estimate.",
               "ref": "f0e2282771ab39"
             },
             {
-              "text": "2026 Head Kore 87 Ti W at evo, $248 in 156 cm; about $183 under our fair-price estimate.",
+              "text": "2026 Head Kore 87 Ti W at evo, $248 in 156 cm; about $174 under our fair-price estimate.",
               "ref": "58bdc95560b6ff"
             },
             {
@@ -434,16 +434,16 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "2026 Rossignol Sender Soul 92 (Lone Pine Gear Exchange) dropped $250 to $300 (46%).",
-              "ref": "764adb17094c5f"
-            },
-            {
               "text": "2026 Dynastar M-Free 100 (evo) dropped $224 to $339 (40%).",
               "ref": "7e469276e25976"
             },
             {
               "text": "2026 Salomon QST X (evo) dropped $275 to $445 (38%).",
               "ref": "2e4aad83a36fce"
+            },
+            {
+              "text": "2026 Dynastar M-Free 90 (evo) dropped $133 to $225 (37%).",
+              "ref": "964e2187cebea8"
             },
             {
               "text": "New: Dynafit Seven Summits+ Set at Geartrade, $660.",
@@ -490,19 +490,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (48), Geartrade (46), evo (26).",
+              "text": "Most strong prices: Geartrade (44), evo (25), ERIK'S (1).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 615 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 406 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (69), Dynastar (50), Elan (36).",
+              "text": "In your size and budget, the most choice is from Dynastar (26), Rossignol (26), Salomon (22).",
               "ref": null
             },
             {
-              "text": "207 of the 414 fitting skis are demo, resale or blemished stock.",
+              "text": "58 of the 204 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -520,12 +520,12 @@
               "ref": "f26761fa9153fd"
             },
             {
-              "text": "2026 Majesty Havoc 110 Ti at Lone Pine Gear Exchange, $337 (score 89): no length between 152 and 162 cm (has 171).",
-              "ref": "dea46772675185"
+              "text": "2026 Armada Kimbo 95 at evo, $293 (score 87): no length between 152 and 162 cm (has 182).",
+              "ref": "3da3439aaf47ba"
             },
             {
-              "text": "2026 La Sportiva Tempo at Lone Pine Gear Exchange, $461 (score 89): no length between 152 and 162 cm (has 190).",
-              "ref": "f08624f6a856f3"
+              "text": "2026 Head Oblivion 102 at evo, $301 (score 87): no length between 152 and 162 cm (has 173, 181).",
+              "ref": "f1b016b1596dae"
             }
           ],
           "refs": []
@@ -534,7 +534,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: partial (used-skis page 1: HTTP 429).",
+              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -542,7 +542,7 @@
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (ski-outlet page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -558,7 +558,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -574,7 +574,7 @@
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -594,7 +594,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -613,7 +613,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-12T18:15:03+00:00",
+      "generated_at": "2026-11-12T23:37:41+00:00",
       "author": "house"
     }
   }
