@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T16:35:17+00:00",
+  "generated_at": "2026-11-14T22:22:29+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "4 strong deals in 168–172 cm; best is 2026 Head Oblivion 102 at $301",
-      "dek": "We checked 754 discounted skis across 13 stores; 86 are in your size and budget.",
+      "dek": "We checked 809 discounted skis across 14 stores; 88 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -44,6 +44,10 @@
               "ref": "d150048e480f35"
             },
             {
+              "text": "New: Armada Stranger 180 W Strive 13 at Outdoor Gear Exchange, $500.",
+              "ref": "7c0adfebfa4c17"
+            },
+            {
               "text": "New: 2025 Rossignol Sender 94 at evo, $245.",
               "ref": "a44aa861dd5888"
             },
@@ -52,11 +56,7 @@
               "ref": "75b62d14384b98"
             },
             {
-              "text": "New: 2027 Armada ARV 112 Black Edition at evo, $765.",
-              "ref": "a08a755fd809fe"
-            },
-            {
-              "text": "103 listings sold or came down this week.",
+              "text": "104 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -74,12 +74,12 @@
               "ref": "e8b96fd68e50f3"
             },
             {
-              "text": "2026 Blizzard Anomaly 94 at Alpine Shop VT is $460 in 170 cm; it becomes a strong deal at about $440 (4% lower).",
-              "ref": "01220c2501c5fa"
-            },
-            {
               "text": "2026 Atomic Bent 110 at Alpine Shop VT is $420 in 172 cm; it becomes a strong deal at about $395 (6% lower).",
               "ref": "f1e8d0eeac102d"
+            },
+            {
+              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "344c90011bdb4f"
             }
           ],
           "refs": []
@@ -88,7 +88,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: evo (20), Lone Pine Gear Exchange (1), ERIK'S (1).",
+              "text": "Most strong prices: evo (20), Outdoor Gear Exchange (2), Lone Pine Gear Exchange (1).",
               "ref": null
             },
             {
@@ -96,11 +96,11 @@
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Line (13), Nordica (12), Head (8).",
+              "text": "In your size and budget, the most choice is from Line (14), Nordica (12), Head (8).",
               "ref": null
             },
             {
-              "text": "5 of the 86 fitting skis are demo, resale or blemished stock.",
+              "text": "5 of the 88 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -136,7 +136,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -148,7 +148,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -156,7 +156,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -164,7 +164,11 @@
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -180,7 +184,7 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -192,111 +196,31 @@
               "ref": null
             },
             {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
+              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
+              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-14T16:35:17+00:00",
+      "generated_at": "2026-11-14T22:22:29+00:00",
       "author": "house"
     },
     "clothing": {
       "kind": "clothing",
-      "headline": "2 strong deals; best is Stio Western Logo Tee at $18",
-      "dek": "We checked 66 discounted clothing listings across 1 stores; 11 are in your size and budget.",
+      "headline": "A quiet day for clothing listings",
+      "dek": "We checked 0 discounted clothing listings across 0 stores; 0 are in your size and budget. None is cheap enough to call a strong deal yet, so the useful news today is in what moved and what is close.",
       "sections": [
-        {
-          "title": "Best of today",
-          "lines": [
-            {
-              "text": "Stio Western Logo Tee at Geartrade, $18 in S; about $18 under our fair-price estimate; your size (S).",
-              "ref": "82321071bdf14a"
-            },
-            {
-              "text": "Stio Divide Short Sleeve Tee at Geartrade, $22 in S; about $17.15 under our fair-price estimate; your size (S).",
-              "ref": "fd54298baba49b"
-            },
-            {
-              "text": "Stio Eddy Technical Western Shirt at Geartrade, $44 in M; 66% off list; your size (M).",
-              "ref": "3298bc48e23a4a"
-            }
-          ],
-          "refs": []
-        },
         {
           "title": "What moved",
           "lines": [
             {
-              "text": "Stio Rivet Canvas Pants (Geartrade) dropped $2.51 to $62 (4%).",
-              "ref": "38a435e2cf767f"
-            },
-            {
-              "text": "Stio LS Tech Shirt (Geartrade) dropped $1.48 to $39 (4%).",
-              "ref": "ad3c7662f11f38"
-            },
-            {
-              "text": "Stio Eddy Technical Western Shirt (Geartrade) dropped $1.43 to $44 (3%).",
-              "ref": "3298bc48e23a4a"
-            },
-            {
-              "text": "46 listings sold or came down this week.",
+              "text": "45 listings sold or came down this week.",
               "ref": null
-            }
-          ],
-          "refs": []
-        },
-        {
-          "title": "Close to a buy",
-          "lines": [
-            {
-              "text": "Stio Hagen Trail Shirt at Geartrade is $58 in M; it becomes a strong deal at about $38 (35% lower).",
-              "ref": "494d3746ef17e2"
-            }
-          ],
-          "refs": []
-        },
-        {
-          "title": "Market notes",
-          "lines": [
-            {
-              "text": "Most strong prices: Geartrade (11).",
-              "ref": null
-            },
-            {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 66 listings.",
-              "ref": null
-            },
-            {
-              "text": "In your size and budget, the most choice is from Stio (11).",
-              "ref": null
-            }
-          ],
-          "refs": []
-        },
-        {
-          "title": "Good deals that aren't for you",
-          "lines": [
-            {
-              "text": "Stio Rivet Canvas Pants at Geartrade, $39 (score 69): not in your size (listed: 36\" x 32\" / Khaki).",
-              "ref": "b6ba9c48eed62e"
-            },
-            {
-              "text": "Stio Lucent Short Sleeve Tee at Geartrade, $21 (score 68): not in your size (listed: L).",
-              "ref": "d4ba88c00ca483"
-            },
-            {
-              "text": "Stio CFS Board Pant at Geartrade, $35 (score 68): not in your size (listed: 35R).",
-              "ref": "b6b3e04205bc5a"
-            },
-            {
-              "text": "Stio Vallis 7.5\" Short at Geartrade, $40 (score 68): not in your size (listed: 38).",
-              "ref": "8908f426d4f4d2"
             }
           ],
           "refs": []
@@ -309,7 +233,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -321,7 +245,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -329,7 +253,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -337,7 +261,11 @@
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -353,7 +281,7 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -365,24 +293,24 @@
               "ref": null
             },
             {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
+              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
+              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-14T16:35:17+00:00",
+      "generated_at": "2026-11-14T22:22:29+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
       "headline": "8 strong deals in 154–160 cm; best is 2026 Head Kore 99 Ti W at $348",
-      "dek": "We checked 754 discounted skis across 13 stores; 121 are in your size and budget.",
+      "dek": "We checked 809 discounted skis across 14 stores; 129 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -422,6 +350,10 @@
               "ref": "d150048e480f35"
             },
             {
+              "text": "New: Armada Stranger 180 W Strive 13 at Outdoor Gear Exchange, $500.",
+              "ref": "7c0adfebfa4c17"
+            },
+            {
               "text": "New: 2025 Rossignol Sender 94 at evo, $245.",
               "ref": "a44aa861dd5888"
             },
@@ -430,11 +362,7 @@
               "ref": "75b62d14384b98"
             },
             {
-              "text": "New: 2027 Armada ARV 112 Black Edition at evo, $765.",
-              "ref": "a08a755fd809fe"
-            },
-            {
-              "text": "103 listings sold or came down this week.",
+              "text": "104 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -466,7 +394,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: evo (20), Lone Pine Gear Exchange (1), ERIK'S (1).",
+              "text": "Most strong prices: evo (20), Outdoor Gear Exchange (2), Lone Pine Gear Exchange (1).",
               "ref": null
             },
             {
@@ -474,11 +402,11 @@
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Elan (13), Head (11), K2 (11).",
+              "text": "In your size and budget, the most choice is from Elan (13), K2 (12), Head (11).",
               "ref": null
             },
             {
-              "text": "8 of the 121 fitting skis are demo, resale or blemished stock.",
+              "text": "11 of the 129 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -514,7 +442,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -526,7 +454,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -534,7 +462,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
+              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -542,7 +470,11 @@
               "ref": null
             },
             {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
+              "text": "DPS: failed (skis page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -558,7 +490,7 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -570,18 +502,18 @@
               "ref": null
             },
             {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
+              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
+              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-14T16:35:17+00:00",
+      "generated_at": "2026-11-14T22:22:29+00:00",
       "author": "house"
     }
   }
