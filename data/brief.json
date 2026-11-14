@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T23:31:29+00:00",
+  "generated_at": "2026-11-14T16:35:17+00:00",
   "house": {
     "ski": {
       "kind": "ski",
       "headline": "4 strong deals in 168–172 cm; best is 2026 Head Oblivion 102 at $301",
-      "dek": "We checked 756 discounted skis across 13 stores; 85 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 45%).",
+      "dek": "We checked 754 discounted skis across 13 stores; 86 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -66,20 +66,20 @@
           "title": "Close to a buy",
           "lines": [
             {
-              "text": "2026 Head Kore 94 Ti at evo is $348 in 170 cm; it becomes a strong deal at about $345 (1% lower).",
+              "text": "2026 Head Kore 94 Ti at evo is $348 in 170 cm; it becomes a strong deal at about $340 (2% lower).",
               "ref": "f0e2282771ab39"
-            },
-            {
-              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $485 (3% lower).",
-              "ref": "344c90011bdb4f"
             },
             {
               "text": "2025 Rossignol Rallybird 104 at evo is $274 in 172 cm; it becomes a strong deal at about $265 (3% lower).",
               "ref": "e8b96fd68e50f3"
             },
             {
-              "text": "2026 Nordica Enforcer 94 at Alpine Shop VT is $480 in 167 cm; it becomes a strong deal at about $455 (5% lower).",
-              "ref": "f5ce4d8c23f0a9"
+              "text": "2026 Blizzard Anomaly 94 at Alpine Shop VT is $460 in 170 cm; it becomes a strong deal at about $440 (4% lower).",
+              "ref": "01220c2501c5fa"
+            },
+            {
+              "text": "2026 Atomic Bent 110 at Alpine Shop VT is $420 in 172 cm; it becomes a strong deal at about $395 (6% lower).",
+              "ref": "f1e8d0eeac102d"
             }
           ],
           "refs": []
@@ -88,7 +88,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: evo (21), Lone Pine Gear Exchange (1), ERIK'S (1).",
+              "text": "Most strong prices: evo (20), Lone Pine Gear Exchange (1), ERIK'S (1).",
               "ref": null
             },
             {
@@ -96,11 +96,11 @@
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Line (13), Nordica (11), Head (8).",
+              "text": "In your size and budget, the most choice is from Line (13), Nordica (12), Head (8).",
               "ref": null
             },
             {
-              "text": "5 of the 85 fitting skis are demo, resale or blemished stock.",
+              "text": "5 of the 86 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -136,7 +136,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -148,7 +148,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -164,11 +164,7 @@
               "ref": null
             },
             {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Moment: partial (on-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -192,7 +188,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -202,16 +198,12 @@
             {
               "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-13T23:31:29+00:00",
+      "generated_at": "2026-11-14T16:35:17+00:00",
       "author": "house"
     },
     "clothing": {
@@ -317,7 +309,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -329,7 +321,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -345,11 +337,7 @@
               "ref": null
             },
             {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Moment: partial (on-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -373,7 +361,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -383,22 +371,18 @@
             {
               "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-13T23:31:29+00:00",
+      "generated_at": "2026-11-14T16:35:17+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "9 strong deals in 154–160 cm; best is 2026 Head Kore 99 Ti W at $348",
-      "dek": "We checked 756 discounted skis across 13 stores; 121 are in your size and budget. Typical advertised discounts are shallower than a week ago (40% vs 45%).",
+      "headline": "8 strong deals in 154–160 cm; best is 2026 Head Kore 99 Ti W at $348",
+      "dek": "We checked 754 discounted skis across 13 stores; 121 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -464,7 +448,7 @@
               "ref": "af63e0d31ce288"
             },
             {
-              "text": "2026 Head Kore 94 Ti at evo is $348 in 156 cm; it becomes a strong deal at about $345 (1% lower).",
+              "text": "2026 Head Kore 94 Ti at evo is $348 in 156 cm; it becomes a strong deal at about $340 (2% lower).",
               "ref": "f0e2282771ab39"
             },
             {
@@ -472,8 +456,8 @@
               "ref": "2e34e1e354e04c"
             },
             {
-              "text": "2026 Armada Declivity 88 C at evo is $348 in 160 cm; it becomes a strong deal at about $335 (4% lower).",
-              "ref": "7ade6e85e49754"
+              "text": "2026 Head Kore 87 Ti W at evo is $300 in 156 cm; it becomes a strong deal at about $290 (3% lower).",
+              "ref": "58bdc95560b6ff"
             }
           ],
           "refs": []
@@ -482,7 +466,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: evo (21), Lone Pine Gear Exchange (1), ERIK'S (1).",
+              "text": "Most strong prices: evo (20), Lone Pine Gear Exchange (1), ERIK'S (1).",
               "ref": null
             },
             {
@@ -530,7 +514,7 @@
               "ref": null
             },
             {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -542,7 +526,7 @@
               "ref": null
             },
             {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
+              "text": "ERIK'S: partial (downhill-skis page 2: HTTP 429).",
               "ref": null
             },
             {
@@ -558,11 +542,7 @@
               "ref": null
             },
             {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Moment: partial (on-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -586,7 +566,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -596,16 +576,12 @@
             {
               "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
               "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-13T23:31:29+00:00",
+      "generated_at": "2026-11-14T16:35:17+00:00",
       "author": "house"
     }
   }
