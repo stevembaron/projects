@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T22:22:29+00:00",
+  "generated_at": "2026-11-15T17:03:38+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "4 strong deals in 168–172 cm; best is 2026 Head Oblivion 102 at $301",
-      "dek": "We checked 809 discounted skis across 14 stores; 88 are in your size and budget.",
+      "headline": "Buy now: 2026 Head Oblivion 102, $301 at evo",
+      "dek": "We checked 808 discounted skis across 14 stores; 85 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -18,12 +18,12 @@
               "ref": "2b3324bccca231"
             },
             {
-              "text": "2027 Salomon QST 106 at evo, $492 in 173 cm; about $244 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
-              "ref": "99888328d0ec65"
-            },
-            {
               "text": "2026 Faction Dancer 3 at evo, $404 in 172 cm; about $167 under our fair-price estimate; but how it skis is unknown for this model.",
               "ref": "163229660fde6f"
+            },
+            {
+              "text": "2027 Salomon QST 106 at evo, $492 in 173 cm; about $244 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "ref": "99888328d0ec65"
             }
           ],
           "refs": []
@@ -56,7 +56,7 @@
               "ref": "75b62d14384b98"
             },
             {
-              "text": "104 listings sold or came down this week.",
+              "text": "106 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -74,12 +74,12 @@
               "ref": "e8b96fd68e50f3"
             },
             {
-              "text": "2026 Atomic Bent 110 at Alpine Shop VT is $420 in 172 cm; it becomes a strong deal at about $395 (6% lower).",
-              "ref": "f1e8d0eeac102d"
+              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $475 (5% lower).",
+              "ref": "344c90011bdb4f"
             },
             {
-              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $470 (6% lower).",
-              "ref": "344c90011bdb4f"
+              "text": "2026 Nordica Unleashed 108 at Alpine Shop VT is $500 in 174 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "48545d884b7ed4"
             }
           ],
           "refs": []
@@ -88,7 +88,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: evo (20), Outdoor Gear Exchange (2), Lone Pine Gear Exchange (1).",
+              "text": "Most strong prices: evo (19), Outdoor Gear Exchange (2), Lone Pine Gear Exchange (1).",
               "ref": null
             },
             {
@@ -100,7 +100,7 @@
               "ref": null
             },
             {
-              "text": "5 of the 88 fitting skis are demo, resale or blemished stock.",
+              "text": "5 of the 85 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -132,7 +132,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -156,7 +156,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -168,11 +168,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -184,7 +184,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -196,7 +196,7 @@
               "ref": null
             },
             {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -207,7 +207,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-14T22:22:29+00:00",
+      "generated_at": "2026-11-15T17:03:38+00:00",
       "author": "house"
     },
     "clothing": {
@@ -219,7 +219,7 @@
           "title": "What moved",
           "lines": [
             {
-              "text": "45 listings sold or came down this week.",
+              "text": "43 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -229,7 +229,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -253,7 +253,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -265,11 +265,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -281,7 +281,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -293,7 +293,7 @@
               "ref": null
             },
             {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -304,13 +304,13 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-14T22:22:29+00:00",
+      "generated_at": "2026-11-15T17:03:38+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "8 strong deals in 154–160 cm; best is 2026 Head Kore 99 Ti W at $348",
-      "dek": "We checked 809 discounted skis across 14 stores; 129 are in your size and budget.",
+      "headline": "Buy now: 2026 Head Kore 99 Ti W, $348 at evo",
+      "dek": "We checked 808 discounted skis across 14 stores; 128 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -362,7 +362,7 @@
               "ref": "75b62d14384b98"
             },
             {
-              "text": "104 listings sold or came down this week.",
+              "text": "106 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -380,12 +380,12 @@
               "ref": "f0e2282771ab39"
             },
             {
-              "text": "2026 Atomic Maven 94 CTI at evo is $401 in 158 cm; it becomes a strong deal at about $390 (3% lower).",
-              "ref": "2e34e1e354e04c"
-            },
-            {
               "text": "2026 Head Kore 87 Ti W at evo is $300 in 156 cm; it becomes a strong deal at about $290 (3% lower).",
               "ref": "58bdc95560b6ff"
+            },
+            {
+              "text": "2026 Armada Declivity 88 C at evo is $348 in 160 cm; it becomes a strong deal at about $335 (4% lower).",
+              "ref": "7ade6e85e49754"
             }
           ],
           "refs": []
@@ -394,7 +394,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: evo (20), Outdoor Gear Exchange (2), Lone Pine Gear Exchange (1).",
+              "text": "Most strong prices: evo (19), Outdoor Gear Exchange (2), Lone Pine Gear Exchange (1).",
               "ref": null
             },
             {
@@ -406,7 +406,7 @@
               "ref": null
             },
             {
-              "text": "11 of the 129 fitting skis are demo, resale or blemished stock.",
+              "text": "10 of the 128 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -438,7 +438,7 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
+              "text": "evo: partial (used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -462,7 +462,7 @@
               "ref": null
             },
             {
-              "text": "J Skis: partial (secret-stash page 1: HTTP 429).",
+              "text": "J Skis: partial (2025-blemishes page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -474,11 +474,11 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (cosmeticblems page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
+              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -490,7 +490,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (garage-sale page 1: HTTP 429).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -502,7 +502,7 @@
               "ref": null
             },
             {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
+              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -513,7 +513,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-14T22:22:29+00:00",
+      "generated_at": "2026-11-15T17:03:38+00:00",
       "author": "house"
     }
   }
