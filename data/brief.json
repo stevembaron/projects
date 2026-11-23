@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T23:35:59+00:00",
+  "generated_at": "2026-11-23T22:01:37+00:00",
   "house": {
     "ski": {
       "kind": "ski",
@@ -70,16 +70,16 @@
               "ref": "4b393de05bf6ab"
             },
             {
-              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $480 (4% lower).",
-              "ref": "344c90011bdb4f"
-            },
-            {
               "text": "2023 Blizzard Brahma 82 SP at Lone Pine Gear Exchange is $120 in 173 cm; it becomes a strong deal at about $115 (4% lower).",
               "ref": "b5d3b7d6646c6e"
             },
             {
-              "text": "2026 Nordica Enforcer 94 at Alpine Shop VT is $480 in 167 cm; it becomes a strong deal at about $455 (5% lower).",
-              "ref": "f5ce4d8c23f0a9"
+              "text": "2026 Nordica Enforcer 99 at Alpine Shop VT is $500 in 167 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "344c90011bdb4f"
+            },
+            {
+              "text": "2026 Nordica Unleashed 108 at Alpine Shop VT is $500 in 174 cm; it becomes a strong deal at about $470 (6% lower).",
+              "ref": "48545d884b7ed4"
             }
           ],
           "refs": []
@@ -88,7 +88,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (62), Geartrade (43), evo (20).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (61), Geartrade (43), evo (20).",
               "ref": null
             },
             {
@@ -132,11 +132,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: partial (sale-skis page 1: HTTP 429).",
+              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: ).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -144,7 +144,11 @@
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -164,7 +168,7 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (on-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -180,7 +184,7 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -188,7 +192,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -207,7 +211,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-22T23:35:59+00:00",
+      "generated_at": "2026-11-23T22:01:37+00:00",
       "author": "house"
     },
     "clothing": {
@@ -337,11 +341,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: partial (sale-skis page 1: HTTP 429).",
+              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: ).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -349,7 +353,11 @@
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -369,7 +377,7 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (on-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -385,7 +393,7 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -393,7 +401,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -412,7 +420,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-22T23:35:59+00:00",
+      "generated_at": "2026-11-23T22:01:37+00:00",
       "author": "house"
     },
     "family": {
@@ -436,7 +444,7 @@
               "ref": "318cc47b10e1c6"
             },
             {
-              "text": "2026 Head Kore 93 Ti W at evo, $274 in 156 cm; about $181 under our fair-price estimate.",
+              "text": "2026 Head Kore 93 Ti W at evo, $274 in 156 cm; about $182 under our fair-price estimate.",
               "ref": "0d36cc9806228b"
             }
           ],
@@ -502,7 +510,7 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (62), Geartrade (43), evo (20).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (61), Geartrade (43), evo (20).",
               "ref": null
             },
             {
@@ -546,11 +554,11 @@
           "title": "Coverage",
           "lines": [
             {
-              "text": "evo: partial (sale-skis page 1: HTTP 429).",
+              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-w-bindings page 1: ).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
@@ -558,7 +566,11 @@
               "ref": null
             },
             {
-              "text": "Lone Pine Gear Exchange: partial (flat-skis page 1: HTTP 429; demo-skis-1 page 2: HTTP 429).",
+              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
+              "ref": null
+            },
+            {
+              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -578,7 +590,7 @@
               "ref": null
             },
             {
-              "text": "Moment: partial (on-sale page 1: HTTP 429).",
+              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -594,7 +606,7 @@
               "ref": null
             },
             {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -602,7 +614,7 @@
               "ref": null
             },
             {
-              "text": "Colorado Ski Shop: partial (sale-skis page 2: HTTP 429).",
+              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -621,7 +633,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-22T23:35:59+00:00",
+      "generated_at": "2026-11-23T22:01:37+00:00",
       "author": "house"
     }
   }
