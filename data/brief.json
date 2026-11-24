@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:01:37+00:00",
+  "generated_at": "2026-11-24T03:57:30+00:00",
   "house": {
     "ski": {
       "kind": "ski",
@@ -44,16 +44,8 @@
               "ref": "85e23ab21b3f0f"
             },
             {
-              "text": "New: 2026 Zag Mata Ti at Lone Pine Gear Exchange, $299, scored 74.",
-              "ref": "695b59ad6e960a"
-            },
-            {
-              "text": "New: 2027 Rossignol Forza 60 Ti at Lone Pine Gear Exchange, $290, scored 72.",
-              "ref": "e65d9082e22252"
-            },
-            {
-              "text": "New: 2027 Rossignol Forza 70 Ti at Lone Pine Gear Exchange, $290, scored 72.",
-              "ref": "4ca31ef0faa63b"
+              "text": "New: 2026 Zag Slap 112 at Lone Pine Gear Exchange, $460, scored 54.",
+              "ref": "cd3608fd401699"
             },
             {
               "text": "111 listings sold or came down this week.",
@@ -184,7 +176,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -211,7 +203,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-23T22:01:37+00:00",
+      "generated_at": "2026-11-24T03:57:30+00:00",
       "author": "house"
     },
     "clothing": {
@@ -265,8 +257,8 @@
               "ref": "b5be02f19a346d"
             },
             {
-              "text": "New: Stio Basin XT Duffel 55L at Geartrade, $82.",
-              "ref": "b5b3366938d0e1"
+              "text": "New: Stio Evergreen Cap at Geartrade, $14.50.",
+              "ref": "9c962466bb2d7b"
             },
             {
               "text": "28 listings sold or came down this week.",
@@ -393,7 +385,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -420,7 +412,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-23T22:01:37+00:00",
+      "generated_at": "2026-11-24T03:57:30+00:00",
       "author": "house"
     },
     "family": {
@@ -466,16 +458,8 @@
               "ref": "85e23ab21b3f0f"
             },
             {
-              "text": "New: 2026 Zag Mata Ti at Lone Pine Gear Exchange, $299, scored 74.",
-              "ref": "695b59ad6e960a"
-            },
-            {
-              "text": "New: 2027 Rossignol Forza 60 Ti at Lone Pine Gear Exchange, $290, scored 72.",
-              "ref": "e65d9082e22252"
-            },
-            {
-              "text": "New: 2027 Rossignol Forza 70 Ti at Lone Pine Gear Exchange, $290, scored 72.",
-              "ref": "4ca31ef0faa63b"
+              "text": "New: 2026 Zag Slap 112 at Lone Pine Gear Exchange, $460, scored 54.",
+              "ref": "cd3608fd401699"
             },
             {
               "text": "111 listings sold or came down this week.",
@@ -606,7 +590,7 @@
               "ref": null
             },
             {
-              "text": "RMU: partial (blemished-sale-skis page 1: HTTP 429).",
+              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -633,7 +617,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-23T22:01:37+00:00",
+      "generated_at": "2026-11-24T03:57:30+00:00",
       "author": "house"
     }
   }
