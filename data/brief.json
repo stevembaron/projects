@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-24T03:57:30+00:00",
+  "generated_at": "2026-11-24T20:39:00+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "6 strong deals in 168–172 cm; best is 2026 Rossignol Sender Soul 102 at $380",
-      "dek": "We checked 2,026 discounted skis across 16 stores; 262 are in your size and budget. Typical advertised discounts are deeper than a week ago (46% vs 40%).",
+      "headline": "2 strong deals in 168–172 cm; best is 2026 Faction Dancer 3 at $404",
+      "dek": "We checked 1,961 discounted skis across 16 stores; 248 are in your size and budget. Typical advertised discounts are deeper than a week ago (45% vs 40%).",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
             {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $140 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
-              "ref": "c4730a5ef38e7d"
-            },
-            {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $140 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
-              "ref": "5d0d8d88d1295b"
-            },
-            {
-              "text": "2026 Faction Dancer 3 at evo, $404 in 172 cm; about $167 under our fair-price estimate; but how it skis is unknown for this model.",
+              "text": "2026 Faction Dancer 3 at evo, $404 in 172 cm; about $144 under our fair-price estimate; but how it skis is unknown for this model.",
               "ref": "163229660fde6f"
             },
             {
-              "text": "2026 Atomic Bent 110 at Lone Pine Gear Exchange, $430 in 172 cm; about $155 under our fair-price estimate; playful and easy to pivot or slarve; but you already own a powder ski.",
-              "ref": "e1d871727aad23"
+              "text": "2026 Head Oblivion 102 at evo, $319 in 173 cm; about $128 under our fair-price estimate; playful and easy to pivot or slarve.",
+              "ref": "f1b016b1596dae"
+            },
+            {
+              "text": "2027 Atomic Bent Decode at Lone Pine Gear Exchange, $300 in 167 cm; about $331 under our fair-price estimate; includes adjustable demo bindings; but how it skis is unknown for this model.",
+              "ref": "d48f88c3475b4a"
+            },
+            {
+              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $98 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "ref": "c4730a5ef38e7d"
             }
           ],
           "refs": []
@@ -44,11 +44,19 @@
               "ref": "85e23ab21b3f0f"
             },
             {
-              "text": "New: 2026 Zag Slap 112 at Lone Pine Gear Exchange, $460, scored 54.",
-              "ref": "cd3608fd401699"
+              "text": "New: 2025 Volkl M7 Mantra at Lone Pine Gear Exchange, $380, scored 67.",
+              "ref": "742198759ffc21"
             },
             {
-              "text": "111 listings sold or came down this week.",
+              "text": "New: 2026 Rossignol Rallybird Soul 102 at Lone Pine Gear Exchange, $500, scored 63.",
+              "ref": "9422e58c36dd9e"
+            },
+            {
+              "text": "New: 2026 Zag Slap 104 at Lone Pine Gear Exchange, $550, scored 59.",
+              "ref": "0d1cdfc05dbf61"
+            },
+            {
+              "text": "123 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -58,11 +66,7 @@
           "title": "Close to a buy",
           "lines": [
             {
-              "text": "2026 Faction Studio 3 at Lone Pine Gear Exchange is $500 in 172 cm; it becomes a strong deal at about $495 (1% lower).",
-              "ref": "4b393de05bf6ab"
-            },
-            {
-              "text": "2023 Blizzard Brahma 82 SP at Lone Pine Gear Exchange is $120 in 173 cm; it becomes a strong deal at about $115 (4% lower).",
+              "text": "2023 Blizzard Brahma 82 SP at Lone Pine Gear Exchange is $120 in 166 cm; it becomes a strong deal at about $115 (4% lower).",
               "ref": "b5d3b7d6646c6e"
             },
             {
@@ -72,6 +76,10 @@
             {
               "text": "2026 Nordica Unleashed 108 at Alpine Shop VT is $500 in 174 cm; it becomes a strong deal at about $470 (6% lower).",
               "ref": "48545d884b7ed4"
+            },
+            {
+              "text": "2026 Nordica Enforcer 94 at Alpine Shop VT is $480 in 167 cm; it becomes a strong deal at about $450 (6% lower).",
+              "ref": "f5ce4d8c23f0a9"
             }
           ],
           "refs": []
@@ -80,19 +88,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (61), Geartrade (43), evo (20).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (52), Geartrade (37), evo (18).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 616 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 584 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (49), Elan (25), Dynastar (21).",
+              "text": "In your size and budget, the most choice is from Rossignol (47), Elan (25), Salomon (22).",
               "ref": null
             },
             {
-              "text": "157 of the 262 fitting skis are demo, resale or blemished stock.",
+              "text": "146 of the 248 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -102,10 +110,6 @@
           "title": "Good deals that aren't for you",
           "lines": [
             {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 (score 95): no length between 166 and 174 cm (has 158).",
-              "ref": "091f736fb7eb72"
-            },
-            {
               "text": "2025 Atomic Maven 93 C at evo, $228 (score 91): women's-specific model.",
               "ref": "f26761fa9153fd"
             },
@@ -114,102 +118,24 @@
               "ref": "f08624f6a856f3"
             },
             {
-              "text": "2026 Atomic Maverick 96 CTI at Lone Pine Gear Exchange, $375 (score 88): no length between 166 and 174 cm (has 165).",
-              "ref": "f37bb4b0875630"
-            }
-          ],
-          "refs": []
-        },
-        {
-          "title": "Coverage",
-          "lines": [
-            {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
-              "ref": null
+              "text": "2027 Salomon QST 106 at evo, $850 (score 89): over your $500 budget.",
+              "ref": "99888328d0ec65"
             },
             {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
-              "ref": null
-            },
-            {
-              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "4FRNT: failed (stash page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
+              "text": "2026 Atomic Maven 103 CTI at Lone Pine Gear Exchange, $400 (score 88): women's-specific model.",
+              "ref": "4c0bf24e2ccf78"
             }
           ],
           "refs": []
         }
       ],
-      "generated_at": "2026-11-24T03:57:30+00:00",
+      "generated_at": "2026-11-24T20:39:00+00:00",
       "author": "house"
     },
     "clothing": {
       "kind": "clothing",
       "headline": "2 strong deals; best is Stio Western Logo Tee at $18",
-      "dek": "We checked 403 discounted clothing listings across 1 stores; 70 are in your size and budget.",
+      "dek": "We checked 399 discounted clothing listings across 1 stores; 67 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
@@ -241,27 +167,27 @@
               "ref": "05558bb0620392"
             },
             {
-              "text": "Stio OPR Shorts (Geartrade) dropped $2.48 to $45 (5%).",
+              "text": "Stio OPR Shorts (Geartrade) dropped $2.48 to $42 (6%).",
               "ref": "074908a2e36018"
             },
             {
-              "text": "Stio Rivet Cord Pants (Geartrade) dropped $2.15 to $45 (4%).",
-              "ref": "6466ed8206d294"
+              "text": "Stio LS Tech Shirt (Geartrade) dropped $1.48 to $36 (4%).",
+              "ref": "ad3c7662f11f38"
             },
             {
-              "text": "New: Stio Seeker Glove at Geartrade, $25.",
-              "ref": "58943cf91ea2e8"
+              "text": "New: Stio Trail Creek Glove at Geartrade, $38.",
+              "ref": "2dad201eb5a523"
             },
             {
-              "text": "New: Stio Basin 25L Daypack at Geartrade, $60.",
-              "ref": "b5be02f19a346d"
+              "text": "New: Stio Turpin Fleece Half Zip at Geartrade, $50.",
+              "ref": "1cb0c036de94a5"
             },
             {
-              "text": "New: Stio Evergreen Cap at Geartrade, $14.50.",
-              "ref": "9c962466bb2d7b"
+              "text": "New: Stio Gannett Peak Half Zip at Geartrade, $70.",
+              "ref": "f2a14f2d87af76"
             },
             {
-              "text": "28 listings sold or came down this week.",
+              "text": "22 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -275,8 +201,8 @@
               "ref": "58943cf91ea2e8"
             },
             {
-              "text": "Stio Hardscrabble Insulated Glove at Geartrade is $87 in M; it becomes a strong deal at about $65 (26% lower).",
-              "ref": "a864e981ec2f2a"
+              "text": "Stio Trail Creek Glove at Geartrade is $38 in S; it becomes a strong deal at about $29 (24% lower).",
+              "ref": "2dad201eb5a523"
             },
             {
               "text": "Stio Pinedale Jogger at Geartrade is $63 in S; it becomes a strong deal at about $41 (34% lower).",
@@ -297,11 +223,11 @@
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 403 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 399 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Stio (70).",
+              "text": "In your size and budget, the most choice is from Stio (67).",
               "ref": null
             }
           ],
@@ -328,104 +254,22 @@
             }
           ],
           "refs": []
-        },
-        {
-          "title": "Coverage",
-          "lines": [
-            {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
-              "ref": null
-            },
-            {
-              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "4FRNT: failed (stash page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            }
-          ],
-          "refs": []
         }
       ],
-      "generated_at": "2026-11-24T03:57:30+00:00",
+      "generated_at": "2026-11-24T20:39:00+00:00",
       "author": "house"
     },
     "family": {
       "kind": "ski",
-      "headline": "38 strong deals in 154–160 cm; best is 2026 Atomic Bent 100 at $325",
-      "dek": "We checked 2,026 discounted skis across 16 stores; 398 are in your size and budget. Typical advertised discounts are deeper than a week ago (46% vs 40%).",
+      "headline": "Buy now: 2027 Salomon QST 106, $492 at evo",
+      "dek": "We checked 1,961 discounted skis across 16 stores; 384 are in your size and budget. Typical advertised discounts are deeper than a week ago (45% vs 40%).",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
             {
-              "text": "2026 Atomic Bent 100 at Lone Pine Gear Exchange, $325 in 158 cm; about $195 under our fair-price estimate.",
-              "ref": "091f736fb7eb72"
+              "text": "2027 Salomon QST 106 at evo, $492 in 157 cm; about $282 under our fair-price estimate.",
+              "ref": "99888328d0ec65"
             },
             {
               "text": "2026 Atomic Maven 103 CTI at Lone Pine Gear Exchange, $400 in 156 cm; about $234 under our fair-price estimate.",
@@ -436,7 +280,7 @@
               "ref": "318cc47b10e1c6"
             },
             {
-              "text": "2026 Head Kore 93 Ti W at evo, $274 in 156 cm; about $182 under our fair-price estimate.",
+              "text": "2026 Head Kore 93 Ti W at evo, $274 in 156 cm; about $181 under our fair-price estimate.",
               "ref": "0d36cc9806228b"
             }
           ],
@@ -458,11 +302,19 @@
               "ref": "85e23ab21b3f0f"
             },
             {
-              "text": "New: 2026 Zag Slap 112 at Lone Pine Gear Exchange, $460, scored 54.",
-              "ref": "cd3608fd401699"
+              "text": "New: 2025 Volkl M7 Mantra at Lone Pine Gear Exchange, $380, scored 67.",
+              "ref": "742198759ffc21"
             },
             {
-              "text": "111 listings sold or came down this week.",
+              "text": "New: 2026 Rossignol Rallybird Soul 102 at Lone Pine Gear Exchange, $500, scored 63.",
+              "ref": "9422e58c36dd9e"
+            },
+            {
+              "text": "New: 2026 Zag Slap 104 at Lone Pine Gear Exchange, $550, scored 59.",
+              "ref": "0d1cdfc05dbf61"
+            },
+            {
+              "text": "123 listings sold or came down this week.",
               "ref": null
             }
           ],
@@ -472,20 +324,20 @@
           "title": "Close to a buy",
           "lines": [
             {
-              "text": "2026 Dynastar M-Pro 98 at evo is $447 in 154 cm; it becomes a strong deal at about $445 (0% lower).",
-              "ref": "af63e0d31ce288"
+              "text": "2026 Rossignol Rallybird Soul 102 at Lone Pine Gear Exchange is $500 in 157 cm; it becomes a strong deal at about $495 (1% lower).",
+              "ref": "9422e58c36dd9e"
             },
             {
-              "text": "2026 Atomic Maven 94 Cti W at Aspen Ski and Board is $450 in 158 cm; it becomes a strong deal at about $445 (1% lower).",
-              "ref": "02f8884825029c"
+              "text": "2026 Rossignol Sender Soul 92 at evo is $306 in 156 cm; it becomes a strong deal at about $300 (2% lower).",
+              "ref": "897c50f8a87730"
             },
             {
               "text": "2026 Dynastar M-Menace 90 at Geartrade is $164 in 160 cm; it becomes a strong deal at about $160 (2% lower).",
               "ref": "7139b5547478d5"
             },
             {
-              "text": "2026 Atomic Maven 94 CTI at evo is $401 in 158 cm; it becomes a strong deal at about $390 (3% lower).",
-              "ref": "2e34e1e354e04c"
+              "text": "2026 Armada Declivity 88 C at evo is $348 in 160 cm; it becomes a strong deal at about $335 (4% lower).",
+              "ref": "7ade6e85e49754"
             }
           ],
           "refs": []
@@ -494,19 +346,19 @@
           "title": "Market notes",
           "lines": [
             {
-              "text": "Most strong prices: Lone Pine Gear Exchange (61), Geartrade (43), evo (20).",
+              "text": "Most strong prices: Lone Pine Gear Exchange (52), Geartrade (37), evo (18).",
               "ref": null
             },
             {
-              "text": "Geartrade has the deepest typical markdown at 55% off list across 616 listings.",
+              "text": "Geartrade has the deepest typical markdown at 55% off list across 584 listings.",
               "ref": null
             },
             {
-              "text": "In your size and budget, the most choice is from Rossignol (74), Dynastar (42), Atomic (34).",
+              "text": "In your size and budget, the most choice is from Rossignol (74), Dynastar (41), Atomic (32).",
               "ref": null
             },
             {
-              "text": "205 of the 398 fitting skis are demo, resale or blemished stock.",
+              "text": "194 of the 384 fitting skis are demo, resale or blemished stock.",
               "ref": null
             }
           ],
@@ -533,91 +385,9 @@
             }
           ],
           "refs": []
-        },
-        {
-          "title": "Coverage",
-          "lines": [
-            {
-              "text": "evo: failed (sale-skis page 1: HTTP 429; used-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
-              "ref": null
-            },
-            {
-              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Lone Pine Gear Exchange: failed (flat-skis page 1: HTTP 429; demo-skis-1 page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "ERIK'S: failed (downhill-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "The Gear Room: failed (skis page 1: HTTP 429; ski-board-bindings page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "J Skis: failed (secret-stash page 1: HTTP 429; 2025-blemishes page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "4FRNT: failed (stash page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "DPS: failed (skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Moment: failed (on-sale page 1: HTTP 429; cosmeticblems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Season: failed (closeouts-blems page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Armada: failed (outlet-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "RMU: failed (garage-sale page 1: HTTP 429; blemished-sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Aspen Ski and Board: failed (outlet-skis page 1: HTTP 429; sale-mens-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Colorado Ski Shop: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Outdoor Gear Exchange: failed (alpine-skis page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Alpine Shop VT: failed (ski-sale page 1: HTTP 429).",
-              "ref": null
-            },
-            {
-              "text": "Cripple Creek Backcountry: failed (sale-skis page 1: HTTP 429).",
-              "ref": null
-            }
-          ],
-          "refs": []
         }
       ],
-      "generated_at": "2026-11-24T03:57:30+00:00",
+      "generated_at": "2026-11-24T20:39:00+00:00",
       "author": "house"
     }
   }
