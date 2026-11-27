@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-11-26T19:35:44+00:00",
+  "generated_at": "2026-11-27T01:43:35+00:00",
   "house": {
     "ski": {
       "kind": "ski",
-      "headline": "3 strong deals in 168–172 cm; best is 2026 Faction Dancer 3 at $404",
+      "headline": "5 strong deals in 168–172 cm; best is 2026 Rossignol Sender Soul 102 at $380",
       "dek": "We checked 1,955 discounted skis across 16 stores; 249 are in your size and budget.",
       "sections": [
         {
           "title": "Best of today",
           "lines": [
+            {
+              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $140 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "ref": "c4730a5ef38e7d"
+            },
+            {
+              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $140 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
+              "ref": "5d0d8d88d1295b"
+            },
             {
               "text": "2026 Faction Dancer 3 at evo, $404 in 172 cm; about $167 under our fair-price estimate; but how it skis is unknown for this model.",
               "ref": "163229660fde6f"
@@ -16,14 +24,6 @@
             {
               "text": "2026 Head Oblivion 102 at evo, $319 in 173 cm; about $135 under our fair-price estimate; playful and easy to pivot or slarve.",
               "ref": "f1b016b1596dae"
-            },
-            {
-              "text": "Black Diamond Helio Carbon 95 at Geartrade, $408 in 169 cm; about $145 under our fair-price estimate; but built light for touring; less damp on resort snow.",
-              "ref": "cae3442c3602e6"
-            },
-            {
-              "text": "2026 Rossignol Sender Soul 102 at Lone Pine Gear Exchange, $380 in 172 cm; about $117 under our fair-price estimate; playful and easy to pivot or slarve; but close to your Rossignol Sender Soul 102.",
-              "ref": "c4730a5ef38e7d"
             }
           ],
           "refs": []
@@ -44,16 +44,8 @@
               "ref": "4459bad7e2e49e"
             },
             {
-              "text": "New: 2025 Volkl M7 Mantra at Lone Pine Gear Exchange, $380, scored 67.",
-              "ref": "742198759ffc21"
-            },
-            {
-              "text": "New: 2026 Rossignol Rallybird Soul 102 at Lone Pine Gear Exchange, $500, scored 63.",
-              "ref": "9422e58c36dd9e"
-            },
-            {
-              "text": "New: 2026 Zag Slap 104 at Lone Pine Gear Exchange, $550, scored 59.",
-              "ref": "0d1cdfc05dbf61"
+              "text": "New: 2017 DPS Carbon Wailer 112RP.2 Pure3 at Geartrade, $720.",
+              "ref": "b0c265f9873a0a"
             },
             {
               "text": "123 listings sold or came down this week.",
@@ -136,11 +128,11 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -172,7 +164,7 @@
               "ref": null
             },
             {
-              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -211,7 +203,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-26T19:35:44+00:00",
+      "generated_at": "2026-11-27T01:43:35+00:00",
       "author": "house"
     },
     "clothing": {
@@ -255,18 +247,6 @@
             {
               "text": "Stio Turpin Half-Zip Fleece (Geartrade) dropped $0.83 to $26 (3%).",
               "ref": "f883299dc899bd"
-            },
-            {
-              "text": "New: Stio Trail Creek Glove at Geartrade, $38.",
-              "ref": "2dad201eb5a523"
-            },
-            {
-              "text": "New: Stio Turpin Fleece Half Zip at Geartrade, $50.",
-              "ref": "1cb0c036de94a5"
-            },
-            {
-              "text": "New: Stio Gannett Peak Half Zip at Geartrade, $70.",
-              "ref": "f2a14f2d87af76"
             },
             {
               "text": "22 listings sold or came down this week.",
@@ -345,11 +325,11 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -381,7 +361,7 @@
               "ref": null
             },
             {
-              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -420,7 +400,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-26T19:35:44+00:00",
+      "generated_at": "2026-11-27T01:43:35+00:00",
       "author": "house"
     },
     "family": {
@@ -466,16 +446,8 @@
               "ref": "4459bad7e2e49e"
             },
             {
-              "text": "New: 2025 Volkl M7 Mantra at Lone Pine Gear Exchange, $380, scored 67.",
-              "ref": "742198759ffc21"
-            },
-            {
-              "text": "New: 2026 Rossignol Rallybird Soul 102 at Lone Pine Gear Exchange, $500, scored 63.",
-              "ref": "9422e58c36dd9e"
-            },
-            {
-              "text": "New: 2026 Zag Slap 104 at Lone Pine Gear Exchange, $550, scored 59.",
-              "ref": "0d1cdfc05dbf61"
+              "text": "New: 2017 DPS Carbon Wailer 112RP.2 Pure3 at Geartrade, $720.",
+              "ref": "b0c265f9873a0a"
             },
             {
               "text": "123 listings sold or came down this week.",
@@ -558,11 +530,11 @@
               "ref": null
             },
             {
-              "text": "Geartrade: partial (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
+              "text": "Geartrade: failed (alpine-skis-unmounted page 1: HTTP 429; alpine-skis-w-bindings page 1: HTTP 429; alpine-touring-skis-unmounted page 1: H).",
               "ref": null
             },
             {
-              "text": "Utah Skis: partial (demo-skis page 1: HTTP 429).",
+              "text": "Utah Skis: failed (demo-skis page 1: HTTP 429; ski-outlet page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -594,7 +566,7 @@
               "ref": null
             },
             {
-              "text": "ON3P: partial (factory-sale page 1: HTTP 429).",
+              "text": "ON3P: failed (on-sale page 1: HTTP 429; factory-sale page 1: HTTP 429).",
               "ref": null
             },
             {
@@ -633,7 +605,7 @@
           "refs": []
         }
       ],
-      "generated_at": "2026-11-26T19:35:44+00:00",
+      "generated_at": "2026-11-27T01:43:35+00:00",
       "author": "house"
     }
   }
